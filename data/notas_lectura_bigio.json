@@ -1,0 +1,60 @@
+{
+ "proyecto": "Trabajo grupal 01 HPE (UP 2026-02) - Saki Bigio: P3 (ideas fundamentales) y P4 (documentos donde las presenta)",
+ "actualizado": "2026-09-13",
+ "nota_honestidad": "profundidad: 'integral' = texto completo o casi; 'nucleo' = secciones clave leidas a fondo, resto mapeado; 'parcial' = secciones especificas; 'mapeado' = estructura conocida, lectura profunda pendiente",
+ "fuentes": [
+  {
+   "id": "S01_politica_monetaria_nueva_perspectiva",
+   "titulo": "Politica monetaria: una nueva perspectiva (Fondo Editorial UP, 2022, pp. 371-382; homenaje a Renzo Rossini)",
+   "autores": "Saki Bigio",
+   "profundidad": "integral",
+   "tesis": "La politica monetaria no se transmite por una tasa sino por el balance de los bancos: el banco central monopoliza la oferta de reservas y al alterar su cantidad mueve las fricciones de liquidez bancarias, y con ellas todo el abanico de tasas. Agenda: determinar cuando una operacion de mercado abierto es inflacionaria y cuando no.",
+   "conceptos_clave": {
+    "origen_peruano": "Anecdota fundacional: BCRP 2004, el Departamento de Modelos Macroeconomicos y el de Estadisticas Monetarias y Bancarias estaban 'practicamente divorciados'. De ahi nace su pregunta de investigacion. CUATRO ANOS ANTES del origen que narra en ingles (Bear Stearns, marzo 2008, en research_vision).",
+    "neutralidad_wallace": "Wallace (1981), teorema tipo Modigliani-Miller para operaciones de mercado abierto: si la prima por liquidez es cero, depositos bancarios y reservas del banco central son activos identicos y la composicion del balance del BC es irrelevante. TODA la obra de Bigio estudia cuando esa neutralidad se rompe. 'Wallace' aparece en 9 de 47 documentos del corpus.",
+    "critica_neokeynesiana": "'hay muchas tasas de interes, y no solo una como en el modelo neokeynesiano'; el modelo NK 'deja por resolver como es que la politica monetaria se transmite a traves de los bancos'. 'La cantidad de dinero es clave'. Lo ubica del lado de las CANTIDADES en la disputa precio/cantidad.",
+    "politica_monetaria_dirigida": "Concepto propio (directed monetary policy): el BC acepta ciertos activos en repo y asi dirige liquidez a segmentos. Efectiva pero 'un juego politicamente peligroso'; justificable en COVID, 'no deseable en tiempos normales'.",
+    "trilogia_imposible": "Peru la rompe sin controles de capital: basta movilidad imperfecta ('fricciones naturales o fisicas que impidan que el capital se mueva en un abrir y cerrar de ojos'). Racionaliza esterilizacion y encajes diferenciados por moneda con datos del BCRP (Figura 2).",
+    "practica_antes_que_teoria": "'instrumentos que se han anticipado a la teoria'; el equipo del BCRP avanzo 'sin que existiera la teoria que les diga exactamente como es que funcionaban estas operaciones'. Reactiva Peru (2020) -> formalizacion -> asesoria al BCE (2022).",
+    "solo_tres_referencias": "Wallace (1981), Bianchi & Bigio (2022), Rossini (2016). Ninguna anterior a 1981. Prueba mas pura de H4' (redescubrimiento sin genealogia)."
+   },
+   "uso_en_trabajo": "Documento ANCLA de P3 y P4. Sostiene el contraste de historias de origen (P4, jerarquia de generos), H5 en version fuerte (el origen peruano es la pregunta fundacional) y H6'' (la practica del BCRP precede a la teoria). Aporta el enunciado exacto del nucleo positivo: la neutralidad de Wallace no se cumple, y la razon es la liquidez."
+  },
+  {
+   "id": "V01_research_vision",
+   "titulo": "Liquidity and Macroeconomics: a vision and my research agenda (agosto 2026)",
+   "autores": "Saki Bigio",
+   "profundidad": "nucleo (marco, origen, taxonomia autodeclarada y cierre leidos a fondo; las nueve secciones tematicas mapeadas)",
+   "tesis": "Ensayo de agenda escrito en primera persona y organizado como una secuencia de nueve preguntas encadenadas, todas sobre liquidez en escenarios institucionales distintos.",
+   "conceptos_clave": {
+    "autodefinicion": "'I am a macroeconomic theorist. My goal in life is to build quantitative models to understand the world... My research lies at the intersection of business cycles, money and banking, and corporate finance. It asks how financial architectures and their imperfections shape macroeconomic performance, and how policy can USE those imperfections to improve outcomes.'",
+    "definicion_de_liquidez": "'It is a problem that we dont have a proper mathematical definition of liquidity. Here is mine: liquidity as a property of an asset. An asset is said to be liquid if gains from trade are sufficient conditions for trade.'",
+    "origen_academico": "Tercer ano del doctorado en NYU, fin de semana de la caida de Bear Stearns (marzo 2008): 'I was embarrassed that, as a PhD student, I couldnt even define market liquidity!'",
+    "taxonomia_autodeclarada": "Clasifica su obra POSTERIOR AL DOCTORADO en 5 familias: Liquidity and Asymmetric Information (5), Money and Banking (8), Money Credit and the NK Model (4), International Liquidity (2), Departures (3). Deja fuera todo lo anterior a 2012 (BCRP, fear of floating, evasion tributaria).",
+    "cierre": "'Regulation that treats banks as mere intermediaries misses their monetary role.' Es la tesis del Banking School enunciada sin citar al Banking School.",
+    "genealogia": "Tom Sargent, uno de sus asesores, le sugirio quedarse un ano mas en el doctorado para empezar el mercado laboral con un proyecto adicional."
+   },
+   "uso_en_trabajo": "Contrapunto en ingles de S01. Fuente de la taxonomia autodeclarada (validacion V3) y de la estructura de la linea de tiempo."
+  },
+  {
+   "id": "N01_covid_letter",
+   "titulo": "A Concrete Policy Response to the Covid-19 Crisis (carta abierta, 15 de marzo de 2020)",
+   "autores": "Saki Bigio",
+   "profundidad": "integral",
+   "tesis": "El riesgo macroeconomico central del COVID no es la tasa de interes sino el colapso de la cadena de pagos: las pymes y autoempleados se quedan sin caja y no honran contratos de corto plazo, lo que congela la cadena. La respuesta debe ser una expansion inedita del credito estimulada por el gobierno, no recortes de tasa.",
+   "conceptos_clave": {
+    "diagnostico": "'Policy rate reductions by the Fed are likely to have no effect because consumption and investment are simply not responsive to rate cuts... The main economic risk is the collapse of the payments chain.'",
+    "propuesta": "Operacion de mercado abierto a gran escala comprando papel respaldado por credito de consumo y capital de trabajo, al estilo de las TAF de 2007 pero dirigida a pymes y lineas de tarjeta; coordinada con los cuatro bancos mas grandes de EE.UU.; parte del riesgo crediticio absorbido por el gobierno.",
+    "limite_normativo_suspendido": "'One final important challenge is circumventing Basel III regulation... No time to fear moral hazard. Time to unleash the power of financial markets.' Contrastar con S01 (2022), donde repone la cautela sobre la politica dirigida."
+   },
+   "uso_en_trabajo": "Nucleo normativo (P3.c) bajo presion real. Pieza central del argumento de generos: mismo autor, dos grados de cautela segun el momento."
+  }
+ ],
+ "sintesis_transversal": {
+  "nucleo_positivo_P3a": "La neutralidad de Wallace no se cumple, y la razon es la liquidez. Los activos y las instituciones son liquidos o iliquidos EN EQUILIBRIO; esa iliquidez endogena propaga los ciclos y determina si la composicion del balance del banco central importa.",
+  "compromiso_metodologico_P3b": "Teorico macroeconomico cuantitativo: modelos de equilibrio general con fricciones microfundadas, calibrados. 'Matching many variables is not an end in itself... The challenge is to identify amplification that is intrinsic to a mechanism.'",
+  "nucleo_normativo_P3c": "El banco central implementa por cantidades y balance, no solo por la tasa. Puede dirigir liquidez a segmentos, pero eso es 'un juego politicamente peligroso' fuera de las crisis.",
+  "tesis_P4": "El pensamiento se reparte por generos con publicos distintos, y el genero selecciona que parte sale a la superficie. Prueba: dos historias de origen incompatibles en el tiempo (BCRP 2004 en castellano, Bear Stearns 2008 en ingles). El working paper, no el articulo publicado, es el portador real (39% de sus citas viven en literatura gris).",
+  "hipotesis_vigentes": "H1 respaldada; H2 respaldada; H3 confirmada; H4 falsificada como genealogia -> H4' redescubrimiento sin genealogia (reforzada: S01 tiene 3 referencias, ninguna anterior a 1981); H5 en version fuerte (el origen peruano ES la pregunta fundacional); H6 falsificada -> H6'' la practica del BCRP precede a la teoria, y la obra de Bigio la racionaliza (afirmado por el mismo)."
+ }
+}
