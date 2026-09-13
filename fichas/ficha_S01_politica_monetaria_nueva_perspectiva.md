@@ -59,25 +59,59 @@ Y la formulación tiene la virtud de ser *falsable*, que es exactamente como a �
 
 ---
 
-## 4. La crítica al modelo neokeynesiano, explícita
+## 4. La crítica al modelo neokeynesiano — y qué NO significa
+
+> **Corrección (13/09, tras observación de Alejandro).** En la primera versión de esta ficha escribí que Bigio "está del lado de las cantidades en la disputa precio/cantidad". Esa formulación es incorrecta y peligrosa: sugiere que aboga por reglas de agregados monetarios, que es exactamente lo que la profesión abandonó por la inestabilidad de la demanda de dinero (Poole 1970, Goodhart). Además había citado una frase truncada. La versión corregida está abajo.
 
 Es la primera vez en todo el corpus que lo dice tan directamente, y lo dice en castellano:
 
 > *"el modelo más utilizado para estudiar la política monetaria, el modelo neokeynesiano, articula la idea del manejo de una sola tasa de interés, un solo instrumento, pero deja por resolver muchas preguntas; en particular, cómo es que la política monetaria se transmite a través de los bancos."*
 
-> *"En la práctica lo que sabemos es que hay muchas tasas de interés, y no solo una como en el modelo neokeynesiano."*
+> *"En la práctica lo que sabemos es que hay muchas tasas de interés, y no solo una como en el modelo neokeynesiano: hay tasas de préstamos (activas), tasas de depósitos (pasivas), tasas de los bonos del gobierno, tasas en dólares y tasas en soles."*
 
-> *"Para mí, el factor más importante en la transmisión de política monetaria es que el banco central tiene el **monopolio sobre la oferta de reservas**."*
+> *"Para mí, el factor más importante en la transmisión de política monetaria es que el banco central tiene el **monopolio sobre la oferta de reservas** y, al inyectar más reservas en el sistema, en dólares o soles, altera distintas fricciones que enfrentan los bancos, y eso hace que se muevan las distintas tasas en la economía."*
 
-> *"**La cantidad de dinero es clave**, razón por la cual es necesaria una reconciliación…"*
+> *"La cantidad de dinero es clave, razón por la cual es necesaria **una reconciliación entre el modelo neokeynesiano y las estadísticas monetarias**."*
 
-**Ubicación doctrinal, corregida.** Bigio no es un nuevo keynesiano ortodoxo: critica al modelo neokeynesiano **desde el lado de las cantidades**. Su eje no es la tasa de política sino el balance del banco central y la oferta de reservas.
+### 4.1 Qué afirma exactamente
 
-Eso reabre la discusión de H4 en un plano distinto. La genealogía sigue ausente —Gurley & Shaw: cero; Currency School / Banking School: cero; Wicksell: cero; en las 47 piezas del corpus— pero la **posición doctrinal** ahora está enunciada por él, en primera persona: *precio versus cantidad*, y él del lado de la cantidad. Es la disputa monetaria de doscientos años, re-derivada desde cero con herramientas de equilibrio general.
+La afirmación es sobre **el mecanismo de transmisión y el marco operativo**, no sobre el objetivo de política:
 
-Y este capítulo es la prueba más pura de **H4' (redescubrimiento sin genealogía)** que se podía pedir: doce páginas sobre creación de dinero, encajes, esterilización y transmisión bancaria, con exactamente **tres referencias**: Wallace (1981), Bianchi & Bigio (2022) y Rossini (2016). Ninguna anterior a 1981.
+> La tasa de política **no es un estadístico suficiente** de la postura monetaria, porque el banco central actúa sobre la cantidad y la composición de reservas, y la gestión de liquidez de los bancos traduce eso en un **vector** de tasas, no en una.
 
----
+Eso es compatible sin ninguna fricción con un banco central que hace metas de inflación y fija una tasa de referencia. De hecho lo presupone: la pregunta de Bigio es qué pasa *además* de la tasa, no en lugar de ella.
+
+### 4.2 Por qué no es monetarismo
+
+Tres razones, y las tres salen del propio corpus:
+
+**Primera — el verbo es "reconciliar", no "reemplazar".** La frase completa pide integrar las estadísticas monetarias al modelo neokeynesiano. No pide sustituir la regla de tasa por una regla de agregados.
+
+**Segunda — su literatura es la de *implementación*, no la de metas.** En los papers de dinero y banca el nombre recurrente es **William Poole**, pero en dos versiones distintas y ninguna es la que uno esperaría de un monetarista:
+
+- **Poole (1968)**, *"Commercial bank reserve management in a stochastic model"* — el modelo de **demanda de reservas** de los bancos. Es el *workhorse* explícito de Bianchi & Bigio (P07) y de Bianchi & Bigio sobre *settlement frictions* (P12): *"The workhorse Poole model generates the downward sloping relation between liquidity and the interbank market rate…"*
+- **Poole (1970)**, *"Optimal Choice of Monetary Policy Instruments"* — el clásico de elección de instrumento, citado en W07 como motivación de la curva de demanda de reservas *"widely used by open-market operations departments (Bindseil, 2014)"*.
+
+Junto a esos aparecen Bindseil (2014), Ennis-Keister, Keister-McAndrews, Afonso-Lagos, Meltzer. Es, exactamente, la literatura de **monetary policy implementation**: sistemas de corredor contra sistemas de piso, reservas escasas contra reservas abundantes, la forma sigmoide de la curva de demanda de reservas. Nada de eso trata sobre qué agregado seguir; trata sobre cómo se ejecuta una decisión de tasa.
+
+**Tercera, y la decisiva — su tesis empírica es la negación de la demanda de dinero estable.** El capítulo se organiza alrededor de esta pregunta:
+
+> *"¿Cómo puede ser que en el Perú vivimos una hiperinflación cuando se inyectó dinero al sistema, pero en Estados Unidos el incremento de 400 % en la cantidad de dinero no gatilló una subida en el nivel de precios?"*
+
+Y su respuesta es que el traspaso de dinero a precios **depende del estado**: depende de si la prima por liquidez es positiva o cero. Si es cero —neutralidad de Wallace, bancos saciados de reservas— la inyección no hace nada; si es positiva, sí. Un monetarista afirma una demanda de dinero estable que hace predecible ese traspaso. Bigio afirma lo contrario y **construye el modelo de por qué se mueve**.
+
+Dicho de otro modo: **la inestabilidad de la demanda de dinero no es una objeción a Bigio, es su objeto de estudio.** El programa consiste en microfundar la demanda de reservas —de Baumol (1952) y Tobin (1956) en adelante— para saber en qué régimen estamos.
+
+Su recomendación práctica confirma la lectura: *"lo que deberíamos mirar… es si ha subido, por ejemplo, el volumen de depósitos"*. Los depósitos como **indicador de diagnóstico** para inferir el régimen de liquidez, no como meta.
+
+### 4.3 Qué queda en pie de la ubicación doctrinal
+
+Lo que sí se sostiene, y con la formulación correcta:
+
+- Bigio **no es un neokeynesiano ortodoxo**: critica al modelo canónico por tratar la intermediación bancaria como un velo y por reducir la política a una sola tasa.
+- Su objeto es la **hoja de balance del banco central** y las condiciones bajo las cuales su tamaño y composición dejan de ser irrelevantes (falla de Wallace 1981).
+- Ese sí es el heredero contemporáneo de la vieja discusión sobre si los bancos son intermediarios o creadores de dinero — pero la disputa moderna no es *agregados contra tasa de interés*, sino **si la composición del balance del banco central importa**. Es la pregunta de la era post-2008: QE, regímenes de reservas, facilidades repo, encajes, esterilización.
+- Y este capítulo sigue siendo la prueba más pura de **H4' (redescubrimiento sin genealogía)**: doce páginas sobre creación de dinero, encajes y transmisión bancaria con exactamente **tres referencias** —Wallace (1981), Bianchi & Bigio (2022), Rossini (2016)—, ninguna anterior a 1981. Gurley & Shaw, Currency School, Banking School y Wicksell siguen en cero sobre las 47 piezas del corpus.
 
 ## 5. H6 resucita, y ahora la afirma él
 
