@@ -1,0 +1,12 @@
+.venv/
+node_modules/
+__pycache__/
+.ipynb_checkpoints/
+tmp/
+data/archive/
+*.inspect.ndjson
+data/openalex/reference_resolution_cache.json
+data/openalex/*failure*.json
+.env
+.env.*
+entregables/Saki_Bigio_P3_P4_bibliometria.pptx
