@@ -1,0 +1,538 @@
+<title>De la práctica a una formalización específica</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+
+<style>
+:root{
+  --paper:#F5F3ED;
+  --panel:#FBFAF6;
+  --ink:#1B1713;
+  --ink-soft:#5E564B;
+  --ink-faint:#8B8172;
+  --rule:#DCD5C7;
+  --rule-soft:#E8E2D6;
+  --practica:#A85907;
+  --practica-wash:#F2E6D5;
+  --teoria:#1A5B69;
+  --teoria-wash:#DDEAEC;
+  --gap:#8B2F3A;
+  --gap-wash:#F0DFE0;
+  --shadow:0 1px 2px rgba(27,23,19,.06);
+
+  --f-display:"Fraunces",Georgia,"Times New Roman",serif;
+  --f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,"SF Mono",Menlo,monospace;
+
+  --step--1:.8125rem;
+  --step-0:1rem;
+  --step-1:1.1875rem;
+  --step-2:1.4375rem;
+  --step-3:1.875rem;
+  --step-4:2.625rem;
+  --step-5:3.5rem;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#141210;
+    --panel:#1C1916;
+    --ink:#F0EBE2;
+    --ink-soft:#ABA294;
+    --ink-faint:#7E7567;
+    --rule:#332E27;
+    --rule-soft:#282420;
+    --practica:#E6A44C;
+    --practica-wash:#2E2318;
+    --teoria:#6FBCCB;
+    --teoria-wash:#152A2F;
+    --gap:#DC8089;
+    --gap-wash:#2E1B1D;
+    --shadow:0 1px 2px rgba(0,0,0,.4);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#141210;
+  --panel:#1C1916;
+  --ink:#F0EBE2;
+  --ink-soft:#ABA294;
+  --ink-faint:#7E7567;
+  --rule:#332E27;
+  --rule-soft:#282420;
+  --practica:#E6A44C;
+  --practica-wash:#2E2318;
+  --teoria:#6FBCCB;
+  --teoria-wash:#152A2F;
+  --gap:#DC8089;
+  --gap-wash:#2E1B1D;
+  --shadow:0 1px 2px rgba(0,0,0,.4);
+}
+
+*{box-sizing:border-box}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--f-body);
+  font-size:var(--step-0);
+  line-height:1.55;
+  margin:0;
+  padding-block:0;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1080px;margin:0 auto;padding-inline:20px}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0;font-weight:600;line-height:1.15}
+p{margin:0}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+
+/* ── cabecera ───────────────────────────────── */
+.masthead{border-bottom:1px solid var(--rule);padding-block:44px 34px}
+.eyebrow{
+  font-family:var(--f-mono);font-size:var(--step--1);letter-spacing:.11em;
+  text-transform:uppercase;color:var(--ink-faint);margin-bottom:18px
+}
+h1{font-size:var(--step-5);letter-spacing:-.022em;max-width:16ch}
+.dek{
+  font-size:var(--step-1);color:var(--ink-soft);max-width:62ch;margin-top:18px;line-height:1.5
+}
+.dek strong{color:var(--ink);font-weight:600}
+
+/* ── cifras del adelanto ────────────────────── */
+.leads{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:0;border-bottom:1px solid var(--rule);
+}
+.lead{padding:26px 24px 28px;border-left:1px solid var(--rule-soft)}
+.lead:first-child{border-left:0;padding-left:0}
+.lead-n{
+  font-family:var(--f-display);font-size:var(--step-4);font-weight:700;
+  color:var(--gap);line-height:1;letter-spacing:-.02em;
+  font-variant-numeric:tabular-nums
+}
+.lead-n span{font-size:var(--step-1);font-weight:400;margin-left:4px}
+.lead-t{font-weight:600;margin-top:10px;font-size:var(--step-0)}
+.lead-d{color:var(--ink-soft);font-size:var(--step--1);margin-top:5px;line-height:1.5}
+
+/* ── leyenda de carriles ────────────────────── */
+.legend{
+  display:flex;flex-wrap:wrap;gap:10px 26px;align-items:center;
+  padding-block:20px;border-bottom:1px solid var(--rule);
+  font-family:var(--f-mono);font-size:var(--step--1);color:var(--ink-soft)
+}
+.key{display:inline-flex;align-items:center;gap:8px}
+.dot{width:11px;height:11px;border-radius:2px;flex:none}
+.dot.p{background:var(--practica)}
+.dot.t{background:var(--teoria)}
+.dot.c{background:var(--ink-faint)}
+
+/* ── cronología ─────────────────────────────── */
+.tl{position:relative;padding-block:12px 40px}
+.tl::before{
+  content:"";position:absolute;left:50%;top:0;bottom:0;width:1px;
+  background:var(--rule);transform:translateX(-.5px)
+}
+.row{
+  display:grid;grid-template-columns:1fr 104px 1fr;
+  align-items:start;padding-block:11px
+}
+.yr{
+  grid-column:2;justify-self:center;align-self:start;
+  font-family:var(--f-mono);font-size:var(--step--1);font-weight:500;
+  color:var(--ink-soft);background:var(--paper);
+  padding:3px 7px;white-space:nowrap;position:relative;z-index:1;
+  letter-spacing:-.01em
+}
+.card{
+  background:var(--panel);border:1px solid var(--rule-soft);
+  border-radius:3px;padding:15px 17px 16px;box-shadow:var(--shadow);position:relative
+}
+.row.p .card{grid-column:1;border-left:3px solid var(--practica)}
+.row.t .card{grid-column:3;border-left:3px solid var(--teoria)}
+.card h3{font-size:var(--step-1);letter-spacing:-.012em}
+.card p{color:var(--ink-soft);font-size:var(--step--1);margin-top:7px;line-height:1.58}
+.tag{
+  display:inline-block;font-family:var(--f-mono);font-size:11px;
+  letter-spacing:.07em;text-transform:uppercase;padding:2px 7px;
+  border-radius:2px;margin-bottom:9px
+}
+.row.p .tag{background:var(--practica-wash);color:var(--practica)}
+.row.t .tag{background:var(--teoria-wash);color:var(--teoria)}
+blockquote{
+  margin:11px 0 0;padding-left:12px;font-size:var(--step--1);
+  line-height:1.5;color:var(--ink);font-style:italic
+}
+.row.p blockquote{border-left:2px solid var(--practica)}
+.row.t blockquote{border-left:2px solid var(--teoria)}
+.src{
+  font-family:var(--f-mono);font-size:11px;line-height:1.5;
+  color:var(--ink-faint);margin-top:11px;padding-top:9px;
+  border-top:1px dotted var(--rule);letter-spacing:.005em
+}
+.src b{font-weight:500;color:var(--ink-soft)}
+.gapband .gs{
+  grid-column:1/-1;font-family:var(--f-mono);font-size:11px;
+  color:var(--ink-soft);line-height:1.5;padding-top:8px;
+  border-top:1px dotted var(--gap)
+}
+.refs{margin-top:40px}
+.refs ol{margin:18px 0 0;padding-left:0;list-style:none;counter-reset:r}
+.refs li{
+  counter-increment:r;position:relative;padding:11px 0 11px 40px;
+  border-bottom:1px solid var(--rule-soft);font-size:var(--step--1);
+  color:var(--ink-soft);line-height:1.6
+}
+.refs li::before{
+  content:counter(r);position:absolute;left:0;top:11px;
+  font-family:var(--f-mono);font-size:11px;color:var(--ink-faint);
+  border:1px solid var(--rule);border-radius:2px;padding:1px 6px
+}
+.refs li b{color:var(--ink);font-weight:600}
+.refs li em{font-style:italic}
+.refs .note{
+  margin-top:18px;font-size:var(--step--1);color:var(--ink-faint);
+  line-height:1.6;max-width:72ch
+}
+blockquote cite{
+  display:block;font-style:normal;font-family:var(--f-mono);
+  font-size:11px;color:var(--ink-faint);margin-top:6px;letter-spacing:.02em
+}
+
+/* contexto: fila completa, sobria */
+.row.c{grid-template-columns:1fr;padding-block:16px}
+.ctx{
+  grid-column:1;display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px;
+  border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);
+  padding:9px 0;background:var(--paper)
+}
+.ctx .cy{font-family:var(--f-mono);font-size:var(--step--1);color:var(--ink-faint);letter-spacing:.06em}
+.ctx .ct{font-family:var(--f-display);font-size:var(--step-0);font-weight:600}
+.ctx .cd{color:var(--ink-soft);font-size:var(--step--1)}
+
+/* banda de ventaja */
+.row.g{grid-template-columns:1fr;padding-block:14px}
+.gapband{
+  grid-column:1;background:var(--gap-wash);border:1px solid var(--gap);
+  border-radius:3px;padding:14px 18px;
+  display:grid;grid-template-columns:auto 1fr;gap:4px 20px;align-items:center
+}
+.gapband .gn{
+  font-family:var(--f-display);font-weight:700;font-size:var(--step-2);
+  color:var(--gap);white-space:nowrap;font-variant-numeric:tabular-nums;line-height:1
+}
+.gapband .gt{font-size:var(--step--1);color:var(--ink);line-height:1.5}
+.gapband .gr{
+  grid-column:1/-1;font-family:var(--f-mono);font-size:11px;
+  color:var(--gap);letter-spacing:.07em;text-transform:uppercase
+}
+
+/* ── cierre ─────────────────────────────────── */
+.close{border-top:1px solid var(--rule);padding-block:40px 8px}
+h2{font-size:var(--step-3);letter-spacing:-.018em}
+.qa{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:26px;margin-top:26px}
+.q{border-top:2px solid var(--ink);padding-top:16px}
+.q .ql{
+  font-family:var(--f-mono);font-size:11px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink-faint);margin-bottom:9px
+}
+.q h3{font-size:var(--step-1);margin-bottom:10px}
+.q p{color:var(--ink-soft);font-size:var(--step--1);line-height:1.62}
+.q p + p{margin-top:9px}
+.q em{color:var(--ink);font-style:italic}
+
+.hyp{margin-top:44px}
+.tablewrap{overflow-x:auto;margin-top:18px}
+table{border-collapse:collapse;width:100%;min-width:520px;font-size:var(--step--1)}
+th,td{text-align:left;padding:9px 14px 9px 0;border-bottom:1px solid var(--rule-soft);vertical-align:top}
+th{
+  font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--ink-faint);font-weight:400;border-bottom:1px solid var(--rule)
+}
+td.h{font-family:var(--f-mono);font-weight:500;white-space:nowrap;color:var(--ink)}
+.pill{
+  display:inline-block;font-family:var(--f-mono);font-size:11px;
+  padding:2px 8px;border-radius:10px;white-space:nowrap;letter-spacing:.03em
+}
+.pill.ok{background:var(--teoria-wash);color:var(--teoria)}
+.pill.no{background:var(--gap-wash);color:var(--gap)}
+.pill.new{background:var(--practica-wash);color:var(--practica)}
+
+/* ── evidencia bibliométrica final ──────────── */
+.evidence{margin-top:44px}
+.evidence-intro{color:var(--ink-soft);font-size:var(--step--1);line-height:1.65;max-width:78ch;margin-top:12px}
+.audit-grid{
+  display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:22px
+}
+.audit-card{
+  background:var(--panel);border:1px solid var(--rule-soft);border-radius:3px;
+  padding:16px 16px 17px;box-shadow:var(--shadow)
+}
+.audit-n{
+  font-family:var(--f-display);font-size:var(--step-3);font-weight:700;
+  line-height:1;color:var(--teoria);font-variant-numeric:tabular-nums
+}
+.audit-t{font-weight:600;margin-top:8px;font-size:var(--step--1)}
+.audit-d{color:var(--ink-soft);font-size:11px;line-height:1.5;margin-top:5px}
+.audit-note{
+  margin-top:14px;padding:13px 15px;border-left:3px solid var(--gap);
+  background:var(--gap-wash);color:var(--ink-soft);font-size:var(--step--1);line-height:1.6
+}
+.fig-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:28px}
+.fig-card{
+  margin:0;background:var(--panel);border:1px solid var(--rule-soft);
+  border-radius:3px;padding:12px;box-shadow:var(--shadow)
+}
+.fig-card.main{grid-column:1/-1}
+.fig-card img{display:block;width:100%;height:auto;background:#fff;border-radius:2px}
+.fig-card figcaption{color:var(--ink-soft);font-size:11px;line-height:1.55;margin-top:10px}
+.fig-card figcaption b{color:var(--ink);font-weight:600}
+
+.colofon{
+  border-top:1px solid var(--rule);margin-top:44px;padding-block:24px 48px;
+  font-size:var(--step--1);color:var(--ink-faint);line-height:1.65;max-width:72ch
+}
+.colofon strong{color:var(--ink-soft);font-weight:500}
+
+@media (max-width:760px){
+  h1{font-size:var(--step-3)}
+  .dek{font-size:var(--step-0)}
+  .lead{border-left:0;border-top:1px solid var(--rule-soft);padding-inline:0}
+  .lead:first-child{border-top:0}
+  .tl::before{left:5px}
+  .row{grid-template-columns:1fr;padding-block:9px;padding-left:22px}
+  .row.p .card,.row.t .card{grid-column:1}
+  .yr{
+    grid-column:1;justify-self:start;margin-left:-22px;margin-bottom:6px;
+    padding-left:0;padding-right:9px
+  }
+  .row.c,.row.g{padding-left:0}
+  .ctx,.gapband{grid-column:1}
+  .gapband{grid-template-columns:1fr;gap:6px}
+  .audit-grid,.fig-grid{grid-template-columns:1fr}
+  .fig-card.main{grid-column:1}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="eyebrow">Historia del Pensamiento Económico · UP 2026-02 · Preguntas 3 y 4 · actualización 21/09/2026</div>
+    <h1>De la práctica a una formalización específica</h1>
+    <p class="dek">El BCRP aplicó instrumentos de encaje y gestión de liquidez antes de que circulara el modelo de equilibrio general de Bianchi y Bigio sobre liquidez bancaria. <strong>La cronología documenta precedencia y una relación interpretativa; no demuestra causalidad, ausencia de teoría previa ni identidad entre política y modelo.</strong></p>
+  </header>
+
+  <section class="leads" id="leads"></section>
+
+  <div class="legend">
+    <span class="key"><span class="dot p"></span> La práctica del BCRP</span>
+    <span class="key"><span class="dot t"></span> El pensamiento de Bigio</span>
+    <span class="key"><span class="dot c"></span> Contexto</span>
+  </div>
+
+  <section class="tl" id="tl"></section>
+
+  <section class="close">
+    <h2>Qué responde esta cronología</h2>
+    <div class="qa">
+      <div class="q">
+        <div class="ql">Pregunta 3 · Las ideas fundamentales</div>
+        <h3>La liquidez rompe la irrelevancia del balance</h3>
+        <p><em>Síntesis propia:</em> en los modelos de Bigio, la liquidez se determina endógenamente. Las fricciones de información y liquidación, los balances bancarios y la oferta de reservas condicionan el crédito y la transmisión monetaria. Wallace (1981) formula condiciones bajo las cuales la composición del balance del banco central es irrelevante; el núcleo monetario de Bigio estudia fricciones que rompen esa irrelevancia.</p>
+        <p>De ahí se sigue una conclusión más precisa: la tasa de política sigue siendo central, pero no resume por sí sola la postura monetaria. El banco central también altera la oferta y composición de reservas, mientras la gestión de liquidez de los bancos traduce esos cambios en crédito y en múltiples tasas. Esta formulación sintetiza Bigio (2015: 1), Bianchi y Bigio (2022 [2013]: 1), Bigio (2022: 372, 377–379) y Bigio (2026: 19).</p>
+      </div>
+      <div class="q">
+        <div class="ql">Pregunta 4 · Dónde presenta su pensamiento</div>
+        <h3>En géneros distintos cuenta orígenes distintos</h3>
+        <p>En inglés, ante la profesión, su agenda nace en la caída de Bear Stearns en marzo de 2008. En castellano, ante el Perú, nace en 2004 en el organigrama del BCRP. <em>Cuatro años de diferencia, y ninguna de las dos versiones es falsa.</em> El género y el público seleccionan qué parte de su pensamiento sale a la superficie.</p>
+        <p>La segunda consecuencia es medible sin sumar registros duplicados: 75 registros de investigación de OpenAlex se agrupan en 34 obras canónicas. El linaje de <em>Banks, Liquidity Management and Monetary Policy</em> comienza en 2013 y pasa por Columbia, NBER y <em>Econometrica</em>. En economía, la trayectoria del argumento atraviesa varios soportes; la unidad correcta es la obra, no cada registro.</p>
+      </div>
+    </div>
+
+    <div class="evidence">
+      <h2>Evidencia bibliométrica y auditoría final</h2>
+      <p class="evidence-intro">El notebook fue ejecutado nuevamente el 21 de setiembre de 2026 y sus trece figuras quedaron regeneradas. La evidencia bibliométrica controla la amplitud y la persistencia del corpus; la demostración del mecanismo económico continúa descansando en la lectura directa de las investigaciones.</p>
+
+      <div class="audit-grid">
+        <div class="audit-card">
+          <div class="audit-n">48</div>
+          <div class="audit-t">documentos</div>
+          <div class="audit-d">Corpus final, 2006–2026, con géneros académicos y de política.</div>
+        </div>
+        <div class="audit-card">
+          <div class="audit-n">34</div>
+          <div class="audit-t">obras canónicas</div>
+          <div class="audit-d">Una unidad intelectual por linaje; no se suman versiones de un mismo trabajo.</div>
+        </div>
+        <div class="audit-card">
+          <div class="audit-n">1 435</div>
+          <div class="audit-t">referencias auditadas</div>
+          <div class="audit-d">1 343 aceptadas, 90 corregidas y 2 excepciones atribuibles a la fuente.</div>
+        </div>
+        <div class="audit-card">
+          <div class="audit-n">390</div>
+          <div class="audit-t">filas resueltas</div>
+          <div class="audit-d">320 identidades OpenAlex distintas; 1 045 filas siguen sin identidad aceptada.</div>
+        </div>
+      </div>
+
+      <div class="audit-note"><b>Límite de cobertura.</b> Las 390 filas resueltas representan el 27,2 % de las 1 435 referencias. Las 18 operaciones estructurales y las 90 correcciones acreditan una auditoría técnica completa del extractor, no una certificación humana externa ni una base suficiente para redes históricas exhaustivas.</div>
+
+      <div class="fig-grid">
+        <figure class="fig-card main">
+          <img src="figs/05_terminos_distintivos.png" alt="Términos distintivos por período en los títulos del corpus de Saki Bigio">
+          <figcaption><b>Eje persistente.</b> El vocabulario distintivo pasa de Perú, ciclo y liquidez bancaria a liquidez privada y precios de activos, y luego a banca, política monetaria y balances. TF-IDF identifica vocabulario distintivo en títulos; no prueba el mecanismo causal.</figcaption>
+        </figure>
+        <figure class="fig-card">
+          <img src="figs/02_impacto.png" alt="Citas por año y FWCI de obras representativas de Saki Bigio">
+          <figcaption><b>Impacto.</b> Citas por año de una versión representativa de cada obra y FWCI comparado con el promedio mundial.</figcaption>
+        </figure>
+        <figure class="fig-card">
+          <img src="figs/03_rezago.png" alt="Rezago entre primera versión pública y publicación en revista">
+          <figcaption><b>Circulación.</b> El rezago medio del working paper a la revista es 4,8 años; la mediana es 6 y el máximo observado es 9.</figcaption>
+        </figure>
+        <figure class="fig-card main">
+          <img src="figs/01_corpus.png" alt="Producción por año de primera versión y composición documental del corpus">
+          <figcaption><b>Composición.</b> Los 48 documentos combinan artículos, working papers, discussions, comentarios, documentos predoctorales y textos de política; por eso la respuesta a la pregunta 4 no puede reducirse a las publicaciones finales.</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="hyp">
+      <h2>Hipótesis, y qué pasó con ellas</h2>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Hipótesis</th><th>Enunciado</th><th>Estado</th></tr></thead>
+          <tbody id="hyp"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="refs">
+      <h2>Fuentes</h2>
+      <ol>
+        <li><b>Rossini, R. (2016).</b> «La política monetaria del Banco Central de Reserva del Perú en los últimos 25 años». En G. Yamada y D. Winkelried (eds.), <em>Política y estabilidad monetaria en el Perú. Homenaje a Julio Velarde</em>, pp. 23–37. Lima: Fondo Editorial de la Universidad del Pacífico.</li>
+        <li><b>Quispe, Z. y R. Rossini (2010).</b> «Monetary policy during the global financial crisis of 2007–09: the case of Peru». <em>BIS Papers</em> n.º 54, pp. 299–316. Basilea: Banco de Pagos Internacionales.</li>
+        <li><b>Bigio, S. (2022).</b> «Política monetaria: una nueva perspectiva». Lima: Fondo Editorial de la Universidad del Pacífico, pp. 371–382. Charla en homenaje a Renzo Rossini. <em>Ficha bibliográfica completa del volumen pendiente de verificación.</em></li>
+        <li><b>Bigio, S. (2026).</b> <em>Liquidity and Macroeconomics: a vision and my research agenda.</em> Ensayo de agenda, agosto de 2026.</li>
+        <li><b>Bigio, S. (2019).</b> Comentario a C. Martinelli y M. Vega, «The Monetary and Fiscal History of Peru, 1960–2017». Becker Friedman Institute, Universidad de Chicago.</li>
+        <li><b>Bigio, S. (2026).</b> <em>Curriculum vitae</em>, agosto de 2026. Departamento de Economía, UCLA.</li>
+        <li><b>Elaboración propia (2026).</b> Fase 2b: extracción de las bibliografías de los nueve papers del núcleo de dinero y banca del corpus — 178 412 caracteres — y recuento de autores por número de bibliografías.</li>
+        <li><b>Montoro, C. y R. Moreno (2011).</b> «The use of reserve requirements as a policy instrument in Latin America». <em>BIS Quarterly Review</em>, marzo de 2011, pp. 53–65.</li>
+        <li><b>OpenAlex (2026).</b> Autor A5024020324 (ORCID 0000-0001-5932-0736). Archivo bruto: 89 registros. Tras excluir 12 datasets y 2 softwares: 75 registros de investigación agrupados en 34 obras canónicas. Las seis obras principales, incluyendo sus 14 versiones, reúnen 774 citantes únicos. Datos consultados el 14 de setiembre de 2026 y reutilizados en el notebook final.</li>
+        <li><b>Bigio, S. (2020).</b> <em>A Concrete Policy Response to the Covid-19 Crisis.</em> Carta abierta, 15 de marzo de 2020.</li>
+        <li><b>Perú y BCRP (2020).</b> Decreto Legislativo 1455, 6 de abril; BCRP, <em>Reporte de Inflación</em> de junio, recuadro 5: Circular 017-2020-BCRP y primera subasta de Reactiva Perú del 23 de abril.</li>
+        <li><b>Elaboración propia (2026), auditoría final.</b> Notebook regenerado el 21 de setiembre: 48 documentos, 34 obras canónicas y 1 435 referencias. Auditoría técnica: 1 343 aceptadas, 90 corregidas, 2 excepciones de fuente y 18 operaciones estructurales. Resolución OpenAlex: 390 filas, 320 identidades distintas y 1 045 filas sin identidad aceptada.</li>
+      </ol>
+      <div class="note"><b>Cómo leer las fuentes.</b> Los números de página de [1], [2], [3] y [8] son los del volumen impreso, verificados contra los folios de cada PDF. Las cifras de impacto y de instituciones citantes provienen de una sola descarga de OpenAlex y cambian con el tiempo. Los recuentos marcados como «elaboración propia» se hicieron sobre el corpus del proyecto y son reproducibles con los archivos de <code>data/</code>.</div>
+    </div>
+
+    <div class="colofon">
+      <b>Corpus.</b> 48 documentos de Saki Bigio, 2006–2026, 1 995 páginas y 3,42 millones de caracteres: 13 papers publicados, 11 working papers, 15 discussions en diapositivas, 3 comentarios publicados, 2 documentos de trabajo del BCRP previos al doctorado, una carta de política, una charla de divulgación, un capítulo en castellano y un ensayo de agenda.<br><br>
+      <b>Auditoría.</b> La candidata final contiene 1 435 referencias: 1 343 aceptadas, 90 corregidas y 2 excepciones atribuibles a la fuente. OpenAlex resolvió 390 filas —320 identidades distintas— y dejó 1 045 sin identidad aceptada. Esta cobertura permite documentar la calidad del proceso, pero no construir redes exhaustivas de co-citación.<br><br>
+      <b>Advertencias.</b> El BCRP no actuó sin análisis: Rossini señala que sus cambios tuvieron sustento analítico y cuantitativo [1, p. 23]. El Perú fue temprano, no único: Montoro y Moreno estudian también Brasil y Colombia [8]. El modelo P07 no trata dolarización ni el caso peruano, y cita antecedentes teóricos como Poole (1968); por eso la cronología sostiene solo que la experiencia peruana precedió y ofrece contexto para una formalización específica de Bigio, no que exista una causalidad intelectual demostrada.<br><br>
+      Documento de trabajo del trabajo grupal 01. Elaborado por Alejandro Ventura. Actualización final: 21 de setiembre de 2026.
+    </div>
+  </section>
+</div>
+
+<script>
+const LEADS=[
+ {n:"21",u:"años",t:"De un instrumento a una formalización relacionada",d:"El BCRP diferencia encajes por moneda en 1992. Una primera versión del modelo bancario de Bianchi y Bigio circula en 2013. Los objetos no son idénticos."},
+ {n:"3",u:"años",t:"De la observación a la primera versión",d:"Quispe y Rossini describen la desconexión de tasas en 2010. La primera versión verificable del modelo bancario circula en 2013."},
+ {n:"4,8",u:"años",t:"Del working paper a la revista",d:"Rezago medio documentado en trece artículos. El máximo es nueve años; cinco fechas conservan confianza media."}
+];
+
+const EV=[
+ {y:"1988–90",l:"c",t:"Hiperinflación",d:"1 153 755 % acumulado en dos años, equivalente a 43 % mensual.",s:"Rossini (2016), p. 24 [1]"},
+ {y:"1990",l:"p",t:"Fin de la hiperinflación",d:"Ancla de emisión primaria con tipo de cambio flotante. El encaje sobre obligaciones en soles cae de 80 % en julio de 1990 al mínimo de la Ley de Bancos, 9 %.",q:"No tenía antecedentes.",c:"Rossini (2016), p. 24",s:"Rossini (2016), pp. 24 y 26 [1]"},
+ {y:"1992",l:"p",tag:"instrumento fundacional",t:"Encaje diferenciado por moneda",d:"Se implanta un encaje de 50 % sobre los depósitos en moneda extranjera frente a 9 % en moneda nacional, para mitigar el riesgo de que el BCRP no pueda operar como prestamista de última instancia en dólares.",s:"Rossini (2016), p. 27 [1]"},
+ {y:"1998",l:"c",t:"Crisis rusa",d:"Corte de líneas externas y parálisis del crédito privado. De ahí sale el plan de contingencia del BCRP.",s:"Rossini (2016), pp. 29–30 [1]"},
+ {y:"1999–2003",l:"t",t:"Bachillerato en la Universidad del Pacífico",d:"Su asesor de tesis de pregrado fue Julio Velarde, hoy presidente del BCRP. Él mismo lo cuenta: «I had the good fortune to later on have Velarde and Sargent as undergraduate and graduate thesis advisers».",s:"Bigio, comentario a Martinelli y Vega, p. 1 [5]; CV, agosto de 2026 [6]"},
+ {y:"2002",l:"p",t:"Metas de inflación bajo dolarización parcial",d:"El propio BCRP lo llama «hybrid inflation targeting»: meta de 2 % ± 1 % y tasa overnight como objetivo operativo, más encajes altos en moneda extranjera contra el riesgo de liquidez e intervención cambiaria esterilizada contra el efecto hoja de balance.",s:"Quispe y Rossini (2010), p. 301, recuadro 2 [2]; Rossini (2016), pp. 32–33 [1]"},
+ {y:"2004–05",l:"t",tag:"origen · versión en castellano",t:"Economista en la Gerencia de Estudios Económicos del BCRP",d:"Su primer empleo, y el origen declarado de toda su agenda. Su jefe fue Renzo Rossini.",q:"Las dos unidades de élite eran el Departamento de Modelos Macroeconómicos y el de Estadísticas Monetarias y Bancarias… Estas dos áreas estaban prácticamente divorciadas. ¿Por qué en nuestros modelos no tenemos bancos?",c:"Bigio (2022), p. 371",s:"Bigio (2022), p. 371 [3]; CV, agosto de 2026 [6]"},
+ {y:"2006",l:"t",t:"Dos documentos de trabajo del BCRP",d:"Efectos no lineales de la política monetaria y del tipo de cambio real en economías parcialmente dolarizadas, con Salas; y corrupción e indicadores de desarrollo, con Ramírez-Rondán.",s:"Corpus del proyecto, E01 y E02; CV [6]"},
+ {y:"2006–12",l:"t",t:"Doctorado en New York University",d:"Asesores: Thomas Sargent y Ricardo Lagos. Lagos aparece en siete de las nueve bibliografías de su núcleo de dinero y banca, más que ningún otro autor externo.",s:"CV [6]; recuento propio sobre 178 412 caracteres de bibliografía (Fase 2b) [7]"},
+ {y:"set-2007",l:"p",t:"Encaje cero a los préstamos externos a más de dos años",d:"Medida no convencional para alargar el plazo del fondeo bancario en moneda extranjera y reducir la vulnerabilidad a cortes de líneas del exterior.",s:"Quispe y Rossini (2010), p. 307 [2]"},
+ {y:"2007–08",l:"p",tag:"primera línea de defensa",t:"El encaje como instrumento contracíclico",d:"Encaje marginal en moneda nacional de 6,0 % a 25 %; en moneda extranjera de 30 % a 49 %; 120 % sobre depósitos de no residentes en soles.",q:"Reserve requirements as a first line of defence.",c:"Quispe y Rossini (2010), p. 306",s:"Quispe y Rossini (2010), pp. 306–307 [2]"},
+ {y:"mar-2008",l:"t",tag:"origen · versión en inglés",t:"La caída de Bear Stearns",d:"Tercer año del doctorado, discutiendo con gente de Wall Street qué debía hacer el gobierno para restaurar la liquidez.",q:"I was embarrassed that, as a PhD student, I couldn’t even define market liquidity!",c:"Bigio (2026), Research vision, p. 1",s:"Bigio (2026), <em>Liquidity and Macroeconomics</em>, p. 1 [4]"},
+ {y:"set-2008",l:"c",t:"Crisis financiera global",d:"Quiebra de Lehman Brothers, 15 de setiembre.",s:"Montoro y Moreno (2011), p. 57 [8]"},
+ {y:"oct-2008",l:"p",tag:"la anomalía",t:"Baja los encajes antes que la tasa de política",d:"La inyección total de liquidez entre setiembre de 2008 y marzo de 2009 equivale a 9,6 % del PBI. El primer recorte de la tasa de referencia recién llega el 2 de febrero de 2009.",q:"La secuencia de adopción de política monetaria comenzó con el conjunto de medidas no convencionales, por el debilitamiento del canal de la tasa de interés.",c:"Quispe y Rossini (2010), p. 299",s:"Quispe y Rossini (2010), pp. 299, 308 y 310, cuadro 1 [2]; Montoro y Moreno (2011), p. 57 [8]"},
+ {y:"2010",l:"p",tag:"la práctica se documenta",t:"Los practicantes escriben su propio caso",d:"Quispe y Rossini, BIS Papers 54. En sus once referencias no hay un modelo teórico y, en 35 936 caracteres extraídos, no aparecen «model» ni «theory». Allí describen «la desconexión de las otras tasas de interés con la tasa de política».",s:"Quispe y Rossini (2010), pp. 299–316; cita en p. 304; recuento propio sobre el texto extraído [2]"},
+ {y:"2010",l:"t",t:"Learning Under Fear of Floating",d:"Journal of Economic Dynamics and Control. Su último trabajo sobre el Perú antes de más de una década de teoría monetaria general. Primera versión en RePEc: 2009.",s:"CV [6]; OpenAlex, autor A5024020324, consulta 2 [9]"},
+ {y:"2011",l:"p",t:"El BIS analiza lo que el BCRP ya hacía",d:"Montoro y Moreno, BIS Quarterly Review. Para la justificación del caso peruano remiten a los propios funcionarios del BCRP. Y señalan que el instrumento «había caído en desgracia entre la mayoría de los responsables de política en el último cuarto de siglo».",s:"Montoro y Moreno (2011), pp. 53 y 59, y nota 11 [8]"},
+ {y:"2012",l:"t",t:"Columbia Business School",d:"Su primera discussion documentada es del 15 de noviembre de 2012: Christiano e Ikeda sobre restricciones de apalancamiento.",s:"Portada de las diapositivas, corpus D01; CV [6]"},
+ {y:"2013",l:"t",tag:"primera versión verificable",t:"Bianchi y Bigio, Liquidity Management and Monetary Policy",d:"Primera versión verificable del modelo de equilibrio general sobre gestión de liquidez bancaria y transmisión monetaria. El artículo final aparecerá en Econometrica nueve años después.",s:"OpenAlex W2188338937 (Columbia, 2013) [9]; artículo final P07 y CV [6]"},
+ {y:"2014–15",l:"p",t:"Encajes condicionados a la desdolarización del crédito",d:"Encajes adicionales a las entidades que no reduzcan su crédito en dólares: automóviles e hipotecas desde 2014, crédito en dólares en general desde 2015. La dolarización del crédito cae de 40 % en 2013 a 30 % en 2015.",s:"Rossini (2016), p. 31 [1]"},
+ {y:"2015",l:"t",t:"Endogenous Liquidity and the Business Cycle",d:"American Economic Review. Impacto normalizado por campo y año: FWCI 61,6 — percentil 99,8. Es uno de los dos únicos papers que firmó solo. Primera versión pública: 2010.",s:"OpenAlex, consulta 2 [9]; CV [6]"},
+ {y:"2015",l:"t",t:"UCLA",d:"Assistant Professor desde 2015; Associate Professor con tenure desde 2022.",s:"CV, agosto de 2026 [6]"},
+ {y:"2019–21",l:"t",t:"Research Scholar en la Fed de San Francisco",d:"En la faceta canónica de OpenAlex, el linaje institucional padre Federal Reserve System aparece en 98 trabajos citantes. Las jerarquías institucionales son de pertenencia múltiple y no deben sumarse.",s:"CV [6]; OpenAlex, facetas canónicas de 774 trabajos citantes únicos [9]"},
+ {y:"mar-2020",l:"t",t:"Carta abierta sobre el COVID-19",d:"Quince de marzo de 2020. Propone comprar papel respaldado por crédito de consumo y capital de trabajo a pymes, y suspender Basilea III por un año.",q:"The main economic risk is the collapse of the payments chain.",c:"Bigio (2020)",s:"Bigio (2020), carta abierta, corpus N01 [10]"},
+ {y:"2020",l:"p",t:"Reactiva Perú",d:"El Decreto Legislativo 1455 crea Reactiva Perú el 6 de abril. El BCRP reglamenta las operaciones mediante la Circular 017-2020-BCRP y realiza la primera subasta el 23 de abril.",s:"Bigio (2022), p. 378 [3]; Decreto Legislativo 1455 y BCRP, Reporte de Inflación de junio de 2020, recuadro 5 [11]"},
+ {y:"2020",l:"t",t:"Distortions in Production Networks",d:"Quarterly Journal of Economics, con Jennifer La’O. FWCI 42,8 — percentil 99,9. Circuló como working paper desde 2013 bajo el título «Financial Frictions in Production Networks».",s:"OpenAlex, consulta 2 [9]"},
+ {y:"2022",l:"t",t:"Banks, Liquidity Management and Monetary Policy",d:"Econometrica, con Javier Bianchi. El linaje documental empieza en 2013 y reúne tres registros de OpenAlex. El máximo de citas de una versión es 119; las versiones no se suman.",s:"OpenAlex, consulta 2 y canonización [9]; CV [6]"},
+ {y:"2022",l:"t",t:"«Política monetaria: una nueva perspectiva»",d:"Fondo Editorial de la Universidad del Pacífico, en homenaje a Renzo Rossini. Doce páginas, tres referencias, ninguna anterior a 1981.",q:"Hay muchas tasas de interés, y no solo una como en el modelo neokeynesiano.",c:"Bigio (2022), p. 372",s:"Bigio (2022), pp. 371–382; cita en p. 372 [3]"},
+ {y:"2022",l:"t",tag:"la exportación",t:"Asesoría al Banco Central Europeo",d:"Evaluación de políticas de balance. En el capítulo de la UP lo menciona al discutir cómo pudo haberse afinado Reactiva: «Actualmente, estamos trabajando un programa de este tipo con el Banco Central Europeo».",s:"Bigio (2022), p. 379 [3]; CV, sección Consultancies [6]"},
+ {y:"2026",l:"t",t:"A Q-Theory of Banks · Liquidity and Macroeconomics",d:"Review of Economic Studies 93(1). Y un ensayo de agenda donde organiza veinte años de trabajo como una secuencia de nueve preguntas encadenadas, todas sobre liquidez.",s:"CV [6]; Bigio (2026), Research vision [4]"}
+];
+
+const GAPS={
+ "2010":{n:"3 años",t:"Quispe y Rossini describen en 2010 la desconexión entre la tasa de política y otras tasas. La primera versión verificable del modelo bancario de Bianchi y Bigio circula en 2013.",r:"2010 → 2013 · de la observación a una formalización específica",s:"Observación: Quispe y Rossini (2010), p. 304 [2]. Primera versión: OpenAlex W2188338937 [9]."},
+ "2013":{n:"21 años",t:"El encaje diferenciado por moneda existe desde 1992. Una versión del modelo de gestión de liquidez bancaria circula en 2013. La comparación documenta precedencia, no identidad entre objetos.",r:"1992 → 2013 · práctica relacionada antes de la formalización",s:"Instrumento: Rossini (2016), p. 27 [1]. Primera versión: OpenAlex W2188338937 [9]."}
+};
+
+const HYP=[
+ ["H1","La liquidez no es un supuesto sino un resultado de equilibrio","ok","Respaldada"],
+ ["H2","No cambia de tema: cambia de escenario donde aplica la misma fricción","ok","Respaldada"],
+ ["H3","Nuevo monetarismo, macro-finanzas e implementación monetaria","ok","Confirmada"],
+ ["H4","Heredero de la tradición Tobin–Gurley y Shaw","no","Falsificada"],
+ ["H4′","No hay genealogía histórica explícita hacia Gurley–Shaw o la Banking School en el corpus","new","Acotada"],
+ ["H5","El origen peruano no persiste: es la pregunta fundacional","ok","Versión fuerte"],
+ ["H6","En Bigio, la política precede a la teoría","no","Falsificada"],
+ ["H6‴","La implementación peruana precedió una formalización específica de Bigio; no a la teoría monetaria en general","new","Sostenida con cautela"]
+];
+
+const esc=s=>String(s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+
+document.getElementById("leads").innerHTML=LEADS.map(l=>`
+ <div class="lead">
+   <div class="lead-n">${l.n}<span>${l.u}</span></div>
+   <div class="lead-t">${esc(l.t)}</div>
+   <div class="lead-d">${esc(l.d)}</div>
+ </div>`).join("");
+
+const gapRow=g=>`
+ <div class="row g"><div class="gapband">
+   <div class="gn">${esc(g.n)}</div>
+   <div class="gt">${esc(g.t)}</div>
+   <div class="gr">${esc(g.r)}</div>
+   <div class="gs">${g.s}</div>
+ </div></div>`;
+
+let out="",used={};
+for(const e of EV){
+  const g=GAPS[e.y];
+  if(g&&!used[e.y]&&e.tag){out+=gapRow(g);used[e.y]=1}
+  if(e.l==="c"){
+    out+=`<div class="row c"><div class="ctx">
+      <span class="cy">${esc(e.y)}</span>
+      <span class="ct">${esc(e.t)}</span>
+      <span class="cd">${esc(e.d)}</span>
+      ${e.s?`<span class="cd" style="font-family:var(--f-mono);font-size:11px;color:var(--ink-faint)">[${e.s}]</span>`:""}
+    </div></div>`;
+    continue;
+  }
+  out+=`<div class="row ${e.l}">
+    <div class="yr mono">${esc(e.y)}</div>
+    <div class="card">
+      ${e.tag?`<span class="tag">${esc(e.tag)}</span><br>`:""}
+      <h3>${esc(e.t)}</h3>
+      ${e.d?`<p>${esc(e.d)}</p>`:""}
+      ${e.q?`<blockquote>«${esc(e.q)}»<cite>${esc(e.c||"")}</cite></blockquote>`:""}
+      ${e.s?`<div class="src"><b>Fuente:</b> ${e.s}</div>`:""}
+    </div>
+  </div>`;
+}
+document.getElementById("tl").innerHTML=out;
+
+document.getElementById("hyp").innerHTML=HYP.map(h=>`
+ <tr><td class="h">${esc(h[0])}</td><td>${esc(h[1])}</td>
+ <td><span class="pill ${h[2]}">${esc(h[3])}</span></td></tr>`).join("");
+</script>
