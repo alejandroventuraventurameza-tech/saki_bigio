@@ -1,0 +1,1922 @@
+{
+  "meta": {
+    "status": "complete",
+    "date": "2026-09-21",
+    "reviewer": "Codex (revisión documental asistida; no auditor humano externo)",
+    "method": "Comparación de la cita literal en el PDF con título, autores, año y tipo del mejor candidato OpenAlex; verificación externa primaria en casos limítrofes.",
+    "candidate_sha256": "b5234d5f39b85abf99f00f2f6d7e663f9ec70413004ee610796f0e74def9b6ac",
+    "review_packet_sha256": "9e583b2299361b6a593f623149976e4647dfc7b6eb8cfc83bf382f4e9e568e2d",
+    "review_population": 24,
+    "accepted_same_work": 19,
+    "rejected_different_work": 5,
+    "structural_corrections": 1,
+    "structural_doi_verified_rows": 1,
+    "resolved_rows_after_adjudication": 390,
+    "unique_openalex_ids_after_adjudication": 320,
+    "unresolved_rows_after_adjudication": 1045,
+    "adjudicated_output": "data\\referencias_parseadas_candidate_openalex_adjudicada.json",
+    "network_release": false
+  },
+  "structural_corrections": [
+    {
+      "original_ref_id": "P02-R002",
+      "decision": "split_fused_reference",
+      "source_pdf": "saki_research/published_papers/bigio_ramirez_ridruejo_optimal_taxation_enforcement_informal_economy.pdf",
+      "source_page": 38,
+      "before": {
+        "surname": "Acemoglu",
+        "year": 1972,
+        "title": "Emergence and persistence of inefficient states states",
+        "entry": "D. Acemoglu, D. Ticchi, and A. Vindigni. Emergence and persistence of inefficient states states. Journal of the European Economic Association, forthcoming.31 M. G. Allingham and A. Sandmo. Income tax evasion: A theoretical analysis. Journal of Public Economics, 1(3-4):323–338, November 1972.2",
+        "page_start": 38,
+        "page_end": 38,
+        "quality_flags": [],
+        "title_extraction_method": "sentence_before_source",
+        "correction_provenance": [
+          "local_citation_grammar_v3"
+        ]
+      },
+      "after": [
+        {
+          "surname": "Acemoglu",
+          "year": null,
+          "title": "Emergence and persistence of inefficient states states",
+          "entry": "D. Acemoglu, D. Ticchi, and A. Vindigni. Emergence and persistence of inefficient states states. Journal of the European Economic Association, forthcoming.",
+          "page_start": 38,
+          "page_end": 38,
+          "quality_flags": [
+            "missing_year"
+          ],
+          "title_extraction_method": "manual_openalex_review_split",
+          "correction_provenance": [
+            "local_citation_grammar_v3",
+            "openalex_review_fusion_2026-09-17"
+          ],
+          "openalex_resolution": {
+            "status": "matched_high_confidence",
+            "id": "https://openalex.org/W2727220263",
+            "doi": "https://doi.org/10.3386/w12748",
+            "display_name": "Emergence and Persistence of Inefficient States",
+            "publication_year": 2006,
+            "type": "report",
+            "authors": [
+              "Daron Acemoğlu",
+              "Davide Ticchi",
+              "Andrea Vindigni"
+            ],
+            "evidence": {
+              "title_similarity": 0.930693,
+              "citation_title_coverage": 1.0,
+              "author_match": true,
+              "year_distance": null,
+              "score": 0.892871
+            },
+            "query_url": "https://api.openalex.org/works?search=Emergence+and+persistence+of+inefficient+states+states+Acemoglu&per-page=5&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Ctype%2Cauthorships%2Cprimary_location&mailto=alejandroventuraventurameza%40gmail.com"
+          }
+        },
+        {
+          "surname": "Allingham",
+          "year": 1972,
+          "title": "Income tax evasion: A theoretical analysis",
+          "title_extraction_method": "manual_openalex_review_split",
+          "entry": "M. G. Allingham and A. Sandmo. Income tax evasion: A theoretical analysis. Journal of Public Economics, 1(3-4):323–338, November 1972.",
+          "page_start": 38,
+          "page_end": 38,
+          "quality_flags": [],
+          "correction_provenance": [
+            "openalex_review_fusion_2026-09-17",
+            "openalex_doi_verification_2026-09-17"
+          ],
+          "openalex_resolution": {
+            "status": "matched_doi_verified_after_split",
+            "id": "https://openalex.org/W2088435028",
+            "doi": "https://doi.org/10.1016/0047-2727(72)90010-2",
+            "display_name": "Income tax evasion: a theoretical analysis",
+            "publication_year": 1972,
+            "type": "article",
+            "authors": [
+              "Michael Allingham",
+              "Agnar Sandmo"
+            ],
+            "evidence": {
+              "title_similarity": 1.0,
+              "author_match": true,
+              "year_distance": 0,
+              "resolution_method": "publisher_doi_then_openalex_direct_lookup"
+            },
+            "query_url": "https://api.openalex.org/works/doi:10.1016%2F0047-2727%2872%2990010-2?select=id,doi,display_name,publication_year,type,authorships,primary_location&mailto=alejandroventuraventurameza@gmail.com",
+            "publisher_url": "https://www.sciencedirect.com/science/article/pii/0047272772900102"
+          }
+        }
+      ],
+      "rationale": "La inspección visual de la página 38 muestra dos entradas independientes: Acemoglu–Ticchi–Vindigni y Allingham–Sandmo. El DOI editorial de la segunda entrada resolvió directamente a OpenAlex W2088435028.",
+      "external_verification": [
+        "https://www.sciencedirect.com/science/article/pii/0047272772900102",
+        "https://api.openalex.org/works/doi:10.1016%2F0047-2727%2872%2990010-2?select=id,doi,display_name,publication_year,type,authorships,primary_location&mailto=alejandroventuraventurameza@gmail.com"
+      ],
+      "applied_by": "apply_reference_enrichment.py"
+    }
+  ],
+  "cases": [
+    {
+      "ref_id": "P10-R022",
+      "doc_id": "P10",
+      "reference_index": 22,
+      "source_pages": [
+        44,
+        44
+      ],
+      "parsed": {
+        "surname": "Blattner",
+        "year": 2023,
+        "title": "When losses turn into loans: The cost of weak banks",
+        "entry": "Blattner, Laura, Luisa Farinha, and Francisca Rebelo, “When losses turn into loans: The cost of weak banks,” American Economic Review, 2023, 113 (6), 1600–1641.11",
+        "quality_flags": []
+      },
+      "extracted_doi": null,
+      "status": "matched_review",
+      "query_url": "https://api.openalex.org/works?search=When+losses+turn+into+loans%3A+The+cost+of+weak+banks+Blattner&per-page=5&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Ctype%2Cauthorships%2Cprimary_location&mailto=alejandroventuraventurameza%40gmail.com",
+      "candidate_count": 5,
+      "best_match": {
+        "id": "https://openalex.org/W2789158705",
+        "doi": "https://doi.org/10.2139/ssrn.3366998",
+        "display_name": "When Losses Turn into Loans: The Cost of Undercapitalized Banks",
+        "publication_year": 2019,
+        "type": "preprint",
+        "authors": [
+          "Laura Blattner",
+          "Lu&iacute;sa Farinha",
+          "Francisca Rebelo"
+        ],
+        "primary_location": {
+          "id": "doi:10.2139/ssrn.3366998",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.2139/ssrn.3366998",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4210172589",
+            "display_name": "SSRN Electronic Journal",
+            "issn_l": "1556-5068",
+            "issn": [
+              "1556-5068"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I1318003438",
+            "host_organization_name": "RELX Group (Netherlands)",
+            "host_organization_lineage": [
+              "https://openalex.org/I1318003438"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "acceptedVersion",
+          "is_accepted": true,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "posted-content"
+        },
+        "evidence": {
+          "title_similarity": 0.857143,
+          "citation_title_coverage": 0.875,
+          "author_match": true,
+          "year_distance": 4,
+          "score": 0.782857
+        }
+      },
+      "source_pdf": "saki_research/published_papers/begenau_bigio_majerovitz_vieyra_q_theory_banks.pdf",
+      "pdf_context": "Página PDF 44:\nAtkeson, Andrew G, Adrien d’Avernas, Andrea L Eisfeldt, and Pierre-Olivier Weill,\n“Government Guarantees and the Valuation of American Banks,” in “NBER Macroeconomics\nAnnual 2018, volume 33,” University of Chicago Press, 2018. 3.1\nBasel Committee on Banking Supervision,“BaselIII:Aglobalregulatoryframeworkformore\nresilientbanksandbankingsystems,”TechnicalReport,BankforInternationalSettlementsJune\n2011. A.2.1\nBegenau, Juliane, “Capital requirements, risk choice, and liquidity provision in a business-cycle\nmodel,” Journal of Financial Economics, 2020, 136 (2), 355–378. 4, 1\nand Tim Landvoigt, “Financial regulation in a quantitative model of the modern banking\nsystem,” The Review of Economic Studies, 2022, 89 (4), 1748–1784. 4, 10\n, , and Vadim Elenev, “Interest Rate Risk and Cross-Sectional Effects of Micro-Prudential\nRegulation,” Available at SSRN, 2024. 1\nBehn, Markus, Rainer Haselmann, and Vikrant Vig, “The limits of model-based regula-\ntion,” The Journal of Finance, 2022, 77 (3), 1635–1684. 14\nBenes, Jaromir and Michael Kumhof, “Risky bank lending and countercyclical capital\nbuffers,” Journal of Economic Dynamics and Control, 2015, 58, 58–80. 46\nBernanke, Ben and Mark Gertler, “Agency Costs, Net Worth and Business Fluctuations,”\nThe American Economic Review, March 1989, 79 (1), 14–31. 7\nBernstein, Shai, Emanuele Colonnelli, Xavier Giroud, and Benjamin Iverson,\n“Bankruptcy spillovers,” Journal of Financial Economics, 2019, 133 (3), 608–633. 42\nBianchi, Javier and Saki Bigio, “Banks, liquidity management, and monetary policy,” Econo-\nmetrica, 2022, 90 (1), 391–454. 1\nBlank, Michael, Samuel G Hanson, Jeremy C Stein, and Aditya Vikram Sunderam,\n“How Should US Bank Regulators Respond to the COVID-19 Crisis?,” 2020. 13\nBlattner, Laura, Luisa Farinha, and Francisca Rebelo, “When losses turn into loans: The\ncost of weak banks,” American Economic Review, 2023, 113 (6), 1600–1641. 11\nBrunnermeier, Markus K. and Yuliy Sannikov, “A Macroeconomic Model with a Financial\nSector,” American Economic Review, 2014, 104 (2), 379–421. 4, 1, 6, 8, 3.1, 5.1, C\nBuchak, Greg, Gregor Matvos, Tomasz Piskorski, and Amit Seru, “Fintech, regulatory\narbitrage, and the rise of shadow banks,” Journal of financial economics, 2018, 130 (3), 453–483.\n10\n, , , and ,“Theseculardeclineofbankbalancesheetlending,”TechnicalReport,National\nBureau of Economic Research 2024. 10\nBushman, Robert M., “Transparency, Accounting Discretion, and Bank Stability,” FRBNY\nEconomic Policy Review, August 2016, pp. 129–149. 9, A.2.2\nCaballero, Ricardo J., Takeo Hoshi, and Anil K. Kashyap,“ZombieLendingandDepressed\nRestructuring in Japan,” The American Economic Review, 2008, 98 (5), 1943–1977. 11, 3.1\n43",
+      "decision": "accepted_same_work",
+      "rationale": "Mismos tres autores y mismo núcleo distintivo del título; OpenAlex describe la versión de trabajo de 2019 y la fuente cita la publicación AER de 2023.",
+      "external_verification": [
+        "https://www.aeaweb.org/articles?id=10.1257/aer.20190149",
+        "https://www.aeaweb.org/conference/2024/program/paper/DbRTB7Hz"
+      ]
+    },
+    {
+      "ref_id": "P10-R044",
+      "doc_id": "P10",
+      "reference_index": 44,
+      "source_pages": [
+        45,
+        45
+      ],
+      "parsed": {
+        "surname": "Gandhi",
+        "year": 2015,
+        "title": "Size anomalies in US bank stock returns",
+        "entry": "Gandhi, Priyank and Hanno Lustig, “Size anomalies in US bank stock returns,” The Journal of Finance, 2015, 70 (2), 733–768.2",
+        "quality_flags": []
+      },
+      "extracted_doi": null,
+      "status": "matched_review",
+      "query_url": "https://api.openalex.org/works?search=Size+anomalies+in+US+bank+stock+returns+Gandhi&per-page=5&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Ctype%2Cauthorships%2Cprimary_location&mailto=alejandroventuraventurameza%40gmail.com",
+      "candidate_count": 5,
+      "best_match": {
+        "id": "https://openalex.org/W1557556356",
+        "doi": "https://doi.org/10.3386/w16553",
+        "display_name": "Size Anomalies in U.S. Bank Stock Returns: A Fiscal Explanation",
+        "publication_year": 2010,
+        "type": "report",
+        "authors": [
+          "Priyank Gandhi",
+          "Hanno Lustig"
+        ],
+        "primary_location": {
+          "id": "doi:10.3386/w16553",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.3386/w16553",
+          "pdf_url": "https://doi.org/10.3386/w16553",
+          "source": {
+            "id": "https://openalex.org/S2809516038",
+            "display_name": "National Bureau of Economic Research",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [
+              "https://openalex.org/P4322614461"
+            ],
+            "host_organization_lineage_names": [
+              "National Bureau of Economic Research"
+            ],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "National Bureau of Economic Research",
+          "raw_type": "report"
+        },
+        "evidence": {
+          "title_similarity": 0.78,
+          "citation_title_coverage": 0.714286,
+          "author_match": true,
+          "year_distance": 5,
+          "score": 0.7304
+        }
+      },
+      "source_pdf": "saki_research/published_papers/begenau_bigio_majerovitz_vieyra_q_theory_banks.pdf",
+      "pdf_context": "Página PDF 45:\nChernenko, Sergey, Robert Ialenti, and David Scharfstein, “Bank Capital and the Growth\nof Private Credit,” Technical Report, Harvard University Working Paper 2024. 10\nCorbae, Dean and Pablo D’Erasmo, “Capital buffers in a quantitative model of banking\nindustry dynamics,” Econometrica, 2021. 4, 1, F.1\nand Ross Levine, “Competition, stability, and efficiency in financial markets,” in “Jackson\nHole Symposium: Changing Market Structure and Implications for Monetary Policy, Kansas\nCity Federal Reserve” 2018. 33\nand , “Competition, Stability, and Efficiency in the Banking Industry,” Technical Report,\nWorking Paper, University of Wisconsin 2024. 1\nDeMarzo, Peter M and Zhiguo He, “Leverage dynamics without commitment,” The Journal\nof Finance, 2021, 76 (3), 1195–1250. 8\nDiamond, DouglasW.andPhilipH.Dybvig,“BankRuns,DepositInsurance,andLiquidity,”\nJournal of Political Economy, 1983, 91, 401–417. 3.1\nDuffie, Darrell, Measuring Corporate Default Risk, Oxford University Press, 2022. 2\ne Castro, Miguel Faria, “A quantitative analysis of the countercyclical capital buffer,” 2021. 46\n, Pascal Paul, and Juan M S´anchez, “Evergreening,” Journal of Financial Economics, 2024,\n153, 103778. 12\nElenev, Vadim, Tim Landvoigt, and Stijn Van Nieuwerburgh, “A macroeconomic model\nwith financially constrained producers and intermediaries,” Econometrica, 2021, 89 (3), 1361–\n1418. 1\nErel, Isil and Eduard Inozemtsev, “Evolution of debt financing toward less-regulated financial\nintermediariesintheunitedstates,”Journal of Financial and Quantitative Analysis,2024,pp.1–\n38. 10\nFama, Eugene F. and Kenneth R. French, “Common Risk Factors in the Returns on Stock\nand Bonds,” Journal of Financial Economics, 1993, 33, 131–156. 21\nFederal Deposit Insurance Corporation, Formal And Informal Enforcement Actions Manual\n2022. A.2.1\nFlanagan, Thomas and Amiyatosh Purnanandam, “Why do banks hide losses?,” Available\nat SSRN 3329953, 2019. 11, 3.1\nFrancis, Jennifer, J. Douglas Hanna, and Linda Vincent, “Causes and Effects of Discre-\ntionary Asset Write-Offs,” Journal of Accounting Research, 1996. A.2.2\nGambacorta, Leonardo and Sudipto Karmakar, “Leverage and Risk-Weighted Capital Re-\nquirements,” International Journal of Central Banking, December 2018, 14 (5), 153–191. 46\nGandhi, Priyank and Hanno Lustig, “Size anomalies in US bank stock returns,” The Journal\nof Finance, 2015, 70 (2), 733–768. 2\nGertler, M., N. Kiyotaki, and A. Prestipino, “Chapter 16 - Wholesale Banking and Bank\nRunsinMacroeconomicModelingofFinancialCrises,” inJohnB.TaylorandHaraldUhlig, eds.,\nHandbook of Macroeconomics, Vol. 2, Elsevier, 2016, pp. 1345 – 1425. 6, 8\n44",
+      "decision": "accepted_same_work",
+      "rationale": "Mismos autores y mismo título base; la coincidencia es una versión anterior con el subtítulo 'A Fiscal Explanation'.",
+      "external_verification": []
+    },
+    {
+      "ref_id": "P07-R024",
+      "doc_id": "P07",
+      "reference_index": 24,
+      "source_pages": [
+        46,
+        46
+      ],
+      "parsed": {
+        "surname": "Corbae",
+        "year": 2013,
+        "title": "A Quantitative Model of Banking Industry Dynamics",
+        "entry": "Corbae, D. and P. D’Erasmo (2013): “A Quantitative Model of Banking Industry Dynamics,” Federal Reserve Bank of Philadelphia Working Paper No 14-13.",
+        "quality_flags": []
+      },
+      "extracted_doi": null,
+      "status": "matched_review",
+      "query_url": "https://api.openalex.org/works?search=A+Quantitative+Model+of+Banking+Industry+Dynamics+Corbae&per-page=5&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Ctype%2Cauthorships%2Cprimary_location&mailto=alejandroventuraventurameza%40gmail.com",
+      "candidate_count": 5,
+      "best_match": {
+        "id": "https://openalex.org/W4244503619",
+        "doi": "https://doi.org/10.21034/wp.779",
+        "display_name": "Capital Buffers in a Quantitative Model of Banking Industry Dynamics",
+        "publication_year": 2021,
+        "type": "preprint",
+        "authors": [
+          "Dean Corbae",
+          "Pablo D’Erasmo"
+        ],
+        "primary_location": {
+          "id": "doi:10.21034/wp.779",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.21034/wp.779",
+          "pdf_url": "https://www.minneapolisfed.org/research/wp/wp779.pdf",
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "acceptedVersion",
+          "is_accepted": true,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "posted-content"
+        },
+        "evidence": {
+          "title_similarity": 0.837607,
+          "citation_title_coverage": 0.714286,
+          "author_match": true,
+          "year_distance": 8,
+          "score": 0.769573
+        }
+      },
+      "source_pdf": "saki_research/published_papers/bianchi_bigio_banks_liquidity_management_monetary_policy.pdf",
+      "pdf_context": "Página PDF 46:\nBoyd, J. H. and E. C. Prescott (1986): “Financial Intermediary-Coalitions,” Journal of\nEconomic Theory, 38, 211–232.\nBrunnermeier, M. K. and Y. Koby\n(2019): “The Reversal Interest Rate,” Mimeo, Prince-\nton.\nBurdett, K., S. Shi, and R. Wright (2001): “PricingandMatchingwithFrictions,”Journal\nof Political Economy, 109, 1060–1085.\nCavalcanti, R., A. Erosa, and T. Temzelides\n(1999): “Private Money and Reserve\nManagement in a Random Matching Model,” Journal of Political Economy, 107, 929–945.\nChari, V. V., P. J. Kehoe, and E. R. McGrattan\n(2007): “Business Cycle Accounting,”\nEconometrica, 75, 781–836.\nChen, K., J. Ren, and T. Zha\n(2017): “The Nexus of Monetary Policy and Shadow Banking\nin China,” NBER Working Paper 23377.\nCochrane, J. H.\n(2019): “The Fiscal Theory of the Price Level,” Preliminary Book Draft.\nCorbae, D. and P. D’Erasmo\n(2013): “A Quantitative Model of Banking Industry Dynam-\nics,” Federal Reserve Bank of Philadelphia Working Paper No 14-13.\n——— (2018): “Capital Requirements in a Quantitative Model of Banking Industry Dynamics,”\nMimeo, Wisconsin.\nCurdia, V. and M. Woodford\n(2009): “ConventionalandUnconventionalMonetaryPolicy,”\nStaff Report 404, Federal Reserve Bank of New York.\nDe Fiore, F., M. Hoerova, and H. Uhlig\n(2018): “Money Markets, Collateral and Mone-\ntary Policy,” NBER Working Paper 253190.\nDel Negro, M., G. Eggertsson, A. Ferrero, and N. Kiyotaki\n(2017): “The Great\nEscape? A Quantitative Evaluation of the Fed’s Liquidity Facilities,” American Economic\nReview, 107, 824–857.\nDiamond, D. W. (1984): “Financial Intermediation and Delegated Monitoring,” The Review\nof Economic Studies, 51, 393–414.\nDiamond, D. W. and P. H. Dybvig\n(1983): “Bank Runs, Deposit Insurance, and Liquidity,”\nJournal of Political Economy, 91, 401–419.\nDrechsler, I., A. Savov, and P. Schnabl\n(2017): “The Deposits Channel of Monetary\nPolicy,” The Quarterly Journal of Economics, 132, 1819–1876.\nEggertsson, G. B., R. E. Juelsrud, L. H. Summers, and E. G. Wold\n(2019): “Negative\nNominal Interest Rates and the Bank Lending Channel,” NBER Working Paper 254160.\nEnnis, H. M. (2018): “A simple general equilibrium model of large excess reserves,” Journal of\nMonetary Economics, 98, 50–65.\n45",
+      "decision": "accepted_same_work",
+      "rationale": "Mismos autores y misma frase distintiva 'Quantitative Model of Banking Industry Dynamics'; el registro corresponde a una versión posterior retitulada.",
+      "external_verification": []
+    },
+    {
+      "ref_id": "P07-R055",
+      "doc_id": "P07",
+      "reference_index": 55,
+      "source_pages": [
+        48,
+        48
+      ],
+      "parsed": {
+        "surname": "Krishnamurthy",
+        "year": 2012,
+        "title": "The Aggregate Demand for Treasury Debt",
+        "entry": "Krishnamurthy, A. and A. Vissing-Jørgensen (2012): “The Aggregate Demand for Treasury Debt,” Journal of Political Economy, 120, 233–267.",
+        "quality_flags": []
+      },
+      "extracted_doi": null,
+      "status": "matched_review",
+      "query_url": "https://api.openalex.org/works?search=The+Aggregate+Demand+for+Treasury+Debt+Krishnamurthy&per-page=5&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Ctype%2Cauthorships%2Cprimary_location&mailto=alejandroventuraventurameza%40gmail.com",
+      "candidate_count": 5,
+      "best_match": {
+        "id": "https://openalex.org/W1521544672",
+        "doi": "https://doi.org/10.3386/w12881",
+        "display_name": "The Demand for Treasury Debt",
+        "publication_year": 2007,
+        "type": "report",
+        "authors": [
+          "Arvind Krishnamurthy",
+          "Annette Vissing‐Jørgensen"
+        ],
+        "primary_location": {
+          "id": "doi:10.3386/w12881",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.3386/w12881",
+          "pdf_url": "https://doi.org/10.3386/w12881",
+          "source": {
+            "id": "https://openalex.org/S2809516038",
+            "display_name": "National Bureau of Economic Research",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [
+              "https://openalex.org/P4322614461"
+            ],
+            "host_organization_lineage_names": [
+              "National Bureau of Economic Research"
+            ],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "National Bureau of Economic Research",
+          "raw_type": "report"
+        },
+        "evidence": {
+          "title_similarity": 0.848485,
+          "citation_title_coverage": 1.0,
+          "author_match": true,
+          "year_distance": 5,
+          "score": 0.77697
+        }
+      },
+      "source_pdf": "saki_research/published_papers/bianchi_bigio_banks_liquidity_management_monetary_policy.pdf",
+      "pdf_context": "Página PDF 48:\nKashyap, A. K. and J. C. Stein\n(2000): “What Do a Million Observations on Banks Say\nabout the Transmission of Monetary Policy?” American Economic Review, 90, 407–428.\nKeister, T., A. Martin, and J. McAndrews\n(2008): “Divorcing Money from Monetary\nPolicy,” Economic Policy Review, 14, 41–56.\nKeister, T. and J. McAndrews\n(2009): “Why Are Banks Holding So Many Excess Re-\nserves?” Federal Reserve Bank of New York Staff Report no. 380.\nKiyotaki, N. and J. Moore (1997): “Credit Cycles,” Journal of Political Economy, 105,\n211–248.\nKiyotaki, N. and R. Wright (1989): “On Money as a Medium of Exchange,” Journal of\nPolitical Economy, 97, 927–954.\nKrishnamurthy, A. and A. Vissing-Jørgensen\n(2012): “The Aggregate Demand for Trea-\nsury Debt,” Journal of Political Economy, 120, 233–267.\nLagos, R., G. Rocheteau, and R. Wright\n(2017): “Liquidity: A New Monetarist Per-\nspective,” Journal of Economic Literature, 55, 371–440.\nLagos, R. and R. Wright\n(2005): “Unified Framework for Monetary Theory and Policy\nAnalysis,” Journal of Political Economy, 113, 463–484.\nLester, B., A. Postlewaite, and R. Wright\n(2012): “Information, Liquidity, AssetPrices,\nand Monetary Policy,” The Review of Economic Studies, 79, 1209–1238.\nLogan, L. K.\n(2019): “Observations on Implementing Monetary Policy in an Ample-Reserves\nRegime,” Remarks before the Money Marketeers of New York University, New York City.\nLucas, R. E. and N. L. Stokey\n(1983): “Optimal fiscal and monetary policy in an economy\nwithout capital,” Journal of monetary Economics, 12, 55–93.\nMartin, A., J. McAndrews, A. Palida, and D. R. Skeie\n(2013): “Federal Reserve Tools\nfor Managing Rates and Reserves,” Federal Reserve Bank of New York Staff Report no. 642.\nNagel, S. (2016): “The Liquidity Premium of Near-Money Assets,” The Quarterly Journal of\nEconomics, 131, 1927–1971.\nPiazzesi, M., C. Rogers, and M. Schneider\n(2019): “Money and Banking in a New\nKeynesian Model,” Working Paper, Stanford.\nPiazzesi, M. and M. Schneider\n(2018): “Payments, Credit and Asset Prices,” Mimeo, Stan-\nford.\nPoole, W.\n(1968): “Commercial Bank Reserve Management in a Stochastic Model: Implica-\ntions for Monetary Policy,” Journal of Finance, 23, 769–791.\nPotter, S.\n(2017): “Money Markets at a Crossroads: Policy Implementation at a Time of\nStructural Change,” Remarks at the Master of Applied Economics’ Distinguished Speaker\nSeries, University of California, Los Angeles, April 05, 2017.\n47",
+      "decision": "accepted_same_work",
+      "rationale": "Mismos autores y mismo trabajo; la fuente cita el título publicado y OpenAlex conserva una versión anterior abreviada.",
+      "external_verification": []
+    },
+    {
+      "ref_id": "P06-R028",
+      "doc_id": "P06",
+      "reference_index": 28,
+      "source_pages": [
+        41,
+        41
+      ],
+      "parsed": {
+        "surname": "Freixas",
+        "year": 2008,
+        "title": "Microeconomics of banking",
+        "entry": "Freixas, Xavier and Rochet, Jean-Charles. Microeconomics of banking. MIT press, 2008.",
+        "quality_flags": []
+      },
+      "extracted_doi": null,
+      "status": "matched_review",
+      "query_url": "https://api.openalex.org/works?search=Microeconomics+of+banking+Freixas&per-page=5&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Ctype%2Cauthorships%2Cprimary_location&mailto=alejandroventuraventurameza%40gmail.com",
+      "candidate_count": 5,
+      "best_match": {
+        "id": "https://openalex.org/W2476944527",
+        "doi": "https://doi.org/10.1093/acprof:oso/9780195340471.001.0001",
+        "display_name": "Microeconometrics of Banking",
+        "publication_year": 2009,
+        "type": "book",
+        "authors": [
+          "Hans Degryse",
+          "Moshe Kim",
+          "Steven Ongena"
+        ],
+        "primary_location": {
+          "id": "doi:10.1093/acprof:oso/9780195340471.001.0001",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1093/acprof:oso/9780195340471.001.0001",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306463708",
+            "display_name": "Oxford University Press eBooks",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/P4310311648",
+            "host_organization_name": "Oxford University Press",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310311648",
+              "https://openalex.org/P4310311647"
+            ],
+            "host_organization_lineage_names": [
+              "Oxford University Press",
+              "University of Oxford"
+            ],
+            "type": "ebook platform"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": null,
+          "raw_type": "monograph"
+        },
+        "evidence": {
+          "title_similarity": 0.943396,
+          "citation_title_coverage": 0.5,
+          "author_match": false,
+          "year_distance": 1,
+          "score": 0.725509
+        }
+      },
+      "source_pdf": "saki_research/published_papers/bigio_d_anvernas_financial_risk_capacity.pdf",
+      "pdf_context": "Página PDF 41:\nFarhi, Emmanuel and Tirole, Jean. Liquid bundles. Journal of Economic Theory,\n158:634–655, 2015.\nFisher,Irving. Thedebt-deflationtheoryofgreatdepressions. Econometrica: Journal\nof the Econometric Society, pages 337–357, 1933.\nFoster, Lucia, Grim, Cheryl, and Haltiwanger, John. Reallocation in the great re-\ncession: cleansing or not? Journal of Labor Economics, 34(S1):S293–S331, 2016.\nFreixas, Xavier and Rochet, Jean-Charles. Microeconomics of banking. MIT press,\n2008.\nGennaioli, Nicola, Shleifer, Andrei, and Vishny, Robert W. A model of shadow\nbanking. The Journal of Finance, 68(4):1331–1363, 2013.\nGertler, Mark and Karadi, Peter. A model of unconventional monetary policy. Jour-\nnal of monetary Economics, 58(1):17–34, 2011.\nGertler, Mark and Kiyotaki, Nobuhiro. Financial intermediation and credit policy\nin business cycle analysis. In Handbook of monetary economics, volume 3, pages\n547–599. Elsevier, 2010.\nGorton, Gary and Ordonez, Guillermo. Collateral crises. American Economic Re-\nview, 104(2):343–78, 2014.\nGorton, Gary B. Slapped by the invisible hand: The panic of 2007. Oxford University\nPress, 2010.\nGromb, Denis and Vayanos, Dimitri. Equilibrium and welfare in markets with fi-\nnancially constrained arbitrageurs. Journal of financial Economics, 66(2-3):361–407,\n2002.\nGu, Chao, Mattesini, Fabrizio, Monnet, Cyril, and Wright, Randall. Banking: A\nnew monetarist approach. Review of Economic Studies, 80(2):636–662, 2013.\n41",
+      "decision": "rejected_different_work",
+      "rationale": "La fuente cita el libro Microeconomics of Banking de Freixas y Rochet; OpenAlex devuelve Microeconometrics of Banking de Degryse, Kim y Ongena.",
+      "external_verification": []
+    },
+    {
+      "ref_id": "P03-R014",
+      "doc_id": "P03",
+      "reference_index": 14,
+      "source_pages": [
+        42,
+        42
+      ],
+      "parsed": {
+        "surname": "del Negro",
+        "year": 2010,
+        "title": "The Great Escape? A Quantitative Evaluation of the Fed’s Non- Standard Policies",
+        "entry": "del Negro, Marco, Gauti Eggertsson, Andrea Ferrero, and Nobuhiro Kiyotaki, “The Great Escape? A Quantitative Evaluation of the Fed’s Non- Standard Policies,” 2010. Unpublished.4,29",
+        "quality_flags": []
+      },
+      "extracted_doi": null,
+      "status": "matched_review",
+      "query_url": "https://api.openalex.org/works?search=The+Great+Escape+A+Quantitative+Evaluation+of+the+Fed%E2%80%99s+Non-+Standard+Policies+del+Negro&per-page=5&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Ctype%2Cauthorships%2Cprimary_location&mailto=alejandroventuraventurameza%40gmail.com",
+      "candidate_count": 5,
+      "best_match": {
+        "id": "https://openalex.org/W3124831704",
+        "doi": "https://doi.org/10.2139/ssrn.1939924",
+        "display_name": "The Great Escape? A Quantitative Evaluation of the Fed’s Liquidity Facilities",
+        "publication_year": 2011,
+        "type": "preprint",
+        "authors": [
+          "Marco Del Negro",
+          "Gauti B. Eggertsson",
+          "Andrea Ferrero",
+          "Nobuhiro Kiyotaki"
+        ],
+        "primary_location": {
+          "id": "doi:10.2139/ssrn.1939924",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.2139/ssrn.1939924",
+          "pdf_url": "https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=1939924",
+          "source": {
+            "id": "https://openalex.org/S4210172589",
+            "display_name": "SSRN Electronic Journal",
+            "issn_l": "1556-5068",
+            "issn": [
+              "1556-5068"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I1318003438",
+            "host_organization_name": "RELX Group (Netherlands)",
+            "host_organization_lineage": [
+              "https://openalex.org/I1318003438"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "acceptedVersion",
+          "is_accepted": true,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "posted-content"
+        },
+        "evidence": {
+          "title_similarity": 0.807947,
+          "citation_title_coverage": 0.714286,
+          "author_match": true,
+          "year_distance": 1,
+          "score": 0.833404
+        }
+      },
+      "source_pdf": "saki_research/published_papers/bigio_endogenous_liquidity_business_cycle.pdf",
+      "pdf_context": "Página PDF 42:\n42 THE AMERICAN ECONOMIC REVIEW MONTH YEAR\nChristiano, Lawrence J. and Martin Eichenbaum, “Liquidity Effects and\nthe Monetary Transmission Mechanism,” American Economic Review, 1992,\n82 (2), 346–353. 4, 12\n, , and Charles L. Evans, “Nominal Rigidities and the Dynamic Effects\nof a Shock to Monetary Policy,” Journal of Political Economy, 2005, 113 (1),\n1–45. 12\n, Roberto Motto, and Massimo Rostagno, “RiskShocks,” American Eco-\nnomic Review, 2014, 104 (1), 27–65. 4, 27\nComin, Diego and Mark Gertler, “Medium-Term Business Cycles,” Ameri-\ncan Economic Review, 2006, 96 (3), 523–551. 27\nCooper, Russell, John Haltiwanger, and Laura Power, “Machine Re-\nplacement and the Business Cycle: Lumps and Bumps,” American Economic\nReview, 1999, 89 (4), 921–946. 28, 30\nCovas, Francisco and Wouter J. Den Haan, “TheCyclicalBehaviorofDebt\nand Equity Finance,” American Economic Review, 2011, 101 (2), 877–99. 2,\n27, 32\ndel Negro, Marco, Gauti Eggertsson, Andrea Ferrero, and Nobuhiro\nKiyotaki, “The Great Escape? A Quantitative Evaluation of the Fed’s Non-\nStandard Policies,” 2010. Unpublished. 4, 29\nDeMarzo, Peter and Darrell Duffie, “A Liquidity-Based Model of Security\nDesign,” Econometrica, 1999, 67 (1), 65–99. 16, 38, 50\nEisfeldt, Andrea L., “Endogenous Liquidity in Asset Markets,” The Journal\nof Finance, 2004, 59 (1), 1–30. 3\nand Adriano A. Rampini, “Capital reallocation and liquidity,” Journal of\nMonetary Economics, 2006, 53 (3), 369 – 399. 2\nFernald, John G., “A Quarterly, Utilization-Adjusted Series on Total Factor\nProductivity,” 2012. Federal Reserve Bank of San Francisco Working Paper.\n27, 36, 67\nFort, TeresaC., JohnHaltiwanger, RonS.Jarmin, andJavierMiranda,\n“HowFirmsRespondtoBusinessCycles: theRoleofFirmAgeandFirmSize,”\n2013. National Bureau of Economic Research Working Paper 19134. 3, 36\nGilchrist, Simon and Egon Zakrajek, “Credit Spreads and Business Cycle\nFluctuations,” American Economic Review, 2012, 102 (4), 1692–1720. 2\nGomes, Joao F., “Financing Investment,” American Economic Review, 2001,\n91 (5), 1263–1285. 2",
+      "decision": "accepted_same_work",
+      "rationale": "Mismos cuatro autores y mismo comienzo distintivo del título; 'Non-Standard Policies' y 'Liquidity Facilities' son títulos de versiones del mismo trabajo.",
+      "external_verification": []
+    },
+    {
+      "ref_id": "P13-R009",
+      "doc_id": "P13",
+      "reference_index": 9,
+      "source_pages": [
+        27,
+        27
+      ],
+      "parsed": {
+        "surname": "Beznoska",
+        "year": 2012,
+        "title": "The incidence of the European Union Emissions Trading System and the role of revenue recycling: Empirical evidence from combined industry-and household-level data",
+        "entry": "Beznoska, Martin, Johanna Cludius, and Viktor Steiner (2012). “The incidence of the European Union Emissions Trading System and the role of revenue recycling: Empirical evidence from combined industry-and household-level data”.",
+        "quality_flags": []
+      },
+      "extracted_doi": null,
+      "status": "matched_review",
+      "query_url": "https://api.openalex.org/works?search=The+incidence+of+the+European+Union+Emissions+Trading+System+and+the+role+of+revenue+recycling%3A+Empirical+evidence+from+combined+industry-and+household-level+data+Beznoska&per-page=5&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Ctype%2Cauthorships%2Cprimary_location&mailto=alejandroventuraventurameza%40gmail.com",
+      "candidate_count": 5,
+      "best_match": {
+        "id": "https://openalex.org/W2129867498",
+        "doi": "https://doi.org/10.17169/fudocs_document_000000013128",
+        "display_name": "Distributional effects of the European Emissions Trading System and the role of revenue recycling",
+        "publication_year": 2012,
+        "type": "book",
+        "authors": [
+          "Johanna Cludius",
+          "Martin Beznoska",
+          "Viktor Steiner"
+        ],
+        "primary_location": {
+          "id": "pmh:oai:refubium.fu-berlin.de:fub188/19657",
+          "is_oa": true,
+          "landing_page_url": "https://refubium.fu-berlin.de/handle/fub188/19657",
+          "pdf_url": "https://refubium.fu-berlin.de/handle/fub188/19657",
+          "source": {
+            "id": "https://openalex.org/S4306402444",
+            "display_name": "Refubium (Universitätsbibliothek der Freien Universität Berlin)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I75951250",
+            "host_organization_name": "Freie Universität Berlin",
+            "host_organization_lineage": [
+              "https://openalex.org/I75951250"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": "doc-type:book"
+        },
+        "evidence": {
+          "title_similarity": 0.604651,
+          "citation_title_coverage": 0.777778,
+          "author_match": true,
+          "year_distance": 0,
+          "score": 0.731163
+        }
+      },
+      "source_pdf": "saki_research/published_papers/bigio_kanzig_sanchez_walsh_carbon_pricing_inequality_normative_pespective.pdf",
+      "pdf_context": "Página PDF 27:\nReferences\nAllcott, Hunt, Benjamin B. Lockwood, and Dmitry Taubinsky (2019). “Regressive sin\ntaxes, with an application to the optimal soda tax”. The Quarterly Journal of Economics\n134.3,pp.1557–1626.\nAndersson,JuliusandGilesAtkinson(2020).“Thedistributionaleffectsofacarbontax:\nTheroleofincomeinequality”.\nAndersson, Julius J. (2019). “Carbon taxes and CO2 emissions: Sweden as a case study”.\nAmericanEconomicJournal:EconomicPolicy11.4,pp.1–30.\nBaqaee, David, Ariel T. Burstein, and Yasutaka Mori (2022). “A new method for mea-\nsuring welfare with income effects using cross-sectional data”. NBER Working Paper\nw30549.\nBaqaee, David R. and Ariel Burstein (2023). “Welfare and output with income effects\nandtasteshocks”.TheQuarterlyJournalofEconomics138.2,pp.769–834.\nBelfiori, Elisa and Manuel Macera (2025). “Optimal Climate Policy with Demographic\nTransitions”.UTDTWorkingPaper.\nBernard, Jean-Thomas and Maral Kichian (2021). “The impact of a revenue-neutral car-\nbontaxonGDPdynamics:ThecaseofBritishColumbia”.TheEnergyJournal42.3.\nBettarelli,Luca,DavideFurceri,LoredanaPisano,andPietroPizzuto(2025).“Greenfla-\ntion:EmpiricalEvidenceusingMacro,RegionalandSectoralData”.EuropeanEconomic\nReview,p.104983.\nBeznoska, Martin, Johanna Cludius, and Viktor Steiner (2012). “The incidence of the\nEuropean Union Emissions Trading System and the role of revenue recycling: Empir-\nicalevidencefromcombinedindustry-andhousehold-leveldata”.\nBlanchard, Olivier and Justin Wolfers (2000). “The role of shocks and institutions in\nthe rise of European unemployment: the aggregate evidence”. The economic journal\n110.462,pp.1–33.\nBovenberg, A. Lans and Ruud A. De Mooij (1994). “Environmental levies and distor-\ntionarytaxation”.TheAmericanEconomicReview84.4,pp.1085–1089.\nBovenberg, A. Lans and Lawrence H. Goulder (1996). “Optimal environmental taxation\nin the presence of other taxes: general-equilibrium analyses”. The American Economic\nReview86.4,pp.985–1000.\nCloyne,James,ClodomiroFerreira,MarenFroemel,andPaoloSurico(2023).“Monetary\npolicy,corporatefinance,andinvestment”.JournaloftheEuropeanEconomicAssociation\n21.6,pp.2586–2634.\n27",
+      "decision": "accepted_same_work",
+      "rationale": "Mismos tres autores, año y objeto empírico; DIW registra las variantes 'Incidence' y 'Distributional Effects' del mismo documento.",
+      "external_verification": [
+        "https://www.diw.de/en/diw_01.c.620265.en/publications/discussion_papers.html",
+        "https://www.diw.de/de/diw_01.c.457061.de/publikationen/sonstige_aufsaetze/2012_0000/distributional_effects_of_the_european_emissions_trading_sys___al_evidence_from_combined_industry-_and_household-level_data.html"
+      ]
+    },
+    {
+      "ref_id": "P13-R029",
+      "doc_id": "P13",
+      "reference_index": 29,
+      "source_pages": [
+        29,
+        29
+      ],
+      "parsed": {
+        "surname": "Konradt",
+        "year": 2021,
+        "title": "Carbon taxation and inflation: evidence from the European and Canadian experience",
+        "entry": "Konradt, Maximilian and Beatrice Weder di Mauro (2021). Carbon taxation and inflation: evidence from the European and Canadian experience. Tech. rep. Graduate Institute of International and Development Studies Working Paper.",
+        "quality_flags": []
+      },
+      "extracted_doi": null,
+      "status": "matched_review",
+      "query_url": "https://api.openalex.org/works?search=Carbon+taxation+and+inflation%3A+evidence+from+the+European+and+Canadian+experience+Konradt&per-page=5&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Ctype%2Cauthorships%2Cprimary_location&mailto=alejandroventuraventurameza%40gmail.com",
+      "candidate_count": 5,
+      "best_match": {
+        "id": "https://openalex.org/W4327557164",
+        "doi": "https://doi.org/10.1093/jeea/jvad020",
+        "display_name": "Carbon Taxation and Greenflation: Evidence from Europe and Canada",
+        "publication_year": 2023,
+        "type": "article",
+        "authors": [
+          "Maximilian Konradt",
+          "Beatrice Weder di Mauro"
+        ],
+        "primary_location": {
+          "id": "doi:10.1093/jeea/jvad020",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1093/jeea/jvad020",
+          "pdf_url": "https://academic.oup.com/jeea/advance-article-pdf/doi/10.1093/jeea/jvad020/49545556/jvad020.pdf",
+          "source": {
+            "id": "https://openalex.org/S165087003",
+            "display_name": "Journal of the European Economic Association",
+            "issn_l": "1542-4766",
+            "issn": [
+              "1542-4766",
+              "1542-4774"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310311648",
+            "host_organization_name": "Oxford University Press",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310311648",
+              "https://openalex.org/P4310311647"
+            ],
+            "host_organization_lineage_names": [
+              "Oxford University Press",
+              "University of Oxford"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Journal of the European Economic Association",
+          "raw_type": "journal-article"
+        },
+        "evidence": {
+          "title_similarity": 0.833333,
+          "citation_title_coverage": 0.5,
+          "author_match": true,
+          "year_distance": 2,
+          "score": 0.766667
+        }
+      },
+      "source_pdf": "saki_research/published_papers/bigio_kanzig_sanchez_walsh_carbon_pricing_inequality_normative_pespective.pdf",
+      "pdf_context": "Página PDF 29:\nKonradt, Maximilian and Beatrice Weder di Mauro (2021). Carbon taxation and inflation:\nevidence from the European and Canadian experience. Tech. rep. Graduate Institute of In-\nternationalandDevelopmentStudiesWorkingPaper.\nKopczuk, Wojciech (2003). “A note on optimal taxation in the presence of externalities”.\nEconomicsLetters80.1,pp.81–86.\nMartin,Ralf,LaureB.DePreux,andUlrichJ.Wagner(2014).“Theimpactofacarbontax\non manufacturing: Evidence from microdata”. Journal of Public Economics 117, pp. 1–\n14.\nMetcalf, Gilbert E. (2019). “On the economics of a carbon tax for the United States”.\nBrookingsPapersonEconomicActivity2019.1,pp.405–484.\nMetcalf, Gilbert E. and James H. Stock (2023). “The macroeconomic impact of Europe’s\ncarbontaxes”.AmericanEconomicJournal:Macroeconomics15.3,pp.265–286.\nMontielOlea,JoséLuisandMikkelPlagborg-Møller(2021).“Localprojectioninference\nissimplerandmorerobustthanyouthink”.Econometrica89.4,pp.1789–1823.\nPoterba, James M. (May 1989). “Lifetime Incidence and the Distributional Burden of Ex-\nciseTaxes”.AmericanEconomicReview79.2,pp.325–330.\nSaez, Emmanuel and Stefanie Stantcheva (2016). “Generalized social marginal welfare\nweightsforoptimaltaxtheory”.AmericanEconomicReview106.01,pp.24–45.\nSamuelson, Paul A. (1974). “Complementarity: An essay on the 40th anniversary of the\nHicks-Allenrevolutionindemandtheory”.JournalofEconomicliterature12.4,pp.1255–\n1289.\nSandmo, Agnar (1975). “Optimal taxation in the presence of externalities”. The Swedish\nJournalofEconomics,pp.86–98.\n29",
+      "decision": "accepted_same_work",
+      "rationale": "Mismos dos autores y mismo estudio Europa-Canadá; el título de OpenAlex corresponde a una versión posterior retitulada como 'Greenflation'.",
+      "external_verification": []
+    },
+    {
+      "ref_id": "P05-R036",
+      "doc_id": "P05",
+      "reference_index": 36,
+      "source_pages": [
+        53,
+        53
+      ],
+      "parsed": {
+        "surname": "Jones",
+        "year": 2011,
+        "title": "Intermediate Goods and Weak Links in the Theory of Economic Development",
+        "entry": "Jones, Charles I. “Intermediate Goods and Weak Links in the Theory of Economic Development.” American Economic Journal: Macroeconomics, 3(2011), pp. 1–28.",
+        "quality_flags": []
+      },
+      "extracted_doi": null,
+      "status": "matched_review",
+      "query_url": "https://api.openalex.org/works?search=Intermediate+Goods+and+Weak+Links+in+the+Theory+of+Economic+Development+Jones&per-page=5&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Ctype%2Cauthorships%2Cprimary_location&mailto=alejandroventuraventurameza%40gmail.com",
+      "candidate_count": 5,
+      "best_match": {
+        "id": "https://openalex.org/W2113680900",
+        "doi": "https://doi.org/10.3386/w13834",
+        "display_name": "Intermediate Goods, Weak Links, and Superstars: A Theory of Economic Development",
+        "publication_year": 2008,
+        "type": "report",
+        "authors": [
+          "Charles I. Jones"
+        ],
+        "primary_location": {
+          "id": "doi:10.3386/w13834",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.3386/w13834",
+          "pdf_url": "https://doi.org/10.3386/w13834",
+          "source": {
+            "id": "https://openalex.org/S2809516038",
+            "display_name": "National Bureau of Economic Research",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [
+              "https://openalex.org/P4322614461"
+            ],
+            "host_organization_lineage_names": [
+              "National Bureau of Economic Research"
+            ],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "National Bureau of Economic Research",
+          "raw_type": "report"
+        },
+        "evidence": {
+          "title_similarity": 0.864865,
+          "citation_title_coverage": 0.875,
+          "author_match": true,
+          "year_distance": 3,
+          "score": 0.788108
+        }
+      },
+      "source_pdf": "saki_research/published_papers/bigio_lao_distortions_production_networks.pdf",
+      "pdf_context": "Página PDF 53:\nJones, Charles I. “Intermediate Goods and Weak Links in the Theory of Economic\nDevelopment.” AmericanEconomicJournal: Macroeconomics,3(2011),pp.1–28.\n———. “Misallocation, Economic Growth, and Input-Output Economies.” In “Advances in\nEconomicsandEconometrics,TenthWorldCongress,VolumeII,”CambridgeUniversityPress\n(2013).\nKarabarbounis, Loukas. “The Labor Wedge: MRS vs. MPN.” Review of Economic Dynamics,\n17(2014),206–223.\nKiyotaki, Nobuhiro andJohn Moore. “CreditCycles.” Journal ofPolitical Economy, 105(1997),\n211–48.\nLiu, Ernest. “IndustrialPoliciesinProductionNetworks.” TheQuarterlyJournalofEconomics,\n134(2019),1883–1948.\nLong, John B. Jr and Charles I Plosser. “Real Business Cycles.” Journal of Political Economy,\n91(1983),39–69.\nLuo,Shaowen. “PropagationofFinancialShocksinanInput-OutputEconomywithTradeand\nFinancialLinkagesofFirms.” ReviewofEconomicDynamics,36(2020),246–269.\nMerton, Robert C. “On the pricing of corporate debt: the risk structure of interest rates.” The\nJournalofFinance,29(1974),449–470.\nReischer, Margit. “Finance-Thy-Neighbor: Trade Credit Origins of Aggregate Fluctuations.”\n(2019). UniversityofCambridgeJobMarketPaper.\nRestuccia, Diego and Richard Rogerson. “Policy Distortions and Aggregate Productivity with\nHeterogeneousPlants.” ReviewofEconomicDynamics,11(2008),707–720.\nRotemberg,JulioJ.andMichaelWoodford. “Thecyclicalbehaviorofpricesandcosts.” InJ.B.\nTaylorandM.Woodford,editors,“HandbookofMacroeconomics,”volume1ofHandbookof\nMacroeconomics,chapter16.Elsevier(1999). 1051–1135.\nShimer, Robert. “Convergence in Macroeconomics: The Labor Wedge.” American Economic\nJournal: Macroeconomics,1(2009),280–97.\nYi,Kei-Mu.“CanVerticalSpecializationExplaintheGrowthofWorldTrade?” JournalofPolitical\nEconomy,111(2003),52–102.\n52\nDownloaded\nfrom\nhttps://academic.oup.com/qje/advance-article-abstract/doi/10.1093/qje/qjaa018/5838865\nby\nUppsala\nUniversitetsbibliotek\nuser\non\n04\nJune\n2020",
+      "decision": "accepted_same_work",
+      "rationale": "Mismo autor y estructura distintiva del título; OpenAlex conserva la versión de trabajo anterior con 'and Superstars'.",
+      "external_verification": []
+    },
+    {
+      "ref_id": "P01-R021",
+      "doc_id": "P01",
+      "reference_index": 21,
+      "source_pages": [
+        28,
+        28
+      ],
+      "parsed": {
+        "surname": "De Paoli",
+        "year": 2009,
+        "title": "Monetary policy and welfare in a small open economy",
+        "entry": "De Paoli, B., 2009. Monetary policy and welfare in a small open economy. Journal of International Economics 77, 11–22.",
+        "quality_flags": []
+      },
+      "extracted_doi": null,
+      "status": "matched_review",
+      "query_url": "https://api.openalex.org/works?search=Monetary+policy+and+welfare+in+a+small+open+economy+De+Paoli&per-page=5&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Ctype%2Cauthorships%2Cprimary_location&mailto=alejandroventuraventurameza%40gmail.com",
+      "candidate_count": 5,
+      "best_match": {
+        "id": "https://openalex.org/W2169068230",
+        "doi": "https://doi.org/10.1111/j.1538-4616.2009.00257.x",
+        "display_name": "Monetary Policy under Alternative Asset Market Structures: The Case of a Small Open Economy",
+        "publication_year": 2009,
+        "type": "article",
+        "authors": [
+          "Bianca De Paoli"
+        ],
+        "primary_location": {
+          "id": "doi:10.1111/j.1538-4616.2009.00257.x",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1111/j.1538-4616.2009.00257.x",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S2058785",
+            "display_name": "Journal of money credit and banking",
+            "issn_l": "0022-2879",
+            "issn": [
+              "0022-2879",
+              "1538-4616"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310320595",
+            "host_organization_name": "Wiley",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320595"
+            ],
+            "host_organization_lineage_names": [
+              "Wiley"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Journal of Money, Credit and Banking",
+          "raw_type": "journal-article"
+        },
+        "evidence": {
+          "title_similarity": 0.638298,
+          "citation_title_coverage": 0.454545,
+          "author_match": true,
+          "year_distance": 0,
+          "score": 0.754043
+        }
+      },
+      "source_pdf": "saki_research/published_papers/bigio_learning_under_fear_floating.pdf",
+      "pdf_context": "Página PDF 28:\n1950 S.Bigio/JournalofEconomicDynamics&Control34(2010)1923–1950\nUnderconstantgain,wehavethatthestandarddeviationoftheoutputgapequationtakestheform\ns ¼s k(cid:3)T=2\nx,t(cid:3)T x\nwherekr1isaparametergoverningtheconstantgain.Inaddition,theinitialpriorattimetisalsoalteredandbecomes\nPðMAÞ1=kt oPðMAÞ.\nDefineM (cid:5)Eðy jZt(cid:3)T(cid:3)1,M Þ.Thelikelihoodattimet,ofy ,conditionalonhistoryZt(cid:3)T(cid:3)1andModelA,istherefore\ny t(cid:3)T A t(cid:3)T\ngivenby\n!\nP^ðZ jZt(cid:3)T(cid:3)1,M ,tÞ¼NðZ ,M ,s Þ¼ p 1 k(cid:3)T=2exp (cid:3) 1ðZ t(cid:3)T (cid:3)M y Þ2 ¼ð2pÞðk(cid:3)1Þ=2kðk(cid:3)ðk(cid:3)1ÞTÞ=2½NðZ ,M ,t(cid:3)1Þ(cid:2)k\nt(cid:3)T A t(cid:3)T y x,t(cid:3)T ffi 2 ffiffipffiffiffi 2 s2 x k(cid:3)T t(cid:3)T y\nTherecursiveformulationasinEq.(7)isobtainedbyusingthisformulatoobtaintheposterior:\nP^ðZjMA,Z ,1ÞP^ðZ jMA,Z ,2Þ(cid:8)(cid:8)(cid:8)P^ðZ jMA,tÞPðMAÞt=k\np^ ¼P^ðMAjZtÞ¼ t t(cid:3)1 t(cid:3)1 t(cid:3)2 t(cid:3)T\nt P P^ðZjM,Z ,1ÞP^ðZ jM,Z ,2Þ(cid:8)(cid:8)(cid:8)P^ðZ jM,tÞPðMÞt=k\nM2fMA,MBg t t(cid:3)1 t(cid:3)1 t(cid:3)2 t(cid:3)T\nPðZjMA,Z Þp^k\n¼ t t(cid:3)1 t(cid:3)1\nPðZjMB,Z Þð1(cid:3)p^ ÞkþPðZjMA,Z Þp^k\nt t(cid:3)1 t(cid:3)1 t t(cid:3)1 t(cid:3)1\nwherethefirstlinefollowsfromtheMarkovpropertyofthemodelandthesecondisobtainedbydividingthenumerator\nandthedenominatorbyð2pÞðk(cid:3)1Þ=2kðk(cid:3)ðk(cid:3)1ÞTÞ=2.Finally,thetermp^k\nisobtainedbyfactoringthelikelihoodfunctions.\nt(cid:3)1\nReferences\nAdam,K.,2004.OntherelationbetweenrobustandBayesiandecisionmaking.JournalofEconomicDynamicsandControl28,2050–2117.\nAghion,P.,Bacchetta,P.,Banerjee,A.,2000.Asimplemodelofmonetarypolicyandcurrencycrises.EuropeanEconomicReview44,728–738.\nAghion,P.,Bacchetta,P.,Banerjee,A.,2001.Currencycrisesandmonetarypolicyinaneconomywithcreditconstraints.EuropeanEconomicReview45,\n1121–1150.\nAumann,R.,1979.Agreeingtodisagree.AnnalsofStatistics4,1236–1239.\nBall,L.,1999.PolicyRulesforOpenEconomies,MonetaryPolicyRules.UniversityofChicagoPress,Chicago.\nBigio,S.,Vega,M.,2006.Optimalmonetarypolicyunderbalancesheetuncertainty.Unpublishedmanuscript.\nBrainard,W.,1967.Uncertaintyandtheeffectivenessofpolicy.AmericanEconomicReviewPapersandProceedings57,411–425.\nCaballero,R.J.,Krishnamurthy,A.,2001.Internationalanddomesticcollateralconstraintsinamodelofemergingmarketcrises.JournalofMonetary\nEconomics48,513–548.\nCalvo,G.,Reinhart,C.,2002.Fearoffloating.QuarterlyJournalofEconomics117,379–408.\nCaplin,A.,Leahy,J.,1996.Monetarypolicyasaprocessofsearch.AmericanEconomicReview86,689–702.\nCespedes,L.F.,Chang,R.,Velasco,A.,2002.Balancesheetsandexchangeratepolicy.AmericanEconomicReview94,1183–1193.\nChang,R.,Velasco,A.,2000.Exchangeratepolicyfordevelopingcountries.AmericanEconomicReview90,71–75.\nChang,R.,Velasco,A.,2006.Monetarypolicyandthecurrencydenominationofdebt:ataleoftwoequilibria.JournalofInternationalEconomics69,150–175.\nChari,V.V.,Kehoe,P.J.,McGrattan,E.R.,2002.Canstickypricemodelsgeneratevolatileandpersistentrealexchangerates?ReviewofEconomicStudies69,533–\n563\nCho,I.-K.,Kasa,K.,2008.Learningdynamicsandendogenouscurrencycrises.MacroeconomicDynamics12,257–285.\nCho,I.-K.,Williams,N.,Sargent,T.J.,2002.EscapingNashinflation.ReviewofEconomicStudies69,1–40.\nClarida,R.,Gali,J.,Gertler,M.,2001.Optimalmonetarypolicyinopenversusclosedeconomies:anintegratedapproach.AmericanEconomicReview\nPapersandProceedings91,248–252.\nClarida,R.,Gali,J.,Gertler,M.,2002.Asimpleframeworkforinternationalmonetarypolicyanalysis.JournalofMonetaryEconomics49,879–904.\nCogley,T.,Colacito,R.,Sargent,T.,2007.BenefitsfromU.S.monetarypolicyexperimentationinthedaysofSamuelsonandSolowandLucas.Journalof\nMoney,CreditandBanking39,67–99.\nCogley,T.,Colacito,R.,Hansen,L.P.,Sargent,T.,2008.RobustnessandU.S.monetarypolicyexperimentation.Unpublishedmanuscript.\nDePaoli,B.,2009.Monetarypolicyandwelfareinasmallopeneconomy.JournalofInternationalEconomics77,11–22.\nEllison,M.,2006.Thelearningcostofinterestratereversals.JournalofMonetaryEconomics53,1895–1907.\nEllison,M.,Sarno,L.,Vilmunen,J.,2007.Cautionoractivism?Monetarypolicystrategiesinanopeneconomy.MacroeconomicDynamics11,519–541.\nFaia,E.,Monacelli,T.,2008.Optimalmonetarypolicyinasmallopeneconomywithhomebias.JournalofMoney,CreditandBanking40,721–750.\nFrankel,J.,2005.Contractionarycurrencycrashesindevelopingcountries.IMFStaffPapers,52,No.2.\nGali,J.,Monacelli,T.,2005.Monetarypolicyandexchangeratevolatilityinasmallopeneconomy.ReviewofEconomicStudies72,707–734.\nGoodhart,C.,2005.Thefutureofcentralbanking.FMGSpecialPaperNo.162.\nHansen,L.P.,Sargent,T.J.,2006.Wantingrobustnessinmacroeconomics.Unpublishedmanuscript.\nHansen,L.P.,Sargent,T.J.,2007.Robustness.PrincetonUniversityPress,Princeton.\nHansen,L.P.,Sargent,T.J.,Tallarini,T.D.,1999.Robustpermanentincomeandpricing.ReviewofEconomicStudies66,873–907.\nHausmann,R.,Panizza,U.,Stein,E.,2001.Whydocountriesfloatthewaytheyfloat?JournalofDevelopmentEconomics66,387–414\nIze,A.,Levy-Yeyati,E.,2003.Financialdollarization:causesandconsequences.JournalofInternationalEconomics59,323–347.\nKasa,K.,1999.Willthefedeverlearn?JournalofMacroeconomics21,279–292\nKrugman,P.,1999.Balancesheetseffects,thetransferproblemandfinancialcrises.In:Isard,P.,Razin,A.,Rose,A.K.(Eds.),InternationalFinanceand\nFinancialCrises:EssaysinHonourofRobertP.Flood,Jr.. KluwerAcademicPublishers,NewYork,pp.31–44.\nLevy-Yeyati,E.,Sturzenegger,F.,2003a.Tofloatortofix:evidenceoftheimpactofexchangerateregimesoneconomicgrowth.AmericanEconomic\nReview93,1173–1193.\nLevy-Yeyati,E.,Sturzenegger,F.,2003b.Classifyingexchangerateregimes:deedsvs.words.EuropeanEconomicReview49,1603–1635.\nLubik,T.A.,Schorfheide,F.,2007.JournalofMonetaryEconomics54,1069–1087.\nMailath,G.J.,Samuelson,L.,2006.RepeatedGamesandReputation.OxfordUniversityPress,NewYork,NewYork.\nMonacelli,T.,2005.Monetarypolicyinalowpass-throughenvironment.JournalofMoney,CreditandBanking37,1047–1066.\nMurchison,S.,Rennison,A.,2006.ToTEM:theBankofCanada’snewquarterlyprojectionmodel.BankofCanadaTechnicalReportNo.97.\nSargent,T.J.,1999.TheConquestofAmericanInflation.PrincetonUniversityPress,Princeton,NJ.\nSargent,T.J.,Williams,N.,2005.ImpactsofpriorsonconvergenceandescapesfromNashinflation.ReviewofEconomicDynamics8,360–391.\nSchneider,M.,Tornell,A.,2004.Balancesheeteffects,bailoutguaranteesandfinancialcrises.ReviewofEconomicStudies71,883–913.\nWieland,V.,2000a.Learningbydoingandthevalueofoptimalexperimentation.JournalofEconomicDynamicsandControl24,501–534.",
+      "decision": "rejected_different_work",
+      "rationale": "Aunque coincide autora y año, son dos trabajos distintos: la fuente cita 'Monetary policy and welfare...' y OpenAlex otro artículo sobre estructuras alternativas de mercados de activos.",
+      "external_verification": []
+    },
+    {
+      "ref_id": "P01-R036",
+      "doc_id": "P01",
+      "reference_index": 36,
+      "source_pages": [
+        28,
+        28
+      ],
+      "parsed": {
+        "surname": "Levy-Yeyati",
+        "year": 2003,
+        "title": "Classifying exchange rate regimes: deeds vs",
+        "entry": "Levy-Yeyati, E., Sturzenegger, F., 2003b. Classifying exchange rate regimes: deeds vs. words. European Economic Review 49, 1603–1635.",
+        "quality_flags": []
+      },
+      "extracted_doi": null,
+      "status": "matched_review",
+      "query_url": "https://api.openalex.org/works?search=Classifying+exchange+rate+regimes%3A+deeds+vs+Levy-Yeyati&per-page=5&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Ctype%2Cauthorships%2Cprimary_location&mailto=alejandroventuraventurameza%40gmail.com",
+      "candidate_count": 5,
+      "best_match": {
+        "id": "https://openalex.org/W2099759611",
+        "doi": "https://doi.org/10.2139/ssrn.214428",
+        "display_name": "Classifying Exchange Rate Regimes: Deeds vs. Words",
+        "publication_year": 2000,
+        "type": "preprint",
+        "authors": [
+          "Eduardo Levy Levy-Yeyati",
+          "Federico Sturzenegger"
+        ],
+        "primary_location": {
+          "id": "doi:10.2139/ssrn.214428",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.2139/ssrn.214428",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4210172589",
+            "display_name": "SSRN Electronic Journal",
+            "issn_l": "1556-5068",
+            "issn": [
+              "1556-5068"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I1318003438",
+            "host_organization_name": "RELX Group (Netherlands)",
+            "host_organization_lineage": [
+              "https://openalex.org/I1318003438"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "acceptedVersion",
+          "is_accepted": true,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "posted-content"
+        },
+        "evidence": {
+          "title_similarity": 0.933333,
+          "citation_title_coverage": 1.0,
+          "author_match": true,
+          "year_distance": 3,
+          "score": 0.834667
+        }
+      },
+      "source_pdf": "saki_research/published_papers/bigio_learning_under_fear_floating.pdf",
+      "pdf_context": "Página PDF 28:\n1950 S.Bigio/JournalofEconomicDynamics&Control34(2010)1923–1950\nUnderconstantgain,wehavethatthestandarddeviationoftheoutputgapequationtakestheform\ns ¼s k(cid:3)T=2\nx,t(cid:3)T x\nwherekr1isaparametergoverningtheconstantgain.Inaddition,theinitialpriorattimetisalsoalteredandbecomes\nPðMAÞ1=kt oPðMAÞ.\nDefineM (cid:5)Eðy jZt(cid:3)T(cid:3)1,M Þ.Thelikelihoodattimet,ofy ,conditionalonhistoryZt(cid:3)T(cid:3)1andModelA,istherefore\ny t(cid:3)T A t(cid:3)T\ngivenby\n!\nP^ðZ jZt(cid:3)T(cid:3)1,M ,tÞ¼NðZ ,M ,s Þ¼ p 1 k(cid:3)T=2exp (cid:3) 1ðZ t(cid:3)T (cid:3)M y Þ2 ¼ð2pÞðk(cid:3)1Þ=2kðk(cid:3)ðk(cid:3)1ÞTÞ=2½NðZ ,M ,t(cid:3)1Þ(cid:2)k\nt(cid:3)T A t(cid:3)T y x,t(cid:3)T ffi 2 ffiffipffiffiffi 2 s2 x k(cid:3)T t(cid:3)T y\nTherecursiveformulationasinEq.(7)isobtainedbyusingthisformulatoobtaintheposterior:\nP^ðZjMA,Z ,1ÞP^ðZ jMA,Z ,2Þ(cid:8)(cid:8)(cid:8)P^ðZ jMA,tÞPðMAÞt=k\np^ ¼P^ðMAjZtÞ¼ t t(cid:3)1 t(cid:3)1 t(cid:3)2 t(cid:3)T\nt P P^ðZjM,Z ,1ÞP^ðZ jM,Z ,2Þ(cid:8)(cid:8)(cid:8)P^ðZ jM,tÞPðMÞt=k\nM2fMA,MBg t t(cid:3)1 t(cid:3)1 t(cid:3)2 t(cid:3)T\nPðZjMA,Z Þp^k\n¼ t t(cid:3)1 t(cid:3)1\nPðZjMB,Z Þð1(cid:3)p^ ÞkþPðZjMA,Z Þp^k\nt t(cid:3)1 t(cid:3)1 t t(cid:3)1 t(cid:3)1\nwherethefirstlinefollowsfromtheMarkovpropertyofthemodelandthesecondisobtainedbydividingthenumerator\nandthedenominatorbyð2pÞðk(cid:3)1Þ=2kðk(cid:3)ðk(cid:3)1ÞTÞ=2.Finally,thetermp^k\nisobtainedbyfactoringthelikelihoodfunctions.\nt(cid:3)1\nReferences\nAdam,K.,2004.OntherelationbetweenrobustandBayesiandecisionmaking.JournalofEconomicDynamicsandControl28,2050–2117.\nAghion,P.,Bacchetta,P.,Banerjee,A.,2000.Asimplemodelofmonetarypolicyandcurrencycrises.EuropeanEconomicReview44,728–738.\nAghion,P.,Bacchetta,P.,Banerjee,A.,2001.Currencycrisesandmonetarypolicyinaneconomywithcreditconstraints.EuropeanEconomicReview45,\n1121–1150.\nAumann,R.,1979.Agreeingtodisagree.AnnalsofStatistics4,1236–1239.\nBall,L.,1999.PolicyRulesforOpenEconomies,MonetaryPolicyRules.UniversityofChicagoPress,Chicago.\nBigio,S.,Vega,M.,2006.Optimalmonetarypolicyunderbalancesheetuncertainty.Unpublishedmanuscript.\nBrainard,W.,1967.Uncertaintyandtheeffectivenessofpolicy.AmericanEconomicReviewPapersandProceedings57,411–425.\nCaballero,R.J.,Krishnamurthy,A.,2001.Internationalanddomesticcollateralconstraintsinamodelofemergingmarketcrises.JournalofMonetary\nEconomics48,513–548.\nCalvo,G.,Reinhart,C.,2002.Fearoffloating.QuarterlyJournalofEconomics117,379–408.\nCaplin,A.,Leahy,J.,1996.Monetarypolicyasaprocessofsearch.AmericanEconomicReview86,689–702.\nCespedes,L.F.,Chang,R.,Velasco,A.,2002.Balancesheetsandexchangeratepolicy.AmericanEconomicReview94,1183–1193.\nChang,R.,Velasco,A.,2000.Exchangeratepolicyfordevelopingcountries.AmericanEconomicReview90,71–75.\nChang,R.,Velasco,A.,2006.Monetarypolicyandthecurrencydenominationofdebt:ataleoftwoequilibria.JournalofInternationalEconomics69,150–175.\nChari,V.V.,Kehoe,P.J.,McGrattan,E.R.,2002.Canstickypricemodelsgeneratevolatileandpersistentrealexchangerates?ReviewofEconomicStudies69,533–\n563\nCho,I.-K.,Kasa,K.,2008.Learningdynamicsandendogenouscurrencycrises.MacroeconomicDynamics12,257–285.\nCho,I.-K.,Williams,N.,Sargent,T.J.,2002.EscapingNashinflation.ReviewofEconomicStudies69,1–40.\nClarida,R.,Gali,J.,Gertler,M.,2001.Optimalmonetarypolicyinopenversusclosedeconomies:anintegratedapproach.AmericanEconomicReview\nPapersandProceedings91,248–252.\nClarida,R.,Gali,J.,Gertler,M.,2002.Asimpleframeworkforinternationalmonetarypolicyanalysis.JournalofMonetaryEconomics49,879–904.\nCogley,T.,Colacito,R.,Sargent,T.,2007.BenefitsfromU.S.monetarypolicyexperimentationinthedaysofSamuelsonandSolowandLucas.Journalof\nMoney,CreditandBanking39,67–99.\nCogley,T.,Colacito,R.,Hansen,L.P.,Sargent,T.,2008.RobustnessandU.S.monetarypolicyexperimentation.Unpublishedmanuscript.\nDePaoli,B.,2009.Monetarypolicyandwelfareinasmallopeneconomy.JournalofInternationalEconomics77,11–22.\nEllison,M.,2006.Thelearningcostofinterestratereversals.JournalofMonetaryEconomics53,1895–1907.\nEllison,M.,Sarno,L.,Vilmunen,J.,2007.Cautionoractivism?Monetarypolicystrategiesinanopeneconomy.MacroeconomicDynamics11,519–541.\nFaia,E.,Monacelli,T.,2008.Optimalmonetarypolicyinasmallopeneconomywithhomebias.JournalofMoney,CreditandBanking40,721–750.\nFrankel,J.,2005.Contractionarycurrencycrashesindevelopingcountries.IMFStaffPapers,52,No.2.\nGali,J.,Monacelli,T.,2005.Monetarypolicyandexchangeratevolatilityinasmallopeneconomy.ReviewofEconomicStudies72,707–734.\nGoodhart,C.,2005.Thefutureofcentralbanking.FMGSpecialPaperNo.162.\nHansen,L.P.,Sargent,T.J.,2006.Wantingrobustnessinmacroeconomics.Unpublishedmanuscript.\nHansen,L.P.,Sargent,T.J.,2007.Robustness.PrincetonUniversityPress,Princeton.\nHansen,L.P.,Sargent,T.J.,Tallarini,T.D.,1999.Robustpermanentincomeandpricing.ReviewofEconomicStudies66,873–907.\nHausmann,R.,Panizza,U.,Stein,E.,2001.Whydocountriesfloatthewaytheyfloat?JournalofDevelopmentEconomics66,387–414\nIze,A.,Levy-Yeyati,E.,2003.Financialdollarization:causesandconsequences.JournalofInternationalEconomics59,323–347.\nKasa,K.,1999.Willthefedeverlearn?JournalofMacroeconomics21,279–292\nKrugman,P.,1999.Balancesheetseffects,thetransferproblemandfinancialcrises.In:Isard,P.,Razin,A.,Rose,A.K.(Eds.),InternationalFinanceand\nFinancialCrises:EssaysinHonourofRobertP.Flood,Jr.. KluwerAcademicPublishers,NewYork,pp.31–44.\nLevy-Yeyati,E.,Sturzenegger,F.,2003a.Tofloatortofix:evidenceoftheimpactofexchangerateregimesoneconomicgrowth.AmericanEconomic\nReview93,1173–1193.\nLevy-Yeyati,E.,Sturzenegger,F.,2003b.Classifyingexchangerateregimes:deedsvs.words.EuropeanEconomicReview49,1603–1635.\nLubik,T.A.,Schorfheide,F.,2007.JournalofMonetaryEconomics54,1069–1087.\nMailath,G.J.,Samuelson,L.,2006.RepeatedGamesandReputation.OxfordUniversityPress,NewYork,NewYork.\nMonacelli,T.,2005.Monetarypolicyinalowpass-throughenvironment.JournalofMoney,CreditandBanking37,1047–1066.\nMurchison,S.,Rennison,A.,2006.ToTEM:theBankofCanada’snewquarterlyprojectionmodel.BankofCanadaTechnicalReportNo.97.\nSargent,T.J.,1999.TheConquestofAmericanInflation.PrincetonUniversityPress,Princeton,NJ.\nSargent,T.J.,Williams,N.,2005.ImpactsofpriorsonconvergenceandescapesfromNashinflation.ReviewofEconomicDynamics8,360–391.\nSchneider,M.,Tornell,A.,2004.Balancesheeteffects,bailoutguaranteesandfinancialcrises.ReviewofEconomicStudies71,883–913.\nWieland,V.,2000a.Learningbydoingandthevalueofoptimalexperimentation.JournalofEconomicDynamicsandControl24,501–534.",
+      "decision": "accepted_same_work",
+      "rationale": "Mismos autores y título; OpenAlex registra la versión de trabajo de 2000 y la fuente la publicación de 2003.",
+      "external_verification": []
+    },
+    {
+      "ref_id": "P01-R038",
+      "doc_id": "P01",
+      "reference_index": 38,
+      "source_pages": [
+        28,
+        28
+      ],
+      "parsed": {
+        "surname": "Mailath",
+        "year": 2006,
+        "title": "Repeated Games and Reputation",
+        "entry": "Mailath, G.J., Samuelson, L., 2006. Repeated Games and Reputation. Oxford University Press, New York, New York.",
+        "quality_flags": []
+      },
+      "extracted_doi": null,
+      "status": "matched_review",
+      "query_url": "https://api.openalex.org/works?search=Repeated+Games+and+Reputation+Mailath&per-page=5&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Ctype%2Cauthorships%2Cprimary_location&mailto=alejandroventuraventurameza%40gmail.com",
+      "candidate_count": 5,
+      "best_match": {
+        "id": "https://openalex.org/W1656130220",
+        "doi": null,
+        "display_name": "Repeated Games and Reputations: Long-Run Relationships",
+        "publication_year": 2006,
+        "type": "article",
+        "authors": [
+          "George J. Mailath",
+          "Larry Samuelson"
+        ],
+        "primary_location": {
+          "id": "mag:3147523756",
+          "is_oa": false,
+          "landing_page_url": "https://ideas.repec.org/b/oxp/obooks/9780195300796.html",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S2765071819",
+            "display_name": "OUP Catalogue",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/P4310311648",
+            "host_organization_name": "Oxford University Press",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310311648",
+              "https://openalex.org/P4310311647"
+            ],
+            "host_organization_lineage_names": [
+              "Oxford University Press",
+              "University of Oxford"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "OUP Catalogue",
+          "raw_type": null
+        },
+        "evidence": {
+          "title_similarity": 0.707317,
+          "citation_title_coverage": 0.333333,
+          "author_match": true,
+          "year_distance": 0,
+          "score": 0.800976
+        }
+      },
+      "source_pdf": "saki_research/published_papers/bigio_learning_under_fear_floating.pdf",
+      "pdf_context": "Página PDF 28:\n1950 S.Bigio/JournalofEconomicDynamics&Control34(2010)1923–1950\nUnderconstantgain,wehavethatthestandarddeviationoftheoutputgapequationtakestheform\ns ¼s k(cid:3)T=2\nx,t(cid:3)T x\nwherekr1isaparametergoverningtheconstantgain.Inaddition,theinitialpriorattimetisalsoalteredandbecomes\nPðMAÞ1=kt oPðMAÞ.\nDefineM (cid:5)Eðy jZt(cid:3)T(cid:3)1,M Þ.Thelikelihoodattimet,ofy ,conditionalonhistoryZt(cid:3)T(cid:3)1andModelA,istherefore\ny t(cid:3)T A t(cid:3)T\ngivenby\n!\nP^ðZ jZt(cid:3)T(cid:3)1,M ,tÞ¼NðZ ,M ,s Þ¼ p 1 k(cid:3)T=2exp (cid:3) 1ðZ t(cid:3)T (cid:3)M y Þ2 ¼ð2pÞðk(cid:3)1Þ=2kðk(cid:3)ðk(cid:3)1ÞTÞ=2½NðZ ,M ,t(cid:3)1Þ(cid:2)k\nt(cid:3)T A t(cid:3)T y x,t(cid:3)T ffi 2 ffiffipffiffiffi 2 s2 x k(cid:3)T t(cid:3)T y\nTherecursiveformulationasinEq.(7)isobtainedbyusingthisformulatoobtaintheposterior:\nP^ðZjMA,Z ,1ÞP^ðZ jMA,Z ,2Þ(cid:8)(cid:8)(cid:8)P^ðZ jMA,tÞPðMAÞt=k\np^ ¼P^ðMAjZtÞ¼ t t(cid:3)1 t(cid:3)1 t(cid:3)2 t(cid:3)T\nt P P^ðZjM,Z ,1ÞP^ðZ jM,Z ,2Þ(cid:8)(cid:8)(cid:8)P^ðZ jM,tÞPðMÞt=k\nM2fMA,MBg t t(cid:3)1 t(cid:3)1 t(cid:3)2 t(cid:3)T\nPðZjMA,Z Þp^k\n¼ t t(cid:3)1 t(cid:3)1\nPðZjMB,Z Þð1(cid:3)p^ ÞkþPðZjMA,Z Þp^k\nt t(cid:3)1 t(cid:3)1 t t(cid:3)1 t(cid:3)1\nwherethefirstlinefollowsfromtheMarkovpropertyofthemodelandthesecondisobtainedbydividingthenumerator\nandthedenominatorbyð2pÞðk(cid:3)1Þ=2kðk(cid:3)ðk(cid:3)1ÞTÞ=2.Finally,thetermp^k\nisobtainedbyfactoringthelikelihoodfunctions.\nt(cid:3)1\nReferences\nAdam,K.,2004.OntherelationbetweenrobustandBayesiandecisionmaking.JournalofEconomicDynamicsandControl28,2050–2117.\nAghion,P.,Bacchetta,P.,Banerjee,A.,2000.Asimplemodelofmonetarypolicyandcurrencycrises.EuropeanEconomicReview44,728–738.\nAghion,P.,Bacchetta,P.,Banerjee,A.,2001.Currencycrisesandmonetarypolicyinaneconomywithcreditconstraints.EuropeanEconomicReview45,\n1121–1150.\nAumann,R.,1979.Agreeingtodisagree.AnnalsofStatistics4,1236–1239.\nBall,L.,1999.PolicyRulesforOpenEconomies,MonetaryPolicyRules.UniversityofChicagoPress,Chicago.\nBigio,S.,Vega,M.,2006.Optimalmonetarypolicyunderbalancesheetuncertainty.Unpublishedmanuscript.\nBrainard,W.,1967.Uncertaintyandtheeffectivenessofpolicy.AmericanEconomicReviewPapersandProceedings57,411–425.\nCaballero,R.J.,Krishnamurthy,A.,2001.Internationalanddomesticcollateralconstraintsinamodelofemergingmarketcrises.JournalofMonetary\nEconomics48,513–548.\nCalvo,G.,Reinhart,C.,2002.Fearoffloating.QuarterlyJournalofEconomics117,379–408.\nCaplin,A.,Leahy,J.,1996.Monetarypolicyasaprocessofsearch.AmericanEconomicReview86,689–702.\nCespedes,L.F.,Chang,R.,Velasco,A.,2002.Balancesheetsandexchangeratepolicy.AmericanEconomicReview94,1183–1193.\nChang,R.,Velasco,A.,2000.Exchangeratepolicyfordevelopingcountries.AmericanEconomicReview90,71–75.\nChang,R.,Velasco,A.,2006.Monetarypolicyandthecurrencydenominationofdebt:ataleoftwoequilibria.JournalofInternationalEconomics69,150–175.\nChari,V.V.,Kehoe,P.J.,McGrattan,E.R.,2002.Canstickypricemodelsgeneratevolatileandpersistentrealexchangerates?ReviewofEconomicStudies69,533–\n563\nCho,I.-K.,Kasa,K.,2008.Learningdynamicsandendogenouscurrencycrises.MacroeconomicDynamics12,257–285.\nCho,I.-K.,Williams,N.,Sargent,T.J.,2002.EscapingNashinflation.ReviewofEconomicStudies69,1–40.\nClarida,R.,Gali,J.,Gertler,M.,2001.Optimalmonetarypolicyinopenversusclosedeconomies:anintegratedapproach.AmericanEconomicReview\nPapersandProceedings91,248–252.\nClarida,R.,Gali,J.,Gertler,M.,2002.Asimpleframeworkforinternationalmonetarypolicyanalysis.JournalofMonetaryEconomics49,879–904.\nCogley,T.,Colacito,R.,Sargent,T.,2007.BenefitsfromU.S.monetarypolicyexperimentationinthedaysofSamuelsonandSolowandLucas.Journalof\nMoney,CreditandBanking39,67–99.\nCogley,T.,Colacito,R.,Hansen,L.P.,Sargent,T.,2008.RobustnessandU.S.monetarypolicyexperimentation.Unpublishedmanuscript.\nDePaoli,B.,2009.Monetarypolicyandwelfareinasmallopeneconomy.JournalofInternationalEconomics77,11–22.\nEllison,M.,2006.Thelearningcostofinterestratereversals.JournalofMonetaryEconomics53,1895–1907.\nEllison,M.,Sarno,L.,Vilmunen,J.,2007.Cautionoractivism?Monetarypolicystrategiesinanopeneconomy.MacroeconomicDynamics11,519–541.\nFaia,E.,Monacelli,T.,2008.Optimalmonetarypolicyinasmallopeneconomywithhomebias.JournalofMoney,CreditandBanking40,721–750.\nFrankel,J.,2005.Contractionarycurrencycrashesindevelopingcountries.IMFStaffPapers,52,No.2.\nGali,J.,Monacelli,T.,2005.Monetarypolicyandexchangeratevolatilityinasmallopeneconomy.ReviewofEconomicStudies72,707–734.\nGoodhart,C.,2005.Thefutureofcentralbanking.FMGSpecialPaperNo.162.\nHansen,L.P.,Sargent,T.J.,2006.Wantingrobustnessinmacroeconomics.Unpublishedmanuscript.\nHansen,L.P.,Sargent,T.J.,2007.Robustness.PrincetonUniversityPress,Princeton.\nHansen,L.P.,Sargent,T.J.,Tallarini,T.D.,1999.Robustpermanentincomeandpricing.ReviewofEconomicStudies66,873–907.\nHausmann,R.,Panizza,U.,Stein,E.,2001.Whydocountriesfloatthewaytheyfloat?JournalofDevelopmentEconomics66,387–414\nIze,A.,Levy-Yeyati,E.,2003.Financialdollarization:causesandconsequences.JournalofInternationalEconomics59,323–347.\nKasa,K.,1999.Willthefedeverlearn?JournalofMacroeconomics21,279–292\nKrugman,P.,1999.Balancesheetseffects,thetransferproblemandfinancialcrises.In:Isard,P.,Razin,A.,Rose,A.K.(Eds.),InternationalFinanceand\nFinancialCrises:EssaysinHonourofRobertP.Flood,Jr.. KluwerAcademicPublishers,NewYork,pp.31–44.\nLevy-Yeyati,E.,Sturzenegger,F.,2003a.Tofloatortofix:evidenceoftheimpactofexchangerateregimesoneconomicgrowth.AmericanEconomic\nReview93,1173–1193.\nLevy-Yeyati,E.,Sturzenegger,F.,2003b.Classifyingexchangerateregimes:deedsvs.words.EuropeanEconomicReview49,1603–1635.\nLubik,T.A.,Schorfheide,F.,2007.JournalofMonetaryEconomics54,1069–1087.\nMailath,G.J.,Samuelson,L.,2006.RepeatedGamesandReputation.OxfordUniversityPress,NewYork,NewYork.\nMonacelli,T.,2005.Monetarypolicyinalowpass-throughenvironment.JournalofMoney,CreditandBanking37,1047–1066.\nMurchison,S.,Rennison,A.,2006.ToTEM:theBankofCanada’snewquarterlyprojectionmodel.BankofCanadaTechnicalReportNo.97.\nSargent,T.J.,1999.TheConquestofAmericanInflation.PrincetonUniversityPress,Princeton,NJ.\nSargent,T.J.,Williams,N.,2005.ImpactsofpriorsonconvergenceandescapesfromNashinflation.ReviewofEconomicDynamics8,360–391.\nSchneider,M.,Tornell,A.,2004.Balancesheeteffects,bailoutguaranteesandfinancialcrises.ReviewofEconomicStudies71,883–913.\nWieland,V.,2000a.Learningbydoingandthevalueofoptimalexperimentation.JournalofEconomicDynamicsandControl24,501–534.",
+      "decision": "accepted_same_work",
+      "rationale": "Mismos autores, año y libro; la fuente abrevia el título completo con subtítulo.",
+      "external_verification": []
+    },
+    {
+      "ref_id": "P08-R046",
+      "doc_id": "P08",
+      "reference_index": 46,
+      "source_pages": [
+        46,
+        46
+      ],
+      "parsed": {
+        "surname": "Krishnamurthy",
+        "year": 2012,
+        "title": "The aggregate demand for treasury debt",
+        "entry": "Krishnamurthy, Arvind and Annette Vissing-Jorgensen, “The aggregate demand for treasury debt,” JournalofPoliticalEconomy,2012, 120(2),233–267.",
+        "quality_flags": []
+      },
+      "extracted_doi": null,
+      "status": "matched_review",
+      "query_url": "https://api.openalex.org/works?search=The+aggregate+demand+for+treasury+debt+Krishnamurthy&per-page=5&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Ctype%2Cauthorships%2Cprimary_location&mailto=alejandroventuraventurameza%40gmail.com",
+      "candidate_count": 5,
+      "best_match": {
+        "id": "https://openalex.org/W1521544672",
+        "doi": "https://doi.org/10.3386/w12881",
+        "display_name": "The Demand for Treasury Debt",
+        "publication_year": 2007,
+        "type": "report",
+        "authors": [
+          "Arvind Krishnamurthy",
+          "Annette Vissing‐Jørgensen"
+        ],
+        "primary_location": {
+          "id": "doi:10.3386/w12881",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.3386/w12881",
+          "pdf_url": "https://doi.org/10.3386/w12881",
+          "source": {
+            "id": "https://openalex.org/S2809516038",
+            "display_name": "National Bureau of Economic Research",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [
+              "https://openalex.org/P4322614461"
+            ],
+            "host_organization_lineage_names": [
+              "National Bureau of Economic Research"
+            ],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "National Bureau of Economic Research",
+          "raw_type": "report"
+        },
+        "evidence": {
+          "title_similarity": 0.848485,
+          "citation_title_coverage": 1.0,
+          "author_match": true,
+          "year_distance": 5,
+          "score": 0.77697
+        }
+      },
+      "source_pdf": "saki_research/published_papers/bigio_nuno_passadore_debt_maturity_management_liquidity_costs.pdf",
+      "pdf_context": "Página PDF 46:\nHo,ThomasS.Y.andHansR.Stoll,“Thedynamicsofdealermarketsundercompetition,”TheJournalof\nfinance,1983,38(4),1053–1074.\nHuang, Roger D and Hans R Stoll, “The components of the bid-ask spread: A general approach,” The\nReviewofFinancialStudies,1997,10(4),995–1034.\nKargar, Mahyar, Benjamin T. Lester, David Lindsay, Shuo Liu, Pierre-Oliver Weill, and Diego\nZúñiga,“CorporateBondLiquidityDuringtheCOVID-19Crisis,”June2020.\nKrishnamurthy, Arvind and Annette Vissing-Jorgensen, “The aggregate demand for treasury debt,”\nJournalofPoliticalEconomy,2012,120(2),233–267.\nKrusell,PerandAnthonyASmithJr,“Incomeandwealthheterogeneityinthemacroeconomy,”Journal\nofpoliticalEconomy,1998,106(5),867–896.\nLeland,HayneandKlausToft,“OptimalCapitalStructure,EndogenousBankruptcy,andtheTermStruc-\ntureofCreditSpreads,”TheJournalofFinance,1996,51(3),987–1019.\nLucas,RobertEandNancyLStokey,“Optimalfiscalandmonetarypolicyinaneconomywithoutcapital,”\nJournalofmonetaryEconomics,1983,12(1),55–93.\nLustig,Hanno,ChristopherSleet,andSevinYeltekin,“Fiscalhedgingwithnominalassets,”Journal of\nMonetaryEconomics,May2008,55(4),710–727.\nMadhavan,AnanthandGeorgeSofianos,“AnempiricalanalysisofNYSEspecialisttrading,”Journal of\nFinancialEconomics,1998,48(2),189–210.\nandSeymourSmidt,“ABayesianmodelofintradayspecialistpricing,”Journal of Financial Economics,\n1991,30(1),99–134.\nNaik, Narayan Y and Pradeep K Yadav, “Do dealer firms manage inventory on a stock-by-stock or a\nportfoliobasis?,”JournalofFinancialEconomics,2003,69(2),325–353.\nand ,“Riskmanagementwithderivativesbydealersandmarketqualityingovernmentbondmarkets,”\nTheJournalofFinance,2003,58(5),1873–1904.\nPasquariello, Paolo and Clara Vega, “The on-the-run liquidity phenomenon,” Journal of Financial Eco-\nnomics,2009,92(1),1–24.\nPelizzon,Loriana,MartiGSubrahmanyam,DavideTomio,andJunUno,“Sovereigncreditrisk,liq-\nuidity,andEuropeanCentralBankintervention:Deusexmachina?,”JournalofFinancialEconomics,2016,\n122(1),86–115.\nReinhart,CarmenMandKennethSRogoff,Thistimeisdifferent:Eightcenturiesoffinancialfolly,Prince-\ntonUniversityPress,2009.\n44",
+      "decision": "accepted_same_work",
+      "rationale": "Mismos autores y mismo trabajo; la fuente cita el título publicado y OpenAlex conserva una versión anterior abreviada.",
+      "external_verification": []
+    },
+    {
+      "ref_id": "P11-R006",
+      "doc_id": "P11",
+      "reference_index": 6,
+      "source_pages": [
+        49,
+        49
+      ],
+      "parsed": {
+        "surname": "Atmaz",
+        "year": 2023,
+        "title": "Contrarians, extrapolators, and stock market momentum and reversal",
+        "entry": "Atmaz, Adem, Huseyin Gulen, Stefano Cassella, and Fangcheng Ruan, “Contrarians, extrapolators, and stock market momentum and reversal,”Management Science, 2023.",
+        "quality_flags": []
+      },
+      "extracted_doi": null,
+      "status": "matched_review",
+      "query_url": "https://api.openalex.org/works?search=Contrarians%2C+extrapolators%2C+and+stock+market+momentum+and+reversal+Atmaz&per-page=5&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Ctype%2Cauthorships%2Cprimary_location&mailto=alejandroventuraventurameza%40gmail.com",
+      "candidate_count": 5,
+      "best_match": {
+        "id": "https://openalex.org/W3120248782",
+        "doi": "https://doi.org/10.2139/ssrn.3722540",
+        "display_name": "Different Extrapolators and Stock Market Momentum and Reversal",
+        "publication_year": 2020,
+        "type": "preprint",
+        "authors": [
+          "Adem Atmaz",
+          "Stefano Cassella",
+          "Huseyin Gulen",
+          "Fangcheng Ruan"
+        ],
+        "primary_location": {
+          "id": "doi:10.2139/ssrn.3722540",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.2139/ssrn.3722540",
+          "pdf_url": "https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=3722540",
+          "source": {
+            "id": "https://openalex.org/S4210172589",
+            "display_name": "SSRN Electronic Journal",
+            "issn_l": "1556-5068",
+            "issn": [
+              "1556-5068"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I1318003438",
+            "host_organization_name": "RELX Group (Netherlands)",
+            "host_organization_lineage": [
+              "https://openalex.org/I1318003438"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "SSRN Electronic Journal",
+          "raw_type": "journal-article"
+        },
+        "evidence": {
+          "title_similarity": 0.873016,
+          "citation_title_coverage": 0.833333,
+          "author_match": true,
+          "year_distance": 3,
+          "score": 0.793651
+        }
+      },
+      "source_pdf": "saki_research/published_papers/bigio_silva_zilberman_heterogeneous_beliefs_asset_prices_business_cycles.pdf",
+      "pdf_context": "Página PDF 49:\nReferences\nAdam, Klaus and Sebastian Merkel, “Stock Price Cycles and Business Cycles,” 2019.\nWorkingPaper.\nAlvarez, Fernando and Andrew Atkeson, “The Risk of Becoming Risk Averse: A Model\nof Asset Pricing and Trade Volumes,” Staff Report 577, Federal Reserve Bank of Min-\nneapolis2018.\nAndreasen, Martin M., Jesús Fernández-Villaverde, and Juan F. Rubio-Ramírez, “The\nPruned State-Space System for Non-Linear DSGE Models: Theory and Empirical Ap-\nplications,”TheReviewofEconomicStudies,2018,85(1),1–49.\nAngeletos, George-Marios, Fabrice Collard, and Harris Dellas, “Quantifying Confi-\ndence,”Econometrica,2018,86(5),1689–1726.\nArmona, Luis, Andreas Fuster, and Basit Zafar, “Home price expectations and be-\nhaviour: Evidencefromarandomizedinformationexperiment,”TheReviewofEconomic\nStudies,2019,86(4),1371–1410.\nAtmaz, Adem, Huseyin Gulen, Stefano Cassella, and Fangcheng Ruan, “Contrarians,\nextrapolators,andstockmarketmomentumandreversal,”ManagementScience,2023.\nBansal, Ravi and Amir Yaron, “Risks for the long run: A potential resolution of asset\npricingpuzzles,”ThejournalofFinance,2004,59(4),1481–1509.\nBarlevy, Gadi, “A Leverage-Based Model of Speculative Bubbles,” Journal of Economic\nTheory,2014,153,459–505.\n, “On Speculative Frenzies and Stabilization Policy,” Working Paper 2022-35, Federal\nReserveBankofChicago2022.\nBelo, Frederico, Andres Donangelo, Xiaoji Lin, and Ding Luo, “What drives firms’ hir-\ning decisions? An asset pricing perspective,” The Review of Financial Studies, 2023, 36\n(9),3825–3860.\n,XiaojiLin,andSantiagoBazdresch,“Laborhiring,investment,andstockreturnpre-\ndictabilityinthecrosssection,”JournalofPoliticalEconomy,2014,122(1),129–177.\nBhandari, Anmol, Borovicˇka, and Paul Ho, “Survey Data and Subjective Beliefs in Busi-\nnessCycleModels,”2019. WorkingPaper.\nBianchi,Francesco,CosminIlut,andHikaruSaijo,“Diagnosticbusinesscycles,”Review\nofEconomicStudies,2024,91(1),129–162.\nBinsbergen, Jules H Van, Jesús Fernández-Villaverde, Ralph SJ Koijen, and Juan\nRubio-Ramírez, “The term structure of interest rates in a DSGE model with recursive\npreferences,”JournalofMonetaryEconomics,2012,59(7),634–648.\n48",
+      "decision": "accepted_same_work",
+      "rationale": "Mismos cuatro autores y mismo mecanismo de momentum/reversal; la coincidencia es una versión anterior retitulada.",
+      "external_verification": []
+    },
+    {
+      "ref_id": "P11-R018",
+      "doc_id": "P11",
+      "reference_index": 18,
+      "source_pages": [
+        50,
+        50
+      ],
+      "parsed": {
+        "surname": "Bordalo",
+        "year": 2020,
+        "title": "Expectations of fundamentals and stock market puzzles",
+        "entry": ", , Rafael La Porta, and Andrei Shleifer, Expectations of fundamentals and stock market puzzles2020.",
+        "quality_flags": [
+          "inherited_author_notation"
+        ]
+      },
+      "extracted_doi": null,
+      "status": "matched_review",
+      "query_url": "https://api.openalex.org/works?search=Expectations+of+fundamentals+and+stock+market+puzzles+Bordalo&per-page=5&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Ctype%2Cauthorships%2Cprimary_location&mailto=alejandroventuraventurameza%40gmail.com",
+      "candidate_count": 5,
+      "best_match": {
+        "id": "https://openalex.org/W3029271759",
+        "doi": "https://doi.org/10.3386/w27283",
+        "display_name": "Belief Overreaction and Stock Market Puzzles",
+        "publication_year": 2020,
+        "type": "report",
+        "authors": [
+          "Pedro Bordalo",
+          "Nicola Gennaioli",
+          "Rafael La Porta",
+          "Andrei Shleifer"
+        ],
+        "primary_location": {
+          "id": "doi:10.3386/w27283",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.3386/w27283",
+          "pdf_url": "https://doi.org/10.3386/w27283",
+          "source": {
+            "id": "https://openalex.org/S2809516038",
+            "display_name": "National Bureau of Economic Research",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [
+              "https://openalex.org/P4322614461"
+            ],
+            "host_organization_lineage_names": [
+              "National Bureau of Economic Research"
+            ],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "National Bureau of Economic Research",
+          "raw_type": "report"
+        },
+        "evidence": {
+          "title_similarity": 0.659794,
+          "citation_title_coverage": 0.4,
+          "author_match": true,
+          "year_distance": 0,
+          "score": 0.76866
+        }
+      },
+      "source_pdf": "saki_research/published_papers/bigio_silva_zilberman_heterogeneous_beliefs_asset_prices_business_cycles.pdf",
+      "pdf_context": "Página PDF 50:\nBolton,Patrick,JoséScheinkman,andWeiXiong,“ExecutiveCompensationandShort-\nTermist Behaviour in Speculative Markets,” Review of Economic Studies, 07 2006, 73 (3),\n577–610.\nBordalo, Pedro, Nicola Gennaioli, and Andrei Shleifer, “Diagnostic Expectations and\nCreditCycles,”JournalofFinance,2018,73(1),199–227.\n, ,and ,“Diagnosticexpectationsandcreditcycles,”TheJournalofFinance,2018,73\n(1),199–227.\n, , Rafael La Porta, and Andrei Shleifer, Expectations of fundamentals and stock market\npuzzles2020.\n, ,Yueran Ma,andAndreiShleifer,“Overreactionin macroeconomicexpectations,”\nAmericanEconomicReview,2020,110(9),2748–2782.\nBorovicˇka, Jaroslav and Katarína Borovicˇková, “Risk Premia and Unemployment Fluc-\ntuations,”2019. WorkingPaper.\nBrunnermeier, Markus K and Yuliy Sannikov, “A macroeconomic model with a finan-\ncialsector,”AmericanEconomicReview,2014,104(2),379–421.\nBuss, Adrian, Bernard Dumas, Raman Uppal, and Grigory Vilkov, “The Intended and\nUnintended Consequences of Financial-market Regulations: A General-equilibrium\nAnalysis,”JournalofMonetaryEconomics,2016,81,25–43.\nCaballero, Ricardo J. and Alp Simsek, “A Risk-Centric Model of Demand Recessions\nandSpeculation,”QuarterlyJournalofEconomics,2020,135(3),1493–1566.\nand ,“PrudentialMonetaryPolicy,”2020. WorkingPaper.\nCaldara, Dario, Jesus Fernandez-Villaverde, Juan F Rubio-Ramirez, and Wen Yao,\n“ComputingDSGEmodelswithrecursivepreferencesandstochasticvolatility,”Review\nofEconomicDynamics,2012,15(2),188–206.\nCampbell, John Y, “Consumption-based asset pricing,” Handbook of the Economics of Fi-\nnance,2003,1,803–887.\nCaramp, Nicolas and Dejanir H Silva, “Monetary policy and wealth effects: The role of\nriskandheterogeneity,”TechnicalReport,CESifo2024.\nChen, Hui, Scott Joslin, and Ngoc-Khanh Tran, “Rare disasters and risk sharing with\nheterogeneousbeliefs,”TheReviewofFinancialStudies,2012,25(7),2189–2224.\nCochrane, John H, “Explaining the variance of price–dividend ratios,” The Review of Fi-\nnancialStudies,1992,5(2),243–280.\nCochrane, John H., “The Dog That Did Not Bark: A Defense of Return Predictability,”\nTheReviewofFinancialStudies,2008,21(4),1533–1575.\n49",
+      "decision": "accepted_same_work",
+      "rationale": "Mismos cuatro autores y año; el manuscrito 'Expectations of Fundamentals...' fue retitulado 'Belief Overreaction...' en NBER y publicación posterior.",
+      "external_verification": [
+        "https://www.nber.org/papers/w27283",
+        "https://scholar.harvard.edu/files/shleifer/files/bgls_may25.pdf"
+      ]
+    },
+    {
+      "ref_id": "P11-R053",
+      "doc_id": "P11",
+      "reference_index": 53,
+      "source_pages": [
+        52,
+        52
+      ],
+      "parsed": {
+        "surname": "Giglio",
+        "year": 2021,
+        "title": "Five facts about beliefs and portfolios",
+        "entry": "Giglio, Stefano, Matteo Maggiori, Johannes Stroebel, and Stephen Utkus, “Five facts about beliefs and portfolios,”American Economic Review, 2021, 111(5), 1481–1522.",
+        "quality_flags": []
+      },
+      "extracted_doi": null,
+      "status": "matched_review",
+      "query_url": "https://api.openalex.org/works?search=Five+facts+about+beliefs+and+portfolios+Giglio&per-page=5&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Ctype%2Cauthorships%2Cprimary_location&mailto=alejandroventuraventurameza%40gmail.com",
+      "candidate_count": 5,
+      "best_match": {
+        "id": "https://openalex.org/W4363624502",
+        "doi": "https://doi.org/10.3386/w31114",
+        "display_name": "Four Facts About ESG Beliefs and Investor Portfolios",
+        "publication_year": 2023,
+        "type": "report",
+        "authors": [
+          "Stefano Giglio",
+          "Matteo Maggiori",
+          "Johannes Stroebel",
+          "Zhenhao Tan",
+          "Stephen P. Utkus",
+          "Xu Xiao"
+        ],
+        "primary_location": {
+          "id": "doi:10.3386/w31114",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.3386/w31114",
+          "pdf_url": "https://doi.org/10.3386/w31114",
+          "source": {
+            "id": "https://openalex.org/S2809516038",
+            "display_name": "National Bureau of Economic Research",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [
+              "https://openalex.org/P4322614461"
+            ],
+            "host_organization_lineage_names": [
+              "National Bureau of Economic Research"
+            ],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "National Bureau of Economic Research",
+          "raw_type": "report"
+        },
+        "evidence": {
+          "title_similarity": 0.791209,
+          "citation_title_coverage": 0.571429,
+          "author_match": true,
+          "year_distance": 2,
+          "score": 0.738022
+        }
+      },
+      "source_pdf": "saki_research/published_papers/bigio_silva_zilberman_heterogeneous_beliefs_asset_prices_business_cycles.pdf",
+      "pdf_context": "Página PDF 52:\nGârleanu, Nicolae and Stavros Panageas, “Young, old, conservative, and bold: The im-\nplicationsofheterogeneityandfinitelivesforassetpricing,”JournalofPoliticalEconomy,\n2015,123(3),670–685.\nGeanakoplos, John, “Liquidity, Default, and Crashes: Endogenous Contracts in Gen-\neral Equilibrium,” in Mathias Dewatripont, Lars Peter Hansen, and Stephen J.Editors\nTurnovsky, eds., Advances in Economics and Econometrics: Theory and Applications, Eighth\nWorld Congress, Vol. 2 of Econometric Society Monographs, Cambridge University Press,\n2003,pp.170–205.\n, “The Leverage Cycle,” in Daron Acemoglu, Kenneth Rogoff, and Michael Woodford,\neds., NBER Macroeconomics Annual 2009, Volume 24, University of Chicago Press, 2010,\npp.1–65.\n, Michael Magill, Martine Quinzii, and Jacques Dreze, “Generic inefficiency of stock\nmarket equilibrium when markets are incomplete,” Journal of Mathematical Economics,\n1990,19(1-2),113–151.\nGennaioli,NicolaandAndreiShleifer,“WhatComestoMind,”QuarterlyJournalofEco-\nnomics,2010,125(4),1399–1433.\n, Yueran Ma, and Andrei Shleifer, “Expectations and Investment,” in Martin Eichen-\nbaumandJonathanA.Parker,eds.,NBERMacroeconomicsAnnual2015,Volume30,Uni-\nversityofChicagoPress,2016,pp.379–431.\nGiglio, Stefano, Matteo Maggiori, Johannes Stroebel, and Stephen Utkus, “Five facts\naboutbeliefsandportfolios,”AmericanEconomicReview,2021,111(5),1481–1522.\nGilchrist,Simon,CharlesP.Himmelberg,andGurHuberman,“DoStockPriceBubbles\nInfluenceCorporateInvestment?,”JournalofMonetaryEconomics,2005,52(4),805–827.\nGreenwood, Robin and Andrei Shleifer, “Expectations of Returns and Expected Re-\nturns,”ReviewofFinancialStudies,2014,27(3),714–746.\nGuerreiro, Joao, “Belief Disagreement and Business Cycles,” 2022. Working Paper,\nUCLA.\nHall, Robert E., “High Discounts and High Unemployment,” American Economic Review,\n2017,107(2),305–30.\nHansen, Lars Peter and Ravi Jagannathan, “Implications of security market data for\nmodelsofdynamiceconomies,”Journalofpoliticaleconomy,1991,99(2),225–262.\nHarrison, J. Michael and David M. Kreps, “Speculative Investor Behavior in a Stock\nMarket with Heterogeneous Expectations,” Quarterly Journal of Economics, 1978, 92 (2),\n323–336.\nHe, Zhiguo and Arvind Krishnamurthy, “Intermediary asset pricing,” American Eco-\nnomicReview,2013,103(2),732–70.\n51",
+      "decision": "rejected_different_work",
+      "rationale": "La fuente cita 'Five facts about beliefs and portfolios' de cuatro autores; OpenAlex devuelve otro trabajo ESG, con título y lista de seis autores diferentes.",
+      "external_verification": []
+    },
+    {
+      "ref_id": "P02-R015",
+      "doc_id": "P02",
+      "reference_index": 15,
+      "source_pages": [
+        39,
+        39
+      ],
+      "parsed": {
+        "surname": "Chander",
+        "year": 1998,
+        "title": "General characterization of optimal income tax enforcement",
+        "entry": "P. Chander and L. L. Wilde. General characterization of optimal income tax enforcement. Review of Economic Studies, 65(1):165–183, January 1998.2",
+        "quality_flags": []
+      },
+      "extracted_doi": null,
+      "status": "matched_review",
+      "query_url": "https://api.openalex.org/works?search=General+characterization+of+optimal+income+tax+enforcement+Chander&per-page=5&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Ctype%2Cauthorships%2Cprimary_location&mailto=alejandroventuraventurameza%40gmail.com",
+      "candidate_count": 5,
+      "best_match": {
+        "id": "https://openalex.org/W1597011135",
+        "doi": "https://doi.org/10.7907/2p5wg-hsm49",
+        "display_name": "A General Characterization of Optimal Income Taxation and Enforcement",
+        "publication_year": 1994,
+        "type": "article",
+        "authors": [
+          "Parkash Chander",
+          "Louis L. Wilde"
+        ],
+        "primary_location": {
+          "id": "pmh:oai:authors.library.caltech.edu:80931",
+          "is_oa": true,
+          "landing_page_url": "https://authors.library.caltech.edu/80931/",
+          "pdf_url": "https://authors.library.caltech.edu/80931/",
+          "source": {
+            "id": "https://openalex.org/S4306402161",
+            "display_name": "CaltechAUTHORS (California Institute of Technology)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I122411786",
+            "host_organization_name": "California Institute of Technology",
+            "host_organization_lineage": [
+              "https://openalex.org/I122411786"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": "Report or Paper"
+        },
+        "evidence": {
+          "title_similarity": 0.913386,
+          "citation_title_coverage": 0.833333,
+          "author_match": true,
+          "year_distance": 4,
+          "score": 0.821102
+        }
+      },
+      "source_pdf": "saki_research/published_papers/bigio_zilberman_optimal_self_employment_income_tax_enforcement.pdf",
+      "pdf_context": "Página PDF 39:\nK. C. Border and J. Sobel. Samurai accountant: A theory of auditing and plunder. Review\nof Economic Studies, 54(4):525–540, October 1987. 2\nP. Chander and L. L. Wilde. General characterization of optimal income tax enforcement.\nReview of Economic Studies, 65(1):165–183, January 1998. 2\nK.-P. Chen and C. Y. C. Chu. Internal control vs. external manipulation: A model of\ncorporate income tax evasion. Rand Journal of Economics, 36(1):151–164, Spring 2005.\n13\nJ. P. Choi and M. Tum. Corruption and the shadow economy. International Economic\nReview, 46(3):817–836, August 2005. 4\nH. Cremer and F. Gahvari. Tax evasion and the general income tax. Journal of Public\nEconomics, 60(2):235–249, May 1996. 2\nK. J. Crocker and J. Slemrod. Corporate tax evasion with agency costs. Journal of Public\nEconomics, 89(9-10):1593–1610, September 2005. 13\nE. Dabla-Norris, M. Gradstein, and G. Inchauste. What causes firms to hide output? the\ndeterminants of informality. Journal of Development Economics, 85(1-2):1–27, February\n2008. 3, 4, 20\nA. de Paula and J. A. Scheinkman. The informal sector: An equilibrium model and some\nempirical evidence from brazil. PIER Working Paper 09-044, 2009. 4\nA. de Paula and J. A. Scheinkman. Value added taxes, chain effects and informality. Amer-\nican Economic Journal: Macroeconomics, forthcoming. 9\nD. Dharmapala, J. Slemrod, and J. D. Wilson. Tax policy and the missing middle: Optimal\ntax remittance with firm-level administrative costs. Working Paper, 2009. 21\nB. Fortin, N. Marceau, and L. Savard. Taxation, wage controls and the informal sector.\nJournal of Public Economics, 66(2):293–312, November 1997. 4\nD. Fudenberg and J. Tirole. Game Theory. MIT Press, 1991. 26\nR. Gordon and W. Li. Tax structures in developing countries: Many puzzles and a possible\nexplanation. Journal of Public Economics, 93(7-8):855–866, August 2009. 9\nB. Jullien. Participation constraints in adverse selection models. Journal of Economic\nTheory, 93(1):1–47, July 2000. 28\n39",
+      "decision": "accepted_same_work",
+      "rationale": "Mismos autores y título casi idéntico; OpenAlex registra una versión de trabajo anterior.",
+      "external_verification": []
+    },
+    {
+      "ref_id": "P02-R038",
+      "doc_id": "P02",
+      "reference_index": 38,
+      "source_pages": [
+        40,
+        40
+      ],
+      "parsed": {
+        "surname": "Polinsky",
+        "year": 2000,
+        "title": "The economic theory of public enforcement of law",
+        "entry": "A. M. Polinsky and S. Shavell. The economic theory of public enforcement of law. Journal of Economic Literature, 38(1):45–76, March 2000.12",
+        "quality_flags": []
+      },
+      "extracted_doi": null,
+      "status": "matched_review",
+      "query_url": "https://api.openalex.org/works?search=The+economic+theory+of+public+enforcement+of+law+Polinsky&per-page=5&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Ctype%2Cauthorships%2Cprimary_location&mailto=alejandroventuraventurameza%40gmail.com",
+      "candidate_count": 5,
+      "best_match": {
+        "id": "https://openalex.org/W1507647726",
+        "doi": "https://doi.org/10.3386/w11780",
+        "display_name": "The Theory of Public Enforcement of Law",
+        "publication_year": 2005,
+        "type": "report",
+        "authors": [
+          "Maria Polinsky",
+          "Steven Shavell"
+        ],
+        "primary_location": {
+          "id": "doi:10.3386/w11780",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.3386/w11780",
+          "pdf_url": "https://doi.org/10.3386/w11780",
+          "source": {
+            "id": "https://openalex.org/S2809516038",
+            "display_name": "National Bureau of Economic Research",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [
+              "https://openalex.org/P4322614461"
+            ],
+            "host_organization_lineage_names": [
+              "National Bureau of Economic Research"
+            ],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "National Bureau of Economic Research",
+          "raw_type": "report"
+        },
+        "evidence": {
+          "title_similarity": 0.896552,
+          "citation_title_coverage": 1.0,
+          "author_match": true,
+          "year_distance": 5,
+          "score": 0.809655
+        }
+      },
+      "source_pdf": "saki_research/published_papers/bigio_zilberman_optimal_self_employment_income_tax_enforcement.pdf",
+      "pdf_context": "Página PDF 40:\nH. J. Kleven, C. T. Kreiner, and E. Saez. Why can modern governments tax so much? an\nagency model of firms as fiscal intermediaries. NBER Working Paper 15218, 2009. 9\nH. J. Kleven, M. B. Knudsen, C. T. Kreiner, S. Pedersen, and E. Saez. Unwilling or unable\nto cheat? evidence from a randomized tax audit experiment in denmark. NBER Working\nPaper 15769, 2010. 2, 10\nW. Kopczuk and J. Slemrod. Putting firms into optimal tax theory. American Economic\nReview Papers and Proceedings, 96(2):130–134, May 2006. 9\nR. la Porta and A. Shleifer. The unofficial economy and economic development. Brookings\nPapers on Economic Activity, pages 275–363, Fall 2008. 3, 20\nM. Levi. Of Rule and Revenue. University of California Press, 1988. 31\nT. R. Lewis and D. E. M. Sappington. Countervailing incentives in agency problems. Journal\nof Economic Theory, 49(2):294–313, December 1989. 28\nK. D. Logue and J. Slemrod. Of coase, calabresi, and optimal tax liability. John M. Olin\nCenter for Law & Economics Working Paper 96, 2009. 10\nR. E. Lucas. On the size distribution of business firms. Bell Journal of Economics, 9(2):\n508–523, Autumn 1978. 4, 20, 30\nI. Macho-Stadler and J. D. P´erez-Castrillo. Audting with signals. Economica, 69(273):1–20,\nFebruary 2002. 4, 12, 20\nG. Maggi and A. Rodr´ıguez-Clare. On countervailing incentives. Journal of Economic\nTheory, 66(1):238–263, June 1995. 28, 29, 34\nJ.S.Migdal. Strong Societies and Weak States: State-Society Relations and State Capabilities\nin the Third World. Princeton University Press, 1988. 31\nD. Mookherjee and I. Png. Optimal auditing, insurance, and redistribution. Quarterly\nJournal of Economics, 104(2):399–415, May 1989. 2\nS. C. Parker. Entrepreneurial growth and dynamic tax evasion incentives. Working Paper,\n2010. 2\nA. M. Polinsky and S. Shavell. The economic theory of public enforcement of law. Journal\nof Economic Literature, 38(1):45–76, March 2000. 12\n40",
+      "decision": "accepted_same_work",
+      "rationale": "Mismos autores y mismo trabajo; la diferencia es solo de versión/año y omisión de 'economic' en el título posterior.",
+      "external_verification": []
+    },
+    {
+      "ref_id": "W09-R005",
+      "doc_id": "W09",
+      "reference_index": 5,
+      "source_pages": [
+        36,
+        36
+      ],
+      "parsed": {
+        "surname": "Beraja",
+        "year": 2018,
+        "title": "Regional heterogeneity and the refinancing channel of monetary policy*",
+        "entry": "Beraja, M., Fuster, A., Hurst, E., and Vavra, J. (2018). Regional heterogeneity and the refinancing channel of monetary policy*. The Quarterly Journal of Economics, 134(1):109–183.",
+        "quality_flags": []
+      },
+      "extracted_doi": null,
+      "status": "matched_review",
+      "query_url": "https://api.openalex.org/works?search=Regional+heterogeneity+and+the+refinancing+channel+of+monetary+policy+Beraja&per-page=5&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Ctype%2Cauthorships%2Cprimary_location&mailto=alejandroventuraventurameza%40gmail.com",
+      "candidate_count": 5,
+      "best_match": {
+        "id": "https://openalex.org/W2286644641",
+        "doi": "https://doi.org/10.3386/w23270",
+        "display_name": "Regional Heterogeneity and Monetary Policy",
+        "publication_year": 2017,
+        "type": "report",
+        "authors": [
+          "Martin Beraja",
+          "Andreas Fuster",
+          "Erik Hurst",
+          "Joseph Vavra"
+        ],
+        "primary_location": {
+          "id": "doi:10.3386/w23270",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.3386/w23270",
+          "pdf_url": "https://doi.org/10.3386/w23270",
+          "source": {
+            "id": "https://openalex.org/S2809516038",
+            "display_name": "National Bureau of Economic Research",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [
+              "https://openalex.org/P4322614461"
+            ],
+            "host_organization_lineage_names": [
+              "National Bureau of Economic Research"
+            ],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "National Bureau of Economic Research",
+          "raw_type": "report"
+        },
+        "evidence": {
+          "title_similarity": 0.756757,
+          "citation_title_coverage": 1.0,
+          "author_match": true,
+          "year_distance": 1,
+          "score": 0.798595
+        }
+      },
+      "source_pdf": "saki_research/working_papers/abad_bigio_garcia_villegas_marbet_nuno_heterogeneous_bank_lending_channel_monetary_policy.pdf",
+      "pdf_context": "Página PDF 36:\nReferences\nAltavilla,C.,Canova,F.,andCiccarelli,M.(2020). Mendingthebrokenlink: Heteroge-\nneousbanklendingratesandmonetarypolicypass-through. JournalofMonetary\nEconomics,110:81–98.\nAltunok, F., Arslan, Y., and Ongena, S. (2023). Monetary policy transmission with\nadjustableandfixedratemortgages:Theroleofcreditsupply.CEPRDiscussionPaper,\n(18293).\nAuclert,A.(2019). Monetarypolicyandtheredistributionchannel. AmericanEconomic\nReview,109(6):2333–67.\nBellifemine, M., Jamilov, R., andMonacelli, T.(2022). Hbank: Monetarypolicywith\nheterogeneousbanks. CEPRWorkingPaperDP17129.\nBeraja, M., Fuster, A., Hurst, E., and Vavra, J. (2018). Regional heterogeneity and\ntherefinancingchannelofmonetarypolicy*. TheQuarterlyJournalofEconomics,\n134(1):109–183.\nBerger,D.,Milbradt,K.,Tourre,F.,andVavra,J.(2021). Mortgageprepaymentandpath-\ndependenteffectsofmonetarypolicy. AmericanEconomicReview,111(9):2829–78.\nBernanke, B. S. and Gertler, M. (1995). Inside the black box: The credit channel of\nmonetarypolicytransmission. JournalofEconomicPerspectives,9(4):27–48.\nBianchi,J.andBigio,S.(2022). Banks,LiquidityManagement,andMonetaryPolicy.\nEconometrica,90:391–454.\nBoppart,T.,Krusell,P.,andMitman,K.(2018). ExploitingMITshocksinheterogeneous-\nagenteconomies: theimpulseresponseasanumericalderivative. JournalofEco-\nnomicDynamicsandControl,89:68–92.\nBoyarchenko, N.andAdrian, T.(2015). IntermediaryBalanceSheets. 2015Meeting\nPapers239,SocietyforEconomicDynamics.\nBrunnermeier,M.K.andSannikov,Y.(2014). Amacroeconomicmodelwithafinancial\nsector. AmericanEconomicReview,104(2):379–421.\n35",
+      "decision": "accepted_same_work",
+      "rationale": "Mismos cuatro autores y mismo trabajo; la fuente usa el título publicado y OpenAlex una versión de trabajo abreviada.",
+      "external_verification": []
+    },
+    {
+      "ref_id": "W04-R024",
+      "doc_id": "W04",
+      "reference_index": 24,
+      "source_pages": [
+        44,
+        44
+      ],
+      "parsed": {
+        "surname": "Coibion",
+        "year": 2022,
+        "title": "Fiscal Policy and Households’ Inflation Expectations: Evidence from a Randomized Control Trial",
+        "entry": "Coibion, Olivier, Yuriy Gorodnichenko, and Michael Weber, “Fiscal Policy and Households’ Inflation Expectations: Evidence from a Randomized Control Trial,” 2022. NBER Working Paper 28485.2.2",
+        "quality_flags": []
+      },
+      "extracted_doi": null,
+      "status": "matched_review",
+      "query_url": "https://api.openalex.org/works?search=Fiscal+Policy+and+Households%E2%80%99+Inflation+Expectations%3A+Evidence+from+a+Randomized+Control+Trial+Coibion&per-page=5&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Ctype%2Cauthorships%2Cprimary_location&mailto=alejandroventuraventurameza%40gmail.com",
+      "candidate_count": 5,
+      "best_match": {
+        "id": "https://openalex.org/W4382679926",
+        "doi": "https://doi.org/10.1257/mac.20200445",
+        "display_name": "How Does Consumption Respond to News about Inflation? Field Evidence from a Randomized Control Trial",
+        "publication_year": 2023,
+        "type": "article",
+        "authors": [
+          "Olivier Coibion",
+          "Dimitris Georgarakos",
+          "Yuriy Gorodnichenko",
+          "Maarten van Rooij"
+        ],
+        "primary_location": {
+          "id": "doi:10.1257/mac.20200445",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1257/mac.20200445",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S170166683",
+            "display_name": "American Economic Journal Macroeconomics",
+            "issn_l": "1945-7707",
+            "issn": [
+              "1945-7707",
+              "1945-7715"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310315912",
+            "host_organization_name": "American Economic Association",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310315912"
+            ],
+            "host_organization_lineage_names": [
+              "American Economic Association"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "American Economic Journal: Macroeconomics",
+          "raw_type": "journal-article"
+        },
+        "evidence": {
+          "title_similarity": 0.649215,
+          "citation_title_coverage": 0.416667,
+          "author_match": true,
+          "year_distance": 1,
+          "score": 0.725466
+        }
+      },
+      "source_pdf": "saki_research/working_papers/bigio_caramp_silva_sticky_inflation_monetary_policy_debt_drags_inflation_expectations.pdf",
+      "pdf_context": "Página PDF 44:\nBlanchard, Olivier J. and Ben S. Bernanke, “What Caused the US Pandemic-Era Infla-\ntion?,”2023. NBERWorkingPaper31417. 1\nBocola, Luigi, Alessandro Dovis, Kasper Jørgensen, and Rishabh Kirpalani, “Bond mar-\nketviewsofthefed,”TechnicalReport,NationalBureauofEconomicResearch2024. 28\nBordo, Michael D, John B Taylor, and John H Cochrane, How Monetary Policy Got Behind\ntheCurve-andhowtogetback,HooverPress,2023. 5.1\nCaballero,RicardoJandAlpSimsek,“Monetarypolicywithopinionatedmarkets,”Amer-\nicanEconomicReview,2022,112(7),2353–2392. 1,2.2\nCaramp, Nicolas and Dejanir H Silva, “Monetary policy and wealth effects: The role of\nriskandheterogeneity,”TechnicalReport,Workingpaper2021. 5\nand , “Fiscal policy and the monetary transmission mechanism,” Review of Economic\nDynamics,2023,51,716–746. 1\nChung, Hess, Troy Davig, and Eric M Leeper, “Monetary and fiscal policy switching,”\nJournalofMoney,CreditandBanking,2007,39(4),809–842. 1\nCochrane,JohnH,“AfrictionlessviewofUSinflation,”NBERmacroeconomicsannual,1998,\n13,323–384. 1\n,“Michelson-Morley,Fisher,andOccam: Theradicalimplicationsofstablequietinflation\natthezerobound,”NBERMacroeconomicsAnnual,2018,32(1),113–226. 1\n, “Stepping on a rake: The fiscal theory of monetary policy,” European Economic Review,\n2018,101,354–375. 13\n,“Thefiscaltheoryofthepricelevel,”2023. 2\nCoibion, Olivier, Yuriy Gorodnichenko, and Michael Weber, “Fiscal Policy and House-\nholds’ Inflation Expectations: Evidence from a Randomized Control Trial,” 2022. NBER\nWorkingPaper28485. 2.2\nComin, Diego A, Robert C Johnson, and Callum J Jones, “Supply chain constraints and\ninflation,”TechnicalReport,NationalBureauofEconomicResearch2023. 3\n43",
+      "decision": "rejected_different_work",
+      "rationale": "La fuente cita a Coibion, Gorodnichenko y Weber sobre política fiscal; OpenAlex devuelve otro experimento sobre consumo con Georgarakos y van Rooij.",
+      "external_verification": []
+    },
+    {
+      "ref_id": "W10-R011",
+      "doc_id": "W10",
+      "reference_index": 11,
+      "source_pages": [
+        19,
+        19
+      ],
+      "parsed": {
+        "surname": "Gabaix",
+        "year": 2001,
+        "title": "The 6D bias and the equity-premium puzzle",
+        "entry": "Gabaix, Xavier and David Laibson, “The 6D bias and the equity-premium puzzle,” NBER macroeconomics annual, 2001, 16, 257–312.",
+        "quality_flags": []
+      },
+      "extracted_doi": null,
+      "status": "matched_review",
+      "query_url": "https://api.openalex.org/works?search=The+6D+bias+and+the+equity-premium+puzzle+Gabaix&per-page=5&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Ctype%2Cauthorships%2Cprimary_location&mailto=alejandroventuraventurameza%40gmail.com",
+      "candidate_count": 5,
+      "best_match": {
+        "id": "https://openalex.org/W2317438297",
+        "doi": "https://doi.org/10.1086/654449",
+        "display_name": "[The 6D Bias and the Equity-Premium Puzzle]: Comment",
+        "publication_year": 2001,
+        "type": "article",
+        "authors": [
+          "Monika Piazzesi"
+        ],
+        "primary_location": {
+          "id": "doi:10.1086/654449",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1086/654449",
+          "pdf_url": "https://www.journals.uchicago.edu/doi/pdf/10.1086/654449",
+          "source": {
+            "id": "https://openalex.org/S127060114",
+            "display_name": "NBER Macroeconomics Annual",
+            "issn_l": "0889-3365",
+            "issn": [
+              "0889-3365",
+              "1537-2642"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310315672",
+            "host_organization_name": "University of Chicago Press",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310315672",
+              "https://openalex.org/P4310315690"
+            ],
+            "host_organization_lineage_names": [
+              "University of Chicago Press",
+              "University of Chicago"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "NBER Macroeconomics Annual",
+          "raw_type": "journal-article"
+        },
+        "evidence": {
+          "title_similarity": 0.911111,
+          "citation_title_coverage": 0.833333,
+          "author_match": false,
+          "year_distance": 0,
+          "score": 0.739556
+        }
+      },
+      "source_pdf": "saki_research/working_papers/bigio_ishide_new_keynesian_economics_through_extensive_margin.pdf",
+      "pdf_context": "Página PDF 19:\nReferences\nAngeletos, George-Marios and Chen Lian, “Determinacy without the Taylor principle,” Jour-\nnalofPoliticalEconomy,2023,131(8),2125–2164.\nAtkeson, Andrew, Varadarajan V Chari, and Patrick J Kehoe, “Sophisticated monetary poli-\ncies,”TheQuarterlyJournalofEconomics,2010,125(1),47–89.\nAuclert, Adrien, Matthew Rognlie, and Ludwig Straub, “Micro jumps, macro humps: Mon-\netary policy and business cycles in an estimated HANK model,” Technical Report, National\nBureauofEconomicResearch2020.\nBarro, Robert J. and Herschel I. Grossman, “A General Disequilibrium Model of Income and\nEmployment,”TheAmericanEconomicReview,1971,61(1),82–93.\nBenigno, Pierpaolo and Gauti B Eggertsson, “It’s baaack: The surge in inflation in the 2020s\nand the return of the non-linear phillips curve,” Technical Report, National Bureau of Eco-\nnomicResearch2023.\nBlanchard, Olivier and Jordi Gali, “Labor Markets and Monetary Policy: A New Keynesian\nModel with Unemployment,” American Economic Journal: Macroeconomics, April 2010, 2 (2),\n1–30.\nCaballero, Ricardo J. and Mohamad L. Hammour, “The Macroeconomics of Specificity,” The\nJournalofPoliticalEconomy,1998,106(4),724–767.\nCarlstrom, Charles T and Timothy S Fuerst, “Investment and interest rate policy: a discrete\ntimeanalysis,”JournalofEconomicTheory,2005,123(1),4–20.\nChristiano, Lawrence J, Martin S Eichenbaum, and Mathias Trabandt, “Unemployment and\nbusinesscycles,”Econometrica,2016,84(4),1523–1569.\nDupor, Bill, “Investment and interest rate policy,” Journal of Economic Theory, 2001, 98 (1), 85–\n113.\nGabaix, Xavier and David Laibson, “The 6D bias and the equity-premium puzzle,” NBER\nmacroeconomicsannual,2001,16,257–312.\n18",
+      "decision": "rejected_different_work",
+      "rationale": "La fuente cita el artículo de Gabaix y Laibson; OpenAlex devuelve el comentario de Monika Piazzesi, no el artículo comentado.",
+      "external_verification": []
+    },
+    {
+      "ref_id": "W10-R023",
+      "doc_id": "W10",
+      "reference_index": 23,
+      "source_pages": [
+        20,
+        20
+      ],
+      "parsed": {
+        "surname": "Shimer",
+        "year": 2005,
+        "title": "The cyclical behavior of equilibrium unemployment and vacancies",
+        "entry": "Shimer, Robert, “The cyclical behavior of equilibrium unemployment and vacancies,” American Economic Review, 2005, 95 (1), 25–49.",
+        "quality_flags": []
+      },
+      "extracted_doi": null,
+      "status": "matched_review",
+      "query_url": "https://api.openalex.org/works?search=The+cyclical+behavior+of+equilibrium+unemployment+and+vacancies+Shimer&per-page=5&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Ctype%2Cauthorships%2Cprimary_location&mailto=alejandroventuraventurameza%40gmail.com",
+      "candidate_count": 5,
+      "best_match": {
+        "id": "https://openalex.org/W3124573244",
+        "doi": null,
+        "display_name": "The Cyclical Behavior of Equilibrium Unemployment and Vacancies: Evidence and Theory",
+        "publication_year": 2003,
+        "type": "preprint",
+        "authors": [
+          "Robert Shimer"
+        ],
+        "primary_location": {
+          "id": "pmh:oai:RePEc:nbr:nberwo:9536",
+          "is_oa": false,
+          "landing_page_url": "http://www.nber.org/papers/w9536.pdf",
+          "pdf_url": "http://www.nber.org/papers/w9536.pdf",
+          "source": {
+            "id": "https://openalex.org/S4306401271",
+            "display_name": "RePEc: Research Papers in Economics",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I77793887",
+            "host_organization_name": "Federal Reserve Bank of St. Louis",
+            "host_organization_lineage": [
+              "https://openalex.org/I77793887"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "preprint"
+        },
+        "evidence": {
+          "title_similarity": 0.863014,
+          "citation_title_coverage": 0.714286,
+          "author_match": true,
+          "year_distance": 2,
+          "score": 0.786849
+        }
+      },
+      "source_pdf": "saki_research/working_papers/bigio_ishide_new_keynesian_economics_through_extensive_margin.pdf",
+      "pdf_context": "Página PDF 20:\nGertler, Mark, Luca Sala, and Antonella Trigari, “An Estimated Monetary DSGE Model with\nUnemploymentandStaggeredNominalWageBargaining,”JournalofMoney,CreditandBank-\ning,2008,40(8),1713–1764.\nKekre,Rohan,“Unemploymentinsuranceinmacroeconomicstabilization,”ReviewofEconomic\nStudies,2023,90(5),2439–2480.\nKurozumi, Takushi and Willem Van Zandweghe, “Labor market search, the Taylor principle,\nandindeterminacy,”JournalofMonetaryEconomics,2010,57(7),851–858.\nMankiw, N Gregory and Ricardo Reis, “Sticky information versus sticky prices: a proposal to\nreplace the New Keynesian Phillips curve,” The Quarterly Journal of Economics, 2002, 117 (4),\n1295–1328.\nand , “Sticky information in general equilibrium,” Journal of the European Economic Associ-\nation,2007,5(2-3),603–613.\nMichaillat,PascalandEmmanuelSaez,“AggregateDemand,IdleTime,andUnemployment,”\nTheQuarterlyJournalofEconomics,2015,130(2),507–569.\nand ,“BeveridgeanPhillipsCurve,”TechnicalReportarXiv:2401.12475v22024.\nMortensen, Dale T and Christopher A Pissarides, “Job creation and job destruction in the\ntheoryofunemployment,”Thereviewofeconomicstudies,1994,61(3),397–415.\nRavn,MortenOandVincentSterk,“Jobuncertaintyanddeeprecessions,”JournalofMonetary\nEconomics,2017,90,125–141.\nReis,Ricardo,“Inattentiveconsumers,”JournalofmonetaryEconomics,2006,53(8),1761–1800.\nRupert, Peter and Roman Šustek, “On the mechanics of New-Keynesian models,” Journal of\nMonetaryEconomics,2019,102,53–69.\nShimer, Robert, “The cyclical behavior of equilibrium unemployment and vacancies,” Ameri-\ncanEconomicReview,2005,95(1),25–49.\n19",
+      "decision": "accepted_same_work",
+      "rationale": "Mismo autor y trabajo; OpenAlex registra la versión de trabajo anterior con el subtítulo 'Evidence and Theory'.",
+      "external_verification": []
+    },
+    {
+      "ref_id": "W08-R006",
+      "doc_id": "W08",
+      "reference_index": 6,
+      "source_pages": [
+        51,
+        51
+      ],
+      "parsed": {
+        "surname": "Bigio",
+        "year": 2013,
+        "title": "Financial Frictions in Production Networks",
+        "entry": "Bigio, Saki and Jennifer La’O, “Financial Frictions in Production Networks,” 2013.1",
+        "quality_flags": []
+      },
+      "extracted_doi": null,
+      "status": "matched_review",
+      "query_url": "https://api.openalex.org/works?search=Financial+Frictions+in+Production+Networks+Bigio&per-page=5&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Ctype%2Cauthorships%2Cprimary_location&mailto=alejandroventuraventurameza%40gmail.com",
+      "candidate_count": 5,
+      "best_match": {
+        "id": "https://openalex.org/W2970593871",
+        "doi": "https://doi.org/10.3386/w22212",
+        "display_name": "Distortions in Production Networks",
+        "publication_year": 2016,
+        "type": "report",
+        "authors": [
+          "Saki Bigio",
+          "Jennifer La’O"
+        ],
+        "primary_location": {
+          "id": "doi:10.3386/w22212",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.3386/w22212",
+          "pdf_url": "https://doi.org/10.3386/w22212",
+          "source": {
+            "id": "https://openalex.org/S2809516038",
+            "display_name": "National Bureau of Economic Research",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [
+              "https://openalex.org/P4322614461"
+            ],
+            "host_organization_lineage_names": [
+              "National Bureau of Economic Research"
+            ],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "National Bureau of Economic Research",
+          "raw_type": "report"
+        },
+        "evidence": {
+          "title_similarity": 0.789474,
+          "citation_title_coverage": 0.666667,
+          "author_match": true,
+          "year_distance": 3,
+          "score": 0.736842
+        }
+      },
+      "source_pdf": "saki_research/working_papers/bigio_mendez_patten_theory_payments_chain_crises.pdf",
+      "pdf_context": "Página PDF 51:\nAlvarez, Fernando E, David Argente, Francesco Lippi, Esteban Me´ndez, and Di-\nana Van Patten, “Strategic Complementarities in a Dynamic Model of Technology\nAdoption: P2P Digital Payments,” Working Paper 31280, National Bureau of Eco-\nnomicResearchMay2023. 5\nArgente, David, Esteban Me´ndez, and Diana Van Patten, “Cross-Border Product\nAdoption: IndividualImports,MigrantNetworks,andDomesticRetailers,”2025. 5\nBarrot, Jean-Noel, “Trade Credit and Industry Dynamics: Evidence from Trucking\nFirms,”TheJournalofFinance,2016,71(5),1975–2016. 1\nBiais,BrunoandChristianGollier,“TradeCreditandCreditRationing,”TheReviewof\nFinancialStudies,October1997,10(4),903–937. 3\nBigio,SakiandJenniferLa’O,“FinancialFrictionsinProductionNetworks,”2013. 1\nBocola, Luigi, “Trade credit and financial amplification,” 2022. Unpublished\nManuscript. 1\nBoissay, FredericandReintGropp, “Trade Credit Defaults and Liquidity Provision by\nFirms,”2007. EuropeanCentralBankworkingpaperseries,753. 1\nBrunnermeier,MarkusK.andYuliySannikov,“TheI-TheoryofMoney,”2017. 1\nCerdas, Ana Mar´ıa and Carlos Melegatti, El sistema financiero costarricense en los\nu´ltimos 25 an˜os: sistema de pagos number 2. In ‘Monograf´ıa.’, San Jose´, Costa Rica:\nAcademiadeCentroame´rica,2014. 28cm. 10\nCostello,AnnaMarie,“CreditMarketDisruptionsandLiquiditySpilloverEffectsinthe\nSupplyChain,”JournalofPoliticalEconomy,forthcoming,2020. 1\nDiamond,PeterA., “AggregateDemandManagementinSearchEquilibrium,” Journal\nofPoliticalEconomy,1982,90,881–894. 1\nEggertsson, Gauti B. and Paul Krugman, “Debt, Deleveraging, and the Liquid-\nity Trap: A Fisher-Minsky-Koo Approach,” The Quarterly Journal of Economics,\nJuly 2012, 127 (3), 1469–1513. eprint: https://academic.oup.com/qje/article-\npdf/127/3/1469/30457060/qjs023.pdf. 1\nElliott,Matthew,BenjaminGolub,andMatthewO.Jackson,“FinancialNetworksand\nContagion,”AmericanEconomicReview,102014,104,3115–53. 1\n, , and Matthew V. Leduc, “Supply Network Formation and Fragility,” American\nEconomicReview,August2022,112(8),2701–47. 1\nFisher,Irving,StampScrip,NewYork: Adelphi,1933. 1\nFreeman, Scott, “The Payments System, Liquidity, and Rediscounting,” The American\nEconomic Review, 1996, 86 (5), 1126–1138. Publisher: American Economic Associa-\ntion. 1\nGreen, Edward J., “Money and Debt in the Structure of Payments,” Federal Reserve\nBankofMinneapolisQuaterlyReview,1999,23,13–29. 1\n50",
+      "decision": "accepted_same_work",
+      "rationale": "Mismos autores; el manuscrito de 2013 'Financial Frictions in Production Networks' evolucionó al trabajo 'Distortions in Production Networks'.",
+      "external_verification": [
+        "https://users.nber.org/~confer/2013/EFGs13/Bigio_La%27O.pdf"
+      ]
+    },
+    {
+      "ref_id": "W05-R037",
+      "doc_id": "W05",
+      "reference_index": 37,
+      "source_pages": [
+        38,
+        38
+      ],
+      "parsed": {
+        "surname": "Krishnamurthy",
+        "year": 2012,
+        "title": "The aggregate demand for treasury debt",
+        "entry": "Krishnamurthy, Arvind and Annette Vissing-Jorgensen, “The aggregate demand for treasury debt,” Journal of Political Economy, 2012,120(2), 233–267.2",
+        "quality_flags": []
+      },
+      "extracted_doi": null,
+      "status": "matched_review",
+      "query_url": "https://api.openalex.org/works?search=The+aggregate+demand+for+treasury+debt+Krishnamurthy&per-page=5&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Ctype%2Cauthorships%2Cprimary_location&mailto=alejandroventuraventurameza%40gmail.com",
+      "candidate_count": 5,
+      "best_match": {
+        "id": "https://openalex.org/W1521544672",
+        "doi": "https://doi.org/10.3386/w12881",
+        "display_name": "The Demand for Treasury Debt",
+        "publication_year": 2007,
+        "type": "report",
+        "authors": [
+          "Arvind Krishnamurthy",
+          "Annette Vissing‐Jørgensen"
+        ],
+        "primary_location": {
+          "id": "doi:10.3386/w12881",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.3386/w12881",
+          "pdf_url": "https://doi.org/10.3386/w12881",
+          "source": {
+            "id": "https://openalex.org/S2809516038",
+            "display_name": "National Bureau of Economic Research",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": null,
+            "host_organization_name": null,
+            "host_organization_lineage": [
+              "https://openalex.org/P4322614461"
+            ],
+            "host_organization_lineage_names": [
+              "National Bureau of Economic Research"
+            ],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "National Bureau of Economic Research",
+          "raw_type": "report"
+        },
+        "evidence": {
+          "title_similarity": 0.848485,
+          "citation_title_coverage": 1.0,
+          "author_match": true,
+          "year_distance": 5,
+          "score": 0.77697
+        }
+      },
+      "source_pdf": "saki_research/working_papers/bigio_nuno_decomposing_optimal_debt_maturity.pdf",
+      "pdf_context": "Página PDF 38:\n37\nHatchondo, Juan Carlos and Leonardo Martinez, “Long-duration bonds and\nsovereigndefaults,”JournalofInternationalEconomics,2009,79(1),117–125. 1\n, , and Cesar Sosa-Padilla, “Debt dilution and sovereign default risk,” Journal of\nPoliticalEconomy,2016,124(5),1383–1422. 1\nKrishnamurthy, Arvind and Annette Vissing-Jorgensen, “The aggregate demand for\ntreasurydebt,”JournalofPoliticalEconomy,2012,120(2),233–267. 2\nKrusell, Per and Anthony A Smith Jr, “Income and wealth heterogeneity in the\nmacroeconomy,”JournalofpoliticalEconomy,1998,106(5),867–896. 1,3.2\nLucas,RobertEandNancyLStokey,“Optimalfiscalandmonetarypolicyinanecon-\nomywithoutcapital,”JournalofmonetaryEconomics,1983,12(1),55–93. 1\nLustig, Hanno, Christopher Sleet, and Sevin Yeltekin, “Fiscal hedging with nominal\nassets,”JournalofMonetaryEconomics,May2008,55(4),710–727. 1\nPasquariello,PaoloandClaraVega,“Theon-the-runliquidityphenomenon,”Journal\nofFinancialEconomics,2009,92(1),1–24. 2\nPelizzon, Loriana, MartiGSubrahmanyam, DavideTomio, andJunUno, “Sovereign\ncredit risk, liquidity, and European Central Bank intervention: Deus ex machina?,”\nJournalofFinancialEconomics,2016,122(1),86–115. 2\nReinhart, Carmen M and Kenneth S Rogoff, This time is different: Eight centuries of\nfinancialfolly,PrincetonUniversityPress,2009. 4\nReiter, Michael, “Solving heterogeneous-agent models by projection and perturba-\ntion,”JournalofEconomicDynamicsandControl,2009,33(3),649–665. 1,3.2\nSpindt,PaulA.andRichardW.Stolz,“AreUStreasurybillsunderpricedintheprimary\nmarket?,”JournalofBanking&Finance,1992,16(5),891–908. 2\nValaitis,VytautasandAlessandroT.Villa,“AMachineLearningProjectionMethodfor\nMacro-FinanceModels,”2022. 6",
+      "decision": "accepted_same_work",
+      "rationale": "Mismos autores y mismo trabajo; la fuente cita el título publicado y OpenAlex conserva una versión anterior abreviada.",
+      "external_verification": []
+    }
+  ]
+}

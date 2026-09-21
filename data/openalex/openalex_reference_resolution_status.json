@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-21",
+  "authorization": "El usuario autorizó el envío a OpenAlex de títulos, autores, años y cadenas bibliográficas extraídos de los PDF locales.",
+  "mailto": "alejandroventuraventurameza@gmail.com",
+  "api_key_configured": true,
+  "authentication": "Bearer header; la clave no se escribió en URLs ni archivos de resultados",
+  "reference_rows": 1435,
+  "unique_queries_total": 1267,
+  "unique_queries_cached": 1267,
+  "rows_with_response": 1435,
+  "errors": [],
+  "status_counts": {
+    "matched_high_confidence": 370,
+    "matched_review": 24,
+    "unresolved": 1041
+  },
+  "unique_openalex_ids_high_confidence": 303,
+  "review_adjudication": {
+    "status": "complete",
+    "accepted_same_work": 19,
+    "rejected_different_work": 5,
+    "structural_corrections": 1,
+    "resolved_rows_after_adjudication": 390,
+    "unique_openalex_ids_after_adjudication": 320,
+    "structural_doi_verified_rows": 1,
+    "audit_file": "data/auditoria_openalex_coincidencias_provisionales.json",
+    "adjudicated_candidate": "data/referencias_parseadas_candidate_openalex_adjudicada.json"
+  },
+  "status": "api_queries_and_provisional_match_adjudication_complete",
+  "network_release": false,
+  "network_release_reason": "Todas las filas fueron consultadas y las 24 coincidencias provisionales fueron adjudicadas, pero 1045 filas siguen sin identidad OpenAlex aceptada. La auditoría técnica integral fue realizada por Codex y no constituye certificación humana externa."
+}

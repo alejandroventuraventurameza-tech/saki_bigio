@@ -1,0 +1,1234 @@
+{
+  "meta": {
+    "source_file": "data/openalex/openalex_02_works.json",
+    "raw_records": 89,
+    "research_records": 75,
+    "canonical_works": 34,
+    "excluded_record_types": {
+      "dataset": 12,
+      "software": 2
+    },
+    "health_or_medical_topic_source_hits": [],
+    "method": "manual title-lineage families, then exact normalized-title grouping",
+    "warning": "Canonicalization resolves work identity, not overlapping citation events. cited_by_count values across versions must not be summed."
+  },
+  "works": [
+    {
+      "canonical_id": "distortions_in_production_networks",
+      "display_name": "Distortions in Production Networks*",
+      "representative_openalex_id": "W3122067708",
+      "member_openalex_ids": [
+        "W3122067708",
+        "W2970593871",
+        "W2242249047",
+        "W3186721982"
+      ],
+      "member_titles": [
+        "Distortions in Production Networks",
+        "Distortions in Production Networks*",
+        "Financial Frictions in Production Networks"
+      ],
+      "authors": [
+        "Saki Bigio",
+        "Jennifer La’O"
+      ],
+      "first_indexed_year": 2013,
+      "latest_indexed_year": 2020,
+      "record_types": [
+        "article",
+        "preprint",
+        "report"
+      ],
+      "sources": [
+        "National Bureau of Economic Research",
+        "RePEc: Research Papers in Economics",
+        "The Quarterly Journal of Economics"
+      ],
+      "fields": [
+        "Economics, Econometrics and Finance"
+      ],
+      "cited_by_count_max_version": 223,
+      "cited_by_count_sum_versions": 287,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "high",
+      "mapping_basis": "el artículo final declara que subsume Financial Frictions in Production Networks"
+    },
+    {
+      "canonical_id": "title_endogenous liquidity and the business cycle",
+      "display_name": "Endogenous Liquidity and the Business Cycle",
+      "representative_openalex_id": "W2120166711",
+      "member_openalex_ids": [
+        "W2120166711",
+        "W3123260815"
+      ],
+      "member_titles": [
+        "Endogenous Liquidity and the Business Cycle"
+      ],
+      "authors": [
+        "Saki Bigio"
+      ],
+      "first_indexed_year": 2014,
+      "latest_indexed_year": 2015,
+      "record_types": [
+        "article",
+        "preprint"
+      ],
+      "sources": [
+        "American Economic Review",
+        "RePEc: Research Papers in Economics"
+      ],
+      "fields": [
+        "Economics, Econometrics and Finance"
+      ],
+      "cited_by_count_max_version": 190,
+      "cited_by_count_sum_versions": 196,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "high",
+      "mapping_basis": "título idéntico después de normalizar mayúsculas, acentos y puntuación"
+    },
+    {
+      "canonical_id": "banks_liquidity_management_monetary_policy",
+      "display_name": "Banks, Liquidity Management and Monetary Policy",
+      "representative_openalex_id": "W2108244218",
+      "member_openalex_ids": [
+        "W2108244218",
+        "W2188338937",
+        "W3121178068"
+      ],
+      "member_titles": [
+        "Banks, Liquidity Management and Monetary Policy",
+        "Banks, Liquidity Management, and Monetary Policy",
+        "Liquidity Management and Monetary Policy"
+      ],
+      "authors": [
+        "Javier Bianchi",
+        "Saki Bigio"
+      ],
+      "first_indexed_year": 2013,
+      "latest_indexed_year": 2022,
+      "record_types": [
+        "article",
+        "report"
+      ],
+      "sources": [
+        "Econometrica",
+        "National Bureau of Economic Research"
+      ],
+      "fields": [
+        "Economics, Econometrics and Finance"
+      ],
+      "cited_by_count_max_version": 119,
+      "cited_by_count_sum_versions": 129,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "high",
+      "mapping_basis": "misma pareja de autores y secuencia Columbia/NBER/Econometrica"
+    },
+    {
+      "canonical_id": "title_optimal self employment income tax enforcement",
+      "display_name": "Optimal self-employment income tax enforcement",
+      "representative_openalex_id": "W1992090825",
+      "member_openalex_ids": [
+        "W1992090825"
+      ],
+      "member_titles": [
+        "Optimal self-employment income tax enforcement"
+      ],
+      "authors": [
+        "Saki Bigio",
+        "Eduardo Zilberman"
+      ],
+      "first_indexed_year": 2010,
+      "latest_indexed_year": 2010,
+      "record_types": [
+        "article"
+      ],
+      "sources": [
+        "Journal of Public Economics"
+      ],
+      "fields": [
+        "Economics, Econometrics and Finance"
+      ],
+      "cited_by_count_max_version": 87,
+      "cited_by_count_sum_versions": 87,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "high",
+      "mapping_basis": "título idéntico después de normalizar mayúsculas, acentos y puntuación"
+    },
+    {
+      "canonical_id": "title_a monetary and fiscal history of latin america 1960 2017",
+      "display_name": "A Monetary and Fiscal History of Latin America, 1960–2017",
+      "representative_openalex_id": "W4244212591",
+      "member_openalex_ids": [
+        "W4244212591"
+      ],
+      "member_titles": [
+        "A Monetary and Fiscal History of Latin America, 1960–2017"
+      ],
+      "authors": [
+        "Alberto Martín",
+        "Alejandro Werner",
+        "Andrew J. Powell",
+        "Arturo Galindo",
+        "Carlos Esquivel",
+        "Carlos Fernández Valdovinos",
+        "Carlos Gustavo Machicado Salas",
+        "Carlos Javier Charotti",
+        "Carlos Végh",
+        "César Martinelli",
+        "Daniel Osorio",
+        "David Pérez-Reyna",
+        "Diego Restuccia",
+        "Diego Saravia",
+        "Eduardo Fernández Arias",
+        "Fabrizio Perri",
+        "Felipe Gonzalez Soley",
+        "Felipe Meza",
+        "Fernando Álvarez",
+        "Francisco Buera",
+        "Gabriel Oddone",
+        "Guillermo A. Calvo",
+        "Joaquín Marandino",
+        "José Scheinkman",
+        "José Peres‐Cajías",
+        "Julián P. Díaz",
+        "Lars Peter Hansen",
+        "Luigi Bocola",
+        "Manuel Amador",
+        "Marco Vega",
+        "Mark Aguiar",
+        "Pablo Andrés Neumeyer",
+        "Roberto Chang",
+        "Rodrigo Caputo",
+        "Saki Bigio",
+        "Sebastián Edwards",
+        "Simón Cueva",
+        "Teresa Ter‐Minassian",
+        "Thomas J. Sargent"
+      ],
+      "first_indexed_year": 2020,
+      "latest_indexed_year": 2020,
+      "record_types": [
+        "book"
+      ],
+      "sources": [
+        "University of Minnesota Press eBooks"
+      ],
+      "fields": [
+        "Economics, Econometrics and Finance"
+      ],
+      "cited_by_count_max_version": 59,
+      "cited_by_count_sum_versions": 59,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "high",
+      "mapping_basis": "título idéntico después de normalizar mayúsculas, acentos y puntuación"
+    },
+    {
+      "canonical_id": "transfers_credit_policy",
+      "display_name": "Transfers vs Credit Policy: Macroeconomic Policy Trade-offs during Covid-19",
+      "representative_openalex_id": "W3023069640",
+      "member_openalex_ids": [
+        "W3023069640",
+        "W7160518259",
+        "W3162692805"
+      ],
+      "member_titles": [
+        "Transfers vs Credit Policy: Macroeconomic Policy Trade-Offs During Covid-19",
+        "Transfers vs Credit Policy: Macroeconomic Policy Trade-offs during Covid-19",
+        "Transfers, Unemployment Insurance, or Credit Policy? Macroeconomic Policy Trade-offs during Crises"
+      ],
+      "authors": [
+        "Saki Bigio",
+        "Mengbo Zhang",
+        "Eduardo Zilberman"
+      ],
+      "first_indexed_year": 2020,
+      "latest_indexed_year": 2026,
+      "record_types": [
+        "preprint",
+        "report"
+      ],
+      "sources": [
+        "National Bureau of Economic Research",
+        "RePEc: Research Papers in Economics",
+        "SSRN Electronic Journal"
+      ],
+      "fields": [
+        "Economics, Econometrics and Finance"
+      ],
+      "cited_by_count_max_version": 46,
+      "cited_by_count_sum_versions": 46,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "high",
+      "mapping_basis": "mismos autores y ampliación del título de Covid-19 a crisis en general"
+    },
+    {
+      "canonical_id": "title_scrambling for dollars international liquidity banks and exchange rates",
+      "display_name": "Scrambling for Dollars: International Liquidity, Banks and Exchange Rates",
+      "representative_openalex_id": "W4230941936",
+      "member_openalex_ids": [
+        "W4230941936",
+        "W3212279678",
+        "W3214226784"
+      ],
+      "member_titles": [
+        "Scrambling for Dollars: International Liquidity, Banks and Exchange Rates"
+      ],
+      "authors": [
+        "Javier Bianchi",
+        "Saki Bigio",
+        "Charles Engel"
+      ],
+      "first_indexed_year": 2021,
+      "latest_indexed_year": 2021,
+      "record_types": [
+        "preprint",
+        "report"
+      ],
+      "sources": [
+        "National Bureau of Economic Research",
+        "SSRN Electronic Journal"
+      ],
+      "fields": [
+        "Economics, Econometrics and Finance"
+      ],
+      "cited_by_count_max_version": 33,
+      "cited_by_count_sum_versions": 66,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "high",
+      "mapping_basis": "título idéntico después de normalizar mayúsculas, acentos y puntuación"
+    },
+    {
+      "canonical_id": "title_financial risk capacity",
+      "display_name": "Financial Risk Capacity",
+      "representative_openalex_id": "W2136579167",
+      "member_openalex_ids": [
+        "W2136579167",
+        "W3204580263",
+        "W3212663405"
+      ],
+      "member_titles": [
+        "Financial Risk Capacity"
+      ],
+      "authors": [
+        "Saki Bigio",
+        "Adrien d’Avernas"
+      ],
+      "first_indexed_year": 2019,
+      "latest_indexed_year": 2021,
+      "record_types": [
+        "article",
+        "preprint",
+        "report"
+      ],
+      "sources": [
+        "American Economic Journal Macroeconomics",
+        "National Bureau of Economic Research",
+        "RePEc: Research Papers in Economics"
+      ],
+      "fields": [
+        "Economics, Econometrics and Finance"
+      ],
+      "cited_by_count_max_version": 22,
+      "cited_by_count_sum_versions": 43,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "high",
+      "mapping_basis": "título idéntico después de normalizar mayúsculas, acentos y puntuación"
+    },
+    {
+      "canonical_id": "title_liquidity shocks business cycles and asset prices",
+      "display_name": "Liquidity shocks, business cycles and asset prices",
+      "representative_openalex_id": "W2625539139",
+      "member_openalex_ids": [
+        "W2625539139"
+      ],
+      "member_titles": [
+        "Liquidity shocks, business cycles and asset prices"
+      ],
+      "authors": [
+        "Saki Bigio",
+        "Andrés Schneider"
+      ],
+      "first_indexed_year": 2017,
+      "latest_indexed_year": 2017,
+      "record_types": [
+        "article"
+      ],
+      "sources": [
+        "European Economic Review"
+      ],
+      "fields": [
+        "Economics, Econometrics and Finance"
+      ],
+      "cited_by_count_max_version": 20,
+      "cited_by_count_sum_versions": 20,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "high",
+      "mapping_basis": "título idéntico después de normalizar mayúsculas, acentos y puntuación"
+    },
+    {
+      "canonical_id": "credit_money_interest_prices",
+      "display_name": "A Model of Credit, Money, Interest, and Prices",
+      "representative_openalex_id": "W3135805255",
+      "member_openalex_ids": [
+        "W3135805255",
+        "W2969728067",
+        "W2593597393",
+        "W3159360076"
+      ],
+      "member_titles": [
+        "A Model of Credit, Money, Interest and Prices",
+        "A Model of Credit, Money, Interest, and Prices",
+        "A Model of Intermediation, Money, Interest, and Prices",
+        "Credit, Money, Interest, and Prices"
+      ],
+      "authors": [
+        "Saki Bigio",
+        "Yuliy Sannikov"
+      ],
+      "first_indexed_year": 2016,
+      "latest_indexed_year": 2021,
+      "record_types": [
+        "preprint",
+        "report"
+      ],
+      "sources": [
+        "National Bureau of Economic Research",
+        "RePEc: Research Papers in Economics",
+        "SSRN Electronic Journal"
+      ],
+      "fields": [
+        "Economics, Econometrics and Finance"
+      ],
+      "cited_by_count_max_version": 18,
+      "cited_by_count_sum_versions": 23,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "high",
+      "mapping_basis": "mismos autores y variantes sucesivas del mismo título"
+    },
+    {
+      "canonical_id": "q_theory_of_banks",
+      "display_name": "Banks Adjust Slowly: Evidence and Lessons for Modeling",
+      "representative_openalex_id": "W3125501673",
+      "member_openalex_ids": [
+        "W3125501673",
+        "W2971371240",
+        "W2913699286",
+        "W3151617833"
+      ],
+      "member_titles": [
+        "A Q-Theory of Banks",
+        "Banks Adjust Slowly: Evidence and Lessons for Modeling",
+        "Data Lessons on Bank Behavior"
+      ],
+      "authors": [
+        "Juliane Begenau",
+        "Saki Bigio",
+        "Jeremy Majerovitz",
+        "Matias Vieyra"
+      ],
+      "first_indexed_year": 2018,
+      "latest_indexed_year": 2021,
+      "record_types": [
+        "article",
+        "preprint",
+        "report"
+      ],
+      "sources": [
+        "National Bureau of Economic Research",
+        "RePEc: Research Papers in Economics",
+        "SSRN Electronic Journal",
+        "The Review of Economic Studies"
+      ],
+      "fields": [
+        "Business, Management and Accounting",
+        "Economics, Econometrics and Finance"
+      ],
+      "cited_by_count_max_version": 17,
+      "cited_by_count_sum_versions": 31,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "high",
+      "mapping_basis": "el artículo final identifica Data Lessons on Bank Behavior y Banks Adjust Slowly como títulos anteriores"
+    },
+    {
+      "canonical_id": "debt_maturity_management",
+      "display_name": "Debt-Maturity Management with Liquidity Costs",
+      "representative_openalex_id": "W4309092133",
+      "member_openalex_ids": [
+        "W4309092133",
+        "W3167816113",
+        "W2944329140",
+        "W2890929517"
+      ],
+      "member_titles": [
+        "A Framework for Debt-Maturity Management",
+        "Debt-Maturity Management with Liquidity Costs",
+        "Optimal Debt Management"
+      ],
+      "authors": [
+        "Saki Bigio",
+        "Galo Nuño",
+        "Juan Passadore"
+      ],
+      "first_indexed_year": 2017,
+      "latest_indexed_year": 2022,
+      "record_types": [
+        "article",
+        "preprint",
+        "report"
+      ],
+      "sources": [
+        "Journal of Political Economy Macroeconomics",
+        "National Bureau of Economic Research",
+        "RePEc: Research Papers in Economics"
+      ],
+      "fields": [
+        "Economics, Econometrics and Finance"
+      ],
+      "cited_by_count_max_version": 13,
+      "cited_by_count_sum_versions": 23,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "high",
+      "mapping_basis": "el NBER WP declara que reemplaza A Framework for Debt-Maturity Management"
+    },
+    {
+      "canonical_id": "title_un modelo semiestructural de proyeccion para la economia peruana",
+      "display_name": "Un modelo semiestructural de proyección para la economía peruana",
+      "representative_openalex_id": "W10348594",
+      "member_openalex_ids": [
+        "W10348594"
+      ],
+      "member_titles": [
+        "Un modelo semiestructural de proyección para la economía peruana"
+      ],
+      "authors": [
+        "Marco Vega",
+        "Saki Bigio",
+        "David Florián",
+        "Gonzalo Llosa",
+        "S. Miller",
+        "Nelson R. Ramírez-Rondán",
+        "Donita Rodríguez",
+        "Jorge Salas",
+        "Diego Winkelried"
+      ],
+      "first_indexed_year": 2009,
+      "latest_indexed_year": 2009,
+      "record_types": [
+        "article"
+      ],
+      "sources": [
+        "RePEc: Research Papers in Economics"
+      ],
+      "fields": [
+        "Economics, Econometrics and Finance"
+      ],
+      "cited_by_count_max_version": 8,
+      "cited_by_count_sum_versions": 8,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "high",
+      "mapping_basis": "título idéntico después de normalizar mayúsculas, acentos y puntuación"
+    },
+    {
+      "canonical_id": "title_liquidity shocks and the business cycle what next",
+      "display_name": "Liquidity Shocks and the Business Cycle: What next?",
+      "representative_openalex_id": "W2509359017",
+      "member_openalex_ids": [
+        "W2509359017"
+      ],
+      "member_titles": [
+        "Liquidity Shocks and the Business Cycle: What next?"
+      ],
+      "authors": [
+        "Saki Bigio"
+      ],
+      "first_indexed_year": 2012,
+      "latest_indexed_year": 2012,
+      "record_types": [
+        "article"
+      ],
+      "sources": [],
+      "fields": [
+        "Economics, Econometrics and Finance"
+      ],
+      "cited_by_count_max_version": 7,
+      "cited_by_count_sum_versions": 7,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "high",
+      "mapping_basis": "título idéntico después de normalizar mayúsculas, acentos y puntuación"
+    },
+    {
+      "canonical_id": "title_liquidity shocks and the business cycle",
+      "display_name": "Liquidity Shocks and the Business Cycle",
+      "representative_openalex_id": "W1521050694",
+      "member_openalex_ids": [
+        "W1521050694"
+      ],
+      "member_titles": [
+        "Liquidity Shocks and the Business Cycle"
+      ],
+      "authors": [
+        "Saki Bigio"
+      ],
+      "first_indexed_year": 2010,
+      "latest_indexed_year": 2010,
+      "record_types": [
+        "preprint"
+      ],
+      "sources": [
+        "RePEc: Research Papers in Economics"
+      ],
+      "fields": [
+        "Economics, Econometrics and Finance"
+      ],
+      "cited_by_count_max_version": 6,
+      "cited_by_count_sum_versions": 6,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "high",
+      "mapping_basis": "título idéntico después de normalizar mayúsculas, acentos y puntuación"
+    },
+    {
+      "canonical_id": "title_non linear effects of monetary policy and real exchange rate shocks in partially dollarized economies an empirical study for peru",
+      "display_name": "Non-Linear Effects of Monetary Policy and Real Exchange Rate Shocks in Partially Dollarized Economies: An Empirical Study for Peru",
+      "representative_openalex_id": "W3123451724",
+      "member_openalex_ids": [
+        "W3123451724"
+      ],
+      "member_titles": [
+        "Non-Linear Effects of Monetary Policy and Real Exchange Rate Shocks in Partially Dollarized Economies: An Empirical Study for Peru"
+      ],
+      "authors": [
+        "Saki Bigio",
+        "Jorge Salas"
+      ],
+      "first_indexed_year": 2006,
+      "latest_indexed_year": 2006,
+      "record_types": [
+        "preprint"
+      ],
+      "sources": [
+        "RePEc: Research Papers in Economics"
+      ],
+      "fields": [
+        "Economics, Econometrics and Finance"
+      ],
+      "cited_by_count_max_version": 3,
+      "cited_by_count_sum_versions": 3,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "high",
+      "mapping_basis": "título idéntico después de normalizar mayúsculas, acentos y puntuación"
+    },
+    {
+      "canonical_id": "title_learning under fear of floating",
+      "display_name": "Learning under fear of floating",
+      "representative_openalex_id": "W2240291323",
+      "member_openalex_ids": [
+        "W2240291323",
+        "W3125644269"
+      ],
+      "member_titles": [
+        "Learning under Fear of Floating",
+        "Learning under fear of floating"
+      ],
+      "authors": [
+        "Saki Bigio"
+      ],
+      "first_indexed_year": 2009,
+      "latest_indexed_year": 2010,
+      "record_types": [
+        "article",
+        "preprint"
+      ],
+      "sources": [
+        "Journal of Economic Dynamics and Control",
+        "RePEc: Research Papers in Economics"
+      ],
+      "fields": [
+        "Economics, Econometrics and Finance"
+      ],
+      "cited_by_count_max_version": 3,
+      "cited_by_count_sum_versions": 3,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "high",
+      "mapping_basis": "título idéntico después de normalizar mayúsculas, acentos y puntuación"
+    },
+    {
+      "canonical_id": "heterogeneous_beliefs_asset_prices_business_cycles",
+      "display_name": "Heterogeneous Beliefs, Asset Prices, and Business Cycles",
+      "representative_openalex_id": "W4409422010",
+      "member_openalex_ids": [
+        "W4409422010",
+        "W4409411736",
+        "W3001875066"
+      ],
+      "member_titles": [
+        "Heterogeneous Beliefs, Asset Prices, and Business Cycles",
+        "Speculation-Driven Business Cycles"
+      ],
+      "authors": [
+        "Saki Bigio",
+        "Dejanir Silva",
+        "Eduardo Zilberman"
+      ],
+      "first_indexed_year": 2019,
+      "latest_indexed_year": 2025,
+      "record_types": [
+        "preprint",
+        "report"
+      ],
+      "sources": [
+        "National Bureau of Economic Research",
+        "SSRN Electronic Journal"
+      ],
+      "fields": [
+        "Economics, Econometrics and Finance"
+      ],
+      "cited_by_count_max_version": 3,
+      "cited_by_count_sum_versions": 3,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "medium",
+      "mapping_basis": "Speculation-Driven Business Cycles es el antecedente indexado con autores parcialmente coincidentes"
+    },
+    {
+      "canonical_id": "corruption_development_indicators",
+      "display_name": "Corruption and Development Indicators: An Empirical Review",
+      "representative_openalex_id": "W1601126220",
+      "member_openalex_ids": [
+        "W1601126220",
+        "W2786276706"
+      ],
+      "member_titles": [
+        "Corrupción e indicadores de desarrollo en el Perú y el mundo: Una revisión empírica",
+        "Corruption and Development Indicators: An Empirical Review"
+      ],
+      "authors": [
+        "Nelson R. Ramírez-Rondán",
+        "Saki Bigio"
+      ],
+      "first_indexed_year": 2006,
+      "latest_indexed_year": 2017,
+      "record_types": [
+        "preprint"
+      ],
+      "sources": [
+        "RePEc: Research Papers in Economics"
+      ],
+      "fields": [
+        "Economics, Econometrics and Finance",
+        "Social Sciences"
+      ],
+      "cited_by_count_max_version": 2,
+      "cited_by_count_sum_versions": 2,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "high",
+      "mapping_basis": "mismos autores; versión inglesa y revisión en castellano"
+    },
+    {
+      "canonical_id": "title_repurchase options in the market for lemons",
+      "display_name": "Repurchase Options in the Market for Lemons",
+      "representative_openalex_id": "W3081098093",
+      "member_openalex_ids": [
+        "W3081098093",
+        "W3140028335",
+        "W3138423701",
+        "W4206104807"
+      ],
+      "member_titles": [
+        "Repurchase Options in the Market for Lemons"
+      ],
+      "authors": [
+        "Saki Bigio",
+        "Liyan Shi"
+      ],
+      "first_indexed_year": 2020,
+      "latest_indexed_year": 2025,
+      "record_types": [
+        "article",
+        "preprint",
+        "report"
+      ],
+      "sources": [
+        "National Bureau of Economic Research",
+        "SSRN Electronic Journal",
+        "The Review of Economic Studies"
+      ],
+      "fields": [
+        "Economics, Econometrics and Finance"
+      ],
+      "cited_by_count_max_version": 2,
+      "cited_by_count_sum_versions": 2,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "high",
+      "mapping_basis": "título idéntico después de normalizar mayúsculas, acentos y puntuación"
+    },
+    {
+      "canonical_id": "title_monetary policy under balance sheet uncertainty",
+      "display_name": "Monetary Policy under Balance Sheet Uncertainty",
+      "representative_openalex_id": "W1586805851",
+      "member_openalex_ids": [
+        "W1586805851"
+      ],
+      "member_titles": [
+        "Monetary Policy under Balance Sheet Uncertainty"
+      ],
+      "authors": [
+        "Saki Bigio",
+        "Marco Vega"
+      ],
+      "first_indexed_year": 2006,
+      "latest_indexed_year": 2006,
+      "record_types": [
+        "preprint"
+      ],
+      "sources": [
+        "RePEc: Research Papers in Economics"
+      ],
+      "fields": [
+        "Economics, Econometrics and Finance"
+      ],
+      "cited_by_count_max_version": 1,
+      "cited_by_count_sum_versions": 1,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "high",
+      "mapping_basis": "título idéntico después de normalizar mayúsculas, acentos y puntuación"
+    },
+    {
+      "canonical_id": "theory_of_payments_chain_crises",
+      "display_name": "A Theory of Payments-Chain Crises",
+      "representative_openalex_id": "W4317790378",
+      "member_openalex_ids": [
+        "W4317790378",
+        "W4320018833",
+        "W2295818883"
+      ],
+      "member_titles": [
+        "A Theory of Payments Crises",
+        "A Theory of Payments-Chain Crises"
+      ],
+      "authors": [
+        "Saki Bigio"
+      ],
+      "first_indexed_year": 2015,
+      "latest_indexed_year": 2023,
+      "record_types": [
+        "preprint",
+        "report"
+      ],
+      "sources": [
+        "National Bureau of Economic Research",
+        "RePEc: Research Papers in Economics",
+        "SSRN Electronic Journal"
+      ],
+      "fields": [
+        "Economics, Econometrics and Finance"
+      ],
+      "cited_by_count_max_version": 1,
+      "cited_by_count_sum_versions": 1,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "medium",
+      "mapping_basis": "mismo autor y título casi idéntico; se mantiene separado del trabajo conjunto de 2026"
+    },
+    {
+      "canonical_id": "title_sticky inflation monetary policy when debt drags inflation expectations",
+      "display_name": "Sticky Inflation: Monetary Policy when Debt Drags Inflation Expectations",
+      "representative_openalex_id": "W4404709002",
+      "member_openalex_ids": [
+        "W4404709002",
+        "W4405237198",
+        "W4404719439"
+      ],
+      "member_titles": [
+        "Sticky Inflation: Monetary Policy when Debt Drags Inflation Expectations"
+      ],
+      "authors": [
+        "Saki Bigio",
+        "Nicolas Caramp",
+        "Dejanir Silva"
+      ],
+      "first_indexed_year": 2024,
+      "latest_indexed_year": 2024,
+      "record_types": [
+        "preprint",
+        "report"
+      ],
+      "sources": [
+        "National Bureau of Economic Research",
+        "SSRN Electronic Journal"
+      ],
+      "fields": [
+        "Economics, Econometrics and Finance"
+      ],
+      "cited_by_count_max_version": 1,
+      "cited_by_count_sum_versions": 2,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "high",
+      "mapping_basis": "título idéntico después de normalizar mayúsculas, acentos y puntuación"
+    },
+    {
+      "canonical_id": "title_the heterogeneous bank lending channel of monetary policy",
+      "display_name": "The Heterogeneous Bank Lending Channel of Monetary Policy",
+      "representative_openalex_id": "W7162330718",
+      "member_openalex_ids": [
+        "W7162330718",
+        "W7167268773",
+        "W7167839854",
+        "W7171691915"
+      ],
+      "member_titles": [
+        "The Heterogeneous Bank Lending Channel of Monetary Policy"
+      ],
+      "authors": [
+        "Jorge Abad",
+        "Saki Bigio",
+        "Salomon Garcia-Villegas",
+        "Joël Marbet",
+        "Galo Nuño"
+      ],
+      "first_indexed_year": 2026,
+      "latest_indexed_year": 2026,
+      "record_types": [
+        "preprint",
+        "report"
+      ],
+      "sources": [
+        "CESifo",
+        "Documentos de trabajo/Documento de trabajo - Banco de España, Servicio de Estudios",
+        "National Bureau of Economic Research",
+        "SSRN Electronic Journal"
+      ],
+      "fields": [
+        "Economics, Econometrics and Finance"
+      ],
+      "cited_by_count_max_version": 1,
+      "cited_by_count_sum_versions": 1,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "high",
+      "mapping_basis": "título idéntico después de normalizar mayúsculas, acentos y puntuación"
+    },
+    {
+      "canonical_id": "title_payment chain crises",
+      "display_name": "Payment-Chain Crises",
+      "representative_openalex_id": "W7118280550",
+      "member_openalex_ids": [
+        "W7118280550",
+        "W7118922410"
+      ],
+      "member_titles": [
+        "Payment-Chain Crises"
+      ],
+      "authors": [
+        "Saki Bigio",
+        "Esteban Méndez",
+        "Diana Van Patten"
+      ],
+      "first_indexed_year": 2026,
+      "latest_indexed_year": 2026,
+      "record_types": [
+        "preprint",
+        "report"
+      ],
+      "sources": [
+        "National Bureau of Economic Research",
+        "SSRN Electronic Journal"
+      ],
+      "fields": [
+        "Economics, Econometrics and Finance"
+      ],
+      "cited_by_count_max_version": 1,
+      "cited_by_count_sum_versions": 1,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "high",
+      "mapping_basis": "título idéntico después de normalizar mayúsculas, acentos y puntuación"
+    },
+    {
+      "canonical_id": "title_leverage restrictions in a business cycle model a comment",
+      "display_name": "Leverage Restrictions in a Business Cycle Model: A Comment",
+      "representative_openalex_id": "W2274845662",
+      "member_openalex_ids": [
+        "W2274845662"
+      ],
+      "member_titles": [
+        "Leverage Restrictions in a Business Cycle Model: A Comment"
+      ],
+      "authors": [
+        "Saki Bigio"
+      ],
+      "first_indexed_year": 2014,
+      "latest_indexed_year": 2014,
+      "record_types": [
+        "article"
+      ],
+      "sources": [
+        "RePEc: Research Papers in Economics"
+      ],
+      "fields": [
+        "Economics, Econometrics and Finance"
+      ],
+      "cited_by_count_max_version": 0,
+      "cited_by_count_sum_versions": 0,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "high",
+      "mapping_basis": "título idéntico después de normalizar mayúsculas, acentos y puntuación"
+    },
+    {
+      "canonical_id": "title_liquid bank liabilities",
+      "display_name": "Liquid bank liabilities",
+      "representative_openalex_id": "W2303886537",
+      "member_openalex_ids": [
+        "W2303886537"
+      ],
+      "member_titles": [
+        "Liquid bank liabilities"
+      ],
+      "authors": [
+        "Pierre-Olivier Weill",
+        "Saki Bigio"
+      ],
+      "first_indexed_year": 2015,
+      "latest_indexed_year": 2015,
+      "record_types": [
+        "preprint"
+      ],
+      "sources": [
+        "RePEc: Research Papers in Economics"
+      ],
+      "fields": [
+        "Economics, Econometrics and Finance"
+      ],
+      "cited_by_count_max_version": 0,
+      "cited_by_count_sum_versions": 0,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "high",
+      "mapping_basis": "título idéntico después de normalizar mayúsculas, acentos y puntuación"
+    },
+    {
+      "canonical_id": "title_comments on optimal supply of public and private liquidity by marina azzimonti and pierre yared",
+      "display_name": "Comments on “Optimal supply of public and private liquidity” by Marina Azzimonti and Pierre Yared",
+      "representative_openalex_id": "W2911662517",
+      "member_openalex_ids": [
+        "W2911662517"
+      ],
+      "member_titles": [
+        "Comments on “Optimal supply of public and private liquidity” by Marina Azzimonti and Pierre Yared"
+      ],
+      "authors": [
+        "Saki Bigio"
+      ],
+      "first_indexed_year": 2019,
+      "latest_indexed_year": 2019,
+      "record_types": [
+        "article"
+      ],
+      "sources": [
+        "Journal of Monetary Economics"
+      ],
+      "fields": [
+        "Economics, Econometrics and Finance"
+      ],
+      "cited_by_count_max_version": 0,
+      "cited_by_count_sum_versions": 0,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "high",
+      "mapping_basis": "título idéntico después de normalizar mayúsculas, acentos y puntuación"
+    },
+    {
+      "canonical_id": "title_politica monetaria una nueva perspectiva",
+      "display_name": "Política monetaria: una nueva perspectiva",
+      "representative_openalex_id": "W4212917251",
+      "member_openalex_ids": [
+        "W4212917251"
+      ],
+      "member_titles": [
+        "Política monetaria: una nueva perspectiva"
+      ],
+      "authors": [
+        "Saki Bigio"
+      ],
+      "first_indexed_year": 2022,
+      "latest_indexed_year": 2022,
+      "record_types": [
+        "book-chapter"
+      ],
+      "sources": [
+        "Universidad del Pacífico eBooks"
+      ],
+      "fields": [
+        "Economics, Econometrics and Finance"
+      ],
+      "cited_by_count_max_version": 0,
+      "cited_by_count_sum_versions": 0,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "high",
+      "mapping_basis": "título idéntico después de normalizar mayúsculas, acentos y puntuación"
+    },
+    {
+      "canonical_id": "title_discussion of business cycle asymmetry and input output structure the role of firm to firm networks by miranda pinto silva and young",
+      "display_name": "Discussion of “business cycle asymmetry and input-output structure: The role of firm-to-firm networks” by Miranda-Pinto, Silva and Young",
+      "representative_openalex_id": "W4376652526",
+      "member_openalex_ids": [
+        "W4376652526"
+      ],
+      "member_titles": [
+        "Discussion of “business cycle asymmetry and input-output structure: The role of firm-to-firm networks” by Miranda-Pinto, Silva and Young"
+      ],
+      "authors": [
+        "Saki Bigio"
+      ],
+      "first_indexed_year": 2023,
+      "latest_indexed_year": 2023,
+      "record_types": [
+        "editorial"
+      ],
+      "sources": [
+        "Journal of Monetary Economics"
+      ],
+      "fields": [
+        "Economics, Econometrics and Finance"
+      ],
+      "cited_by_count_max_version": 0,
+      "cited_by_count_sum_versions": 0,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "high",
+      "mapping_basis": "título idéntico después de normalizar mayúsculas, acentos y puntuación"
+    },
+    {
+      "canonical_id": "title_carbon pricing and inequality a normative perspective",
+      "display_name": "Carbon Pricing and Inequality: A Normative Perspective",
+      "representative_openalex_id": "W7135011887",
+      "member_openalex_ids": [
+        "W7135011887",
+        "W4413417500",
+        "W4413314996"
+      ],
+      "member_titles": [
+        "Carbon Pricing and Inequality: A Normative Perspective"
+      ],
+      "authors": [
+        "Saki Bigio",
+        "Diego R. Känzig",
+        "Pablo Antonio Fernández Sánchez",
+        "Conor Walsh"
+      ],
+      "first_indexed_year": 2025,
+      "latest_indexed_year": 2026,
+      "record_types": [
+        "article",
+        "preprint",
+        "report"
+      ],
+      "sources": [
+        "National Bureau of Economic Research",
+        "SSRN Electronic Journal",
+        "The Economic Journal"
+      ],
+      "fields": [
+        "Economics, Econometrics and Finance"
+      ],
+      "cited_by_count_max_version": 0,
+      "cited_by_count_sum_versions": 0,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "high",
+      "mapping_basis": "título idéntico después de normalizar mayúsculas, acentos y puntuación"
+    },
+    {
+      "canonical_id": "title_portfolio choice and settlement frictions a theory of endogenous convenience yields",
+      "display_name": "Portfolio Choice and Settlement Frictions: A Theory of Endogenous Convenience Yields",
+      "representative_openalex_id": "W4416294793",
+      "member_openalex_ids": [
+        "W4416294793",
+        "W4416375896",
+        "W4416309195"
+      ],
+      "member_titles": [
+        "Portfolio Choice and Settlement Frictions: A Theory of Endogenous Convenience Yields"
+      ],
+      "authors": [
+        "Javier Bianchi",
+        "Saki Bigio"
+      ],
+      "first_indexed_year": 2025,
+      "latest_indexed_year": 2025,
+      "record_types": [
+        "article",
+        "preprint"
+      ],
+      "sources": [
+        "Journal of Economic Theory",
+        "SSRN Electronic Journal"
+      ],
+      "fields": [
+        "Economics, Econometrics and Finance"
+      ],
+      "cited_by_count_max_version": 0,
+      "cited_by_count_sum_versions": 0,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "high",
+      "mapping_basis": "título idéntico después de normalizar mayúsculas, acentos y puntuación"
+    },
+    {
+      "canonical_id": "title_new keynesian economics through the extensive margin",
+      "display_name": "New Keynesian Economics through the Extensive Margin",
+      "representative_openalex_id": "W4406106972",
+      "member_openalex_ids": [
+        "W4406106972",
+        "W4406149373"
+      ],
+      "member_titles": [
+        "New Keynesian Economics through the Extensive Margin"
+      ],
+      "authors": [
+        "Saki Bigio",
+        "Akira Ishide"
+      ],
+      "first_indexed_year": 2025,
+      "latest_indexed_year": 2025,
+      "record_types": [
+        "preprint",
+        "report"
+      ],
+      "sources": [
+        "National Bureau of Economic Research",
+        "SSRN Electronic Journal"
+      ],
+      "fields": [
+        "Economics, Econometrics and Finance"
+      ],
+      "cited_by_count_max_version": 0,
+      "cited_by_count_sum_versions": 0,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "high",
+      "mapping_basis": "título idéntico después de normalizar mayúsculas, acentos y puntuación"
+    },
+    {
+      "canonical_id": "title_competitive bank liability design",
+      "display_name": "Competitive Bank Liability Design",
+      "representative_openalex_id": "W7161178324",
+      "member_openalex_ids": [
+        "W7161178324"
+      ],
+      "member_titles": [
+        "Competitive Bank Liability Design"
+      ],
+      "authors": [
+        "Saki Bigio",
+        "Pierre-Olivier Weill",
+        "Diego Zúñiga"
+      ],
+      "first_indexed_year": 2026,
+      "latest_indexed_year": 2026,
+      "record_types": [
+        "article"
+      ],
+      "sources": [
+        "AEA Papers and Proceedings"
+      ],
+      "fields": [
+        "Economics, Econometrics and Finance"
+      ],
+      "cited_by_count_max_version": 0,
+      "cited_by_count_sum_versions": 0,
+      "citation_count_rule": "usar max_version como indicador conservador; no sumar sin deduplicar trabajos citantes",
+      "mapping_confidence": "high",
+      "mapping_basis": "título idéntico después de normalizar mayúsculas, acentos y puntuación"
+    }
+  ]
+}
