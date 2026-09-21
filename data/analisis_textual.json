@@ -1,0 +1,474 @@
+{
+ "periodos": [
+  "I · 2006–2013",
+  "II · 2014–2019",
+  "III · 2020–2026"
+ ],
+ "n_por_periodo": {
+  "I · 2006–2013": 9,
+  "II · 2014–2019": 16,
+  "III · 2020–2026": 22
+ },
+ "distintivos": {
+  "I · 2006–2013": [
+   [
+    "distortions",
+    0.118
+   ],
+   [
+    "sectoral distortions",
+    0.089
+   ],
+   [
+    "sectoral",
+    0.089
+   ],
+   [
+    "inputted",
+    0.089
+   ],
+   [
+    "inputted income",
+    0.089
+   ],
+   [
+    "desarrollo",
+    0.089
+   ],
+   [
+    "liquidity management",
+    0.089
+   ],
+   [
+    "para",
+    0.089
+   ],
+   [
+    "crecimiento",
+    0.089
+   ],
+   [
+    "labor",
+    0.084
+   ],
+   [
+    "collection",
+    0.072
+   ],
+   [
+    "lugar",
+    0.072
+   ]
+  ],
+  "II · 2014–2019": [
+   [
+    "payments",
+    0.091
+   ],
+   [
+    "asset prices",
+    0.088
+   ],
+   [
+    "business cycles",
+    0.074
+   ],
+   [
+    "equity",
+    0.074
+   ],
+   [
+    "cycles",
+    0.074
+   ],
+   [
+    "beliefs",
+    0.074
+   ],
+   [
+    "crises",
+    0.074
+   ],
+   [
+    "asset",
+    0.074
+   ],
+   [
+    "prices",
+    0.074
+   ],
+   [
+    "insurance",
+    0.068
+   ],
+   [
+    "asset pricing",
+    0.06
+   ],
+   [
+    "heterogeneous beliefs",
+    0.06
+   ]
+  ],
+  "III · 2020–2026": [
+   [
+    "demand",
+    0.094
+   ],
+   [
+    "inflation",
+    0.083
+   ],
+   [
+    "dollar",
+    0.083
+   ],
+   [
+    "dollar liquidity",
+    0.068
+   ],
+   [
+    "fluctuations",
+    0.064
+   ],
+   [
+    "transfers",
+    0.064
+   ],
+   [
+    "credit policy",
+    0.064
+   ],
+   [
+    "reserve",
+    0.061
+   ],
+   [
+    "debt",
+    0.059
+   ],
+   [
+    "exchange",
+    0.059
+   ],
+   [
+    "covid-",
+    0.058
+   ],
+   [
+    "margin",
+    0.058
+   ]
+  ]
+ },
+ "trayectoria": {
+  "liquidez": [
+   22,
+   38,
+   27
+  ],
+  "bancos": [
+   11,
+   31,
+   23
+  ],
+  "política monetaria": [
+   22,
+   19,
+   27
+  ],
+  "reservas / encaje": [
+   11,
+   12,
+   18
+  ],
+  "pagos": [
+   0,
+   12,
+   0
+  ],
+  "dólares / tipo de cambio": [
+   11,
+   0,
+   9
+  ],
+  "redes de producción": [
+   11,
+   0,
+   5
+  ],
+  "información asimétrica": [
+   0,
+   6,
+   5
+  ],
+  "deuda": [
+   0,
+   19,
+   18
+  ],
+  "inflación": [
+   0,
+   0,
+   14
+  ],
+  "crédito": [
+   11,
+   25,
+   9
+  ]
+ },
+ "jel_periodo": {
+  "I · 2006–2013": {
+   "D": 2,
+   "O": 2,
+   "H": 1,
+   "C": 1,
+   "E": 4,
+   "G": 3
+  },
+  "II · 2014–2019": {
+   "E": 7,
+   "G": 6
+  },
+  "III · 2020–2026": {
+   "E": 7,
+   "F": 3,
+   "G": 4,
+   "D": 1
+  }
+ },
+ "coautores": [
+  [
+   "Zilberman",
+   3
+  ],
+  [
+   "Bianchi",
+   3
+  ],
+  [
+   "Nuno",
+   3
+  ],
+  [
+   "Silva",
+   2
+  ],
+  [
+   "Schneider",
+   1
+  ],
+  [
+   "La'O",
+   1
+  ],
+  [
+   "d'Avernas",
+   1
+  ],
+  [
+   "Passadore",
+   1
+  ],
+  [
+   "Shi",
+   1
+  ],
+  [
+   "Begenau",
+   1
+  ],
+  [
+   "Majerovitz",
+   1
+  ],
+  [
+   "Vieyra",
+   1
+  ],
+  [
+   "Kanzig",
+   1
+  ],
+  [
+   "Sanchez",
+   1
+  ],
+  [
+   "Walsh",
+   1
+  ],
+  [
+   "Weill",
+   1
+  ],
+  [
+   "Zuniga",
+   1
+  ],
+  [
+   "Sannikov",
+   1
+  ],
+  [
+   "Engel",
+   1
+  ],
+  [
+   "Caramp",
+   1
+  ],
+  [
+   "Zhang",
+   1
+  ],
+  [
+   "D'Erasmo",
+   1
+  ],
+  [
+   "Yepez",
+   1
+  ],
+  [
+   "Mendez",
+   1
+  ],
+  [
+   "van Patten",
+   1
+  ],
+  [
+   "Abad",
+   1
+  ],
+  [
+   "Garcia-Villegas",
+   1
+  ],
+  [
+   "Marbet",
+   1
+  ],
+  [
+   "Ishide",
+   1
+  ],
+  [
+   "Castillo",
+   1
+  ],
+  [
+   "Han",
+   1
+  ]
+ ],
+ "pares": [
+  [
+   "Nuno",
+   "Passadore",
+   1
+  ],
+  [
+   "Begenau",
+   "Majerovitz",
+   1
+  ],
+  [
+   "Begenau",
+   "Vieyra",
+   1
+  ],
+  [
+   "Majerovitz",
+   "Vieyra",
+   1
+  ],
+  [
+   "Silva",
+   "Zilberman",
+   1
+  ],
+  [
+   "Kanzig",
+   "Sanchez",
+   1
+  ],
+  [
+   "Kanzig",
+   "Walsh",
+   1
+  ],
+  [
+   "Sanchez",
+   "Walsh",
+   1
+  ],
+  [
+   "Weill",
+   "Zuniga",
+   1
+  ],
+  [
+   "Bianchi",
+   "Engel",
+   1
+  ],
+  [
+   "Caramp",
+   "Silva",
+   1
+  ],
+  [
+   "Zhang",
+   "Zilberman",
+   1
+  ],
+  [
+   "D'Erasmo",
+   "Yepez",
+   1
+  ],
+  [
+   "Mendez",
+   "van Patten",
+   1
+  ],
+  [
+   "Abad",
+   "Garcia-Villegas",
+   1
+  ],
+  [
+   "Abad",
+   "Marbet",
+   1
+  ],
+  [
+   "Abad",
+   "Nuno",
+   1
+  ],
+  [
+   "Garcia-Villegas",
+   "Marbet",
+   1
+  ],
+  [
+   "Garcia-Villegas",
+   "Nuno",
+   1
+  ],
+  [
+   "Marbet",
+   "Nuno",
+   1
+  ],
+  [
+   "Castillo",
+   "Han",
+   1
+  ]
+ ]
+}

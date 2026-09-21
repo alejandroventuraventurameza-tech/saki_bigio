@@ -1,0 +1,392 @@
+{
+ "titulo": "De la práctica a una formalización específica",
+ "subtitulo": "Cronología comparada de la experiencia del BCRP y el pensamiento de Saki Bigio, 1990–2026",
+ "proyecto": "Trabajo grupal 01 · Historia del Pensamiento Económico · UP 2026-02 · preguntas 3 y 4",
+ "actualizado": "2026-09-21",
+ "ventajas_medidas": [
+  {
+   "valor": "21",
+   "unidad": "años",
+   "titulo": "Del encaje diferenciado a su modelo",
+   "detalle": "El BCRP separa el encaje por moneda en 1992. Una primera versión del modelo de Bianchi y Bigio sobre gestión de liquidez bancaria circula en 2013. Son objetos relacionados, no idénticos."
+  },
+  {
+   "valor": "3",
+   "unidad": "años",
+   "titulo": "De la observación a la primera formalización",
+   "detalle": "Quispe y Rossini describen la desconexión de tasas en 2010. La primera versión verificable del modelo bancario de Bianchi y Bigio circula en 2013."
+  },
+  {
+   "valor": "4,8",
+   "unidad": "años",
+   "titulo": "Del working paper a la revista",
+   "detalle": "Rezago medio documentado entre primera versión y publicación en trece artículos. El máximo es nueve años; cinco fechas conservan confianza media."
+  }
+ ],
+ "bandas_de_ventaja": [
+  {
+   "ancla_anio": "2013",
+   "ventaja": "21 años",
+   "texto": "El encaje diferenciado por moneda existe desde 1992. Una versión del modelo de equilibrio general de gestión de liquidez bancaria circula en 2013 y se publica en 2022. La comparación documenta precedencia, no identidad entre el instrumento peruano y el objeto del modelo.",
+   "rotulo": "1992 → 2013 · precedencia de una práctica relacionada",
+   "fuente": "Instrumento: Rossini (2016), p. 27 [1]. Primera versión del modelo: OpenAlex W2188338937 [9]."
+  },
+  {
+   "ancla_anio": "2010",
+   "ventaja": "3 años",
+   "texto": "Quispe y Rossini describen en 2010 la desconexión entre la tasa de política y otras tasas. La primera versión verificable del modelo bancario de Bianchi y Bigio circula en 2013.",
+   "rotulo": "2010 → 2013 · de la observación a una formalización específica",
+   "fuente": "Observación: Quispe y Rossini (2010), p. 304 [2]. Primera versión: OpenAlex W2188338937 [9]."
+  }
+ ],
+ "eventos": [
+  {
+   "anio": "1988–90",
+   "carril": "contexto",
+   "etiqueta": null,
+   "titulo": "Hiperinflación",
+   "descripcion": "1 153 755 % acumulado en dos años, equivalente a 43 % mensual.",
+   "cita": null,
+   "cita_fuente": null,
+   "fuente": "Rossini (2016), p. 24 [1]"
+  },
+  {
+   "anio": "1990",
+   "carril": "practica_bcrp",
+   "etiqueta": null,
+   "titulo": "Fin de la hiperinflación",
+   "descripcion": "Ancla de emisión primaria con tipo de cambio flotante. El encaje sobre obligaciones en soles cae de 80 % en julio de 1990 al mínimo de la Ley de Bancos, 9 %.",
+   "cita": "No tenía antecedentes.",
+   "cita_fuente": "Rossini (2016), p. 24",
+   "fuente": "Rossini (2016), pp. 24 y 26 [1]"
+  },
+  {
+   "anio": "1992",
+   "carril": "practica_bcrp",
+   "etiqueta": "instrumento fundacional",
+   "titulo": "Encaje diferenciado por moneda",
+   "descripcion": "Se implanta un encaje de 50 % sobre los depósitos en moneda extranjera frente a 9 % en moneda nacional, para mitigar el riesgo de que el BCRP no pueda operar como prestamista de última instancia en dólares.",
+   "cita": null,
+   "cita_fuente": null,
+   "fuente": "Rossini (2016), p. 27 [1]"
+  },
+  {
+   "anio": "1998",
+   "carril": "contexto",
+   "etiqueta": null,
+   "titulo": "Crisis rusa",
+   "descripcion": "Corte de líneas externas y parálisis del crédito privado. De ahí sale el plan de contingencia del BCRP.",
+   "cita": null,
+   "cita_fuente": null,
+   "fuente": "Rossini (2016), pp. 29–30 [1]"
+  },
+  {
+   "anio": "1999–2003",
+   "carril": "pensamiento_bigio",
+   "etiqueta": null,
+   "titulo": "Bachillerato en la Universidad del Pacífico",
+   "descripcion": "Su asesor de tesis de pregrado fue Julio Velarde, hoy presidente del BCRP. Él mismo lo cuenta: «I had the good fortune to later on have Velarde and Sargent as undergraduate and graduate thesis advisers».",
+   "cita": null,
+   "cita_fuente": null,
+   "fuente": "Bigio, comentario a Martinelli y Vega, p. 1 [5]; CV, agosto de 2026 [6]"
+  },
+  {
+   "anio": "2002",
+   "carril": "practica_bcrp",
+   "etiqueta": null,
+   "titulo": "Metas de inflación bajo dolarización parcial",
+   "descripcion": "El propio BCRP lo llama «hybrid inflation targeting»: meta de 2 % ± 1 % y tasa overnight como objetivo operativo, más encajes altos en moneda extranjera contra el riesgo de liquidez e intervención cambiaria esterilizada contra el efecto hoja de balance.",
+   "cita": null,
+   "cita_fuente": null,
+   "fuente": "Quispe y Rossini (2010), p. 301, recuadro 2 [2]; Rossini (2016), pp. 32–33 [1]"
+  },
+  {
+   "anio": "2004–05",
+   "carril": "pensamiento_bigio",
+   "etiqueta": "origen · versión en castellano",
+   "titulo": "Economista en la Gerencia de Estudios Económicos del BCRP",
+   "descripcion": "Su primer empleo, y el origen declarado de toda su agenda. Su jefe fue Renzo Rossini.",
+   "cita": "Las dos unidades de élite eran el Departamento de Modelos Macroeconómicos y el de Estadísticas Monetarias y Bancarias… Estas dos áreas estaban prácticamente divorciadas. ¿Por qué en nuestros modelos no tenemos bancos?",
+   "cita_fuente": "Bigio (2022), p. 371",
+   "fuente": "Bigio (2022), p. 371 [3]; CV, agosto de 2026 [6]"
+  },
+  {
+   "anio": "2006",
+   "carril": "pensamiento_bigio",
+   "etiqueta": null,
+   "titulo": "Dos documentos de trabajo del BCRP",
+   "descripcion": "Efectos no lineales de la política monetaria y del tipo de cambio real en economías parcialmente dolarizadas, con Salas; y corrupción e indicadores de desarrollo, con Ramírez-Rondán.",
+   "cita": null,
+   "cita_fuente": null,
+   "fuente": "Corpus del proyecto, E01 y E02; CV [6]"
+  },
+  {
+   "anio": "2006–12",
+   "carril": "pensamiento_bigio",
+   "etiqueta": null,
+   "titulo": "Doctorado en New York University",
+   "descripcion": "Asesores: Thomas Sargent y Ricardo Lagos. Lagos aparece en siete de las nueve bibliografías de su núcleo de dinero y banca, más que ningún otro autor externo.",
+   "cita": null,
+   "cita_fuente": null,
+   "fuente": "CV [6]; recuento propio sobre 178 412 caracteres de bibliografía (Fase 2b) [7]"
+  },
+  {
+   "anio": "set-2007",
+   "carril": "practica_bcrp",
+   "etiqueta": null,
+   "titulo": "Encaje cero a los préstamos externos a más de dos años",
+   "descripcion": "Medida no convencional para alargar el plazo del fondeo bancario en moneda extranjera y reducir la vulnerabilidad a cortes de líneas del exterior.",
+   "cita": null,
+   "cita_fuente": null,
+   "fuente": "Quispe y Rossini (2010), p. 307 [2]"
+  },
+  {
+   "anio": "2007–08",
+   "carril": "practica_bcrp",
+   "etiqueta": "primera línea de defensa",
+   "titulo": "El encaje como instrumento contracíclico",
+   "descripcion": "Encaje marginal en moneda nacional de 6,0 % a 25 %; en moneda extranjera de 30 % a 49 %; 120 % sobre depósitos de no residentes en soles.",
+   "cita": "Reserve requirements as a first line of defence.",
+   "cita_fuente": "Quispe y Rossini (2010), p. 306",
+   "fuente": "Quispe y Rossini (2010), pp. 306–307 [2]"
+  },
+  {
+   "anio": "mar-2008",
+   "carril": "pensamiento_bigio",
+   "etiqueta": "origen · versión en inglés",
+   "titulo": "La caída de Bear Stearns",
+   "descripcion": "Tercer año del doctorado, discutiendo con gente de Wall Street qué debía hacer el gobierno para restaurar la liquidez.",
+   "cita": "I was embarrassed that, as a PhD student, I couldn’t even define market liquidity!",
+   "cita_fuente": "Bigio (2026), Research vision, p. 1",
+   "fuente": "Bigio (2026), Liquidity and Macroeconomics, p. 1 [4]"
+  },
+  {
+   "anio": "set-2008",
+   "carril": "contexto",
+   "etiqueta": null,
+   "titulo": "Crisis financiera global",
+   "descripcion": "Quiebra de Lehman Brothers, 15 de setiembre.",
+   "cita": null,
+   "cita_fuente": null,
+   "fuente": "Montoro y Moreno (2011), p. 57 [8]"
+  },
+  {
+   "anio": "oct-2008",
+   "carril": "practica_bcrp",
+   "etiqueta": "la anomalía",
+   "titulo": "Baja los encajes antes que la tasa de política",
+   "descripcion": "La inyección total de liquidez entre setiembre de 2008 y marzo de 2009 equivale a 9,6 % del PBI. El primer recorte de la tasa de referencia recién llega el 2 de febrero de 2009.",
+   "cita": "La secuencia de adopción de política monetaria comenzó con el conjunto de medidas no convencionales, por el debilitamiento del canal de la tasa de interés.",
+   "cita_fuente": "Quispe y Rossini (2010), p. 299",
+   "fuente": "Quispe y Rossini (2010), pp. 299, 308 y 310, cuadro 1 [2]; Montoro y Moreno (2011), p. 57 [8]"
+  },
+  {
+   "anio": "2010",
+   "carril": "practica_bcrp",
+   "etiqueta": "la práctica se documenta",
+   "titulo": "Los practicantes escriben su propio caso",
+   "descripcion": "Quispe y Rossini, BIS Papers 54. En sus once referencias no hay un modelo teórico y, en 35 936 caracteres extraídos, no aparecen «model» ni «theory». Allí describen «la desconexión de las otras tasas de interés con la tasa de política».",
+   "cita": null,
+   "cita_fuente": null,
+   "fuente": "Quispe y Rossini (2010), pp. 299–316; cita en p. 304; recuento propio sobre el texto extraído [2]"
+  },
+  {
+   "anio": "2010",
+   "carril": "pensamiento_bigio",
+   "etiqueta": null,
+   "titulo": "Learning Under Fear of Floating",
+   "descripcion": "Journal of Economic Dynamics and Control. Su último trabajo sobre el Perú antes de más de una década de teoría monetaria general. Primera versión en RePEc: 2009.",
+   "cita": null,
+   "cita_fuente": null,
+   "fuente": "CV [6]; OpenAlex, autor A5024020324, consulta 2 [9]"
+  },
+  {
+   "anio": "2011",
+   "carril": "practica_bcrp",
+   "etiqueta": null,
+   "titulo": "El BIS analiza lo que el BCRP ya hacía",
+   "descripcion": "Montoro y Moreno, BIS Quarterly Review. Para la justificación del caso peruano remiten a los propios funcionarios del BCRP. Y señalan que el instrumento «había caído en desgracia entre la mayoría de los responsables de política en el último cuarto de siglo».",
+   "cita": null,
+   "cita_fuente": null,
+   "fuente": "Montoro y Moreno (2011), pp. 53 y 59, y nota 11 [8]"
+  },
+  {
+   "anio": "2012",
+   "carril": "pensamiento_bigio",
+   "etiqueta": null,
+   "titulo": "Columbia Business School",
+   "descripcion": "Su primera discussion documentada es del 15 de noviembre de 2012: Christiano e Ikeda sobre restricciones de apalancamiento.",
+   "cita": null,
+   "cita_fuente": null,
+   "fuente": "Portada de las diapositivas, corpus D01; CV [6]"
+  },
+  {
+   "anio": "2013",
+   "carril": "pensamiento_bigio",
+   "etiqueta": "primera versión verificable",
+   "titulo": "Bianchi y Bigio, Liquidity Management and Monetary Policy",
+   "descripcion": "Primera versión verificable del modelo de equilibrio general sobre gestión de liquidez bancaria y transmisión monetaria. El artículo final aparecerá en Econometrica nueve años después.",
+   "cita": null,
+   "cita_fuente": null,
+   "fuente": "OpenAlex W2188338937 (Columbia, 2013) [9]; artículo final P07 y CV [6]"
+  },
+  {
+   "anio": "2014–15",
+   "carril": "practica_bcrp",
+   "etiqueta": null,
+   "titulo": "Encajes condicionados a la desdolarización del crédito",
+   "descripcion": "Encajes adicionales a las entidades que no reduzcan su crédito en dólares: automóviles e hipotecas desde 2014, crédito en dólares en general desde 2015. La dolarización del crédito cae de 40 % en 2013 a 30 % en 2015.",
+   "cita": null,
+   "cita_fuente": null,
+   "fuente": "Rossini (2016), p. 31 [1]"
+  },
+  {
+   "anio": "2015",
+   "carril": "pensamiento_bigio",
+   "etiqueta": null,
+   "titulo": "Endogenous Liquidity and the Business Cycle",
+   "descripcion": "American Economic Review. Impacto normalizado por campo y año: FWCI 61,6 — percentil 99,8. Es uno de los dos únicos papers que firmó solo. Primera versión pública: 2010.",
+   "cita": null,
+   "cita_fuente": null,
+   "fuente": "OpenAlex, consulta 2 [9]; CV [6]"
+  },
+  {
+   "anio": "2015",
+   "carril": "pensamiento_bigio",
+   "etiqueta": null,
+   "titulo": "UCLA",
+   "descripcion": "Assistant Professor desde 2015; Associate Professor con tenure desde 2022.",
+   "cita": null,
+   "cita_fuente": null,
+   "fuente": "CV, agosto de 2026 [6]"
+  },
+  {
+   "anio": "2019–21",
+   "carril": "pensamiento_bigio",
+   "etiqueta": null,
+   "titulo": "Research Scholar en la Fed de San Francisco",
+   "descripcion": "En la faceta canónica de OpenAlex, el linaje institucional padre Federal Reserve System aparece en 98 trabajos citantes. Las jerarquías institucionales son de pertenencia múltiple y no deben sumarse.",
+   "cita": null,
+   "cita_fuente": null,
+   "fuente": "CV [6]; OpenAlex, facetas canónicas de 774 trabajos citantes únicos [9]"
+  },
+  {
+   "anio": "mar-2020",
+   "carril": "pensamiento_bigio",
+   "etiqueta": null,
+   "titulo": "Carta abierta sobre el COVID-19",
+   "descripcion": "Quince de marzo de 2020. Propone comprar papel respaldado por crédito de consumo y capital de trabajo a pymes, y suspender Basilea III por un año.",
+   "cita": "The main economic risk is the collapse of the payments chain.",
+   "cita_fuente": "Bigio (2020)",
+   "fuente": "Bigio (2020), carta abierta, corpus N01 [10]"
+  },
+  {
+   "anio": "2020",
+   "carril": "practica_bcrp",
+   "etiqueta": null,
+   "titulo": "Reactiva Perú",
+   "descripcion": "El Decreto Legislativo 1455 crea Reactiva Perú el 6 de abril. El BCRP reglamenta las operaciones mediante la Circular 017-2020-BCRP y realiza la primera subasta el 23 de abril.",
+   "cita": null,
+   "cita_fuente": null,
+   "fuente": "Bigio (2022), p. 378 [3]; Decreto Legislativo 1455 y BCRP, Reporte de Inflación de junio de 2020, recuadro 5 [11]"
+  },
+  {
+   "anio": "2020",
+   "carril": "pensamiento_bigio",
+   "etiqueta": null,
+   "titulo": "Distortions in Production Networks",
+   "descripcion": "Quarterly Journal of Economics, con Jennifer La’O. FWCI 42,8 — percentil 99,9. Circuló como working paper desde 2013 bajo el título «Financial Frictions in Production Networks».",
+   "cita": null,
+   "cita_fuente": null,
+   "fuente": "OpenAlex, consulta 2 [9]"
+  },
+  {
+   "anio": "2022",
+   "carril": "pensamiento_bigio",
+   "etiqueta": null,
+   "titulo": "Banks, Liquidity Management and Monetary Policy",
+   "descripcion": "Econometrica, con Javier Bianchi. El linaje documental empieza en 2013 y reúne tres registros de OpenAlex. El máximo de citas de una versión es 119; las versiones no se suman.",
+   "cita": null,
+   "cita_fuente": null,
+   "fuente": "OpenAlex, consulta 2 [9]; CV [6]"
+  },
+  {
+   "anio": "2022",
+   "carril": "pensamiento_bigio",
+   "etiqueta": null,
+   "titulo": "«Política monetaria: una nueva perspectiva»",
+   "descripcion": "Fondo Editorial de la Universidad del Pacífico, en homenaje a Renzo Rossini. Doce páginas, tres referencias, ninguna anterior a 1981.",
+   "cita": "Hay muchas tasas de interés, y no solo una como en el modelo neokeynesiano.",
+   "cita_fuente": "Bigio (2022), p. 372",
+   "fuente": "Bigio (2022), pp. 371–382; cita en p. 372 [3]"
+  },
+  {
+   "anio": "2022",
+   "carril": "pensamiento_bigio",
+   "etiqueta": "la exportación",
+   "titulo": "Asesoría al Banco Central Europeo",
+   "descripcion": "Evaluación de políticas de balance. En el capítulo de la UP lo menciona al discutir cómo pudo haberse afinado Reactiva: «Actualmente, estamos trabajando un programa de este tipo con el Banco Central Europeo».",
+   "cita": null,
+   "cita_fuente": null,
+   "fuente": "Bigio (2022), p. 379 [3]; CV, sección Consultancies [6]"
+  },
+  {
+   "anio": "2026",
+   "carril": "pensamiento_bigio",
+   "etiqueta": null,
+   "titulo": "A Q-Theory of Banks · Liquidity and Macroeconomics",
+   "descripcion": "Review of Economic Studies 93(1). Y un ensayo de agenda donde organiza veinte años de trabajo como una secuencia de nueve preguntas encadenadas, todas sobre liquidez.",
+   "cita": null,
+   "cita_fuente": null,
+   "fuente": "CV [6]; Bigio (2026), Research vision [4]"
+  }
+ ],
+ "auditoria_final": {
+  "fecha": "2026-09-21",
+  "documentos_corpus": 48,
+  "obras_canonicas": 34,
+  "referencias_auditadas": 1435,
+  "referencias_aceptadas": 1343,
+  "referencias_corregidas": 90,
+  "excepciones_de_fuente": 2,
+  "operaciones_estructurales": 18,
+  "filas_resueltas_openalex": 390,
+  "identidades_openalex_distintas": 320,
+  "filas_sin_identidad_aceptada": 1045,
+  "cobertura_openalex_porcentaje": 27.2,
+  "alcance": "Auditoría técnica completa del extractor; no equivale a una certificación humana externa ni habilita redes históricas exhaustivas."
+ },
+ "figuras_notebook": [
+  {
+   "archivo": "figs/05_terminos_distintivos.png",
+   "uso": "Evidencia principal del eje persistente de banca, liquidez y política monetaria.",
+   "cautela": "TF-IDF sobre títulos; identifica vocabulario distintivo y no prueba el mecanismo causal."
+  },
+  {
+   "archivo": "figs/02_impacto.png",
+   "uso": "Impacto de una versión representativa por obra y FWCI."
+  },
+  {
+   "archivo": "figs/03_rezago.png",
+   "uso": "Rezago entre primera versión pública y publicación en revista."
+  },
+  {
+   "archivo": "figs/01_corpus.png",
+   "uso": "Producción por primera versión y composición documental del corpus."
+  }
+ ],
+ "fuentes": [
+  "[1] Rossini, R. (2016). «La política monetaria del BCRP en los últimos 25 años». En Yamada y Winkelried (eds.), Política y estabilidad monetaria en el Perú, pp. 23-37. Fondo Editorial UP.",
+  "[2] Quispe, Z. y R. Rossini (2010). «Monetary policy during the global financial crisis of 2007-09: the case of Peru». BIS Papers 54, pp. 299-316.",
+  "[3] Bigio, S. (2022). «Política monetaria: una nueva perspectiva». Fondo Editorial UP, pp. 371-382. Ficha bibliográfica del volumen PENDIENTE DE VERIFICAR.",
+  "[4] Bigio, S. (2026). Liquidity and Macroeconomics: a vision and my research agenda.",
+  "[5] Bigio, S. (2019). Comentario a Martinelli y Vega, The Monetary and Fiscal History of Peru 1960-2017. BFI, U. de Chicago.",
+  "[6] Bigio, S. (2026). Curriculum vitae, agosto de 2026. UCLA.",
+  "[7] Elaboración propia (2026). Fase 2b: bibliografías de los nueve papers del núcleo de dinero y banca, 178 412 caracteres.",
+  "[8] Montoro, C. y R. Moreno (2011). «The use of reserve requirements as a policy instrument in Latin America». BIS Quarterly Review, marzo, pp. 53-65.",
+  "[9] OpenAlex (2026). Autor A5024020324. Archivo bruto de 89 registros; 75 registros de investigación agrupados en 34 obras canónicas. Facetas canónicas de los seis trabajos principales: 774 citantes únicos. Datos consultados el 14 de setiembre de 2026 y reutilizados en el notebook final.",
+  "[10] Bigio, S. (2020). A Concrete Policy Response to the Covid-19 Crisis. Carta abierta, 15 de marzo.",
+  "[11] Perú, Decreto Legislativo 1455, 6 de abril de 2020; BCRP (2020), Reporte de Inflación de junio, recuadro 5: circular 017-2020-BCRP y primera subasta del 23 de abril.",
+  "[12] Elaboración propia (2026). Auditoría final del 21 de setiembre: 48 documentos, 34 obras canónicas y 1 435 referencias; 1 343 aceptadas, 90 corregidas, 2 excepciones de fuente y 18 operaciones estructurales; 390 filas resueltas en OpenAlex, 320 identidades distintas y 1 045 filas sin identidad aceptada."
+ ]
+}

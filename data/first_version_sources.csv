@@ -1,0 +1,14 @@
+id,titulo,anio_publicacion,anio_primera_version,evidencia,fuente,confianza,nota
+P01,Learning Under Fear of Floating,2010,2009,fecha de recepción 3 de mayo de 2009 en el artículo final,saki_research/published_papers/bigio_learning_under_fear_floating.pdf,alta,fecha documental del manuscrito recibido
+P02,Optimal Self-Employment Income Tax Enforcement,2011,2010,fecha febrero de 2010 en la primera página,saki_research/published_papers/bigio_zilberman_optimal_self_employment_income_tax_enforcement.pdf,alta,fecha documental del manuscrito
+P03,Endogenous Liquidity and the Business Cycle,2015,2010,fecha de primera versión registrada en el corpus previo,data/corpus.csv,media,no se localizó en OpenAlex una versión anterior a 2014
+P04,"Liquidity Shocks, Business Cycles and Asset Prices",2017,2017,fechas de recepción y aceptación de 2017 en el artículo final,saki_research/published_papers/bigio_schneider_liquidity_shocks_business_cycles_asset_prices.pdf,alta,fecha documental del manuscrito
+P05,Distortions in Production Networks,2020,2013,registro OpenAlex de la versión Financial Frictions in Production Networks,https://openalex.org/W3186721982,alta,el artículo final declara que subsume ese título
+P06,Financial Risk Capacity,2021,2019,primera versión registrada en el corpus previo,data/corpus.csv,media,requiere cotejo con repositorio de working papers
+P07,"Banks, Liquidity Management and Monetary Policy",2022,2013,registro OpenAlex de Liquidity Management and Monetary Policy,https://openalex.org/W2188338937,alta,misma pareja de autores y linaje Columbia-NBER-Econometrica
+P08,Debt-Maturity Management with Liquidity Costs,2023,2017,primera versión registrada en el corpus previo,data/corpus.csv,media,el PDF local documenta el working paper NBER de mayo de 2019
+P09,Repurchase Options in the Market for Lemons,2026,2020,primera versión registrada en el corpus previo,data/corpus.csv,media,requiere cotejo con repositorio de working papers
+P10,A Q-Theory of Banks,2026,2018,registro OpenAlex de Data Lessons on Bank Behavior,https://openalex.org/W2913650715,alta,el artículo final declara títulos anteriores del mismo proyecto
+P11,"Heterogeneous Beliefs, Asset Prices, and Business Cycles",2026,2019,registro OpenAlex de Speculation-Driven Business Cycles,https://openalex.org/W2979942792,media,linaje de título y autores; la composición de autores cambia en la versión final
+P12,Portfolio Choice and Settlement Frictions,2026,2017,cita bibliográfica a OTC Settlement Frictions and Portfolio Theory como mimeo de 2017,saki_research/published_papers/bianchi_bigio_banks_liquidity_management_monetary_policy.pdf,alta,el PDF final de P12 declara un título previo de la misma línea
+P13,Carbon Pricing and Inequality: A Normative Perspective,2026,2025,primera versión registrada en el corpus previo,data/corpus.csv,media,requiere cotejo con repositorio de working papers

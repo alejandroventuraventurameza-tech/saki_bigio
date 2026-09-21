@@ -1,0 +1,295 @@
+{
+  "proyecto": "Ensayo CCL Premio Julio Velarde - Rol del Estado en la economia peruana via analisis textual de discursos presidenciales",
+  "actualizado": "2026-07-20",
+  "nota_honestidad": "profundidad: 'integral' = texto completo o casi; 'nucleo' = capitulos/secciones clave leidos a fondo, resto mapeado por indice; 'parcial' = secciones especificas; 'mapeado' = estructura conocida, lectura profunda pendiente",
+  "fuentes": [
+    {
+      "id": "contreras_monsalve_2022",
+      "titulo": "El Estado y los empresarios en la historia economica del Peru independiente",
+      "autores": "Carlos Contreras, Martin Monsalve",
+      "profundidad": "nucleo (intro, caps 6.1, 7.2, 8.1, reflexion final; caps 1-5 y 8.2-8.3 mapeados)",
+      "tesis": "La debilidad del marco institucional (North) explica el rezago peruano: cada crisis borra lo avanzado. 4 epocas: guano (1821-1879); modelo exportador mejorado (1879-1950); desafio heterodoxo (1950s-1990); retorno a la ortodoxia (1990-2021). Capitulos impares=Estado (Contreras), pares=empresarios (Monsalve).",
+      "conceptos_clave": {
+        "estado_empresario_1968_75": "Expropiaciones IPC, Cerro de Pasco (Centromin 1974), Marcona (Hierro Peru 1975), Minero Peru; estatizacion banca (Continental via Chase), pesca, Cementos Lima; reforma agraria con cooperativas estatales; 'en menos de 7 anos se creo un Estado empresario que sobrepaso la capacidad gerencial de la Junta'; crisis desde 1975, hiperinflacion 1987+",
+        "transicion_regulador": "Cap 8.1 'Del Estado empresario al Estado regulador': privatizaciones (ENTEL a Telefonica 1994 por USD 2,002 mm), liquidaciones (banca fomento, Banco Popular, EnturPeru); Const-93 art 60 (rol empresarial estatal solo subsidiario); Indecopi 1992, Osiptel/Sunass 1993, Osinerg 1996, Ositran 1998; autonomia BCRP; contratos-ley; AFPs 1993; sedapal y Petroperu no privatizadas (falta acuerdo politico)",
+        "gerencia_reactiva": "Grupos economicos familiares (Romero, Brescia...) diversifican para cubrirse del riesgo politico; exoneraciones y credito barato SIN estandares de desempeno (conexion con Amsden: subsidios sin reciprocidad)",
+        "constituciones": "1979: Estado directriz, planificacion obligatoria, actividad empresarial estatal para 'objetivos de desarrollo'; 1993: economia social de mercado, subsidiariedad (art 60), igualdad inversionista nacional/extranjero, prohibicion de financiar al erario (BCRP)"
+      },
+      "uso_en_ensayo": "Columna vertebral historica peruana; criterios implicitos de clasificacion por periodo; puente directo con las 3 categorias"
+    },
+    {
+      "id": "musacchio_lazzarini_2014",
+      "titulo": "Reinventing State Capitalism: Leviathan in Business, Brazil and Beyond",
+      "autores": "Aldo Musacchio, Sergio Lazzarini",
+      "profundidad": "nucleo (caps 1, 3, 12 integrales; cap 2 via resumenes; caps 4-11 mapeados)",
+      "tesis": "El capitalismo de Estado se reinvento: de Leviatan empresario (SOE como extension de la burocracia) a Leviatan inversionista mayoritario, minoritario y prestamista. Vision CONTINGENTE: ningun modelo es universalmente superior; su efectividad depende de condiciones.",
+      "conceptos_clave": {
+        "definicion_capitalismo_estado": "influencia extendida del gobierno en la economia via participacion accionaria (mayoritaria o minoritaria) o credito subsidiado y privilegios a firmas privadas",
+        "umbrales": ">50% accionariado = SOE de control estatal (mayoritario); 10-50% = minoritario. Intensidad agregada: produccion SOE/PBI (10% economias mixtas, 16% en desarrollo, pico 1970s; perdidas 2-4% PBI tras shocks 70s-80s); % capitalizacion bursatil",
+        "cuatro_vistas": "industrial policy view (helping hand: Gerschenkron, Hirschman big push, Amsden, Rodrik discovery costs, Evans) vs social view (doble linea de fondo, capital paciente, probity de Williamson) vs political view (grabbing hand: Shleifer-Vishny; soft budget constraint: Kornai; crony capitalism) vs path dependence (Stark: privatizacion incompleta)",
+        "condiciones_cap12": "efectividad de cada modelo depende de: (a) externalidades que requieren coordinacion economica, (b) desarrollo del mercado de capitales local, (c) calidad institucional (burocracia, rule of law, regulacion). Con instituciones fuertes, la intervencion politica se puede domar (golden shares, listado en bolsa, gestion profesional)"
+      },
+      "uso_en_ensayo": "Ancla teorica del eje PROPIEDAD; umbrales cuantitativos; vocabulario de las 4 vistas (definir cada una en footnote); cap 12 para seccion normativa"
+    },
+    {
+      "id": "wade_1990_2003",
+      "titulo": "Governing the Market: Economic Theory and the Role of Government in East Asian Industrialization",
+      "autores": "Robert Wade",
+      "profundidad": "nucleo (cap 1 integral incl. taxonomias; caps 7 y 10-11 parcial-profundo; resto mapeado)",
+      "tesis": "El exito asiatico se explica por el 'mercado gobernado': niveles altisimos de inversion + inversion dirigida a industrias clave + exposicion a competencia internacional, producidos por politicas que GOBIERNAN el mercado, sostenidas por un Estado duro corporativista.",
+      "conceptos_clave": {
+        "triada_teorias": "FM (free market: el Estado casi no interfiere) vs SM (simulated free market: interviene solo para NEUTRALIZAR distorsiones, regimen comercial neutro - Bhagwati EP strategy) vs GM (governed market: interviene para SESGAR la asignacion sectorial). FM/SM = fundamento positivo del regulador; GM = del facilitador",
+        "leadership_followership": "liderar el mercado (iniciativas publicas que los privados no harian) vs seguirlo (asistir lo que ya harian); big/small en cada caso. GM = big leadership y/o big followership",
+        "johnson_developmental_state": "prioridad estatal al desarrollo; compromiso con propiedad privada y mercado; agencia piloto/'economic general staff' (MITI); consulta institucionalizada; burocratas gobiernan-politicos reinan; soft authoritarianism",
+        "burocracia_cap7": "reclutamiento meritocratico, carreras de por vida, identidad corporativa, redes de elite; 'hard state': implementa su agenda sin ser capturado",
+        "prescripciones_cap11": "10 prescripciones transferibles; 1: promover inversion industrial nacional; 2: proteccion para crear industria competitiva internacional; 5: sistema financiero basado en banca bajo control gubernamental; 6: liberalizar gradualmente; 7: crear agencia piloto; 8: instituciones de autoridad politica efectiva ANTES de abrir el sistema; 10: reformas graduales incluso en Estados blandos"
+      },
+      "uso_en_ensayo": "Ancla del eje DIRECCIONALIDAD y del facilitador; definir 'mercado gobernado' en footnote; cap 7 y prescripciones para capacidad estatal y normativa. NO usar como dogma: es caso extremo asiatico (matiz de Alejandro)"
+    },
+    {
+      "id": "jenkins_1991",
+      "titulo": "The Political Economy of Industrialization: A Comparison of Latin American and East Asian NICs",
+      "autores": "Rhys Jenkins",
+      "profundidad": "integral (nucleo argumental completo)",
+      "tesis": "La diferencia Asia-Latam NO es el grado de intervencion sino su EFECTIVIDAD, explicada por la autonomia relativa del Estado (frente a clases dominantes y subordinadas) y la estructura interna del aparato estatal (burocracia cohesionada), determinadas historicamente por la estructura de clases y el contexto internacional.",
+      "conceptos_clave": {
+        "efectividad_4_rasgos": "flexibilidad (abandonar politicas que fallan: Corea congelo planes de industria pesada), selectividad (industrias y hasta firmas especificas), coherencia (politicas coordinadas), promocion sobre regulacion ('market sustaining' no 'market repressing'; no rescatar firmas quebradas - contraste con Latam)",
+        "datos": "manufacturas: Corea/Taiwan crecieron ~2x los mejores latam 1965-86; exportaciones manufactureras 31%/28% anual vs 15-22%"
+      },
+      "uso_en_ensayo": "Puente Asia-Latam (sustituye/complementa a Amsden); valida tercera dimension (capacidad estatal); explica por que el MISMO punto del espacio produce resultados distintos"
+    },
+    {
+      "id": "amsden_2001",
+      "titulo": "The Rise of 'the Rest': Challenges to the West from Late-Industrializing Economies",
+      "autores": "Alice Amsden",
+      "profundidad": "nucleo (cap 1 integral; funciones del Estado desarrollista cap 6; independents/integrationists; resto mapeado)",
+      "tesis": "12 paises ('the rest': China, India, Indonesia, Corea, Malasia, Taiwan, Tailandia, Argentina, Brasil, Chile, Mexico, Turquia) industrializaron tarde SIN innovaciones propias (pure learning) gracias a experiencia manufacturera previa + un mecanismo de control reciproco. PERU NO ESTA EN LA LISTA (solo 2 menciones marginales en el libro).",
+      "conceptos_clave": {
+        "knowledge_based_assets": "activos basados en conocimiento; 3 capacidades tecnologicas: produccion, ejecucion de proyectos, innovacion. Desarrollo = migrar de activos primarios a activos de conocimiento",
+        "mecanismo_control_reciproco": "control mechanism = conjunto de instituciones que disciplina el comportamiento economico. El de 'the rest': RECIPROCIDAD - subsidios ('activos intermedios') atados a estandares de desempeno monitoreables y orientados a resultados; nunca regalos. Minimiza la falla de gobierno como la mano invisible minimiza la falla de mercado",
+        "funciones_estado_desarrollista": "4: banca de desarrollo; gestion de contenido local; reclusion selectiva (abrir unos mercados, cerrar otros); formacion de firmas nacionales",
+        "experiencia_manufacturera": "criterio de division the rest/the remainder; sin ella el aparato desarrollista degenera en rent-seeking; excluye paises de mono-procesamiento primario",
+        "independents_vs_integrationists": "post-1980: crear sistemas nacionales de innovacion con lideres propios (Corea) vs clonarse a la inversion extranjera (Mexico/NAFTA). Peru post-90 = integracionista sin politica de firmas nacionales"
+      },
+      "uso_en_ensayo": "Refina el facilitador con RECIPROCIDAD; simetria de disciplinas (competencia/reciprocidad/ausencia); hipotesis de por que fracaso el Estado empresario peruano (sin capacidades previas); checklist observable para lexico"
+    },
+    {
+      "id": "juhasz_lane_rodrik_2024",
+      "titulo": "The New Economics of Industrial Policy (Annual Review of Economics 16)",
+      "autores": "Reka Juhasz, Nathan Lane, Dani Rodrik",
+      "profundidad": "nucleo (definiciones, rationales; evidencia mapeada)",
+      "tesis": "La nueva literatura ya no pregunta SI intervenir sino COMO; evidencia rigurosa reciente mejora la correlacional antigua.",
+      "conceptos_clave": {
+        "definicion_politica_industrial": "politicas que explicitamente buscan la transformacion de la estructura de la actividad economica en pos de un objetivo publico. Dos propiedades: SELECTIVIDAD (promover X no Y; distingue de intervenciones horizontales) e INTENCIONALIDAD (el cambio estructural es el proposito de diseno). Incluye servicios, I+D; en paises en desarrollo se llama 'productive development policies'",
+        "instrumentos": "subsidios, proteccion, exenciones, insumos publicos (tierra, capacitacion), consejos publico-privados; siempre con CONDICIONALIDAD (ex-ante o ex-post con criterios de desempeno - conexion Amsden)",
+        "rationales": "externalidades; fallas de coordinacion/aglomeracion; provision de insumos publicos especificos"
+      },
+      "uso_en_ensayo": "Definicion operativa del eje direccionalidad; estado del arte para tarea 3 (que pregunta la literatura seria)"
+    },
+    {
+      "id": "juhasz_steinwender_2024",
+      "titulo": "Industrial Policy and the Great Divergence (Annual Review of Economics 16)",
+      "autores": "Reka Juhasz, Claudia Steinwender",
+      "profundidad": "nucleo (definicion y marco; evidencia historica mapeada)",
+      "conceptos_clave": {
+        "leccion_clave": "misma definicion JLR aplicada al siglo XIX; ADVERTENCIA: el mismo instrumento (arancel) puede ser politica industrial o mera recaudacion; la definicion solo aplica a paises con autonomia (contexto imperial)"
+      },
+      "uso_en_ensayo": "Fundamenta que la INTENCION se codifica del proposito declarado (nuestros discursos son ideales para eso); conecta con Coatsworth-Williamson"
+    },
+    {
+      "id": "juhasz_lane_2024",
+      "titulo": "The Political Economy of Industrial Policy (NBER WP 32507)",
+      "autores": "Juhasz, Lane",
+      "profundidad": "parcial (nocion de burocracias autonomas: entidad publica autonoma = dirigida por funcionarios de carrera/no politicos)",
+      "uso_en_ensayo": "Medicion de capacidad estatal; completar lectura en fase metodologica"
+    },
+    {
+      "id": "coatsworth_williamson_2004",
+      "titulo": "Always Protectionist? Latin American Tariffs from Independence to Great Depression (JLAS 36-2)",
+      "autores": "John Coatsworth, Jeffrey Williamson",
+      "profundidad": "nucleo (abstract, intro, conclusiones)",
+      "tesis": "Los aranceles latinoamericanos fueron los MAS ALTOS DEL MUNDO desde ~1860s hasta WWI, un siglo antes de la Gran Depresion; motivo dominante: RECAUDACION fiscal (Estados debiles post-independencia, conflictos militares), no proyecto industrial; los de aranceles mas altos crecieron mas lento.",
+      "uso_en_ensayo": "Intervencion sin intencionalidad desarrollista = no es facilitador; respalda codificacion por proposito; contexto siglo XIX peruano"
+    },
+    {
+      "id": "bertola_ocampo",
+      "titulo": "Desarrollo, vaivenes y desigualdad: historia economica de America Latina desde la independencia",
+      "autores": "Luis Bertola, Jose Antonio Ocampo",
+      "profundidad": "parcial (cap 4 seccion 'Hechos, ideas e instituciones'; PENDIENTE caps 4-5 completos)",
+      "conceptos_clave": {
+        "industrializacion_dirigida": "prefieren 'industrializacion dirigida por el Estado' sobre 'ISI': fue modelo MIXTO (sustitucion + promocion de exportaciones desde ~1965 + modernizacion agricola); paradojas: Latam eligio MENOS intervencion que otras regiones en desarrollo (economias mixtas, no planificacion central); impulso mas por fuerzas objetivas que por elites industrialistas (Hirschman: debilidad de intereses industriales vs primario-exportadores)",
+        "datos_peru": "cuadro 4.4: fuentes de crecimiento Peru 1945-57: demanda interna 5.5, exportaciones 0.6, SI -0.5; 1957-67: DI 5.0, X 0.8, SI 0.0 (la sustitucion casi no contribuyo en Peru - dato relevante)"
+      },
+      "uso_en_ensayo": "Periodizacion comparada latam; el 'modelo mixto' refuerza espectros"
+    },
+    {
+      "id": "castillo_garcia_waves",
+      "titulo": "Waves of Neoliberalism: Revisiting the Authoritarian Patterns of Capitalism in South America (1940-1990) [version final Duke/HOPE subida; citar esta]",
+      "autores": "Cesar Castillo-Garcia",
+      "profundidad": "nucleo (intro, definiciones, olas Beltran/Ferrero, conclusiones; version final verificada)",
+      "tesis": "El neoliberalismo peruano PRECEDE a los Chicago Boys: red transnacional (Coloquio Lippmann, Mont Pelerin) conectada con tecnocratas peruanos desde 1930s-40s (Beltran, Ferrero, Baudin). Neoliberalismo = discurso politico con objeto economico (no teoria economica); requiere construir hegemonia.",
+      "conceptos_clave": {
+        "definicion_neoliberalismo": "4 puntos WLC: prioridad del mecanismo de precios; libre empresa; sistema de competencia; Estado fuerte e imparcial. + austeridad (trinidad de Mattei: fiscal, monetaria, industrial)",
+        "beltran": "hacendado algodonero, LSE 1918, red Mises/Ropke/Hayek, La Prensa, BCRP 1948, premier 1959; lexico: estabilidad monetaria, libre empresa, iniciativa privada"
+      },
+      "uso_en_ensayo": "Olas no etapas; vocabulario ortodoxo peruano DE EPOCA para familias lexicas del regulador"
+    },
+    {
+      "id": "castillo_garcia_2025_cronologia",
+      "titulo": "Una nueva cronologia del neoliberalismo peruano (Discursos del Sur 16, UNMSM)",
+      "autores": "Cesar Castillo-Garcia",
+      "profundidad": "nucleo (resumen, estructura de cronologia)",
+      "conceptos_clave": {
+        "cronologia": "3.1 experiencia pro-austeridad 1948-56; 3.2 desarrollismo neoliberal 1956-68; 3.3 contrarrevolucion neoliberal 1975-78; 3.4 economia social de mercado 1978-85; 3.5 Libertad y Fujishock 1985-93. Marco: acciones-ideas-instituciones-resultados distributivos (ciclos distributivos)"
+      },
+      "uso_en_ensayo": "Sub-olas dentro de nuestros periodos; interpretacion de resultados del analisis textual"
+    },
+    {
+      "id": "ffrench_davis_2005_reformas",
+      "titulo": "Reformas para America Latina despues del fundamentalismo neoliberal (CEPAL/Siglo XXI) [libro completo subido]",
+      "autores": "Ricardo Ffrench-Davis",
+      "profundidad": "nucleo (prefacio, cap I equilibrios, cap II crecimiento historico; resto mapeado por indice)",
+      "tesis": "Las reformas del Consenso de Washington lograron los 'dos pilares' (inflacion baja, equilibrio fiscal) pero fallaron en crecimiento y equidad porque son NECESARIOS PERO INSUFICIENTES.",
+      "conceptos_clave": {
+        "tres_pilares": "equilibrios macroeconomicos FINANCIEROS (2 pilares: inflacion, fiscal) vs equilibrios REALES (3er pilar: demanda agregada consistente con PBI potencial + tipo de cambio y tasa de interes no desalineados). 'Estabilidad funcional para el desarrollo' = los tres pilares (definicion concreta que pedia Alejandro)",
+        "datos": "modelo liderado por el Estado 1950-80: crecimiento latam 5.5% anual (>4.2% industrializados); manufactura 7% anual en los 60; los 90: dos pilares logrados (deficit 1-2% PBI 1994-97) pero crecimiento mediocre; anclas cambiarias y apreciacion destruyeron transables",
+        "financierismo": "sesgo hacia equilibrios financieros de corto plazo vs macroeconomia real productiva (definir en footnote); neoestructuralismo (Sunkel; CEPAL transformacion productiva con equidad)"
+      },
+      "uso_en_ensayo": "Variante latam del facilitador; el dato 5.5% obliga a un tratamiento honesto del periodo dirigista; seccion normativa"
+    },
+    {
+      "id": "ffrench_davis_articulo",
+      "titulo": "Que ha fallado en la macroeconomia y finanzas sudamericanas desde los noventa? (docx subido)",
+      "autores": "Ricardo Ffrench-Davis",
+      "profundidad": "nucleo",
+      "conceptos_clave": {"sintesis": "SA5 (incl. Peru) desde los 90: crecimiento 3.2%, baja formacion de capital, 'montana rusa' de demanda agregada y tipo de cambio real por flujos de capital ciclicos; 'incompletitud' de los logros macro"},
+      "uso_en_ensayo": "Version condensada y con datos del argumento del libro"
+    },
+    {
+      "id": "guajardo_labrador_2015",
+      "titulo": "La empresa publica en Mexico y en America Latina: entre el mercado y el Estado (UNAM/INAP)",
+      "autores": "Guillermo Guajardo, Alejandro Labrador (coords)",
+      "profundidad": "nucleo (capitulo conceptual de Guajardo; 21 capitulos historicos PENDIENTES)",
+      "conceptos_clave": {
+        "definicion_EP": "organizaciones con actividades de servicios, comerciales y economicas en las que la participacion del Estado tiene posicion MAYORITARIA en la propiedad, que le permite asumir CONTROL y DIRECCION (Camacho 2010:412)",
+        "reemergencia": "post-2008: EP relevantes en transporte, energia, finanzas, telecom (Christiansen/OCDE); 13 grandes EP controlan ~3/4 de reservas petroleras mundiales; remunicipalizacion de agua; The Economist 2012 'State Capitalism'"
+      },
+      "uso_en_ensayo": "Definicion en espanol citable del eje propiedad; olas no etapas"
+    },
+    {
+      "id": "gonzales_olarte_2007",
+      "titulo": "La economia politica peruana de la era neoliberal 1990-2006 (CIAS Kyoto)",
+      "autores": "Efrain Gonzales de Olarte",
+      "profundidad": "nucleo",
+      "conceptos_clave": {
+        "pendulo_peruano": "populismo heterodoxo <-> neoliberalismo ortodoxo (Gonzales y Samame 1994); 1990 turning point economico; 1992 pendulo politico (democradura)",
+        "modelo_PESER": "primario-exportador y de servicios: no integra gran parte del aparato productivo; Estado reducido no redistribuye -> 'estabilidad y crecimiento sin resolver desigualdad, pobreza, exclusion' -> tension crecimiento-gobernabilidad",
+        "datos_crisis": "1988-89: PBI pc -23%, inflacion 2,800% (1989), presion tributaria 7% PBI, salario real indice 100->41"
+      },
+      "uso_en_ensayo": "Caracterizacion del modelo post-90; conexion con la polarizacion actual (intuicion de Alejandro del 'grito de molestia')"
+    },
+    {
+      "id": "gonzales_olarte_2016",
+      "titulo": "Una economia incompleta. Peru 1950-2007. Analisis estructural (PUCP/IEP)",
+      "autores": "Efrain Gonzales de Olarte",
+      "profundidad": "nucleo (tesis, hipotesis, estructura; matrices IO mapeadas)",
+      "tesis": "Analisis insumo-producto 1950-2007: el Peru es una 'economia incompleta' - articulada por sus relaciones EXTERNAS antes que por las internas; discontinuidades: capacidad de recomenzar tras cada experimento sin lograr estructura articulada que genere crecimiento con redistribucion estable.",
+      "conceptos_clave": {"hipotesis_leontief": "mas division social del trabajo y mas intercambio intersectorial (eslabonamientos directos e indirectos, multiplicadores) = mas desarrollo; desigualdad de productividades persistente"},
+      "uso_en_ensayo": "Justificacion cuantitativo-estructural de la seccion normativa (facilitador = densificar eslabonamientos, Hirschman)"
+    },
+    {
+      "id": "calvo_gonzalez_et_al_2023",
+      "titulo": "The Shifting Attention of Political Leaders: Evidence from Two Centuries of Presidential Speeches (World Bank / arXiv 2209.00540)",
+      "autores": "Oscar Calvo-Gonzalez, Axel Eizmendi, German Reyes",
+      "profundidad": "integral",
+      "tesis": "933 discursos tipo state-of-the-union, 10 paises latam (Peru entre los 4 mas representados), 1819-2021. LDA con k=25 (minimizacion de perplejidad): 6 topicos cubren ~77-80% del contenido; la atencion migra lento (atraviesa ciclos electorales): guerra/patriotismo + administracion publica (s.XIX) -> infraestructura (pico 1940s) -> desarrollo economico (1950s+) -> proteccion social (1990s+, >40% del contenido 2000-2021).",
+      "conceptos_clave": {
+        "metodologia": "recoleccion via congresos/bibliotecas; OCR con REVISION MANUAL completa; analisis en espanol; covariables: Archigos (edad, genero), Polity 5 (democracia si polity>0); regresiones bivariadas ShareTopic ~ caracteristica; robustez: variar k, LDA por subperiodos",
+        "hallazgos_covariables": "democratas: +16.7pp proteccion social, +12.2pp desarrollo economico, -9.3pp guerra, -17.1pp adm publica vs autocratas; mujeres +25.1pp proteccion social",
+        "promedio_palabras": "5,637 por discurso"
+      },
+      "uso_en_ensayo": "ANTECEDENTE DIRECTO. Valida la premisa (discurso rastrea giros del modelo: ISI 40s-50s, Consenso Washington 90s). Diferenciacion nuestra: topicos inductivos (atencion) vs ROLES deductivos con marco teorico + validacion triple. Su corpus puede llenar huecos peruanos. Su diseno de covariables aplica a nuestra pregunta regimen-rol"
+    },
+    {
+      "id": "arellano_izumi_martinez_2026",
+      "titulo": "Presidential Speeches in Chile (1832-2021): A Methodological Approach (Political Studies 74-1)",
+      "autores": "Juan Carlos Arellano, Mauricio Izumi, Christopher Martinez",
+      "profundidad": "integral",
+      "tesis": "LDA sobre corpus chileno de dos siglos; demuestra protocolo replicable que combina computacion e inquiry cualitativo.",
+      "conceptos_clave": {
+        "protocolo": "matriz documento-termino con STEMS; excluir stems en <10% o >90% de discursos; k NO se elige solo con metricas (Griffiths-Steyvers): estimaron 20 modelos (k=5-30), eligieron por coherencia sustantiva de top-10 stems + consistencia con historiografia + lectura manual de muestra; discursos promedian >9,000 palabras",
+        "topicos_chile": "War and Security 19.95%, Infrastructure 16.14%, Schools 14.6%, Constitutionalism/Patriotism 11.32%, etc."
+      },
+      "uso_en_ensayo": "Manual de operaciones del pipeline; justifica validacion cualitativa del k (filosofia de Alejandro: cuantitativo + cualitativo)"
+    },
+    {
+      "id": "ash_hansen_2023",
+      "titulo": "Text Algorithms in Economics (Annual Review of Economics 15)",
+      "autores": "Elliott Ash, Stephen Hansen",
+      "profundidad": "nucleo (marco, embeddings, validacion; detalles de implementacion en su repo)",
+      "conceptos_clave": {
+        "cuatro_tareas": "nuestra tarea = Problema II 'concept detection': medir prevalencia de un concepto definido ex ante en un corpus. Receta: diccionario semilla -> embeddings (Word2Vec: vectores palabra y contexto entrenados para prediccion local; GloVe: co-ocurrencias) -> clasificacion supervisada con submuestra etiquetada a mano por expertos",
+        "validacion": "punto debil de la literatura: medidas de similitud discrepan entre si; el benchmark es el juicio humano experto; economistas necesitan tareas de validacion propias (no prestadas de CS). Lectura humana experta + algoritmos son COMPLEMENTOS",
+        "recursos": "codigo abierto: github.com/sekhansen/text_algorithms_econ; transformers/LLMs para extension"
+      },
+      "uso_en_ensayo": "Arquitectura metodologica del analisis; el enfasis en validacion impresionara al jurado BCRP; extension post-concurso"
+    },
+    {
+      "id": "gentzkow_kelly_taddy_2019",
+      "titulo": "Text as Data (Journal of Economic Literature 57-3)",
+      "autores": "Matthew Gentzkow, Bryan Kelly, Matt Taddy",
+      "profundidad": "mapeado (marco de 3 pasos conocido; lectura a detalle PENDIENTE para doc metodologico)",
+      "conceptos_clave": {"marco": "3 pasos: (1) representar texto como matriz numerica; (2) mapear a medidas de interes; (3) usarlas en analisis econometrico posterior"},
+      "uso_en_ensayo": "Estructura de la seccion metodologica"
+    },
+    {
+      "id": "thorp_bertram",
+      "titulo": "Peru 1890-1977: Growth and Policy in an Open Economy (ed. espanol U. del Pacifico)",
+      "autores": "Rosemary Thorp, Geoffrey Bertram",
+      "profundidad": "nucleo (cap 1, estructura completa; capitulos por periodo PENDIENTES para periodizacion fina)",
+      "tesis": "Casi cien anos de analisis cuantitativo de la economia exportadora peruana. Periodizacion: 1890-1930 (economia exportadora, caps 3-7); 1930-48 (dislocacion/transicion, caps 8-10); 1948-68 (reactivacion exportadora liberal, caps 11-14 'la crisis emergente'); 1968-77 (regimen militar, cap 15).",
+      "uso_en_ensayo": "LA periodizacion clasica de politica economica peruana; confirma 1930 como parteaguas y valida quiebres 1948 y 1968; el cap 14 'La crisis emergente' explica el giro de 1968"
+    },
+    {
+      "id": "bcrp_compendio_tomo_v",
+      "titulo": "Compendio de historia economica del Peru, tomo V: la economia peruana entre la gran depresion y el reformismo militar 1930-1980 (BCRP/IEP)",
+      "autores": "varios (ed. Contreras)",
+      "profundidad": "mapeado (PENDIENTE; usar en periodizacion fina)",
+      "uso_en_ensayo": "Capitulos especializados por quiebre; legitimidad ante jurado BCRP"
+    },
+    {
+      "id": "seminario",
+      "titulo": "El desarrollo de la economia peruana en la era moderna (U. del Pacifico)",
+      "autores": "Bruno Seminario",
+      "profundidad": "mapeado (1,301 pp; PENDIENTE; usar como referencia para quiebres del PBI)",
+      "uso_en_ensayo": "Series del PBI desde 1700; identificacion cuantitativa de quiebres; homenaje intelectual (C&M lo citan como inspiracion)"
+    },
+    {
+      "id": "fiscal_2pager",
+      "titulo": "The fiscal history of Peru in two graphs (MEF/BCRP)",
+      "autores": "s/d",
+      "profundidad": "integral",
+      "conceptos_clave": {"hitos": "deficits 70s; repudio de deuda + controles + hiperinflacion 80s; deuda 96.2% PBI (~1988-90); estabilizacion 1990; Const-93; ley responsabilidad fiscal y reglas 1999; reforma pensiones; balance estructural y consejo fiscal ~2013-15; deuda 48.7% (~2000) -> 25.8% (2015)"},
+      "uso_en_ensayo": "Grafico sintesis de quiebres fiscales para la periodizacion"
+    },
+    {
+      "id": "gruber",
+      "titulo": "Discipline and Promise: The Rise of Neoliberalism in Peru 1945-2000 (tesis doctoral MPIfG, 2025)",
+      "autores": "Stephan Gruber",
+      "profundidad": "no disponible (archivo restringido); usar como fuente secundaria via resenas",
+      "tesis_conocida": "la hegemonia neoliberal peruana se formo internamente (tecnocracia despolitizada + promesas populistas), no por transferencia externa"
+    },
+    {
+      "id": "olarte_pendiente",
+      "titulo": "El neoliberalismo a la peruana (IEP 1998)",
+      "autores": "Efrain Gonzales de Olarte",
+      "profundidad": "no conseguido; sustituido por los dos textos de Olarte subidos",
+      "nota": "citado por C&M como la caracterizacion canonica del modelo post-90"
+    }
+  ],
+  "sintesis_transversal": {
+    "convergencia_bibliografica": "Tres literaturas independientes (capitalismo de Estado: M&L/Guajardo; Estado desarrollista: Wade/Johnson/Amsden/Jenkins/Ffrench-Davis; nueva economia de la politica industrial: Juhasz-Lane-Rodrik-Steinwender) + historiografia peruana (C&M, Thorp-Bertram, Castillo-Garcia, Olarte) convergen en: (1) roles como espectros/combinaciones, no dicotomias; (2) la efectividad depende de capacidad estatal y mecanismos de disciplina; (3) la intencionalidad/proposito es codificable y distintiva",
+    "simetria_disciplinas": "regulador->competencia; facilitador->reciprocidad; empresario(patologia)->disciplina ausente (soft budget constraint)",
+    "hipotesis_peru": "El Peru combino: subsidios sin reciprocidad + burocracia sin autonomia ni meritocracia + sin experiencia manufacturera previa (fuera de 'the rest') + economia internamente desarticulada (Olarte) -> por eso tanto el empresario (68-90) como el regulador puro (90s+) decepcionaron; la conversacion normativa es sobre CAPACIDAD + DISCIPLINA, no solo sobre eleccion de rol"
+  }
+}

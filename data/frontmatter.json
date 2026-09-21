@@ -1,0 +1,584 @@
+[
+ {
+  "id": "E01",
+  "slug": "bigio_ramirez_corrupcion_indicadores_desarrollo_pery_mundo_revision_empirica",
+  "anio": 2006,
+  "genero": "pre_phd",
+  "titulo": "Corrupcion e indicadores de desarrollo: Peru y el mundo",
+  "familia": "(pre-agenda)",
+  "abstract": "En este documento se reporta evidencia internacional sobre la relación entre corrupción y una serie de indicadores de desarrollo económico: estabilidad económica, calidad del gasto público (educación y salud), ingresos tributarios, desigualdad, pobreza, inversión, y crecimiento económico. Para ello, en primer lugar, se muestra a través de correlaciones no condicionadas que la corrupción está relacionada negativamente con variables asociadas al desarrollo económico. En segundo lugar, se cuantifican los efectos de la corrupción sobre el crecimiento económico; para ello, se estima un modelo de datos de panel dinámico para una muestra de 104 países durante el período 1980- 2015; los resultados indican que una mejora en los índices de corrupción de los países de Latinoamérica y de Perú al nivel promedio de los países desarrollados incrementaría el crecimiento del PBI per cápita en un 0.8% y 0.6% más, respectivamente. Clasificación",
+  "keywords": "",
+  "jel": [
+   "D73",
+   "O11",
+   "O50"
+  ]
+ },
+ {
+  "id": "E02",
+  "slug": "bigio_salas_non_linear_effects_monetary_policy_real_exchange_rate_shocks_partially_dollarized_economies_empirical_study_peru",
+  "anio": 2006,
+  "genero": "pre_phd",
+  "titulo": "Non-Linear Effects of Monetary Policy and Real Exchange Rate Shocks in Partially Dollarized Economies: Peru",
+  "familia": "(pre-agenda)",
+  "abstract": "",
+  "keywords": "",
+  "jel": []
+ },
+ {
+  "id": "P01",
+  "slug": "bigio_learning_under_fear_floating",
+  "anio": 2010,
+  "genero": "published",
+  "titulo": "Learning Under Fear of Floating",
+  "familia": "(pre-agenda)",
+  "abstract": "",
+  "keywords": "",
+  "jel": []
+ },
+ {
+  "id": "P02",
+  "slug": "bigio_zilberman_optimal_self_employment_income_tax_enforcement",
+  "anio": 2011,
+  "genero": "published",
+  "titulo": "Optimal Self-Employment Income Tax Enforcement",
+  "familia": "(pre-agenda)",
+  "abstract": "Most models of optimal income tax enforcement assume that income is either ran- dom or solely remunerates labor, neglecting that auditing strategies may depend on observable inputs. This paper outlines a model to optimally monitor self-employed entrepreneurs when, in addition to reported proﬁts, the tax collection agency also ob- serves the number of workers employed (or any other input variable) at each ﬁrm. We show that, by conditioning the monitoring strategy only on labor input, it is optimal for the IRS to audit ﬁrms in a way that generates some empirical regularities, like the missing middle. We also show that the optimal direct mechanism can be imple- mented by an indirect monitoring strategy that is consistent with actual IRS practices. In particular, the IRS calculates inputted income as function of labor. Whenever an entrepreneur reports proﬁts that are lower than inputted income, she is randomly monitored. Finally, we formalize a model of optimal presumption taxation, in which inputted income is the tax base, to compare revenue collection across tax systems.",
+  "keywords": "optimal auditing, tax evasion, informal sector, missing middle, en- trepreneurship, presumptive taxation.",
+  "jel": [
+   "D21",
+   "H26"
+  ]
+ },
+ {
+  "id": "D01",
+  "slug": "bigio_leverage_restrictions_business_cycle_model_christiano_ikeda",
+  "anio": 2012,
+  "genero": "discussion",
+  "titulo": "Discussion: Leverage Restrictions in a Business Cycle Model (Christiano-Ikeda)",
+  "familia": "discusion",
+  "abstract": "",
+  "keywords": "",
+  "jel": []
+ },
+ {
+  "id": "D02",
+  "slug": "bigio_sticky_leverage_gomes_jermann_schmid",
+  "anio": 2013,
+  "genero": "discussion",
+  "titulo": "Discussion: Sticky Leverage (Gomes-Jermann-Schmid)",
+  "familia": "discusion",
+  "abstract": "",
+  "keywords": "",
+  "jel": []
+ },
+ {
+  "id": "D03",
+  "slug": "bigio_payments_credit_asset_prices_schneider_piazzesi",
+  "anio": 2015,
+  "genero": "discussion",
+  "titulo": "Discussion: Payments, Credit and Asset Prices (Piazzesi-Schneider)",
+  "familia": "discusion",
+  "abstract": "",
+  "keywords": "",
+  "jel": []
+ },
+ {
+  "id": "P03",
+  "slug": "bigio_endogenous_liquidity_business_cycle",
+  "anio": 2015,
+  "genero": "published",
+  "titulo": "Endogenous Liquidity and the Business Cycle",
+  "familia": "Liquidity and Asymmetric Information",
+  "abstract": "",
+  "keywords": "",
+  "jel": []
+ },
+ {
+  "id": "D04",
+  "slug": "bigio_turnover_liquidity_transmission_monetary_policy_lagos_zhang",
+  "anio": 2016,
+  "genero": "discussion",
+  "titulo": "Discussion: Turnover Liquidity and the Transmission of Monetary Policy (Lagos-Zhang)",
+  "familia": "discusion",
+  "abstract": "",
+  "keywords": "",
+  "jel": []
+ },
+ {
+  "id": "D05",
+  "slug": "bigio_beyond_hultens_theorem_baqaee_farhi",
+  "anio": 2017,
+  "genero": "discussion",
+  "titulo": "Discussion: Beyond Hulten's Theorem (Baqaee-Farhi)",
+  "familia": "discusion",
+  "abstract": "",
+  "keywords": "",
+  "jel": []
+ },
+ {
+  "id": "D06",
+  "slug": "bigio_why_bank_exposed_monetary_shocks_di_tella_kurlat",
+  "anio": 2017,
+  "genero": "discussion",
+  "titulo": "Discussion: Why are Banks Exposed to Monetary Shocks (Di Tella-Kurlat)",
+  "familia": "discusion",
+  "abstract": "",
+  "keywords": "",
+  "jel": []
+ },
+ {
+  "id": "P04",
+  "slug": "bigio_schneider_liquidity_shocks_business_cycles_asset_prices",
+  "anio": 2017,
+  "genero": "published",
+  "titulo": "Liquidity Shocks, Business Cycles and Asset Prices",
+  "familia": "Liquidity and Asymmetric Information",
+  "abstract": "In the aftermath of the Great Recession, macro models that feature ﬁnancing constraints have at- tracted increasing attention. Among these, Kiyotaki and Moore (2012) is a prominent example. In this paper, we investigate whether the liquidity shocks and ﬁnancial frictions proposed by Kiyotaki and Moore (2012) can improve the asset pricing predictions of the frictionless RBC model. We study the quantitative business cycle and asset pricing properties in an economy in which agents feature recursive preferences, are subject to a liquidity constraint, and suffer liquidity shocks. We ﬁnd that the model predicts highly nonlinear time variation and levels of risk premia, which are driven by endogenous ﬂuctuations in equity prices. However, the model fails to account for a basic fact: Periods of scarce liquidity are associated with high asset prices and low expected returns.",
+  "keywords": "Business Cycles, Investment, Asset Prices, Liquidity.",
+  "jel": []
+ },
+ {
+  "id": "C01",
+  "slug": "bigio_discussion_optimal_supply_public_private_liquidity_azzimonti_yared",
+  "anio": 2018,
+  "genero": "comment",
+  "titulo": "Comment on 'Optimal Supply of Public and Private Liquidity' (Azzimonti-Yared)",
+  "familia": "comentario",
+  "abstract": "",
+  "keywords": "",
+  "jel": []
+ },
+ {
+  "id": "D07",
+  "slug": "bigio_optimal_supply_public_private_liquidity_azzimonti_yared",
+  "anio": 2018,
+  "genero": "discussion",
+  "titulo": "Discussion: Optimal Supply of Public and Private Liquidity (Azzimonti-Yared)",
+  "familia": "discusion",
+  "abstract": "",
+  "keywords": "",
+  "jel": []
+ },
+ {
+  "id": "D08",
+  "slug": "bigio_global_banks_systemic_debt_crises_morelli_ottonello_perez",
+  "anio": 2019,
+  "genero": "discussion",
+  "titulo": "Discussion: Global Banks and Systemic Debt Crises (Morelli-Ottonello-Perez)",
+  "familia": "discusion",
+  "abstract": "",
+  "keywords": "",
+  "jel": []
+ },
+ {
+  "id": "C03",
+  "slug": "bigio_monetary_fiscal_history_peru_1960_2017_martinelli_vega",
+  "anio": 2019,
+  "genero": "comment",
+  "titulo": "Comment on 'The Monetary and Fiscal History of Peru, 1960-2017' (Martinelli-Vega)",
+  "familia": "comentario",
+  "abstract": "",
+  "keywords": "",
+  "jel": []
+ },
+ {
+  "id": "P05",
+  "slug": "bigio_lao_distortions_production_networks",
+  "anio": 2020,
+  "genero": "published",
+  "titulo": "Distortions in Production Networks",
+  "familia": "Liquidity and Asymmetric Information",
+  "abstract": "How does an economy’s production structure determine its macroeconomic response to sectoral distortions? We study a static, multisector framework in which production is organized in an input-output network and production decisions are distorted. Sectoral distortions manifest at the aggregate level via two channels: total factor productivity (TFP) and the labor wedge. We show that near efﬁciency, distortions have zero ﬁrst-order effects on TFP, nonzero ﬁrst-order effects on the labor wedge, and that a sufﬁcient statistic for the latter are the Domar weights. We thereby provide a Hulten-like theorem for the aggregate effects of sectoral distortions. A quantitative application of the model to the 2008-09 Financial Crisis suggests that the U.S. input-output structure ampliﬁed ﬁnancial distortions by roughly a factor of two during the crisis.",
+  "keywords": "",
+  "jel": [
+   "C67",
+   "E32",
+   "G10"
+  ]
+ },
+ {
+  "id": "N01",
+  "slug": "bigio_concrete_policy_response_covid_19",
+  "anio": 2020,
+  "genero": "policy",
+  "titulo": "A Concrete Policy Response to the Covid-19 Crisis",
+  "familia": "meta",
+  "abstract": "",
+  "keywords": "",
+  "jel": []
+ },
+ {
+  "id": "N02",
+  "slug": "bigio_economic_theory_tech_industry",
+  "anio": 2020,
+  "genero": "divulgacion",
+  "titulo": "Feedback: Economic Theory and the Tech Industry (Techsuyo)",
+  "familia": "meta",
+  "abstract": "",
+  "keywords": "",
+  "jel": []
+ },
+ {
+  "id": "D10",
+  "slug": "bigio_dynamic_asset_backed_security_design_ozdenoren_yuan_shang",
+  "anio": 2021,
+  "genero": "discussion",
+  "titulo": "Discussion: Dynamic Asset-Backed Security Design (Ozdenoren-Yuan-Zhang)",
+  "familia": "discusion",
+  "abstract": "",
+  "keywords": "",
+  "jel": []
+ },
+ {
+  "id": "D11",
+  "slug": "bigio_supply_demand_specialized_production_hamilton",
+  "anio": 2021,
+  "genero": "discussion",
+  "titulo": "Discussion: Supply, Demand and Specialized Production (Hamilton)",
+  "familia": "discusion",
+  "abstract": "",
+  "keywords": "",
+  "jel": []
+ },
+ {
+  "id": "D09",
+  "slug": "bigio_pandemics_incentives_economic_policy_chang_martinez_velasco",
+  "anio": 2021,
+  "genero": "discussion",
+  "titulo": "Discussion: Pandemics, Incentives and Economic Policy (Chang-Martinez-Velasco)",
+  "familia": "discusion",
+  "abstract": "",
+  "keywords": "",
+  "jel": []
+ },
+ {
+  "id": "P06",
+  "slug": "bigio_d_anvernas_financial_risk_capacity",
+  "anio": 2021,
+  "genero": "published",
+  "titulo": "Financial Risk Capacity",
+  "familia": "Money and Banking",
+  "abstract": "Financial crises are particularly severe and lengthy when banks fail to recapitalize after bearing large losses. We present a model that explains the slow recovery of bank capital and economic activity. Banks provide intermediation in markets with information asymmetries. Large equity losses force banks to tighten intermediation, which exacerbates adverse selection. Adverse selection lowers bank proﬁt margins which slows both the internal growth of equity and equity injections. This mechanism generates ﬁnancial crises characterized by persistent low growth. The lack of equity injections during crises is a coordination failure that is solved when the decision to recapitalize banks is centralized.",
+  "keywords": "Financial Crisis, Adverse Selection, Capacity Constraints.",
+  "jel": []
+ },
+ {
+  "id": "P07",
+  "slug": "bianchi_bigio_banks_liquidity_management_monetary_policy",
+  "anio": 2022,
+  "genero": "published",
+  "titulo": "Banks, Liquidity Management and Monetary Policy",
+  "familia": "Money and Banking",
+  "abstract": "We develop a tractable model of banks’ liquidity management with an over-the-counter interbank market to study the credit channel of monetary policy. Deposits circulate ran- domly across banks and must be settled with reserves. We show how monetary policy aﬀects the banking system by altering the trade-oﬀbetween proﬁting from lending and incurring greater liquidity risk. We present two applications of the theory, one involving the connection between the implementation of monetary policy and the pass-through to lending rates, and another considering a quantitative decomposition behind the collapse in bank lending during the 2008 ﬁnancial crisis. Our analysis underscores the importance of liquidity frictions and the functioning of interbank markets for the conduct of monetary policy.",
+  "keywords": "banking, liquidity management, credit channel of monetary policy",
+  "jel": [
+   "E51",
+   "E52",
+   "E58",
+   "G12",
+   "G21"
+  ]
+ },
+ {
+  "id": "D12",
+  "slug": "bigio_firm_heterogeneity_capital_misallocation_optimal_monetary_policy_gonzales_nuno_thaler_albrizio",
+  "anio": 2022,
+  "genero": "discussion",
+  "titulo": "Discussion: Firm Heterogeneity, Capital Misallocation and Optimal Monetary Policy (Gonzalez-Nuno-Thaler-Albrizio)",
+  "familia": "discusion",
+  "abstract": "",
+  "keywords": "",
+  "jel": []
+ },
+ {
+  "id": "S01",
+  "slug": "bigio_politica_monetaria_nueva_perspectiva",
+  "anio": 2022,
+  "genero": "publicado_es",
+  "titulo": "Política monetaria: una nueva perspectiva",
+  "familia": "Money and Banking",
+  "abstract": "",
+  "keywords": "",
+  "jel": []
+ },
+ {
+  "id": "C02",
+  "slug": "bigio_discussion_business_cycle_asymmetry_input_output_structure_role_firm_networks_miranda_pinto_silva_young",
+  "anio": 2023,
+  "genero": "comment",
+  "titulo": "Comment on 'Business Cycle Asymmetry and Input-Output Structure' (Miranda-Pinto, Silva, Young)",
+  "familia": "comentario",
+  "abstract": "",
+  "keywords": "",
+  "jel": []
+ },
+ {
+  "id": "P08",
+  "slug": "bigio_nuno_passadore_debt_maturity_management_liquidity_costs",
+  "anio": 2023,
+  "genero": "published",
+  "titulo": "Debt-Maturity Management with Liquidity Costs",
+  "familia": "Departures",
+  "abstract": "We characterize the optimal debt-maturity management problem in the presence of liquidity costs. A government issues an arbitrary number of finite-maturity bonds and faces income and interest-rate risk, which can tempt it to default. Optimal issuances are spread out across maturities and are given by the ratio of a value gap over a liquidity coefficient that measures the price impact. The value gap is the proportional difference between the bond prices obtained by discounting with the international interest rates and with the domestic discount factor. This characterization allows us to quantify the contribution of different economic forces—impatience, yield-curve riding, expenditure smoothing, self-insurance, credit risk, and default incentives—in shaping the optimal debt maturity distribution. In an application, we estimate the liquidity coefficients using Spanish debt auction data and exploit the framework to evaluate Spanish debt management practices. Saki Bigio Department of Economics University of California at Los Angeles 8283 Bunche Hall Box 951477 Los Angeles, CA 90095-1477 and NBER sbigio@econ.ucla.edu Galo Nuño Banco de España Alcalá 48, 28014 Madrid Spain galo.nuno@bde.es Juan Passadore Einaudi Institute for Economics and Finance (EIEF) Via Sallustiana 62 Rome, 00187 Italy juan.passadore@eief.it Appendices are available at http://www.nber.org/data-appendix/w25808",
+  "keywords": "",
+  "jel": []
+ },
+ {
+  "id": "D14",
+  "slug": "bigio_fiscal_influences_inflation_barro_bianchi",
+  "anio": 2025,
+  "genero": "discussion",
+  "titulo": "Discussion: Fiscal Influences on Inflation (Barro-Bianchi)",
+  "familia": "discusion",
+  "abstract": "",
+  "keywords": "",
+  "jel": []
+ },
+ {
+  "id": "W10",
+  "slug": "bigio_ishide_new_keynesian_economics_through_extensive_margin",
+  "anio": 2025,
+  "genero": "wp",
+  "titulo": "New Keynesian Economics through the Extensive Margin",
+  "familia": "Money, Credit and the NK Model",
+  "abstract": "This paper reformulates the New Keynesian model to incorporate output adjustments through the extensive margin. Shifting from adjustments through the intensive to the exten- sive employment margin, the model introduces predetermined output, altering key prop- erties of the New Keynesian framework. First, the Taylor principle is inverted: stability is achieved when nominal rates respond less than one-for-one with inflation. Second, the model significantly alters the output responses to changes in monetary policy. We argue that this represents a challenge and an opportunity for the literature. Sticky information allows the model to correct the sign of impulse responses.",
+  "keywords": "",
+  "jel": []
+ },
+ {
+  "id": "W06",
+  "slug": "bigio_zhang_zilberman_transfers_credit_policy_macroeconomic_policy_trade_offs_during_covid_19",
+  "anio": 2025,
+  "genero": "wp",
+  "titulo": "Transfers vs. Credit Policy",
+  "familia": "Money, Credit and the NK Model",
+  "abstract": "The Covid-19 crisis has lead to a reduction in the demand and supply of sectors that produce goods that need social interaction to be produced or consumed. We interpret the Covid-19 shock as a shock that reduces utility stemming from “social” goods in a two-sector economy with incomplete markets. We compare the advantages of lump-sum transfers versus a credit policy. For the same path of government debt, transfers are preferable when debt limits are tight, whereas credit policy is preferable when they are slack. A credit policy has the advantage of targeting ﬁscal resources toward agents that matter most for stabilizing demand. We illustrate this result with a calibrated model. We discuss various shortcomings and possible extensions to the model.",
+  "keywords": "Transfers, Credit Policy, Covid-19.",
+  "jel": [
+   "E31"
+  ]
+ },
+ {
+  "id": "W07",
+  "slug": "bigio_d_erasmo_yepez_monetary_policy_implementation_regimes_reserve_demand_us",
+  "anio": 2025,
+  "genero": "wp",
+  "titulo": "Monetary Policy Implementation Regimes and Reserve Demand in the US",
+  "familia": "Money and Banking",
+  "abstract": "We develop and implement a novel methodology to estimate the demand for central bank reserves across different monetary policy regimes in the United States from 2003 to 2023. Our approach addresses two challenges in reserve demand estimation: the endogenous evolution of monetary policy implementation frameworks and the endoge- nous response of monetary policy to demand shocks. Using a three-stage empirical strategy, we first identify exogenous supply and demand shocks to liquidity through fluctuations in the Treasury General Account and cross-sectional dispersion measures in federal funds rates and deposit growth. Second, we estimate regime-specific Federal Reserve balance sheet rules to isolate orthogonalized components of policy operations. Third, we employ these components in a two-stage instrumental variables framework to recover the causal effect of reserve availability on money market spreads. Our results reveal a stable, downward-sloping demand curve for reserves, with regime-dependent semi-elasticities.",
+  "keywords": "Monetary policy implementation; Reserve demand estimation; Federal Reserve balance sheet",
+  "jel": []
+ },
+ {
+  "id": "D13",
+  "slug": "bigio_bs_policy_above_elb_vissing_jorgensen",
+  "anio": 2025,
+  "genero": "discussion",
+  "titulo": "Discussion: Balance-Sheet Policy Above the ELB (Vissing-Jorgensen)",
+  "familia": "discusion",
+  "abstract": "",
+  "keywords": "",
+  "jel": []
+ },
+ {
+  "id": "W08",
+  "slug": "bigio_mendez_patten_theory_payments_chain_crises",
+  "anio": 2025,
+  "genero": "wp",
+  "titulo": "A Theory of Payment-Chain Crises",
+  "familia": "Liquidity and Asymmetric Information",
+  "abstract": "This paper introduces an endogenous network of payments chains into a busi- ness cycle model. Motivated by evidence of linked payments in Costa Rica, we present a model where agents order production in bilateral relations. Some pay- ments are executed immediately. Other payments, chained payments, are delayed until other payments are executed. Because production starts only after orders are paid, chained payments induce production delays. In equilibrium, agents choose the amount of chained payments given interest rates and access to internal funds or credit lines. This choice determines the payments-chain network and aggregate total-factor productivity (TFP). The paper characterizes equilibrium dynamics and their innate inefficiencies. Agents internalize the direct costs of their payment de- lays, but do not internalize the costs induced onto others. This externality produces novel policy insights and rationalizes permanent reductions in TFP under excessive debt.",
+  "keywords": "Payments, Networks, Business Cycles",
+  "jel": [
+   "E32",
+   "E42",
+   "G01"
+  ]
+ },
+ {
+  "id": "W09",
+  "slug": "abad_bigio_garcia_villegas_marbet_nuno_heterogeneous_bank_lending_channel_monetary_policy",
+  "anio": 2025,
+  "genero": "wp",
+  "titulo": "The Heterogeneous Bank Lending Channel of Monetary Policy",
+  "familia": "Money and Banking",
+  "abstract": "This paper develops a quantitative model to analyze the role of bank hetero- geneity in the transmission of monetary policy through the bank lending channel. We calibrate the model to the euro area to capture two distinct forms of heterogene- ity: ex-ante differences in loan pricing practices and ex-post variation in capital positions driven by idiosyncratic default risks. Consistent with empirical impulse responses, banks in fixed-rate economies experience severe net interest margin compression during monetary tightening as funding costs rise while income from legacy loans remains unchanged, leading to capital erosion and deeper lending contractions. The elasticity of new lending to monetary policy is approximately one-third larger in fixed-rate economies. Highly leveraged banks drive these differ- ences: without default risk, banks would remain far from their regulatory limits. We discuss additional tradeoffs between monetary policy and financial stability, study the implications for gradual policy rate increases, and demonstrate fundamental limitations of representative-agent banking models.",
+  "keywords": "",
+  "jel": []
+ },
+ {
+  "id": "W05",
+  "slug": "bigio_nuno_decomposing_optimal_debt_maturity",
+  "anio": 2025,
+  "genero": "wp",
+  "titulo": "Decomposing Optimal Debt Maturity",
+  "familia": "Departures",
+  "abstract": "We characterize optimal sovereign debt maturity when a government issues finite- life bonds with liquidity costs and default risk. We derive a value-gap rule decom- posing maturity choice into four forces: hedging, self-insurance, credit risk, and di- lution. A risky steady state makes the infinite-dimensional problem tractable and permits transitional dynamics. Calibrated to Spain (2002–2018) with auction-based liquidity costs and observed curves, hedging dominates while credit-risk effects are minor. The model recommends longer maturities; a permanent 1pp long-rate in- crease cuts issuance by 0.5% of GDP; a 50-year bond shifts issuance long without raising rollover risk.",
+  "keywords": "Debt maturity; Default; Liquidity costs;",
+  "jel": []
+ },
+ {
+  "id": "W03",
+  "slug": "bianchi_bigio_engel_scrambling_dollars_international_liquidity_banks_exchange_rate",
+  "anio": 2025,
+  "genero": "wp",
+  "titulo": "Scrambling for Dollars",
+  "familia": "International Liquidity",
+  "abstract": "We develop a theory of exchange rate fluctuations arising from financial institutions’ demand for liquid assets. Financial flows are unpredictable and may leave banks ”scrambling for dollars.“ Because of settlement frictions in interbank markets, a pre- cautionary demand for dollar reserves emerges, giving rise to an endogenous dollar convenience yield. We find that US dollar funding risk fluctuations contribute signifi- cantly to deviations from covered interest parity and exchange rate fluctuations. We show evidence of a tight connection between exchange rate fluctuations for the G10 currencies and the quantity of dollar liquidity consistent with the theory.",
+  "keywords": "Exchange rates, liquidity premia, monetary policy",
+  "jel": [
+   "E44",
+   "F31",
+   "F41",
+   "G20"
+  ]
+ },
+ {
+  "id": "W04",
+  "slug": "bigio_caramp_silva_sticky_inflation_monetary_policy_debt_drags_inflation_expectations",
+  "anio": 2025,
+  "genero": "wp",
+  "titulo": "Sticky Inflation",
+  "familia": "Money, Credit and the NK Model",
+  "abstract": "We append the expectation of a monetary-fiscal reform into a standard New Keyne- sian model. If a reform occurs, monetary policy will temporarily aid debt sustainability through a temporary burst in inflation. The anticipation of a possible reform links debt levels with inflation expectations. As a result, interest rates have two effects: they in- fluence demand and affect expected inflation in opposite directions. The expectations effect is linked to the impact of interest rates on public debt. While lowering inflation in the short term is possible through demand control, inflation tends to rise again due to its impact on inflation expectations (sticky inflation). Optimal monetary policy may al- low low real interest rates after fiscal shocks, temporarily breaking away from the Taylor principle. We assess whether the Federal Reserve’s “staying behind the curve” was the right strategy during the recent post-pandemic inflation surge.",
+  "keywords": "",
+  "jel": [
+   "E31",
+   "E52",
+   "E63"
+  ]
+ },
+ {
+  "id": "W02",
+  "slug": "bigio_sannikov_model_credit_money_interest_prices",
+  "anio": 2025,
+  "genero": "wp",
+  "titulo": "A Model of Credit, Money, Interest, and Prices",
+  "familia": "Money, Credit and the NK Model",
+  "abstract": "This paper integrates an implementation of monetary policy through the banking system into an incomplete-markets economy with nominal rigidity. Monetary policy sets policy rates and alters the supply of reserves. These tools grant independent control over credit spreads and an interest-rate target. Through these tools, mone- tary policy affects the evolution of real interest rates, credit, output, and the wealth distribution. We decompose their effects into a combination of the interest and credit channels that depend on the size of the central bank’s balance sheet. The model pro- vides insights regarding when are counter-cyclical central bank balance sheets ideal. This model highlights a trade-off between worse micro economic insurance (insurance across agents) and better macroeconomic insurance (insurance across states).",
+  "keywords": "Monetary Economics, Monetary Policy, Credit Channel.",
+  "jel": [
+   "E31"
+  ]
+ },
+ {
+  "id": "P12",
+  "slug": "bianchi_bigio_portfolio_choice_settlement_frictions_theory_endogenous_convenience_yields",
+  "anio": 2026,
+  "genero": "published",
+  "titulo": "Portfolio Choice and Settlement Frictions",
+  "familia": "Money and Banking",
+  "abstract": "We study settlement frictions that arise from the need to finance negative balances through an over-the-counter (OTC) market. We derive a closed-form expression for the endogenous conve- nience yield and show how it can be incorporated into a canonical portfolio problem. Using this framework, we examine how shifts in settlement frictions affect liquidity premia, the volume of overnightfunding, thedispersionofmarketrates, andoptimalportfolioallocations. Fromanor- mative perspective, we show that in the competitive equilibrium, investors may either over- or under-invest in liquid assets; moreover, both higher risk aversion and tighter aggregate liquidity increase the likelihood of under-accumulation. Finally, we apply our framework to monetary policy implementation, showing that the transition from an abundant to a merely ample reserve regime can produce sharp movements in interbank rates.",
+  "keywords": "Asset Pricing, Portfolio Theory, OTC markets, convenience yields",
+  "jel": [
+   "E51",
+   "E52",
+   "E58",
+   "G12",
+   "G21"
+  ]
+ },
+ {
+  "id": "P11",
+  "slug": "bigio_silva_zilberman_heterogeneous_beliefs_asset_prices_business_cycles",
+  "anio": 2026,
+  "genero": "published",
+  "titulo": "Heterogeneous Beliefs, Asset Prices, and Business Cycles",
+  "familia": "Money and Banking",
+  "abstract": "We develop a complete-market production economy in which heterogeneous beliefs about productivity growth affect both asset prices and real activity. Firms must hire workers before productivity is realized, so operating leverage increases the exposure of profits to productivity risk. Because the firm’s discount factor depends on a wealth- weighted aggregation of investor beliefs, shifts in optimism compress risk premia and raise employment, while reversals trigger contractions. This mechanism gen- erates an equilibrium feedback between asset prices, hiring, and risk exposure. A taxonomy of belief systems shows that only extrapolative beliefs produce amplifica- tion and endogenous risk build-up. Disciplined by survey expectations, the model jointly matches key asset-pricing, trading-volume, and business-cycle moments.",
+  "keywords": "Heterogeneous Beliefs; Business Cycles; Asset Prices; Speculation.",
+  "jel": []
+ },
+ {
+  "id": "P13",
+  "slug": "bigio_kanzig_sanchez_walsh_carbon_pricing_inequality_normative_pespective",
+  "anio": 2026,
+  "genero": "published",
+  "titulo": "Carbon Pricing and Inequality: A Normative Perspective",
+  "familia": "Departures",
+  "abstract": "Despite broad acceptance among economists, carbon taxes face persistent public re- sistance. We measure the sources and distribution of welfare losses from unexpected European carbon price changes by estimating their impact on consumer prices, labor income, financial wealth, and government transfers. A 1% carbon-policy-induced in- crease in energy prices leads to an average welfare loss of about 0.5% of a household’s three-year consumption, primarily driven by indirect labor-income effects. Younger, poorer, and less educated households, especially in Southern and Eastern Europe, bear a disproportionate burden. These findings suggest public opposition to carbon taxes could stem from legitimate distributional concerns.",
+  "keywords": "",
+  "jel": []
+ },
+ {
+  "id": "V01",
+  "slug": "research_vision",
+  "anio": 2026,
+  "genero": "vision",
+  "titulo": "Liquidity and Macroeconomics: a vision and my research agenda",
+  "familia": "meta",
+  "abstract": "",
+  "keywords": "",
+  "jel": []
+ },
+ {
+  "id": "W11",
+  "slug": "bigio_castillo_han_dollar_liquidity_flows_soe",
+  "anio": 2026,
+  "genero": "wp",
+  "titulo": "Dollar Liquidity Flows in a Small-Open Economy",
+  "familia": "International Liquidity",
+  "abstract": "This paper investigates how local dollar liquidity conditions shape exchange rate dynamics in small open economies. In such economies, the ﬁnancial sys- tem issues dollar liabilities to facilitate transactions, creating a structural demand for dollar reserves for settlement. We distinguish between reserve supply, which responds to external factors, and reserve demand, which ﬂuctuates with domes- tic liquidity conditions. Using a policy shock as an instrumental variable for the Peruvian economy, we show that domestic dollar liquidity demand shocks signiﬁcantly drive short-run exchange rate dynamics. We rationalize these ﬁnd- ings using a small open economy model with banking liquidity frictions that ac- counts for observed interest rate dynamics and Covered Interest Parity (CIP) de- viations. The model delivers a counterfactual framework that experiments with the central bank’s quantity-based toolkit—including sterilized FX intervention, dual-currency reserve requirements, and derivative-position-motivated balance- sheet constraints. The main text focuses on sterilized FX intervention and shows that this instrument was particularly effective in suppressing Sol exchange rate volatility during Peru’s 2007–2009 dollar liquidity stress episode.",
+  "keywords": "Exchange Rates, Dollar Liquidity, Covered Interest Parity, Foreign Exchange Intervention",
+  "jel": [
+   "E44",
+   "E58",
+   "F31",
+   "G15"
+  ]
+ },
+ {
+  "id": "P09",
+  "slug": "bigio_shi_repurchase_options_market_lemons",
+  "anio": 2026,
+  "genero": "published",
+  "titulo": "Repurchase Options in the Market for Lemons",
+  "familia": "Liquidity and Asymmetric Information",
+  "abstract": "We study repurchase options (repo contracts) in a competitive asset market with ad- verse selection. Gains from trade emerge from a liquidity need, but private information about asset quality prevents the full realization of trades. In equilibrium, a single repo contract pools all assets. The embedded repurchase option mitigates adverse selection by improving the volume of trades relative to outright sales. However, liquidity provision can be inefficiently low as lenders compete to attract high-quality assets via high haircuts and low rates. The equilibrium has a closed form and aligns well with empirical patterns across Mortgage-Backed Securities repos.",
+  "keywords": "Repurchase Agreement, Collateralized Debt, Private Information, Optimal Contracts",
+  "jel": [
+   "D82",
+   "G23",
+   "G32"
+  ]
+ },
+ {
+  "id": "P10",
+  "slug": "begenau_bigio_majerovitz_vieyra_q_theory_banks",
+  "anio": 2026,
+  "genero": "published",
+  "titulo": "A Q-Theory of Banks",
+  "familia": "Money and Banking",
+  "abstract": "",
+  "keywords": "Bank Leverage Dynamics, Market vs. Book Values, Accounting Rules, Bank Regulation, Financial Stability",
+  "jel": [
+   "E44",
+   "G21",
+   "G32",
+   "G33"
+  ]
+ },
+ {
+  "id": "W01",
+  "slug": "bigio_weill_zuniga_competitive_bank_liability_design",
+  "anio": 2026,
+  "genero": "wp",
+  "titulo": "Competitive Bank Liability Design",
+  "familia": "Money and Banking",
+  "abstract": "",
+  "keywords": "",
+ "jel": []
+ },
+ {
+  "id": "D15",
+  "slug": "bigio_safety_traps_caballero_farhi",
+  "anio": 2016,
+  "genero": "discussion",
+  "titulo": "Discussion of Safety Traps",
+  "familia": "discusion",
+  "abstract": "",
+  "keywords": "",
+  "jel": []
+ }
+]

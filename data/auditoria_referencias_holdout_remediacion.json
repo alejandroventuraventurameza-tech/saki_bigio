@@ -1,0 +1,1890 @@
+{
+  "candidate_sha256": "fde1c7c6d58f0f461fc7765022e8cc0e328c149c09eaf152eb7aa172dc131748",
+  "design": "Regresión sobre los 100 casos de reserva después de aplicar sus correcciones; no es una tercera muestra.",
+  "prior_holdout_record_ready": 90,
+  "remediation_checks_passed": 100,
+  "remediation_checks_failed": 0,
+  "network_release": false,
+  "network_release_reason": "La remediación reutiliza la muestra de reserva y las identidades DOI/OpenAlex permanecen sin resolver.",
+  "checks": [
+    {
+      "sample_id": "H-001",
+      "document_id": "C01",
+      "prior_record_ready": false,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Bigio",
+          "year": 2015,
+          "title": "Endogenous liquidity and the business cycle",
+          "entry": "Saki Bigio. Endogenous liquidity and the business cycle. American Economic Review, 105(6):1883–1927, 2015. doi: 10.1257/aer. 20110035. URL http://www.aeaweb.org/articles.php?doi=10.1257/aer.20110035 .",
+          "page_start": 9,
+          "page_end": 9,
+          "quality_flags": [],
+          "title_extraction_method": "manual_literal_citation",
+          "correction_provenance": [
+            "local_citation_grammar_v3",
+            "literal_citation_review_2026-09-16"
+          ]
+        }
+      ]
+    },
+    {
+      "sample_id": "H-002",
+      "document_id": "C03",
+      "prior_record_ready": false,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Velarde",
+          "year": 1992,
+          "title": "El programa económico de agosto de 1990: evaluación del primer año",
+          "entry": "[Velarde and Ro dríguez(1992b)] Julio Velarde and Martha Ro dríguez. El programa económico de agosto de 1990: evaluación del primer año. Do cumento de Traba jo No. 2, Universidad del Pací co, 1992b.",
+          "page_start": 4,
+          "page_end": 4,
+          "quality_flags": [],
+          "title_extraction_method": "manual_literal_citation",
+          "correction_provenance": [
+            "literal_citation_review_2026-09-16"
+          ]
+        }
+      ]
+    },
+    {
+      "sample_id": "H-003",
+      "document_id": "E01",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Gupta",
+          "year": 2002,
+          "title": "Corruption and the Provision of Health Care and Education Services",
+          "entry": "Gupta, S., H. Davoodi y E. Tiongson (2002): “Corruption and the Provision of Health Care and Education Services.” En: Governance, Corruption & Economic Performance Abed, G. y S. Gupta (eds.). Washington, D.C.: International Monetary Fund (IMF), pp. 245-279.",
+          "page_start": 20,
+          "page_end": 20,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-004",
+      "document_id": "E01",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Tanzi",
+          "year": 1994,
+          "title": "Corruption, Governmental Activities, and Markets",
+          "entry": "Tanzi, V. (1994): “Corruption, Governmental Activities, and Markets.” IMF Working Paper 94/99. Washington, D.C.: International Monetary Fund (IMF).",
+          "page_start": 22,
+          "page_end": 22,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-005",
+      "document_id": "E01",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Taylor",
+          "year": 1972,
+          "title": "World Handbook of Political and Social Indicators",
+          "entry": "Taylor, C. y M. Hudson (1972): World Handbook of Political and Social Indicators. New Haven: Yale University P ress.",
+          "page_start": 22,
+          "page_end": 22,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-006",
+      "document_id": "E02",
+      "prior_record_ready": false,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Bravo",
+          "year": 2002,
+          "title": "Una Revisión de la Transmisión Monetaria y el Pass-Through en Chile",
+          "entry": "Bravo, Héctor, and Carlos García (2002), Una Revisión de la Transmisión Monetaria y el Pass-Through en Chile, Banco Central de Chile (Working Paper, no 149).",
+          "page_start": 28,
+          "page_end": 28,
+          "quality_flags": [],
+          "title_extraction_method": "manual_literal_citation",
+          "correction_provenance": [
+            "literal_citation_review_2026-09-16"
+          ]
+        }
+      ]
+    },
+    {
+      "sample_id": "H-007",
+      "document_id": "E02",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Carranza",
+          "year": 2003,
+          "title": "Exchange rate volatility and economic performance in Peru: a firm level analysis",
+          "entry": "Carranza, Luis J., Juan M. Cayo and José Galdón-Sánchez (2003), “Exchange rate volatility and economic performance in Peru: a firm level analysis”, Emerging Markets Review, vol. 4, n o 4, pp. 472-96.",
+          "page_start": 28,
+          "page_end": 28,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-008",
+      "document_id": "E02",
+      "prior_record_ready": false,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Castro",
+          "year": 2000,
+          "title": "Uncovering Central Bank’s Monetary Policy Objectives: Going Beyond Fear of Floating",
+          "entry": "Castro, Juan F., and Eduardo Morón (2000), Uncovering Central Bank’s Monetary Policy Objectives: Going Beyond Fear of Floating, Centro de Investigación de la Universidad del Pacífico.",
+          "page_start": 29,
+          "page_end": 29,
+          "quality_flags": [],
+          "title_extraction_method": "manual_literal_citation",
+          "correction_provenance": [
+            "literal_citation_review_2026-09-16"
+          ]
+        }
+      ]
+    },
+    {
+      "sample_id": "H-009",
+      "document_id": "E02",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Leybourne",
+          "year": 1998,
+          "title": "Unit Roots and Smooth Transitions",
+          "entry": "Leybourne, Stephen, Paul Newbold and Dimitrios Vougas (1998), “Unit Roots and Smooth Transitions”, Journal of Time Series Analysis, vol. 19, pp. 83-97.",
+          "page_start": 30,
+          "page_end": 30,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-010",
+      "document_id": "E02",
+      "prior_record_ready": false,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Ravn",
+          "year": 1996,
+          "title": "A reconsideration of the empirical Evidence on the Asymmetric Effects of Money-Supply Shocks: Positive vs. Negative or Big vs. Small?",
+          "entry": "Ravn, Morten O., and Martin Sola (1996), A reconsideration of the empirical Evidence on the Asymmetric Effects of Money-Supply Shocks: Positive vs. Negative or Big vs. Small?, Center for Non-Linear Modeling in Economics, University of Aarhus (Working Paper, no 1996-4).",
+          "page_start": 30,
+          "page_end": 30,
+          "quality_flags": [],
+          "title_extraction_method": "manual_literal_citation",
+          "correction_provenance": [
+            "literal_citation_review_2026-09-16"
+          ]
+        }
+      ]
+    },
+    {
+      "sample_id": "H-011",
+      "document_id": "P01",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Brainard",
+          "year": 1967,
+          "title": "Uncertainty and the effectiveness of policy",
+          "entry": "Brainard, W., 1967. Uncertainty and the effectiveness of policy. American Economic Review Papers and Proceedings 57, 411–425.",
+          "page_start": 28,
+          "page_end": 28,
+          "quality_flags": [],
+          "title_extraction_method": "after_plain_year",
+          "correction_provenance": [
+            "local_citation_grammar_v3"
+          ]
+        }
+      ]
+    },
+    {
+      "sample_id": "H-012",
+      "document_id": "P01",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Calvo",
+          "year": 2002,
+          "title": "Fear of floating",
+          "entry": "Calvo, G., Reinhart, C., 2002. Fear of floating. Quarterly Journal of Economics 117, 379–408.",
+          "page_start": 28,
+          "page_end": 28,
+          "quality_flags": [],
+          "title_extraction_method": "after_plain_year",
+          "correction_provenance": [
+            "local_citation_grammar_v3"
+          ]
+        }
+      ]
+    },
+    {
+      "sample_id": "H-013",
+      "document_id": "P01",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Chang",
+          "year": 2000,
+          "title": "Exchange rate policy for developing countries",
+          "entry": "Chang, R., Velasco, A., 2000. Exchange rate policy for developing countries. American Economic Review 90, 71–75.",
+          "page_start": 28,
+          "page_end": 28,
+          "quality_flags": [],
+          "title_extraction_method": "after_plain_year",
+          "correction_provenance": [
+            "local_citation_grammar_v3"
+          ]
+        }
+      ]
+    },
+    {
+      "sample_id": "H-014",
+      "document_id": "P01",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Ellison",
+          "year": 2006,
+          "title": "The learning cost of interest rate reversals",
+          "entry": "Ellison, M., 2006. The learning cost of interest rate reversals. Journal of Monetary Economics 53, 1895–1907.",
+          "page_start": 28,
+          "page_end": 28,
+          "quality_flags": [],
+          "title_extraction_method": "after_plain_year",
+          "correction_provenance": [
+            "local_citation_grammar_v3"
+          ]
+        }
+      ]
+    },
+    {
+      "sample_id": "H-015",
+      "document_id": "P01",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Gali",
+          "year": 2005,
+          "title": "Monetary policy and exchange rate volatility in a small open economy",
+          "entry": "Gali, J., Monacelli, T., 2005. Monetary policy and exchange rate volatility in a small open economy. Review of Economic Studies 72, 707–734.",
+          "page_start": 28,
+          "page_end": 28,
+          "quality_flags": [],
+          "title_extraction_method": "after_plain_year",
+          "correction_provenance": [
+            "local_citation_grammar_v3"
+          ]
+        }
+      ]
+    },
+    {
+      "sample_id": "H-016",
+      "document_id": "P02",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Thuronyi",
+          "year": 2004,
+          "title": "Presumptive taxation of the hard-to-tax",
+          "entry": "V. Thuronyi. Presumptive taxation of the hard-to-tax. In J. Alm, J. Marinez-Vazquez, and S.Wallace, editors, Taxing the Hard-to-Tax: Lessons from Theory and Practice, chapter4, pages 101–120. Elsevier B.V., 2004.4,12,31",
+          "page_start": 42,
+          "page_end": 42,
+          "quality_flags": [],
+          "title_extraction_method": "sentence_before_source",
+          "correction_provenance": [
+            "local_citation_grammar_v3"
+          ]
+        }
+      ]
+    },
+    {
+      "sample_id": "H-017",
+      "document_id": "P03",
+      "prior_record_ready": false,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Gomes",
+          "year": 2001,
+          "title": "Financing Investment",
+          "entry": "Gomes, Joao F., “Financing Investment,” American Economic Review, 2001, 91 (5), 1263–1285.2",
+          "page_start": 42,
+          "page_end": 42,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser",
+          "correction_provenance": [
+            "H-017"
+          ]
+        }
+      ]
+    },
+    {
+      "sample_id": "H-018",
+      "document_id": "P03",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Kurlat",
+          "year": 2013,
+          "title": "Lemons Markets and the Transmission of Aggregate Shocks",
+          "entry": "Kurlat, Pablo, “Lemons Markets and the Transmission of Aggregate Shocks,” American Economic Review, 2013, 103 (4), 1463–89.3",
+          "page_start": 43,
+          "page_end": 43,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-019",
+      "document_id": "P03",
+      "prior_record_ready": false,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Shimer",
+          "year": 2009,
+          "title": "Convergence in Macroeconomics: The Labor Wedge",
+          "entry": "Shimer, Robert, “Convergence in Macroeconomics: The Labor Wedge,” American Economic Journal: Macroeconomics, 2009, 1 (1), 280–97.29",
+          "page_start": 43,
+          "page_end": 43,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser",
+          "correction_provenance": [
+            "H-019"
+          ]
+        }
+      ]
+    },
+    {
+      "sample_id": "H-020",
+      "document_id": "P04",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Croce",
+          "year": 2014,
+          "title": "Long-run productivity risk: A new hope for production-based asset pricing?",
+          "entry": "Croce, Mariano Massimiliano, “Long-run productivity risk: A new hope for production-based asset pricing?,”Journal of Monetary Economics, 2014, 66, 13 – 31.",
+          "page_start": 37,
+          "page_end": 37,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-021",
+      "document_id": "P05",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Asker",
+          "year": 2014,
+          "title": "Dynamic Inputs and Resource (Mis)Allocation",
+          "entry": "Asker, John, Allan Collard-Wexler, and Jan De Loecker. “Dynamic Inputs and Resource (Mis)Allocation.” Journal of Political Economy, 122(2014), 1013–1063.",
+          "page_start": 50,
+          "page_end": 50,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-022",
+      "document_id": "P05",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Bigio",
+          "year": 2020,
+          "title": "Replication Data for: ‘Distortions in Production Networks’",
+          "entry": "Bigio, Saki and Jennifer La’O. “Replication Data for: ‘Distortions in Production Networks’.” (2020). Harvard Dataverse, doi: 10.7910/DVN/2DQ5KG.",
+          "page_start": 51,
+          "page_end": 51,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-023",
+      "document_id": "P05",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Jermann",
+          "year": 2012,
+          "title": "Macroeconomic Effects of Financial Shocks",
+          "entry": "Jermann, Urban and Vincenzo Quadrini. “Macroeconomic Effects of Financial Shocks.” American Economic Review, 102(2012), 238–71.",
+          "page_start": 52,
+          "page_end": 52,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-024",
+      "document_id": "P06",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Eisfeldt",
+          "year": 2004,
+          "title": "Endogenous liquidity in asset markets",
+          "entry": "Eisfeldt, Andrea L. Endogenous liquidity in asset markets. The Journal of Finance, 59(1):1–30, 2004.",
+          "page_start": 40,
+          "page_end": 40,
+          "quality_flags": [],
+          "title_extraction_method": "sentence_before_source",
+          "correction_provenance": [
+            "local_citation_grammar_v3"
+          ]
+        }
+      ]
+    },
+    {
+      "sample_id": "H-025",
+      "document_id": "P06",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Gennaioli",
+          "year": 2013,
+          "title": "A model of shadow banking",
+          "entry": "Gennaioli, Nicola, Shleifer, Andrei, and Vishny, Robert W. A model of shadow banking. The Journal of Finance, 68(4):1331–1363, 2013.",
+          "page_start": 41,
+          "page_end": 41,
+          "quality_flags": [],
+          "title_extraction_method": "sentence_before_source",
+          "correction_provenance": [
+            "local_citation_grammar_v3"
+          ]
+        }
+      ]
+    },
+    {
+      "sample_id": "H-026",
+      "document_id": "P06",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Gromb",
+          "year": 2002,
+          "title": "Equilibrium and welfare in markets with financially constrained arbitrageurs",
+          "entry": "Gromb, Denis and Vayanos, Dimitri. Equilibrium and welfare in markets with financially constrained arbitrageurs. Journal of financial Economics, 66(2-3):361–407, 2002.",
+          "page_start": 41,
+          "page_end": 41,
+          "quality_flags": [],
+          "title_extraction_method": "sentence_before_source",
+          "correction_provenance": [
+            "local_citation_grammar_v3"
+          ]
+        }
+      ]
+    },
+    {
+      "sample_id": "H-027",
+      "document_id": "P06",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Leland",
+          "year": 1977,
+          "title": "Informational asymmetries, financial structure, and financial intermediation",
+          "entry": "Leland, Hayne E and Pyle, David H. Informational asymmetries, financial structure, and financial intermediation. The journal of Finance, 32(2):371–387, 1977.",
+          "page_start": 42,
+          "page_end": 42,
+          "quality_flags": [],
+          "title_extraction_method": "sentence_before_source",
+          "correction_provenance": [
+            "local_citation_grammar_v3"
+          ]
+        }
+      ]
+    },
+    {
+      "sample_id": "H-028",
+      "document_id": "P06",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Maggiori",
+          "year": 2017,
+          "title": "Financial intermediation, international risk sharing, and reserve currencies",
+          "entry": "Maggiori, Matteo. Financial intermediation, international risk sharing, and reserve currencies. American Economic Review, 107(10):3038–71, 2017.",
+          "page_start": 42,
+          "page_end": 42,
+          "quality_flags": [],
+          "title_extraction_method": "sentence_before_source",
+          "correction_provenance": [
+            "local_citation_grammar_v3"
+          ]
+        }
+      ]
+    },
+    {
+      "sample_id": "H-029",
+      "document_id": "P06",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Ordonez",
+          "year": 2013,
+          "title": "The asymmetric effects of financial frictions",
+          "entry": "Ordonez,Guillermo. Theasymmetriceffectsoffinancialfrictions. Journal of Political Economy, 121(5):844–895, 2013.",
+          "page_start": 43,
+          "page_end": 43,
+          "quality_flags": [],
+          "title_extraction_method": "manual_literal_citation",
+          "correction_provenance": [
+            "literal_citation_review_2026-09-16"
+          ]
+        }
+      ]
+    },
+    {
+      "sample_id": "H-030",
+      "document_id": "P07",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Chen",
+          "year": 2017,
+          "title": "The Nexus of Monetary Policy and Shadow Banking in China",
+          "entry": "Chen, K., J. Ren, and T. Zha (2017): “The Nexus of Monetary Policy and Shadow Banking in China,” NBER Working Paper 23377.",
+          "page_start": 46,
+          "page_end": 46,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-031",
+      "document_id": "P07",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Gertler",
+          "year": 2011,
+          "title": "A Model of Unconventional Monetary Policy",
+          "entry": "Gertler, M. and P. Karadi (2011): “A Model of Unconventional Monetary Policy,” Journal of Monetary Economics, 58, 17–34.",
+          "page_start": 47,
+          "page_end": 47,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-032",
+      "document_id": "P07",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Kiyotaki",
+          "year": 1997,
+          "title": "Credit Cycles",
+          "entry": "Kiyotaki, N. and J. Moore (1997): “Credit Cycles,” Journal of Political Economy, 105, 211–248.",
+          "page_start": 48,
+          "page_end": 48,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-033",
+      "document_id": "P07",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Smith",
+          "year": 2002,
+          "title": "Monetary policy, banking crises, and the Friedman rule",
+          "entry": "Smith, B. D. (2002): “Monetary policy, banking crises, and the Friedman rule,” American Economic Review, 92, 128–134.",
+          "page_start": 49,
+          "page_end": 49,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-034",
+      "document_id": "P07",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Williamson",
+          "year": 2012,
+          "title": "Liquidity, Monetary Policy, and the Financial Crisis: A New Monetarist Approach",
+          "entry": "——— (2012): “Liquidity, Monetary Policy, and the Financial Crisis: A New Monetarist Approach,” American Economic Review, 102, 2570–2605.",
+          "page_start": 49,
+          "page_end": 49,
+          "quality_flags": [
+            "inherited_author_notation"
+          ],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-035",
+      "document_id": "P08",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Aiyagari",
+          "year": 2002,
+          "title": "Optimaltaxationwithoutstatecontingentdebt",
+          "entry": "Aiyagari,SRao,AlbertMarcet,ThomasJSargent,andJuhaSeppälä,“Optimaltaxationwithoutstatecontingentdebt,”JournalofPoliticalEconomy,2002, 110(6),1220–1254.",
+          "page_start": 43,
+          "page_end": 43,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-036",
+      "document_id": "P08",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Cammack",
+          "year": 1991,
+          "title": "EvidenceonBiddingStrategiesandtheInformationinTreasuryBillAuctions",
+          "entry": "Cammack,ElizabethB.,“EvidenceonBiddingStrategiesandtheInformationinTreasuryBillAuctions,” JournalofPoliticalEconomy,1991, 99(1),100–130.",
+          "page_start": 44,
+          "page_end": 44,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-037",
+      "document_id": "P08",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Greenwood",
+          "year": 2015,
+          "title": "The Optimal Maturity of Government Debt",
+          "entry": "Greenwood, Robin, Samuel Gregory Hanson, Joshua S. Rudolph, and Lawrence Summers, “The Optimal Maturity of Government Debt,” in David Wessel, ed.,The $13 Trillion Question: How America ManagesItsDebt,BrookingsInstitutionPress,2015,chapter1,pp.1–41.",
+          "page_start": 45,
+          "page_end": 45,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-038",
+      "document_id": "P08",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Spindt",
+          "year": 1992,
+          "title": "AreUStreasurybillsunderpricedintheprimarymarket?",
+          "entry": "Spindt,PaulA.andRichardW.Stolz,“AreUStreasurybillsunderpricedintheprimarymarket?,” Journal ofBanking&Finance,1992, 16(5),891–908.",
+          "page_start": 47,
+          "page_end": 47,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-039",
+      "document_id": "P09",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Besanko",
+          "year": 1987,
+          "title": "CompetitiveEquilibriumintheCreditMarket underAsymmetricInformation",
+          "entry": "Besanko,DavidandAnjanVThakor,“CompetitiveEquilibriumintheCreditMarket underAsymmetricInformation,”JournalofEconomicTheory,1987,42(1),167–182.",
+          "page_start": 36,
+          "page_end": 36,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-040",
+      "document_id": "P09",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Dang",
+          "year": 2013,
+          "title": "HaircutsandRepoChains",
+          "entry": "Dang,TriVi,GaryGorton,andBengtHolmström,“HaircutsandRepoChains,”Working Paper,2013.",
+          "page_start": 36,
+          "page_end": 36,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-041",
+      "document_id": "P09",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Demarzo",
+          "year": 1999,
+          "title": "ALiquidity-BasedModelofSecurityDesign",
+          "entry": "Demarzo,PeterandDarrellDuffie,“ALiquidity-BasedModelofSecurityDesign,”Econometrica,1999,67(1),65–99.",
+          "page_start": 36,
+          "page_end": 36,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-042",
+      "document_id": "P09",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Spence",
+          "year": 1978,
+          "title": "ProductDifferentiationandPerformanceinInsuranceMarkets",
+          "entry": "Spence,Michael,“ProductDifferentiationandPerformanceinInsuranceMarkets,”Journal ofPublicEconomics,1978,10(3),427–447.",
+          "page_start": 39,
+          "page_end": 39,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-043",
+      "document_id": "P09",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Stantcheva",
+          "year": 2014,
+          "title": "OptimalIncomeTaxationwithAdverseSelectionintheLabourMarket",
+          "entry": "Stantcheva,Stefanie,“OptimalIncomeTaxationwithAdverseSelectionintheLabourMarket,”TheReviewofEconomicStudies,032014,81(3),1296–1329.",
+          "page_start": 39,
+          "page_end": 39,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-044",
+      "document_id": "P10",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Blattner",
+          "year": 2023,
+          "title": "When losses turn into loans: The cost of weak banks",
+          "entry": "Blattner, Laura, Luisa Farinha, and Francisca Rebelo, “When losses turn into loans: The cost of weak banks,” American Economic Review, 2023, 113 (6), 1600–1641.11",
+          "page_start": 44,
+          "page_end": 44,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-045",
+      "document_id": "P10",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Corbae",
+          "year": 2018,
+          "title": "Competition, stability, and efficiency in financial markets",
+          "entry": "and Ross Levine, “Competition, stability, and efficiency in financial markets,” in “Jackson Hole Symposium: Changing Market Structure and Implications for Monetary Policy, Kansas City Federal Reserve” 2018.33",
+          "page_start": 45,
+          "page_end": 45,
+          "quality_flags": [
+            "inherited_author_notation"
+          ],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-046",
+      "document_id": "P10",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Granja",
+          "year": 2023,
+          "title": "Current Expected Credit Losses and Consumer Loans",
+          "entry": "Granja, Joao and Fabian Nagel, “Current Expected Credit Losses and Consumer Loans,” Available at SSRN 4324118, 2023.15",
+          "page_start": 46,
+          "page_end": 46,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-047",
+      "document_id": "P10",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Leland",
+          "year": 1996,
+          "title": "Optimal Capital Structure, Endogenous Bankruptcy, and the Term Structure of Credit Spreads",
+          "entry": "Leland, Hayne E. and Klaus Bjerre Toft, “Optimal Capital Structure, Endogenous Bankruptcy, and the Term Structure of Credit Spreads,” The Journal of Finance, 1996, 51 (3), pp. 987–1019.3.1",
+          "page_start": 47,
+          "page_end": 47,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-048",
+      "document_id": "P11",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Belo",
+          "year": 2023,
+          "title": "What drives firms’ hiring decisions? An asset pricing perspective",
+          "entry": "Belo, Frederico, Andres Donangelo, Xiaoji Lin, and Ding Luo, “What drives firms’ hiring decisions? An asset pricing perspective,” The Review of Financial Studies, 2023, 36 (9), 3825–3860.",
+          "page_start": 49,
+          "page_end": 49,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-049",
+      "document_id": "P11",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Buss",
+          "year": 2016,
+          "title": "The Intended and Unintended Consequences of Financial-market Regulations: A General-equilibrium Analysis",
+          "entry": "Buss, Adrian, Bernard Dumas, Raman Uppal, and Grigory Vilkov, “The Intended and Unintended Consequences of Financial-market Regulations: A General-equilibrium Analysis,”Journal of Monetary Economics, 2016, 81, 25–43.",
+          "page_start": 50,
+          "page_end": 50,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-050",
+      "document_id": "P11",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Detemple",
+          "year": 1994,
+          "title": "Intertemporal Asset Pricing with Heterogeneous Beliefs",
+          "entry": "Detemple, Jerome and Shashidhar Murthy, “Intertemporal Asset Pricing with Heterogeneous Beliefs,”Journal of Economic Theory, 1994, 62 (2), 294 – 320.",
+          "page_start": 51,
+          "page_end": 51,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-051",
+      "document_id": "P11",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Geanakoplos",
+          "year": 2003,
+          "title": "Liquidity, Default, and Crashes: Endogenous Contracts in General Equilibrium",
+          "entry": "Geanakoplos, John, “Liquidity, Default, and Crashes: Endogenous Contracts in General Equilibrium,” in Mathias Dewatripont, Lars Peter Hansen, and Stephen J.Editors Turnovsky, eds., Advances in Economics and Econometrics: Theory and Applications, Eighth World Congress, Vol. 2 of Econometric Society Monographs, Cambridge University Press, 2003, pp. 170–205.",
+          "page_start": 52,
+          "page_end": 52,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-052",
+      "document_id": "P11",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Kydland",
+          "year": 1982,
+          "title": "Time to Build and Aggregate Fluctuations",
+          "entry": "Kydland, Finn E. and Edward C. Prescott, “Time to Build and Aggregate Fluctuations,” Econometrica, 1982,50 (6), 1345–1370.",
+          "page_start": 53,
+          "page_end": 53,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-053",
+      "document_id": "P11",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Xiong",
+          "year": 2009,
+          "title": "HeterogeneousExpectationsandBondMarkets",
+          "entry": "Xiong,WeiandHongjunYan,“HeterogeneousExpectationsandBondMarkets,”Review of Financial Studies, 2009, 23 (4), 1433–1466.",
+          "page_start": 55,
+          "page_end": 55,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-054",
+      "document_id": "P12",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Bianchi",
+          "year": 2022,
+          "title": "Banks,liquiditymanagement,andmonetarypolicy",
+          "entry": "andSakiBigio,“Banks,liquiditymanagement,andmonetarypolicy,”Econometrica,2022,90(1), 391–454.",
+          "page_start": 43,
+          "page_end": 43,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-055",
+      "document_id": "P12",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "He",
+          "year": 2014,
+          "title": "Endogenous liquidity and defaultable bonds",
+          "entry": "He, Zhiguo and Konstantin Milbradt, “Endogenous liquidity and defaultable bonds,” Econometrica,2014,82(4),1443–1508.",
+          "page_start": 44,
+          "page_end": 44,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-056",
+      "document_id": "P12",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Kiyotaki",
+          "year": 1993,
+          "title": "Asearch-theoreticapproachtomonetaryeconomics",
+          "entry": "Kiyotaki,NobuhiroandRandallWright,“Asearch-theoreticapproachtomonetaryeconomics,” TheAmericanEconomicReview,1993,pp.63–77.",
+          "page_start": 44,
+          "page_end": 44,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-057",
+      "document_id": "P12",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Lagos",
+          "year": 2017,
+          "title": "Liquidity: ANewMonetaristPerspective",
+          "entry": "GuillaumeRocheteau,andRandallWright,“Liquidity: ANewMonetaristPerspective,”JournalofEconomicLiterature,2017,55(2),371–440.",
+          "page_start": 44,
+          "page_end": 44,
+          "quality_flags": [
+            "inherited_author_notation"
+          ],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-058",
+      "document_id": "P12",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Lenel",
+          "year": 2019,
+          "title": "Theshortratedisconnectinamonetary economy",
+          "entry": "Lenel,Moritz,MonikaPiazzesi,andMartinSchneider,“Theshortratedisconnectinamonetary economy,”JournalofMonetaryEconomics,2019,106,59–77.",
+          "page_start": 44,
+          "page_end": 44,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-059",
+      "document_id": "P12",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Piazzesi",
+          "year": 2019,
+          "title": "MoneyandBankinginaNewKeynesianModel",
+          "entry": "Piazzesi, Monika, CiaranRogers, andMartinSchneider, “MoneyandBankinginaNewKeynesianModel,”2019. WorkingPaper,Stanford.",
+          "page_start": 45,
+          "page_end": 45,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-060",
+      "document_id": "P13",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Andersson",
+          "year": 2019,
+          "title": "Carbon taxes and CO2 emissions: Sweden as a case study",
+          "entry": "Andersson, Julius J. (2019). “Carbon taxes and CO2 emissions: Sweden as a case study”. American Economic Journal: Economic Policy11.4, pp. 1–30.",
+          "page_start": 27,
+          "page_end": 27,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-061",
+      "document_id": "V01",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Bianchi",
+          "year": 2026,
+          "title": "Portfolio Choice and Settlement Frictions: A Theory of Endogenous Convenience Yields",
+          "entry": "Bianchi, Javier and Saki Bigio, “Portfolio Choice and Settlement Frictions: A Theory of Endogenous Convenience Yields,”Journal of Economic Theory,2026. forthcoming.",
+          "page_start": 21,
+          "page_end": 21,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-062",
+      "document_id": "V01",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "d’Avernas",
+          "year": 2024,
+          "title": "Treasury Bill Shortages and the Pricing of Short-Term Assets",
+          "entry": "d’Avernas, Adrien and Quentin Vandeweyer, “Treasury Bill Shortages and the Pricing of Short-Term Assets,”The Journal of Finance,2024,79(6),4083–4141.",
+          "page_start": 22,
+          "page_end": 22,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-063",
+      "document_id": "V01",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Gabaix",
+          "year": 2015,
+          "title": "International Liquidity and Exchange Rate Dynamics",
+          "entry": "Gabaix, Xavier and Matteo Maggiori, “International Liquidity and Exchange Rate Dynamics,”The Quarterly Journal of Economics,2015,130(3),1369–1420.",
+          "page_start": 22,
+          "page_end": 22,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-064",
+      "document_id": "V01",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Gorton",
+          "year": 1990,
+          "title": "Financial Intermediaries and Liquidity Creation",
+          "entry": "Gorton, Gary B. and George Pennacchi, “Financial Intermediaries and Liquidity Creation,”Journal of Finance,1990,45(1),49–71.",
+          "page_start": 23,
+          "page_end": 23,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-065",
+      "document_id": "V01",
+      "prior_record_ready": false,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Zetlin-Jones",
+          "year": 2012,
+          "title": "External Financing and the Role of Financial Frictions over the Business Cycle: Measurement and Theory",
+          "entry": "Zetlin-Jones, Ariel and Ali Shourideh, “External Financing and the Role of Financial Frictions over the Business Cycle: Measurement and Theory,”2012.",
+          "page_start": 24,
+          "page_end": 24,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser",
+          "correction_provenance": [
+            "H-065"
+          ]
+        }
+      ]
+    },
+    {
+      "sample_id": "H-066",
+      "document_id": "W02",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Aiyagari",
+          "year": 1994,
+          "title": "Uninsured Idiosyncratic Risk and Aggregate Saving",
+          "entry": "Aiyagari, S. Rao, “Uninsured Idiosyncratic Risk and Aggregate Saving,” The Quarterly Journal of Economics, 1994, 109 (3), 659–684.",
+          "page_start": 41,
+          "page_end": 41,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-067",
+      "document_id": "W02",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Benigno",
+          "year": 2021,
+          "title": "Interest, Reserves and Prices",
+          "entry": "Benigno, Gianluca and Pierpaolo Benigno, “Interest, Reserves and Prices,” 2021.",
+          "page_start": 41,
+          "page_end": 41,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-068",
+      "document_id": "W02",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Hubmer",
+          "year": 2020,
+          "title": "SourcesofU.S.Wealth Inequality: Past, Present, and Future",
+          "entry": "Hubmer,Joachim,PerKrusell,andAnthonyA.SmithJr.,“SourcesofU.S.Wealth Inequality: Past, Present, and Future,,” NBER Macroeconomics Annual, 2020, 35.",
+          "page_start": 44,
+          "page_end": 44,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-069",
+      "document_id": "W02",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Kashyap",
+          "year": 2000,
+          "title": "What Do a Million Observations on Banks Say about the Transmission of Monetary Policy?",
+          "entry": "Kashyap, Anil K and Jeremy C. Stein, “What Do a Million Observations on Banks Say about the Transmission of Monetary Policy?,” American Economic Review, 2000, 90 (3), pp. 407–428.",
+          "page_start": 44,
+          "page_end": 44,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-070",
+      "document_id": "W02",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Piazzesi",
+          "year": 2019,
+          "title": "Money and banking in a New Keynesian model",
+          "entry": "Piazzesi, Monika, Ciaran Rogers, and Martin Schneider, “Money and banking in a New Keynesian model,” 2019.",
+          "page_start": 45,
+          "page_end": 45,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-071",
+      "document_id": "W02",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Ulate",
+          "year": 2020,
+          "title": "Going Negative at the Zero Lower Bound: The Effects of Negative Nominal Interest Rates",
+          "entry": "Ulate, Mauricio, “Going Negative at the Zero Lower Bound: The Effects of Negative Nominal Interest Rates,” American Economic Review, 2020, Forthcoming.",
+          "page_start": 45,
+          "page_end": 45,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-072",
+      "document_id": "W03",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Bohorquez",
+          "year": 2023,
+          "title": "TheDollarandGlobalFinancialCollapse",
+          "entry": "Bohorquez,Diego,“TheDollarandGlobalFinancialCollapse,”2023. Mimeo,CREI.",
+          "page_start": 34,
+          "page_end": 34,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-073",
+      "document_id": "W04",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Blanchard",
+          "year": 2023,
+          "title": "What Caused the US Pandemic-Era Inflation?",
+          "entry": "Blanchard, Olivier J. and Ben S. Bernanke, “What Caused the US Pandemic-Era Inflation?,” 2023. NBER Working Paper 31417.1",
+          "page_start": 44,
+          "page_end": 44,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-074",
+      "document_id": "W04",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Bocola",
+          "year": 2024,
+          "title": "Bond market views of the fed",
+          "entry": "Bocola, Luigi, Alessandro Dovis, Kasper Jørgensen, and Rishabh Kirpalani, “Bond market views of the fed,” Technical Report, National Bureau of Economic Research 2024.28",
+          "page_start": 44,
+          "page_end": 44,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-075",
+      "document_id": "W04",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Chung",
+          "year": 2007,
+          "title": "Monetary and fiscal policy switching",
+          "entry": "Chung, Hess, Troy Davig, and Eric M Leeper, “Monetary and fiscal policy switching,” Journal of Money, Credit and Banking, 2007, 39 (4), 809–842.1",
+          "page_start": 44,
+          "page_end": 44,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-076",
+      "document_id": "W04",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Gagliardone",
+          "year": 2023,
+          "title": "Oil Prices, Monetary Policy and Inflation Surges",
+          "entry": "Gagliardone, Luca and Mark Gertler, “Oil Prices, Monetary Policy and Inflation Surges,” 2023.1",
+          "page_start": 45,
+          "page_end": 45,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-077",
+      "document_id": "W04",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Hazell",
+          "year": 2024,
+          "title": "Do Deficits Cause Inflation?, A High Frequency Narrative Approach",
+          "entry": "Hazell, Jonathon and Stephan Hobler, “Do Deficits Cause Inflation?, A High Frequency Narrative Approach,” 2024. LSE Working Paper, 2024.1,1,5.2",
+          "page_start": 46,
+          "page_end": 46,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-078",
+      "document_id": "W04",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Hazell",
+          "year": 2022,
+          "title": "The slope of the Phillips Curve: evidencefrom USstates",
+          "entry": "Juan Herreno, Emi Nakamura, and J ́on Steinsson, “The slope of the Phillips Curve: evidencefrom USstates,”TheQuarterly JournalofEconomics,2022,137(3),1299–1344.2.2, 9,1,5.2",
+          "page_start": 46,
+          "page_end": 46,
+          "quality_flags": [
+            "inherited_author_notation"
+          ],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-079",
+      "document_id": "W04",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Michaillat",
+          "year": 2024,
+          "title": "MoenMeetsRotemberg: AnEarthlyModelofthe Divine Coincidence",
+          "entry": "Michaillat,PascalandEmmanuelSaez,“MoenMeetsRotemberg: AnEarthlyModelofthe Divine Coincidence,” 2024.3",
+          "page_start": 47,
+          "page_end": 47,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-080",
+      "document_id": "W05",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Aguiar",
+          "year": 2006,
+          "title": "Defaultable debt, interest rates and the current account",
+          "entry": "Aguiar, Mark and Gita Gopinath, “Defaultable debt, interest rates and the current account,” Journal of International Economics, 2006,69(1), 64 – 83.4",
+          "page_start": 35,
+          "page_end": 35,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-081",
+      "document_id": "W05",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Krishnamurthy",
+          "year": 2012,
+          "title": "The aggregate demand for treasury debt",
+          "entry": "Krishnamurthy, Arvind and Annette Vissing-Jorgensen, “The aggregate demand for treasury debt,” Journal of Political Economy, 2012,120(2), 233–267.2",
+          "page_start": 38,
+          "page_end": 38,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-082",
+      "document_id": "W06",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Barro",
+          "year": 2020,
+          "title": "The coronavirus and the great influenza pandemic: Lessonsfromthe“spanishflu\"forthecoronavirus’spotentialeffectsonmortalityandeconomicactivity",
+          "entry": "Barro, Robert J, José F Ursúa, and Joanna Weng, “The coronavirus and the great influenza pandemic: Lessonsfromthe“spanishflu\"forthecoronavirus’spotentialeffectsonmortalityandeconomicactivity,” Technical Report 26866, National Bureau of Economic Research 2020.",
+          "page_start": 25,
+          "page_end": 25,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-083",
+      "document_id": "W06",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Werning",
+          "year": 2015,
+          "title": "Incomplete Markets and Aggregate Demand",
+          "entry": "Werning, Ivan, “Incomplete Markets and Aggregate Demand,” October 2015. Draft, MIT.",
+          "page_start": 26,
+          "page_end": 26,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-084",
+      "document_id": "W07",
+      "prior_record_ready": false,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Giannone",
+          "year": 2023,
+          "title": "Scarce,Abundant, or Ample? A Time-Varying Model of the Reserve Demand Curve",
+          "entry": "DomenicoGiannone,GabrieleLaSpada,andJohnC.Williams,“Scarce,Abundant, or Ample? A Time-Varying Model of the Reserve Demand Curve,” June 2023. Federal Reserve Bank of New York Staff Reports 1019.",
+          "page_start": 41,
+          "page_end": 41,
+          "quality_flags": [
+            "inherited_author_notation"
+          ],
+          "title_extraction_method": "legacy_parser",
+          "correction_provenance": [
+            "literal_citation_review_2026-09-16"
+          ]
+        }
+      ]
+    },
+    {
+      "sample_id": "H-085",
+      "document_id": "W07",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Baumol",
+          "year": 1952,
+          "title": "The Transactions Demand for Cash: An Inventory Theoretic Approach",
+          "entry": "Baumol, William J., “The Transactions Demand for Cash: An Inventory Theoretic Approach,” Quarterly Journal of Economics, 1952, 66 (4), 545–556.",
+          "page_start": 41,
+          "page_end": 41,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-086",
+      "document_id": "W07",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Gordon",
+          "year": 1994,
+          "title": "The Dynamic Impacts of Monetary Policy: An Exercise in Tentative Identification",
+          "entry": "Gordon, David B. and Eric M. Leeper, “The Dynamic Impacts of Monetary Policy: An Exercise in Tentative Identification,” Journal of Political Economy, 1994, 102 (6), 1228–1247.",
+          "page_start": 42,
+          "page_end": 42,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-087",
+      "document_id": "W07",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Ireland",
+          "year": 2009,
+          "title": "On the Welfare Cost of Inflation and the Recent Behavior of Money Demand",
+          "entry": "Ireland, Peter N., “On the Welfare Cost of Inflation and the Recent Behavior of Money Demand,” American Economic Review, 2009, 99 (3), 1040–1052.",
+          "page_start": 42,
+          "page_end": 42,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-088",
+      "document_id": "W08",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Shi",
+          "year": 1997,
+          "title": "A Divisible Search Model of Fiat Money",
+          "entry": "Shi, Shouyong, “A Divisible Search Model of Fiat Money,” Econometrica, 1997, 65, 75– 102.2",
+          "page_start": 53,
+          "page_end": 53,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-089",
+      "document_id": "W09",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Clerc",
+          "year": 2015,
+          "title": "Capital regulation in a macroeconomic model with three layers of default",
+          "entry": "Clerc, L., Derviz, A., Mendicino, C., Moyen, S., Nikolov, K., Stracca, L., Suarez, J., and Vardoulakish, A. (2015). Capital regulation in a macroeconomic model with three layers of default. International Journal of Central Banking, page 55.",
+          "page_start": 37,
+          "page_end": 37,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-090",
+      "document_id": "W09",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Gertler",
+          "year": 2011,
+          "title": "A model of unconventional monetary policy",
+          "entry": "Gertler, M. and Karadi, P. (2011). A model of unconventional monetary policy. Journal of Monetary Economics, 58:17–34.",
+          "page_start": 37,
+          "page_end": 37,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-091",
+      "document_id": "W09",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Jamilov",
+          "year": 2025,
+          "title": "Bewley banks",
+          "entry": "Jamilov, R. andMonacelli, T. (2025). Bewley banks. Review of Economic Studies.",
+          "page_start": 38,
+          "page_end": 38,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-092",
+      "document_id": "W09",
+      "prior_record_ready": false,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Jarociński",
+          "year": 2020,
+          "title": "Deconstructingmonetarypolicysurprises—therole of information shocks",
+          "entry": "Jaroci ́nski,M.andKaradi,P.(2020). Deconstructingmonetarypolicysurprises—therole of information shocks. American Economic Journal: Macroeconomics, 12(2):1–43.",
+          "page_start": 38,
+          "page_end": 38,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser",
+          "correction_provenance": [
+            "literal_citation_review_2026-09-16"
+          ]
+        }
+      ]
+    },
+    {
+      "sample_id": "H-093",
+      "document_id": "W10",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Carlstrom",
+          "year": 2005,
+          "title": "Investment and interest rate policy: a discrete time analysis",
+          "entry": "Carlstrom, Charles T and Timothy S Fuerst, “Investment and interest rate policy: a discrete time analysis,”Journal of Economic Theory, 2005, 123(1), 4–20.",
+          "page_start": 19,
+          "page_end": 19,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-094",
+      "document_id": "W10",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Mankiw",
+          "year": 2002,
+          "title": "Sticky information versus sticky prices: a proposal to replace the New Keynesian Phillips curve",
+          "entry": "Mankiw,NGregoryandRicardoReis, “Sticky information versus sticky prices: a proposal to replace the New Keynesian Phillips curve,” The Quarterly Journal of Economics, 2002, 117 (4), 1295–1328.",
+          "page_start": 20,
+          "page_end": 20,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-095",
+      "document_id": "W10",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Mankiw",
+          "year": 2007,
+          "title": "Sticky information in general equilibrium",
+          "entry": "and , “Sticky information in general equilibrium,” Journal of the European Economic Association, 2007,5(2-3), 603–613.",
+          "page_start": 20,
+          "page_end": 20,
+          "quality_flags": [
+            "inherited_author_notation"
+          ],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-096",
+      "document_id": "W10",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Rupert",
+          "year": 2019,
+          "title": "On the mechanics of New-Keynesian models",
+          "entry": "Rupert, Peter and Roman Šustek, “On the mechanics of New-Keynesian models,” Journal of Monetary Economics, 2019,102, 53–69.",
+          "page_start": 20,
+          "page_end": 20,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-097",
+      "document_id": "W11",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Afonso",
+          "year": 2015,
+          "title": "Trade Dynamics in the Market for Federal Funds",
+          "entry": "Afonso, Gara and Ricardo Lagos. 2015. “Trade Dynamics in the Market for Federal Funds.”Econometrica 83(1):263–313.",
+          "page_start": 54,
+          "page_end": 54,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-098",
+      "document_id": "W11",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Bianchi",
+          "year": 2024,
+          "title": "Scrambling for Dollars: International Liquidity, Banks and Exchange Rates",
+          "entry": "Bianchi, Javier, Saki Bigio and Charles M. Engel. 2024. “Scrambling for Dollars: International Liquidity, Banks and Exchange Rates.”SSRN Electronic Journal .",
+          "page_start": 54,
+          "page_end": 54,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-099",
+      "document_id": "W11",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Cavallino",
+          "year": 2019,
+          "title": "CapitalFlowsandForeignExchangeIntervention",
+          "entry": "Cavallino,Paolo.2019. “CapitalFlowsandForeignExchangeIntervention.”American Economic Journal: Macroeconomics 11(2):12770. URL: https://www.aeaweb.org/articles?id=10.1257/mac.20160065",
+          "page_start": 54,
+          "page_end": 54,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    },
+    {
+      "sample_id": "H-100",
+      "document_id": "W11",
+      "prior_record_ready": true,
+      "remediated": true,
+      "matched_records": [
+        {
+          "surname": "Du",
+          "year": 2018,
+          "title": "The U.S. Treasury Premium",
+          "entry": "Du, Wenxin, Joanne Im and Jesse Schreger. 2018. “The U.S. Treasury Premium.” Journal of International Economics 112:167–181. URL: https://www.sciencedirect.com/science/article/pii/S0022199618300011",
+          "page_start": 54,
+          "page_end": 55,
+          "quality_flags": [],
+          "title_extraction_method": "legacy_parser"
+        }
+      ]
+    }
+  ]
+}
