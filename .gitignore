@@ -10,3 +10,4 @@ data/openalex/*failure*.json
 .env
 .env.*
 entregables/Saki_Bigio_P3_P4_bibliometria.pptx
+prompt_auditoria_chatgpt.md
