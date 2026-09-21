@@ -1,4 +1,7 @@
 # Reporte bibliométrico — Fase 2
+
+> **DOCUMENTO HISTÓRICO, SUSTITUIDO.** Para cifras y conclusiones vigentes use `reporte_final_refinado.md`. Este archivo conserva resultados anteriores a la canonización de versiones de OpenAlex y a la auditoría del parser de referencias.
+
 **Proyecto Saki Bigio · P3 y P4 · Historia del Pensamiento Económico, UP 2026-02**
 13/09/2026 · Fuentes: OpenAlex (autor `A5024020324`, ORCID 0000-0001-5932-0736), CV agosto 2026, y el corpus local de 46 documentos
 

@@ -1,7 +1,7 @@
 # CONTEXT.md — Proyecto "Saki Bigio" (Historia del Pensamiento Económico, UP 2026-02)
 
-> **Qué es este archivo.** Es el archivo de contexto único del proyecto. Cualquier asistente (Claude, ChatGPT, Codex) que vaya a trabajar aquí debe leerlo primero y tratarlo como la fuente de verdad sobre el estado del trabajo. Se actualiza al cierre de cada fase.
-> **Última actualización:** 13/09/2026 · Fase 1 completada (corpus extraído y catalogado).
+> **Qué es este archivo.** Es el archivo de contexto único del proyecto. Cualquier asistente (Claude, ChatGPT, Codex) que vaya a trabajar aquí debe leerlo primero y tratarlo como la fuente de verdad sobre el estado del trabajo.
+> **Versión 4 · 15/09/2026 · control asistido del extractor de referencias incorporado.**
 
 ---
 
@@ -9,175 +9,191 @@
 
 Trabajo grupal 1 del curso **Historia del Pensamiento Económico** (Universidad del Pacífico, 2026-02): *"Aportes de economistas peruanos al pensamiento económico"*. El grupo escogió a **Saki Bigio**.
 
-- Exposición de **15–20 minutos**, fechas 15 y 22 de setiembre según sorteo. La presentación se envía al docente el primer día de exposiciones antes de clase y se sube a Blackboard.
-- Nota individual, pero se valora la parsimonia del grupo. Se evalúa calidad de contenido **y** calidad expositiva.
+Exposición de 15–20 minutos, fechas 15 y 22 de setiembre según sorteo; la presentación se envía al docente el primer día de exposiciones antes de clase. La nota es individual pero se valora la parsimonia del grupo.
 
 **Reparto de las 8 preguntas** (`asignacion_preguntas.xlsx`):
 
 | Integrante | Preguntas |
 |---|---|
-| AN — Aníbal | 1 (biografía), 2 (contexto histórico), 5 (beneficiarios) |
-| **AL — Alejandro** | **3 (ideas fundamentales), 4 (documentos donde las presenta)** |
-| L — Luis | 6 (utilidad para su época), 7 (contribuciones perdurables), 8 (discípulos y legado) |
+| AN — Aníbal | 1 biografía · 2 contexto histórico · 5 beneficiarios |
+| **AL — Alejandro** | **3 ideas fundamentales · 4 documentos donde las presenta** |
+| L — Luis | 6 utilidad para su época · 7 contribuciones perdurables · 8 discípulos y legado |
 
-**Este repositorio cubre únicamente P3 y P4.** Todo lo que se produzca aquí sirve al tramo de Alejandro; el material que resulte útil para AN y L se les entrega como ficha aparte (`ficha_grupo.md`), sin invadir su tramo.
+**Este repositorio cubre solo P3 y P4.** Lo que resulte útil para AN y L se les entrega aparte.
 
 ---
 
 ## 2. Traducción de las preguntas
 
-Las 8 preguntas están escritas para un pensador clásico (Ulloa, Basadre, Boloña). Bigio es un académico vivo, activo y técnico. Se traducen así:
+**P3 — Ideas fundamentales.** No es "¿de qué escribe?" sino *¿cuál es la fricción que él cree que organiza la macroeconomía, y qué se sigue de eso para la política?* Tres capas: **P3.a** núcleo positivo, **P3.b** compromiso metodológico, **P3.c** núcleo normativo.
 
-**P3 — Ideas fundamentales.** No es "¿de qué escribe?" sino *¿cuál es la fricción que él cree que organiza la macroeconomía, y qué se sigue de eso para la política?* Tres capas:
-- **P3.a Núcleo positivo:** el mecanismo que reaparece como causa primera.
-- **P3.b Compromiso metodológico:** cómo cree que se produce conocimiento económico.
-- **P3.c Núcleo normativo:** qué debe hacer el banco central, y por qué.
-
-**P4 — Dónde lo presenta.** No es una bibliografía: es un argumento sobre la **jerarquía de géneros**. Un economista moderno reparte su pensamiento en formatos con audiencias y grados de compromiso distintos, y dice cosas distintas en cada uno. El aporte analítico es mostrar que las **discussions** (sus presentaciones discutiendo el trabajo ajeno) son la fuente más informativa y menos usada: es el único género donde declara qué marco teórico *no* acepta.
+**P4 — Dónde lo presenta.** No es una bibliografía: es un argumento sobre la **jerarquía de géneros**. Cada formato tiene audiencia y grado de compromiso distintos, y el mismo autor dice cosas distintas en cada uno.
 
 ---
 
-## 3. Quién es Saki Bigio (verificado contra su CV, agosto 2026)
+## 3. Quién es Saki Bigio (verificado contra su CV, agosto de 2026)
 
 | | |
 |---|---|
-| Posición | **Associate Professor (with tenure), Department of Economics, UCLA** (2022–); Assistant Professor UCLA 2015–2022 |
-| Nacionalidades | Perú, EE.UU., Polonia, España |
+| Posición | Associate Professor con tenure, Departamento de Economía, **UCLA** (2022–); Assistant Professor 2015–2022 |
+| Nacionalidades | Perú, EE. UU., Polonia, España |
 | Intereses declarados | *Macroeconomics, Finance and Banking* |
-| Formación | **B.A. Economía, Universidad del Pacífico, 1999–2003**; **Ph.D. Economics, New York University, 2006–2012** |
-| Primer empleo | **Research Economist, Banco Central de Reserva del Perú, 2004–2005** |
-| Trayectoria | Columbia Business School (Finance & Economics Division) 2012–2015 · Peter B. Kenen Fellow, Princeton 2014–2015 · UCLA 2015– · Research Scholar, FRB San Francisco 2019–2021 |
+| Formación | **B.A. Universidad del Pacífico, 1999–2003** (asesor de tesis: **Julio Velarde**); **Ph.D. New York University, 2006–2012** (asesores: **Thomas Sargent** y **Ricardo Lagos**) |
+| Primer empleo | **Research Economist, BCRP, 2004–2005**, bajo **Renzo Rossini** |
+| Trayectoria | Columbia Business School 2012–2015 · Kenen Fellow, Princeton 2014–2015 · UCLA 2015– · Research Scholar, Fed de San Francisco 2019–2021 |
 | NBER | Faculty Research Fellow 2015–2025; **Research Associate (EFG + IFM) 2026–** |
 | Editorial | Editorial Board, *AEJ: Macroeconomics* (2024–) |
-| Producción | 14 publicaciones (AER, Econometrica, QJE, REStud ×2, JPE:Macro, JFE, JET, EJ, EER, AEJ:Macro, JPubE, JEDC) + 3 comentarios publicados + 6 R&R + 6 working papers |
-| Consultorías | **Banco Central Europeo — evaluación de políticas de balance (2022)**; Rivian Technologies — multiplicadores de impacto de red (2022) |
-| Financiamiento | NSF US$180,000 (2019); Smith Richardson + Banque de France + Bank of England (2014) |
-| Vínculo con Perú | Premio de Investigación BCRP 2005 · minicursos dictados **en el BCRP** (2015, 2024) · Best Publication, Peruvian Economic Association 2020, 2021, 2022, 2025 · Keynote PEA 2025 · Banco Mundial, *"Challenges Ahead of the Peruvian Economy"* 2025 · organizador de *Frictions and Exchange Rates* (Cusco 2019) y *Expectations and Inflation* (Lima 2024) |
-
-**Dato decisivo para P3:** el CV lo dice en cinco palabras — *Macroeconomics, Finance and Banking* — pero el documento `research_vision.pdf` (agosto 2026), titulado **"Liquidity and Macroeconomics: a vision and my research agenda"**, lo dice él mismo con precisión:
-
-> *"I am a macroeconomic theorist. My goal in life is to build quantitative models to understand the world. […] My research lies at the intersection of business cycles, money and banking, and corporate finance. It asks how financial architectures and their imperfections shape macroeconomic performance, **and how policy can use those imperfections to improve outcomes**."*
-
-Y ofrece su propia definición, que él mismo señala como un vacío de la disciplina:
-
-> *"It is a problem that we don't have a proper mathematical definition of liquidity. Here is mine: liquidity as a property of an asset. An asset is said to be liquid if gains from trade are sufficient conditions for trade."*
+| Producción | 14 publicaciones · 3 comentarios publicados · 6 R&R · 6 working papers |
+| Revistas top | **Cuatro de las cinco top**: AER, Econometrica, QJE y REStud (×2). Tiene *JPE: Macroeconomics*, que no es el JPE — decirlo con precisión |
+| Consultorías | **Banco Central Europeo — evaluación de políticas de balance (2022)**; Rivian Technologies (2022) |
+| Vínculo con Perú | Premio de Investigación BCRP 2005 · minicursos dictados en el BCRP (2015, 2024) · Best Publication, Peruvian Economic Association 2020, 2021, 2022, 2025 · Keynote PEA 2025 · Banco Mundial 2025 · organizó *Frictions and Exchange Rates* (Cusco 2019) y *Expectations and Inflation* (Lima 2024) |
 
 ---
 
 ## 4. El corpus
 
-**46 documentos, 1,962 páginas, 3.38 millones de caracteres, 2006–2026.** Catalogado en `data/corpus.csv` (campos: `id`, `slug`, `titulo`, `coautores`, `anio`, `venue`, `estado`, `familia_autodeclarada`, `genero`, `paginas`, `chars`, `jel`, `keywords`). Texto plano extraído en `data/fulltext/`.
+**48 documentos · 1 995 páginas · 3,42 millones de caracteres · 2006–2026.** Catálogo en `data/corpus.csv`; PDFs fuente en `saki_research/`. La extracción de referencias se hace directamente desde esos PDFs y produce una base candidata, no un resultado validado.
 
-| Género | N | Rango | Nota |
-|---|---|---|---|
-| Publicados | 13 | 2010–2026 | |
-| Working papers / R&R | 11 | 2025–2026 | |
-| **Discussions (slides)** | **14** | **2012–2025** | **Todas fechadas y con sede identificada** |
-| Comentarios publicados | 3 | 2018–2023 | Incluye uno sobre la historia monetaria y fiscal del Perú |
-| Pre-PhD (BCRP) | 2 | 2006 | |
-| Carta de política | 1 | 2020 | COVID-19 |
-| Research vision | 1 | 2026 | Documento ancla |
-| Divulgación | 1 | 2020 | Charla Techsuyo |
+| Género | N | Nota |
+|---|---|---|
+| Publicados | 13 | |
+| Working papers / R&R | 11 | |
+| **Discussions (diapositivas)** | **15** | Todas fechadas, 2012–2025; se reincorporó *Safety Traps* (2016) |
+| Comentarios publicados | 3 | Uno sobre la historia monetaria y fiscal del Perú |
+| Pre-PhD (BCRP) | 2 | 2006 |
+| Capítulo en castellano | 1 | **S01**, documento ancla |
+| Carta de política | 1 | COVID, marzo de 2020 |
+| Research vision | 1 | Agosto de 2026 |
+| Divulgación | 1 | Charla Techsuyo, 2020 |
 
-**Faltan (brecha conocida):** *A Monetary Theory of Bank Balance Sheets* (Weill, Zuniga); *A Comparative Statics Approach to Open-Market Operations* (Linzert, Mendo, Schumacher, Thaler); la discussion de Caballero-Farhi *Safety Traps*; los dos posts de Medium (URLs en `miscellaneous/*.txt`); la tesis doctoral de NYU; y el archivo de X/@bigioeconomics.
+**Variable crítica: `anio_primera_version`.** El año de publicación es una fecha engañosa en economía. El rezago documentado entre primera versión y publicación en los trece artículos es **4,8 años de media; mediana 6; máximo 9**. La trazabilidad está en `data/first_version_sources.csv`: siete fechas tienen confianza alta y seis media. Toda periodización usa `anio_primera_version`, pero debe declarar esa incertidumbre.
 
-### 4.1 Su propia taxonomía (hallazgo de Fase 1)
+**Faltan:** *A Monetary Theory of Bank Balance Sheets*; *A Comparative Statics Approach to Open-Market Operations*; los dos posts de Medium; la tesis doctoral de NYU; el archivo de X/@bigioeconomics.
 
-En `research_vision.pdf` Bigio clasifica **él mismo** su obra posterior al doctorado en cinco familias. Esta es la referencia contra la cual validaremos cualquier clasificación automática:
+### 4.1 Su propia taxonomía
 
-| Familia autodeclarada | N en el corpus |
-|---|---|
-| Liquidity and Asymmetric Information | 5 |
-| Money and Banking | 8 |
-| Money, Credit, and the New Keynesian Model | 4 |
-| International Liquidity | 2 |
-| **Departures** | 3 |
-
-Dos observaciones que valen como hallazgo, no como dato:
-
-1. Llama **"Departures"** (desvíos) a *Debt-Maturity Management*, *Decomposing Optimal Debt Maturity* y *Carbon Pricing and Inequality*. Es decir: nos dice explícitamente qué considera periferia de su agenda y qué considera núcleo.
-2. La tabla incluye solo lo producido **después del doctorado**. Su autobiografía intelectual empieza en 2012 y deja fuera el Perú del BCRP (2006), *Learning Under Fear of Floating* (2010) y el paper de evasión tributaria (2011). **La distancia entre su autonarrativa y el registro completo es, en sí misma, material para P3**: es lo que el historiador ve y el autobiógrafo no.
-
-### 4.2 Su agenda está escrita como una secuencia de preguntas
-
-`research_vision.pdf` no está organizado por temas ni por fechas sino por **preguntas encadenadas**, lo que es la mejor evidencia disponible de cómo piensa:
-
-1. ¿Qué causa las contracciones de liquidez? ¿Pueden explicar cuantitativamente las recesiones?
-2. ¿Cómo se amplifican las contracciones de liquidez a través de las redes de producción?
-3. ¿Qué son las crisis de cadena de pagos?
-4. ¿Cómo afecta la política monetaria a la liquidez bancaria, y por qué importa?
-5. ¿De dónde vienen los *convenience yields* y cómo se conectan con la política monetaria?
-6. ¿Cómo afecta la liquidez en dólares al tipo de cambio?
-7. ¿Por qué circulan los pasivos bancarios, es decir, por qué son dinero?
-8. ¿Cómo están restringidos los bancos, y cuándo importa el riesgo de tasa de interés?
-9. ¿Cómo moldea la liquidez la emisión óptima de deuda pública?
-
-Cierra con: *"Regulation that treats banks as mere intermediaries misses their monetary role."*
+En `research_vision.pdf` Bigio clasifica su obra posterior al doctorado en cinco familias: *Liquidity and Asymmetric Information* (5), *Money and Banking* (8), *Money, Credit and the New Keynesian Model* (4), *International Liquidity* (2) y **"Departures"** (3). Nos dice él mismo qué considera núcleo y qué periferia. Y su tabla empieza en 2012: deja fuera el BCRP, *Learning Under Fear of Floating* y el paper de evasión tributaria. **La distancia entre su autonarrativa y el registro completo es material de P3.**
 
 ---
 
-## 5. Hipótesis de trabajo (preregistradas antes de correr nada)
+## 5. Los hallazgos, en orden de importancia
 
-- **H1 — Hilo conductor.** La idea fundamental es que **la liquidez no es un supuesto sino un resultado**: los activos y las instituciones son líquidos o ilíquidos *en equilibrio*, y esa iliquidez endógena propaga los ciclos y limita a la política monetaria. *(Fase 1: fuertemente respaldada por el título y el texto de `research_vision.pdf`.)*
-- **H2 — Continuidad, no ruptura.** No cambia de tema: cambia de escenario donde aplica la misma fricción (mercados de activos → balances bancarios → cadenas de pago → liquidez internacional en dólares).
-- **H3 — Ubicación doctrinal.** Mainstream cuantitativo post-Lucas, en la intersección de nuevo keynesianismo, nuevo monetarismo (Kiyotaki-Wright, Lagos-Wright) y macro-finanzas de fricciones financieras (Bernanke-Gertler, Kiyotaki-Moore, Brunnermeier-Sannikov), con herencia de economía de la información (Akerlof).
-- **H4 — El puente con el curso (apuesta fuerte).** Bigio como heredero moderno de la tradición **Tobin–Gurley & Shaw**: el sistema bancario *crea* dinero sujeto a la gestión de su propio balance, y el dinero se analiza como elección de portafolio, no como agregado exógeno. *"A Q-Theory of Banks"* es la q de Tobin aplicada a bancos; su trabajo sobre creación de dinero e implementación monetaria es la reencarnación microfundada de la disputa **Currency School vs. Banking School**, con Bigio del lado de la endogeneidad bancaria del dinero. Detrás, la preferencia por la liquidez de Keynes.
-- **H5 — La marca peruana.** El origen (dolarización parcial, miedo a flotar) no desaparece: reaparece transformado en la liquidez internacional en dólares y las economías pequeñas y abiertas.
+### 5.1 Hay dos historias de origen, y dependen del público — **el hallazgo central de P4**
 
-Si los datos matan H1 o H4, **eso es el hallazgo** y se reporta así.
+| | `research_vision.pdf` (2026) | **S01, capítulo UP (2022)** |
+|---|---|---|
+| Idioma / público | Inglés, profesión internacional | **Castellano, Perú** |
+| Origen de su agenda | **Bear Stearns, marzo de 2008** | **BCRP, 2004** |
+| Cita | *"I was embarrassed that, as a PhD student, I couldn't even define market liquidity!"* | *"Estas dos áreas estaban prácticamente divorciadas… ¿Por qué en nuestros modelos no tenemos bancos?"* |
+| Referencias | ~90 | **3** |
+
+Cuatro años de diferencia, ninguna de las dos falsa. El género y el público seleccionan qué parte del pensamiento aflora.
+
+### 5.2 El núcleo positivo tiene nombre: la neutralidad de Wallace
+
+> **La idea fundamental de Bigio es que la neutralidad de Wallace no se cumple, y la razón es la liquidez.**
+
+Wallace (1981) es un Modigliani-Miller para operaciones de mercado abierto: bajo ciertas condiciones la composición del balance del banco central es irrelevante. El **núcleo monetario** de Bigio estudia fricciones que rompen esa irrelevancia. "Wallace" aparece en **9 de 48 documentos**.
+
+### 5.3 Qué NO significa su crítica al modelo neokeynesiano — **advertencia importante**
+
+Bigio critica el modelo NK por reducir la política a una sola tasa y tratar la banca como un velo. **Eso no es abogar por metas de agregados monetarios.** Su frase completa pide *"una reconciliación entre el modelo neokeynesiano y las estadísticas monetarias"* — integrar, no reemplazar. Su literatura es la de **implementación** (Poole 1968 y 1970, Bindseil, Afonso-Lagos, Ennis-Keister): corredor contra piso, reservas escasas contra abundantes. Y su paper W07 es de **estimación de la demanda de reservas**, cuya bibliografía incluye Baumol (1952), Tobin (1956), Laidler (1966, 1969) y **Lucas y Nicolini (2016), *On the Stability of Money Demand***, más Haavelmo y Philip Wright por el problema de identificación. **La inestabilidad de la demanda de dinero no es una objeción a Bigio: es su objeto de estudio.**
+
+### 5.4 La experiencia del BCRP precedió una formalización específica de Bigio
+
+Cronología documentada: encaje diferenciado por moneda en **1992** (Rossini 2016, p. 27) → metas de inflación bajo dolarización en 2002 → encaje marginal contracíclico 2007–08 y reducción de encajes **antes** que la tasa en octubre de 2008, con el primer recorte recién el 2 de febrero de 2009 (Quispe y Rossini 2010) → los practicantes escriben su caso en 2010 → el BIS lo analiza en 2011 citándolos a ellos → primera versión verificable de Bianchi y Bigio en **2013** (OpenAlex W2188338937), versión NBER en 2014 y *Econometrica* en 2022 → asesoría al BCE en 2022.
+
+Prueba clave: Quispe y Rossini (2010) tiene **once referencias, ninguna a un modelo teórico**, y en 35 936 caracteres extraídos no aparecen "model" ni "theory". Allí escriben *"the disconnection of other interest rates with the policy rate"*. La primera versión verificable del modelo bancario de Bianchi y Bigio circula **tres años después**, en 2013.
+
+**Alcance obligatorio:** esto no demuestra que la práctica precediera a “la teoría” en general. P07 cita antecedentes como Poole (1968), no modela dolarización y no menciona al Perú. El encaje cambiario de 1992 y el modelo bancario de 2013 son objetos relacionados, no idénticos. El BCRP actuó con sustento analítico y cuantitativo, y el Perú fue temprano pero no único: Montoro y Moreno estudian también Brasil y Colombia. La distancia descriptiva 1992→2013 es 21 años; no es una estimación causal.
+
+### 5.5 A Bigio lo leen los bancos centrales, sin sumar jerarquías institucionales
+
+Las seis obras canónicas más citadas corresponden a 14 registros/versiones y reúnen **774 trabajos citantes únicos** en OpenAlex. En la faceta de linaje institucional, el nodo padre **Federal Reserve System** aparece en 98 trabajos. Los 28 del Board, 21 de la Fed de Nueva York y 15 de Minneapolis no se suman al padre: la taxonomía es jerárquica y de pertenencia múltiple.
+
+### 5.6 La huella JEL es descriptiva y sensible al corte temporal
+
+Con el corte 2006–2013 / 2014–2019 / 2020–2026, el primer periodo contiene C, D, E, G, H y O; el segundo, E y G; el tercero, D, E, F y G. Si el primer corte termina en 2012, C pasa al segundo periodo. Es robusto el predominio agregado de **E y G**; no lo es la ubicación exacta de las familias menores. La aparición de F documenta economía internacional, pero no identifica por sí sola una “marca peruana”.
+
+### 5.7 La unidad bibliométrica correcta es la obra, no el registro
+
+OpenAlex entrega **89 registros brutos**. Tras excluir 12 datasets y 2 softwares quedan 75 registros de investigación, que `canonicalize_openalex.py` agrupa en **34 obras canónicas**. No se suman `cited_by_count` entre versiones porque los conjuntos de citantes pueden solaparse. Por ello se retira el “39 % en literatura gris”: era una atribución de registros, no una participación identificada a nivel de obra.
 
 ---
 
-## 6. Método
+## 6. Estado de las hipótesis
 
-Tres capas, detalladas en `plan_metodologico.md`:
-
-- **A. Bibliometría** (marco Donthu et al. 2021): análisis de desempeño (producción, citas normalizadas por edad, coautoría) + mapeo científico (redes de coautoría, citas salientes, citas entrantes, co-palabras) + evolución temática por subperiodos.
-- **B. Texto como dato** (marco Gentzkow-Kelly-Taddy 2019: representar → mapear → usar): unidad de análisis **sección/párrafo**, no documento (con 46 documentos un LDA sería ruido); vía inductiva (tópicos con `k` elegido por coherencia sustantiva, protocolo Arellano-Izumi-Martínez 2026) y vía deductiva (*concept detection* à la Ash-Hansen 2023, con diccionarios semilla que salen del curso de HPE, no del algoritmo).
-- **C. Lectura profunda conjunta.** Fichas por documento con anclas citables y preguntas abiertas; Alejandro lee y reacciona antes de cerrar cada ficha. Salida acumulativa en `notas_lectura_bigio.json`.
-
-**Validación:** V1 codificación humana vs. algoritmo (κ de Cohen) · V2 contra los **códigos JEL** declarados por Bigio · V3 contra su **taxonomía autodeclarada** (§4.1) · V4 convergencia entre la red de citas y el texto.
+| | Hipótesis | Estado |
+|---|---|---|
+| H1 | La liquidez no es un supuesto sino un resultado de equilibrio | Respaldada |
+| H2 | No cambia de tema: cambia de escenario donde aplica la misma fricción | Respaldada |
+| H3 | Mainstream post-Lucas | **Confirmada, con escuela precisa: nuevo monetarismo (Lagos en 7 de 9 bibliografías, Rocheteau, Williamson) + macro-finanzas + implementación monetaria** |
+| H4 | Heredero explícito de Tobin–Gurley y Shaw | **No respaldada por el corpus.** Gurley-Shaw y Banking School no aparecen como genealogía explícita; esto no prueba ausencia de influencia indirecta |
+| **H4′** | **No hay genealogía histórica explícita hacia Gurley–Shaw o la Banking School en el corpus** | **Sostenida en esta formulación acotada.** La búsqueda nula es evidencia textual, no evidencia de independencia cognitiva |
+| H5 | El origen peruano es la pregunta fundacional, no un residuo | **Versión fuerte, respaldada** |
+| H6 | En Bigio, la política precede a la teoría | Falsificada: *A Theory of Payments Crises* es de 2015, anterior a la carta del COVID |
+| **H6‴** | **La implementación peruana precedió una formalización específica de Bigio** | **Sostenida con cautela.** No equivale a precedencia sobre la teoría monetaria en general; véase §5.4 |
 
 ---
 
-## 7. Convenciones del repositorio
+## 7. Método
+
+- **Capa A, bibliometría** (Donthu et al. 2021): desempeño sobre **obras canónicas** y mapeo exploratorio. Las facetas institucionales se tratan como pertenencias múltiples, no como categorías aditivas.
+- **Capa B, texto como dato** (Gentzkow, Kelly y Taddy 2019): títulos limpios como unidad comparable para 48 documentos. La cobertura desigual de abstracts impide mezclar título y abstract para medir prevalencias. Con este tamaño, co-palabras y JEL son exploratorios y se reporta sensibilidad a umbrales/cortes.
+- **Capa de referencias:** `parse_refs.py` produjo 1.413 entradas candidatas en 30 documentos. Tres controles asistidos y sus remediaciones corrigieron los defectos observados; después se ejecutó una auditoría técnica integral sobre todas las filas. Esta última combinó tamizaje determinista, incorporación de las 300 observaciones ya contrastadas y revisión visual asistida de fallos literales, patrones multiobra, entradas largas, años atípicos y marcadores de contaminación. Se documentaron 18 operaciones estructurales, con 19 filas netas añadidas, y 17 correcciones de frontera de título. La candidata vigente contiene 1.435 referencias: 1.343 aceptadas, 90 corregidas y 2 excepciones atribuibles a la propia fuente. Persisten un título omitido en el PDF y seis años faltantes, uno de ellos mal impreso como «219» por la fuente. Esta cobertura técnica integral fue realizada por Codex y no equivale a una auditoría humana externa. OpenAlex respondió para las 1.435 filas mediante 1.267 consultas únicas: 370 filas —303 identidades distintas— alcanzaron alta confianza automática y 24 quedaron en revisión. La adjudicación documental aceptó 19 y rechazó 5; una fila adicional se resolvió directamente por DOI. La capa separada contiene así 390 filas resueltas y 320 identidades distintas; 1.045 filas permanecen sin identidad aceptada. La copia conservadora está en `data/referencias_parseadas_candidate_openalex.json`, la adjudicada en `data/referencias_parseadas_candidate_openalex_adjudicada.json`, la auditoría integral en `data/auditoria_integral_ia_referencias.json` y el dictamen en `data/auditoria_openalex_coincidencias_provisionales.json`; ninguna habilita todavía redes exhaustivas ni porcentajes históricos. Estado externo en `data/openalex/openalex_reference_resolution_status.json`.
+- **Capa C, lectura profunda conjunta**: fichas con anclas citables y dos preguntas abiertas; Alejandro lee y reacciona antes de cerrar cada ficha. Salida en `notas_lectura_bigio.json`.
+- **Validación**: V1 codificación humana vs. algoritmo (κ de Cohen) · V2 códigos JEL · V3 taxonomía autodeclarada · V4 convergencia entre red de citas y texto · V5 topics de OpenAlex.
+
+---
+
+## 8. Convenciones del repositorio
 
 ```
 saki_bigio/
-├── CONTEXT.md                 ← este archivo (leer primero)
-├── plan_metodologico.md       ← protocolo completo
-├── consultas_openalex.md      ← queries a ejecutar fuera de este entorno
-├── cv_saki_bigio_july_2026.pdf
-├── instrucciones.docx · prompt_01_tg_hpe.docx · asignacion_preguntas.xlsx
-├── data/                      ← corpus.csv, fulltext/, openalex/, s2/
-├── saki_research/             ← PDFs fuente, por género
-├── theoretical_background/    ← metodología (Donthu, Gentzkow, Ash-Hansen, notas_lectura.json)
+├── CONTEXT.md                      ← este archivo
+├── plan_metodologico.md            protocolo completo
+├── consultas_openalex.md           queries para ejecutar fuera del entorno
+├── reporte_bibliometrico.md        Fase 2
+├── reporte_fase2b_y_H6.md          Fase 2b y veredicto sobre H6
+├── reporte_textual_y_bibliometrico.md   Fase 3 (histórico; cifras sustituidas)
+├── reporte_final_refinado.md            síntesis vigente para P3 y P4
+├── fuentes_H6.md                   diseño de falsación y fuentes
+├── fichas/                         fichas de lectura por documento
+├── data/                           corpus.csv, first_version_sources.csv, frontmatter.json,
+│                                   referencias_parseadas_candidate.json, openalex/
+├── saki_research/                  PDFs fuente por género
+├── theoretical_background/         metodología + notas_lectura.json
 └── miscellaneous/
 ```
 
-- **Nombres de archivo:** `apellidos_titulo_en_snake_case.pdf`, todo en minúsculas, sin tildes.
-- **IDs del corpus:** `P##` publicado · `W##` working paper/R&R · `D##` discussion · `C##` comentario publicado · `E##` pre-PhD · `V01`/`N##` otros.
-- **Commits:** *conventional commits*, en español, uno por entrega. Los ejecuta Alejandro desde GitHub Desktop.
-- **Honestidad de profundidad** (convención heredada de `notas_lectura.json`): toda fuente se etiqueta `integral` / `nucleo` / `parcial` / `mapeado`. **Nada se cita como leído si solo fue mapeado.**
-- **Idioma:** documentos de trabajo en español; citas textuales de Bigio en inglés, sin traducir, con referencia al documento.
+- **IDs del corpus:** `P##` publicado · `W##` working paper/R&R · `D##` discussion · `C##` comentario · `E##` pre-PhD · `S01` capítulo en castellano · `V01`/`N##` otros.
+- **Commits:** *conventional commits* en español, uno por entrega, ejecutados por Alejandro desde GitHub Desktop.
+- **Honestidad de profundidad:** `integral` / `nucleo` / `parcial` / `mapeado`. Nada se cita como leído si solo fue mapeado.
 
 ---
 
-## 8. Reglas para asistentes que trabajen en este proyecto
+## 9. Reglas para asistentes que trabajen en este proyecto
 
-1. **Medir no es interpretar.** Un conteo de palabras no es una idea. Todo número que entre a un entregable tiene que estar amarrado a una lectura que lo sostenga.
-2. **Nada de datos inventados.** Si una cifra (citas, año, venue) no está verificada contra el CV, el PDF o una API, se marca como pendiente. No se rellena con plausibilidad.
-3. **No resumir datos crudos.** Si se pide traer una respuesta de una API, se trae el **JSON literal**, completo, sin resumir ni reformatear. El resumen destruye el dato.
-4. **Trabajo conjunto.** Alejandro co-lee y valida; no se cierran fichas de lectura ni conclusiones sin su reacción.
-5. **Eficiencia.** Ningún PDF completo entra al contexto de una conversación: se extrae a disco y se procesa con scripts; a contexto solo entran fragmentos dirigidos.
+1. **Cada afirmación lleva su fuente pegada.** Autor, año y página, o el archivo de datos del que sale el número. Una afirmación sin verificación posible no entra al entregable.
+2. **Medir no es interpretar.** Un conteo de palabras no es una idea. Todo número va amarrado a una lectura que lo sostenga.
+3. **Nada de datos inventados.** Si una cifra no está verificada contra el CV, el PDF o una API, se marca como pendiente.
+4. **No resumir datos crudos.** Si se trae una respuesta de una API, se trae el JSON literal.
+5. **Trabajo conjunto.** Alejandro co-lee y valida; no se cierran fichas ni conclusiones sin su reacción.
+6. **Eficiencia.** Ningún PDF completo entra al contexto: se extrae a disco y se procesa con scripts.
 
 ---
 
-## 9. Estado y siguiente paso
+## 10. Estado y siguiente paso
 
-- ✅ **Fase 0** — Plan metodológico (`plan_metodologico.md`).
-- ✅ **Fase 1** — Corpus extraído, catalogado y fechado (`data/corpus.csv`, `data/fulltext/`). CV incorporado. Taxonomía autodeclarada recuperada.
-- ⏭ **Fase 2** — Bibliometría: red de coautoría, citas salientes y entrantes (Semantic Scholar + Crossref desde Claude; OpenAlex desde ChatGPT según `consultas_openalex.md`).
-- ⏭ **Fase 3** — Lectura profunda de los documentos ancla + plantilla de las 14 discussions.
-- ⏭ **Fase 4** — Síntesis P3/P4 y línea de tiempo.
-- ⏭ **Fase 5–7** — Capa textual completa, redes de citación, X/Twitter.
+Precisamente, la corrección del extractor, sus tres controles asistidos, la auditoría integral y las remediaciones quedaron documentados entre el 15 y el 21/09/2026. El libro `data/auditoria_referencias.xlsx` conserva las hojas históricas y agrega «Auditoría integral» y «Detalle integral» para las 1.435 filas. La base inicial de 1.242 filas se preserva en `data/archive/referencias_parseadas_candidate_v1.json`; los estados intermedios hasta 1.416 filas permanecen en las versiones v2–v6; y los candidatos inmediatamente anteriores y posteriores al control exhaustivo están en `data/archive/referencias_parseadas_candidate_v7_exhaustive_ai_audit.json` y `data/archive/referencias_parseadas_candidate_v8_structural_ai_audit.json`. El archivo candidato vigente mantiene 1.435 entradas, seis años ausentes —cinco por condición *forthcoming* y uno mal impreso en la fuente— y un título ausente en el propio registro fuente. El control integral registró 18 operaciones estructurales, 19 filas netas añadidas y 17 correcciones de frontera de título; su cobertura es completa en sentido técnico, pero no es una certificación humana externa. Las consultas OpenAlex y la adjudicación de sus 24 coincidencias provisionales están completas: 370 asignaciones automáticas, 19 aceptadas tras revisión y una resolución directa por DOI cubren 390 filas —320 identidades distintas—, mientras 5 falsos positivos fueron rechazados y 1.045 filas siguen sin identidad aceptada. La construcción de redes exhaustivas continúa condicionada por esa cobertura incompleta y por la ausencia de una auditoría humana independiente. Véase `reporte_final_refinado.md`, subsección 4.4.
+
+- ✅ **Fase 0** Plan metodológico · ✅ **Fase 1** Corpus (48 docs) · ✅ **Fase 2** Bibliometría canonizada y redes auditadas · ✅ **Fase 2b** Tradición del núcleo monetario con hipótesis acotadas · ✅ **Fase 3** Front matter, JEL, colaboración y periodización con sensibilidad
+- ✅ **Refinado**: cronología *De la práctica a una formalización específica* actualizada el 21/09/2026 en `linea_tiempo.html` y `data/linea_tiempo.json`, con auditoría final de 1.435 referencias, cobertura OpenAlex y las figuras 01, 02, 03 y 05 del notebook; cuaderno ejecutable y síntesis vigente en `reporte_final_refinado.md`.
+- ✅ **Matriz P3–P4**: `matriz_evidencia_p3_p4.md` relaciona cinco familias autodeclaradas, ideas fundamentales, mecanismos, documentos, citas con página y función expositiva; propone como valores añadidos la doble historia de origen, la publicación de límites del modelo y el arco BCRP–teoría–BCRP
+- ✅ **Respuesta integrada P3–P4**: `respuesta_integrada_p3_p4.md` articula el núcleo de liquidez y balances, la jerarquía de géneros documentales, el método revelado por las *discussions* y el recorrido BCRP–teoría–BCRP; es la fuente vigente para construir la exposición
+- ⏭ **Fase 4** Texto completo: 3,38 M de caracteres segmentados por sección; tópicos y detección de conceptos
+- ✅ **Fase 5** Las 15 *discussions* vigentes —D01–D15; el conteo anterior de 14 estaba desactualizado— quedaron codificadas en `data/codificacion_discussions_bigio.json` y sintetizadas en `matriz_discussions_estilo_bigio.md`: Bigio identifica la fricción, exige implementación institucional, contrasta magnitudes y pide evidencia capaz de discriminar mecanismos
+- ⏭ **Fase 6** Validación V1 con codificación manual de doce documentos
+- ✅ **Fase 7** `entregables/Saki_Bigio_P3_P4_evidencia_notebook.pptx` contiene cinco diapositivas principales para 6:40 minutos y tres diapositivas de respaldo. Reescribe la respuesta P3–P4 distinguiendo síntesis propia, evidencia textual e interpretación histórica; incorpora sin recorte las figuras finales 01, 02, 03 y 05 del notebook, cautelas metodológicas, fuentes visibles y guion cronometrado en las notas del presentador. La versión anterior `Saki_Bigio_P3_P4_bibliometria.pptx` se conserva como antecedente.
+- ⏭ **Siguiente paso** Ensayar el bloque P3–P4, ajustar el guion a la velocidad real de Alejandro e integrar estas cinco diapositivas principales en la presentación común de quince minutos sin duplicar la biografía, los beneficiarios ni el legado asignados a AN y L.
+- ⏭ **Fase 8** X/@bigioeconomics (última prioridad)

@@ -1,4 +1,7 @@
 # Fase 2b + veredicto sobre H6
+
+> **DOCUMENTO HISTÓRICO, SUSTITUIDO.** La formulación vigente de H4′ y H6‴ está en `reporte_final_refinado.md`. Este archivo conserva una hipótesis más fuerte y cifras que la auditoría posterior acotó o corrigió.
+
 **Proyecto Saki Bigio · P3 y P4 · Historia del Pensamiento Económico, UP 2026-02**
 13/09/2026 · Fuentes nuevas: Rossini (2016), Rossini-Quispe-Rodríguez, Montoro & Moreno (2011), más las bibliografías locales del núcleo de dinero y banca
 
