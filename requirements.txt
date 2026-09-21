@@ -1,0 +1,17 @@
+# Análisis bibliométrico y textual — Saki Bigio
+# Historia del Pensamiento Económico, Universidad del Pacífico, 2026-02
+# Probado con Python 3.11
+#
+#   python -m venv .venv
+#   source .venv/bin/activate        # Windows: .venv\Scripts\activate
+#   pip install -r requirements.txt
+#   jupyter lab analisis_bibliometrico.ipynb
+
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+scikit-learn>=1.3
+networkx>=3.0
+pypdf>=5.0             # extracción de texto de los PDFs (parse_refs.py)
+jupyterlab>=4.0
+ipykernel>=6.25
